@@ -7,6 +7,6 @@
 
 {#if e}
     <div class="inline-block ml-4">
-        <span class="mr-1">@</span><a href="/p/{e.project}#{e.id}">{e.name}</a>
+        <span class="mr-1">@</span><a href="/e/{e.id}">{e.name}</a>
     </div>
 {/if}

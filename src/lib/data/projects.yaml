@@ -124,7 +124,7 @@
     Hackers Congress Paralelni Polis is an annual conference in Prague focusing on cryptoanarchy, digital privacy, decentralization, and emerging technologies. Organized by the Czech nonprofit Paralelni Polis, it brings together hackers, activists, and tech enthusiasts to explore cutting-edge ideas and technologies that promote individual freedom in the digital age.
   events:
 
-    - id: hccp24
+    - id: hcpp24
       name: "HCPP24: Hardcore"
       date: "2024-10-04"
       days: 3
@@ -181,6 +181,24 @@
       date: "2019-10-04"
       days: 3
       seq: 6
+
+    - id: hcpp18
+      name: "HCPP18: New Order"
+      date: "2018-10-05"
+      days: 3
+      seq: 5
+
+    - id: hcpp17
+      name: "HCPP17: Liberate"
+      date: "2017-10-06"
+      days: 3
+      seq: 4
+
+    - id: hcpp16
+      name: "HCPP16: Decentralized"
+      date: "2016-09-30"
+      days: 3
+      seq: 3
 
 
 - id: institute-of-cryptoanarchy

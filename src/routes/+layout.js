@@ -9,7 +9,7 @@ const langs = {
 
 export function load({ params }) {
     const lang = params.lang || 'en'
-    if (!lang) {
+    if (!lang || !langs[lang]) {
         return redirect(307, '/')
     }
     return {

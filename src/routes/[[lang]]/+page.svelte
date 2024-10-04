@@ -1,7 +1,42 @@
 <script>
+    import { ArrowPath } from "svelte-heros-v2";
     import { archive } from "$lib/data.js";
-    import PeopleBar from "$lib/components/PeopleBar.svelte";
-    const randomVideo = archive[Math.floor(Math.random() * archive.length)];
+    import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
+    import { getContext, onMount } from "svelte";
+
+    const lang = getContext("lang");
+    let randomVideos = null; //getRandomVideos();
+    let prevRandomVideos = null;
+
+    function getRandomVideos(len = 3, used = []) {
+        let usedEvents = [];
+        return new Array(len).fill(null).map(() => {
+            let res;
+            while (!res) {
+                const rand =
+                    archive[Math.floor(Math.random() * archive.length)];
+                if (
+                    !used.includes(rand.id) &&
+                    !usedEvents.includes(rand.event)
+                ) {
+                    res = rand;
+                } else {
+                    used.push(rand.id);
+                    usedEvents.push(rand.event);
+                }
+            }
+            return res;
+        });
+    }
+    function refreshArchive(e) {
+        e.preventDefault();
+        prevRandomVideos = randomVideos.map((v) => v.id);
+        randomVideos = getRandomVideos(3, prevRandomVideos);
+    }
+
+    onMount(() => {
+        randomVideos = getRandomVideos();
+    });
 </script>
 
 <svelte:head>
@@ -19,18 +54,29 @@
 
 <div class="flex mt-8">
     <div class="grow"></div>
-    <div class="w-1/3">
-        <h2 class="main text-2xl">From archive</h2>
-        <div class="mt-4">
-            <img
-                src="/archive/{randomVideo.img}"
-                alt={randomVideo.name}
-                class="aspect-video object-cover"
-            />
+    {#if randomVideos}
+        <div class="w-full">
+            <div class="flex items-center w-full">
+                <h2 class="main text-2xl grow block">
+                    {#if lang === "cs"}
+                        Z <a href="/cs/archive">archivu</a>
+                    {:else}
+                        From <a href="/archive">archive</a>
+                    {/if}
+                </h2>
+                <a
+                    class="cursor-pointer block"
+                    href="/archive"
+                    onclick={refreshArchive}
+                >
+                    <ArrowPath />
+                </a>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-8">
+                {#each randomVideos as item}
+                    <ArchiveItem {item} />
+                {/each}
+            </div>
         </div>
-        <div class="mt-2 mb-2 text-xl">
-            <a href="/v/{randomVideo.id}"><h3>{randomVideo.name}</h3></a>
-        </div>
-        <PeopleBar people={randomVideo.people} size="text-md" />
-    </div>
+    {/if}
 </div>

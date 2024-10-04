@@ -4,11 +4,8 @@
     let sizePx = $derived(size === "small" ? 75 : 110);
 </script>
 
-<div class="flex {size === 'small' ? 'gap-1' : 'gap-4'} flex-wrap mt-8">
-    {#each people.map((p) => {
-        p.rand = Math.round(Math.random(0, 1));
-        return p;
-    }) as p}
+<div class="flex {size === 'small' ? 'gap-1' : 'gap-4'} flex-wrap">
+    {#each people as p}
         <div
             class="text-center font-semibold {size === 'small'
                 ? 'text-sm'

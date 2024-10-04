@@ -1,9 +1,10 @@
 <script>
-    import { people } from "$lib/data.js";
+    import { people, archive } from "$lib/data.js";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
     import { getContext } from "svelte";
+    import ArchiveItem from "$lib/components/ArchiveItem.svelte";
 
     const lang = getContext("lang");
 
@@ -37,11 +38,17 @@
     <div class="mt-8">
         <h2 class="text-2xl main">{lang === "cs" ? "Události" : "Events"}</h2>
         <div class="grid grid-cols-1 gap-10 mt-4">
-            {#each events as e}
+            {#each events.map((e) => {
+                e.archive = archive.filter((i) => i.event === e.id);
+                return e;
+            }) as e}
+                <hr />
                 <div id={e.id}>
                     <div class="flex flex-wrap">
                         <h3 class="text-3xl font-semibold grow">
-                            {e.name}
+                            <a href="/e/{e.id}">
+                                {e.name}
+                            </a>
                             {#if e.seq}<span class="opacity-50 font-normal"
                                     >(#{e.seq})</span
                                 >{/if}
@@ -56,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="ml-2">
+                    <div class="ml-2 mt-8">
                         {#if e.speakers}
                             <PeopleGrid
                                 size="small"
@@ -66,6 +73,18 @@
                             />
                         {/if}
                     </div>
+                    {#if e.archive && e.archive.length > 0}
+                        <div
+                            class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10"
+                        >
+                            {#each e.archive.slice(0, 3) as item}
+                                <ArchiveItem {item} />
+                            {/each}
+                        </div>
+                        {#if e.archive.length > 3}
+                            <a href="/e/{e.id}">More from "{e.name}" →</a>
+                        {/if}
+                    {/if}
                 </div>
             {/each}
         </div>

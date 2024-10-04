@@ -91,7 +91,7 @@
             <slot />
         </div>
     </div>
-    <div class="bg-gray-100 dark:bg-gray-900 py-3 dark:text-white">
+    <div class="bg-gray-100 dark:bg-gray-900 py-3 px-6 dark:text-white">
         <div class="max-w-6xl h-auto mx-auto py-2">
             <div><a href="https://vojdivon.sk/">vejdi ven!</a></div>
         </div>
