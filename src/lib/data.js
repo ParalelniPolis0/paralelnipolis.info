@@ -6,6 +6,9 @@ import genYtDtpEthPrague23 from '$lib/data/gen/yt-dtp-ethprague23.json';
 import peopleSrc from '$lib/data/people.yaml';
 import projectsSrc from '$lib/data/projects.yaml';
 
+export const pkg = __PACKAGE__;
+export const build = __BUILD__;
+
 export const people = peopleSrc;
 
 export const projects = projectsSrc;

@@ -3,6 +3,7 @@
     import { page } from "$app/stores";
     import { Sun, Moon } from "svelte-heros-v2";
     import { onMount, setContext } from "svelte";
+    import { pkg, build } from "$lib/data.js";
 
     const { data } = $props();
     const lang = data.lang;
@@ -34,6 +35,10 @@
             darkMode = false;
         }
     });
+
+    function convertGitUrl(url) {
+        return url.replace(/^git\+/, "").replace(/\.git$/, "");
+    }
 
     function switchDarkMode() {
         if (darkMode) {
@@ -92,8 +97,75 @@
         </div>
     </div>
     <div class="bg-gray-100 dark:bg-gray-900 py-3 px-6 dark:text-white">
-        <div class="max-w-6xl h-auto mx-auto py-2">
-            <div><a href="https://vojdivon.sk/">vejdi ven!</a></div>
+        <div class="max-w-6xl h-auto mx-auto py-2 mb-2">
+            <div class="w-full lg:flex gap-4 items-start">
+                <div class="grow">
+                    <a href="https://vojdivon.sk/" class="text-2xl"
+                        >vejdi ven!</a
+                    >
+                    <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
+                        <a href="https://x.com/paralelnipolis">𝕏</a>
+                        <a
+                            href="https://primal.net/p/npub1m2mvvpjugwdehtaskrcl7ksvdqnnhnjur9v6g9v266nss504q7mqvlr8p9"
+                            >Nostr</a
+                        >
+                        <a href="https://bsky.app/profile/paralelnipolis.cz"
+                            >Bluesky</a
+                        >
+                        <a href="https://www.facebook.com/vejdiven">Facebook</a>
+                        <a href="https://www.instagram.com/paralelnipolis"
+                            >Instagram</a
+                        >
+                        <a
+                            href="https://www.youtube.com/channel/UCfHJ5Y3akQ7LA0PQmSYlYmQ"
+                            >YouTube</a
+                        >
+                        <a href="https://github.com/ParalelniPolis">GitHub</a>
+                    </div>
+                </div>
+                <div class="">
+                    <div
+                        class="flex items-center gap-2 mt-8 lg:mt-0 lg:justify-end lg:text-right"
+                    >
+                        <div>
+                            <a href="https://www.wtfpl.cz/"
+                                ><img
+                                    src="/wtfpl.svg"
+                                    class="text-black w-6"
+                                    alt="WTFPL – Do What the Fuck You Want to Public License"
+                                /></a
+                            >
+                        </div>
+                        <div class="font-semibold">
+                            <a href="https://www.wtfpl.cz/">WTFPL</a>
+                        </div>
+                        <!--div>/</div>
+                        <div>
+                            <a href="https://choosealicense.com/licenses/unlicense/"
+                                ><img
+                                    src="/unlicense.svg"
+                                    class="text-black w-5"
+                                    alt="The Unlicense"
+                                /></a
+                            >
+                        </div>
+                        <div class="font-semibold">
+                            <a href="https://choosealicense.com/licenses/unlicense/"
+                                >Unlicense</a
+                            >
+                        </div-->
+                        <div>v{pkg.version}</div>
+                        <div>
+                            <a href={convertGitUrl(pkg.repository.url)}>
+                                Source code</a
+                            >
+                        </div>
+                    </div>
+                    <div class="mt-3 opacity-50">
+                        Last update: {new Date(build.time).toLocaleString(lang)}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

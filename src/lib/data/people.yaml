@@ -18,6 +18,8 @@
   img: mario.png
   altNames: [ Mario Havel ]
   roles:
+    - project: institute-of-cryptoanarchy
+      type: contributor
     - project: bordel
       type: contributor
     - project: pizza-day
@@ -189,6 +191,8 @@
   img: josefj.jpg
   roles:
     - project: bordel
+      type: contributor
+    - project: hackathoshi-flying-circuit
       type: contributor
 
 - id: oskar-thoren
@@ -684,3 +688,31 @@
   refs:
     twitter: sodomak
     github: sodomak
+
+- id: roman-tyc
+  name: Roman Týc
+  img: roman-tyc.webp
+  refs:
+    twitter: Roman_Tyc
+  roles:
+    - project: institute-of-cryptoanarchy
+      type: contributor
+    - project: hcpp
+      type: contributor
+    - project: the-coins
+      type: contributor
+
+- id: kx
+  name: Katka
+  img: kx.png
+  refs:
+    twitter: kxknowsbetter
+  roles:
+    - project: pizza-day
+      type: contributor
+    - project: hcpp
+      type: contributor
+    - project: bitcoin-coffee
+      type: contributor
+    - project: paper-hub
+      type: contributor

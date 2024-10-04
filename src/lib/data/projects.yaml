@@ -161,10 +161,12 @@
     Současný vysílací program Studia Paralelní Polis kopíruje původní programové schéma fyzických meetupů, tedy umění – věda – technologie, s programovou nadstavbou pro pokročilé uživatele bitcoinu, vycházející z tradičních bitcoinových meetupů. V době, kdy na ostatních YT kanálech recyklují Youtubeři pořád dokola stejná témata a osobnosti, my jsme se rozhodli nedělat clickbaitový obsah opřený o věštění ze svíčkových grafů, ale rozebírat věci do hloubky.
 
 - id: bordel
-  name: Bordel Hackerspace
+  name: Bordel
   years: [ 2016, 2023 ]
   types: [ place ]
   img: bordel.jpeg
+  refs:
+    web: https://bordel.paralelnipolis.cz
   description: |
     Bordel is a small community hackerspace located in the basement of Paralelní Polis in Prague. Basically, It's room with a modular setup suitable for work, hacking or organizing smaller workshops. There is a bunch of hw, tools, 3d printers, soldering gear, a workbench and some music/noise instruments available for use. The space doesn't have an ideological affiliation nor explicit limitations of technological topics to be worked on. The topics of hosted events will be influenced by the users/members of the space. We are a non-profit initiative whose existence depends on community contributions and the courtesy of Paralelni Polis.
 

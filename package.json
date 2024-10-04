@@ -21,6 +21,10 @@
 		"tailwindcss": "^3.4.13",
 		"vite": "^5.4.8"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/burningtree/pp-web.git"
+	},
 	"type": "module",
 	"license": "MIT"
 }
