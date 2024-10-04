@@ -1,0 +1,596 @@
+[
+  {
+    "id": "pd23-why-you-should-run-full-rbf-on-your-node",
+    "videoId": "8aaXlInU8y4",
+    "name": "Why You Should Run Full-rbf On Your Node",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "peter-todd"
+    ],
+    "url": "https://www.youtube.com/watch?v=8aaXlInU8y4",
+    "img": "pd23/pd23-why-you-should-run-full-rbf-on-your-node.jpg",
+    "publishedAt": "2023-09-22T10:52:13Z",
+    "desc": "Over 17% of Bitcoin Core v24 nodes have turned on full-rbf and you should do it too. This lightning talk aims to cut through the ..."
+  },
+  {
+    "id": "pd23-rgb-nostr-lightning-the-road-to-bitcoin-future",
+    "videoId": "i83KP3hCeT4",
+    "name": "Rgb. Nostr. Lightning: The Road To Bitcoin Future",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "maxim-orlovsky"
+    ],
+    "url": "https://www.youtube.com/watch?v=i83KP3hCeT4",
+    "img": "pd23/pd23-rgb-nostr-lightning-the-road-to-bitcoin-future.jpg",
+    "publishedAt": "2023-09-22T10:50:37Z",
+    "desc": "Bitcoin has proven to be the most robust technological base for both reckless experiments and rock-solid use cases. What do the ..."
+  },
+  {
+    "id": "hcpp23-the-future-of-our-communities",
+    "videoId": "RpmDtxWmvgs",
+    "name": "The Future Of Our Communities",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "mitch-altman"
+    ],
+    "url": "https://www.youtube.com/watch?v=RpmDtxWmvgs",
+    "img": "hcpp23/hcpp23-the-future-of-our-communities.jpg",
+    "publishedAt": "2024-07-08T10:07:27Z",
+    "desc": "Is there a future for hackerspaces? Is there a future for humanity? If so, the keys lay with community. We need community."
+  },
+  {
+    "id": "pd22-bitcoin-ideologies-and-narratives-late-2010-onwards",
+    "videoId": "9DOMGf_T4ns",
+    "name": "Bitcoin Ideologies And Narratives Late 2010 Onwards",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "amir-taaki"
+    ],
+    "url": "https://www.youtube.com/watch?v=9DOMGf_T4ns",
+    "img": "pd22/pd22-bitcoin-ideologies-and-narratives-late-2010-onwards.jpg",
+    "publishedAt": "2022-08-07T17:30:07Z",
+    "desc": "As part of the forming Bitcoin community, Amir Taaki became an early Bitcoin developer, author of the BIP process, and the ..."
+  },
+  {
+    "id": "hcpp23-end-of-empire-and-rise-of-the-parallel-society",
+    "videoId": "m6xzvytaE_w",
+    "name": "End Of Empire And Rise Of The Parallel Society",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "jarrad-hope",
+      "ryan-lackey",
+      "amir-taaki",
+      "wilder"
+    ],
+    "url": "https://www.youtube.com/watch?v=m6xzvytaE_w",
+    "img": "hcpp23/hcpp23-end-of-empire-and-rise-of-the-parallel-society.jpg",
+    "publishedAt": "2024-07-08T10:30:42Z",
+    "desc": "We stand at the precipice and the end of the empire. From this will emerge political strains vying to define the next emergent era."
+  },
+  {
+    "id": "hcpp22-nym-application-and-network-level-privacy-for-developers-and-cypherpunks",
+    "videoId": "6t4mCFbqprg",
+    "name": "Nym: Application And Network Level Privacy For Developers And Cypherpunks",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "max-hampshire"
+    ],
+    "url": "https://www.youtube.com/watch?v=6t4mCFbqprg",
+    "img": "hcpp22/hcpp22-nym-application-and-network-level-privacy-for-developers-and-cypherpunks.jpg",
+    "publishedAt": "2022-11-06T17:30:07Z",
+    "desc": "Nym offers two core technologies for network and application-level metadata privacy. This talk will cover the current state of using ..."
+  },
+  {
+    "id": "hcpp22-how-something-as-mundane-as-insurance-can-be-a-tool-for-societal-good",
+    "videoId": "3E41Uum8TJg",
+    "name": "How Something As Mundane As Insurance Can Be A Tool For Societal Good",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "ryan-lackey"
+    ],
+    "url": "https://www.youtube.com/watch?v=3E41Uum8TJg",
+    "img": "hcpp22/hcpp22-how-something-as-mundane-as-insurance-can-be-a-tool-for-societal-good.jpg",
+    "publishedAt": "2022-11-27T17:30:10Z",
+    "desc": "Insurance is usually thought of as something boring, required by governments, and ideally purchased inexpensively, never ..."
+  },
+  {
+    "id": "hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience",
+    "videoId": "2j-XAJOH7-c",
+    "name": "The Road To Freedom And Privacy Through Security And User Experience",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "ryan-lackey"
+    ],
+    "url": "https://www.youtube.com/watch?v=2j-XAJOH7-c",
+    "img": "hcpp23/hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience.jpg",
+    "publishedAt": "2024-07-08T09:59:54Z",
+    "desc": "Cypherpunks and allies want a new world of finance and technology — individual freedom, non-violence, permissionless ..."
+  },
+  {
+    "id": "hcpp22-technologies-for-liberty-vs-technologies-for-oppression",
+    "videoId": "phsz_EYmqBM",
+    "name": "Technologies For Liberty Vs  Technologies For Oppression",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "ryan-lackey"
+    ],
+    "url": "https://www.youtube.com/watch?v=phsz_EYmqBM",
+    "img": "hcpp22/hcpp22-technologies-for-liberty-vs-technologies-for-oppression.jpg",
+    "publishedAt": "2023-02-26T18:00:08Z",
+    "desc": "Technology itself is a tool, rather than being imbibed with some moral or ethical agency, but certain technologies at certain times ..."
+  },
+  {
+    "id": "hcpp22-who-are-we-shooting-at-and-why",
+    "videoId": "E9XM-8Ftbgk",
+    "name": "Who Are We Shooting At... And Why?",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=E9XM-8Ftbgk",
+    "img": "hcpp22/hcpp22-who-are-we-shooting-at-and-why.jpg",
+    "publishedAt": "2023-02-12T17:30:07Z",
+    "desc": "What, to us, is “winning”? And how do we attain it? We must have a clear and coherent vision of victory, and an effective path to it."
+  },
+  {
+    "id": "hcpp23-the-economics-of-free-software",
+    "videoId": "MDeyOnwnzS8",
+    "name": "The Economics Of Free Software",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "richard-stallman",
+      "amir-taaki"
+    ],
+    "url": "https://www.youtube.com/watch?v=MDeyOnwnzS8",
+    "img": "hcpp23/hcpp23-the-economics-of-free-software.jpg",
+    "publishedAt": "2024-07-08T10:04:16Z",
+    "desc": "Free Software has been wildly successful, but it is also heavily infiltrated and captured by hostile predatory corporations."
+  },
+  {
+    "id": "pd23-anonymous-transactions-of-base-money",
+    "videoId": "_B-bTm3oVgM",
+    "name": "Anonymous Transactions Of Base Money",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "max-hillebrand"
+    ],
+    "url": "https://www.youtube.com/watch?v=_B-bTm3oVgM",
+    "img": "pd23/pd23-anonymous-transactions-of-base-money.jpg",
+    "publishedAt": "2023-09-22T10:48:54Z",
+    "desc": "Max Hillebrand is an economist and open-source entrepreneur who runs Agora Towards Liberty. In this interview, we discuss fiat ..."
+  },
+  {
+    "id": "hcpp22-weaponizing-cryptoanarchy-with-monero",
+    "videoId": "-U2NqRpcqwk",
+    "name": "Weaponizing Cryptoanarchy With Monero",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "sethforprivacy"
+    ],
+    "url": "https://www.youtube.com/watch?v=-U2NqRpcqwk",
+    "img": "hcpp22/hcpp22-weaponizing-cryptoanarchy-with-monero.jpg",
+    "publishedAt": "2022-11-20T17:30:08Z",
+    "desc": "How we fight back with digital privacy tools like Monero as a shot back at “them”, and how financial privacy (and thus autonomy) ..."
+  },
+  {
+    "id": "hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state",
+    "videoId": "hgme0qeCQYg",
+    "name": "Cypherpunk Suprajurisdictions Against The Nation-state",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "jarrad-hope"
+    ],
+    "url": "https://www.youtube.com/watch?v=hgme0qeCQYg",
+    "img": "hcpp22/hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state.jpg",
+    "publishedAt": "2022-10-30T17:30:10Z",
+    "desc": "The sanctions of Tornado Cash have implications for base layer neutrality & open-source developers which threatens the utility of ..."
+  },
+  {
+    "id": "hcpp21-fawda",
+    "videoId": "MPUUkDOo_CQ",
+    "name": "Fawda",
+    "project": "hcpp",
+    "event": "hcpp21",
+    "people": [
+      "tey-el-rjula"
+    ],
+    "url": "https://www.youtube.com/watch?v=MPUUkDOo_CQ",
+    "img": "hcpp21/hcpp21-fawda.jpg",
+    "publishedAt": "2021-12-04T18:30:11Z",
+    "desc": "Tey is an early adopter of Bitcoin, pioneering the use of blockchain to break financial and identity barriers, through his work as the ..."
+  },
+  {
+    "id": "pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs",
+    "videoId": "Vu2AHs4jdX8",
+    "name": "Real-world Reputation As The Ultimate Collateral In P2p Txs",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "lea-petras"
+    ],
+    "url": "https://www.youtube.com/watch?v=Vu2AHs4jdX8",
+    "img": "pd23/pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs.jpg",
+    "publishedAt": "2023-09-22T10:48:42Z",
+    "desc": "All of the current methods for obtaining bitcoin come with a specific set of their own drawbacks: Centralized exchanges put the ..."
+  },
+  {
+    "id": "pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use",
+    "videoId": "t77rGx37Epg",
+    "name": "Btctkvr - The Free Open Source Bitcoin Magazine You Should Use",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "vlad-costea"
+    ],
+    "url": "https://www.youtube.com/watch?v=t77rGx37Epg",
+    "img": "pd22/pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use.jpg",
+    "publishedAt": "2022-07-16T17:30:09Z",
+    "desc": "Vlad introduces the BTCTKVR magazine, a free open source project that's meant to provide accessible Bitcoin education to ..."
+  },
+  {
+    "id": "hcpp22-lunarpunk-and-anonymous-daos",
+    "videoId": "KKVVQWiaLFQ",
+    "name": "Lunarpunk And Anonymous Daos",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "rachel-rose"
+    ],
+    "url": "https://www.youtube.com/watch?v=KKVVQWiaLFQ",
+    "img": "hcpp22/hcpp22-lunarpunk-and-anonymous-daos.jpg",
+    "publishedAt": "2022-10-23T16:30:11Z",
+    "desc": "Lunarpunk is an applied science-fiction. It combines speculative techniques with anonymous engineering to generate new worlds."
+  },
+  {
+    "id": "pd22-we-are-winning-change-my-mind",
+    "videoId": "0vl2niwZQLY",
+    "name": "We Are Winning. Change My Mind.",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "exiledsurfer"
+    ],
+    "url": "https://www.youtube.com/watch?v=0vl2niwZQLY",
+    "img": "pd22/pd22-we-are-winning-change-my-mind.jpg",
+    "publishedAt": "2022-07-09T17:30:12Z",
+    "desc": "By every conceivable metric, the public/private cryptographic keypair standard established by the bitcoin use-case has changed ..."
+  },
+  {
+    "id": "pd22-spacechains-one-way-pegged-sidechains-for-bitcoin",
+    "videoId": "ToO1bki5cU4",
+    "name": "Spacechains: One-way Pegged Sidechains For Bitcoin",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "ruben-somsen"
+    ],
+    "url": "https://www.youtube.com/watch?v=ToO1bki5cU4",
+    "img": "pd22/pd22-spacechains-one-way-pegged-sidechains-for-bitcoin.jpg",
+    "publishedAt": "2022-06-25T17:30:10Z",
+    "desc": "Spacechains are permissionless sidechains that are tied to the value of Bitcoin via a one-way peg. All of the value goes directly to ..."
+  },
+  {
+    "id": "pd22-freedom-of-transaction",
+    "videoId": "hNc8sF-bG8U",
+    "name": "Freedom Of Transaction",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "joerg-platzer"
+    ],
+    "url": "https://www.youtube.com/watch?v=hNc8sF-bG8U",
+    "img": "pd22/pd22-freedom-of-transaction.jpg",
+    "publishedAt": "2022-07-31T17:30:17Z",
+    "desc": "Today we are declaring Freedom of Transaction a universal basic human right: Freedom of transaction is the freedom of all ..."
+  },
+  {
+    "id": "hcpp23-crypto-as-a-revolutionary-power-centre",
+    "videoId": "l-p3Ub1z420",
+    "name": "Crypto As A Revolutionary Power Centre",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "jarrad-hope"
+    ],
+    "url": "https://www.youtube.com/watch?v=l-p3Ub1z420",
+    "img": "hcpp23/hcpp23-crypto-as-a-revolutionary-power-centre.jpg",
+    "publishedAt": "2024-07-08T09:58:22Z",
+    "desc": "Crypto has spawned an entire industry. Today, we command $1T in the capital with which to pursue the depoliticization of money ..."
+  },
+  {
+    "id": "hcpp23-dark-forest-path",
+    "videoId": "hk-St_zpOyM",
+    "name": "Dark Forest Path",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "rachel-rose"
+    ],
+    "url": "https://www.youtube.com/watch?v=hk-St_zpOyM",
+    "img": "hcpp23/hcpp23-dark-forest-path.jpg",
+    "publishedAt": "2024-07-08T10:01:59Z",
+    "desc": "The Dark Forest is a mythical image often referenced by lunarpunks but rarely explored. This talk will unravel some secrets of the ..."
+  },
+  {
+    "id": "pd23-nothing-is-wrong-with-bitcoin-except-its-culture",
+    "videoId": "QGE2iLKeau0",
+    "name": "Nothing Is Wrong With Bitcoin Except Its Culture",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "exiledsurfer"
+    ],
+    "url": "https://www.youtube.com/watch?v=QGE2iLKeau0",
+    "img": "pd23/pd23-nothing-is-wrong-with-bitcoin-except-its-culture.jpg",
+    "publishedAt": "2023-09-22T10:52:31Z",
+    "desc": "exiledsurfer has been a community builder in the ecosystem for quite some time. He is a privacy, transparency & decentralization ..."
+  },
+  {
+    "id": "hcpp23-paralelni-polis-decade",
+    "videoId": "hZIIEPqv0oE",
+    "name": "Paralelní Polis Decade",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "juraj-bednar",
+      "wilder",
+      "martin-leskovjan"
+    ],
+    "url": "https://www.youtube.com/watch?v=hZIIEPqv0oE",
+    "img": "hcpp23/hcpp23-paralelni-polis-decade.jpg",
+    "publishedAt": "2024-07-08T10:28:28Z",
+    "desc": "Paralelní Polis represents a non-state, non-profit entity, birthed in 2014 amidst the creative activism of the Ztohoven collective."
+  },
+  {
+    "id": "pd23-bitcoin-backed-everything",
+    "videoId": "aGU4JdrqV1k",
+    "name": "Bitcoin-backed Everything",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "martin-matejka"
+    ],
+    "url": "https://www.youtube.com/watch?v=aGU4JdrqV1k",
+    "img": "pd23/pd23-bitcoin-backed-everything.jpg",
+    "publishedAt": "2023-09-22T10:52:22Z",
+    "desc": "While Bitcoin is often recognized for promoting freedom through its payment system and store of value properties, there is another ..."
+  },
+  {
+    "id": "pd23-data-publication-on-the-bitcoin-blockchain",
+    "videoId": "bnolAGgGIO0",
+    "name": "Data Publication On The Bitcoin Blockchain",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "peter-todd"
+    ],
+    "url": "https://www.youtube.com/watch?v=bnolAGgGIO0",
+    "img": "pd23/pd23-data-publication-on-the-bitcoin-blockchain.jpg",
+    "publishedAt": "2023-09-22T10:52:53Z",
+    "desc": "Why do people publish data on Bitcoin? What does that accomplish? How are they doing it? Is this an attack on Bitcoin? With the ..."
+  },
+  {
+    "id": "pd23-cypherpunk-visions-and-trends",
+    "videoId": "NQ_-mv0aILQ",
+    "name": "Cypherpunk Visions And Trends",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "juraj-bednar"
+    ],
+    "url": "https://www.youtube.com/watch?v=NQ_-mv0aILQ",
+    "img": "pd23/pd23-cypherpunk-visions-and-trends.jpg",
+    "publishedAt": "2023-09-22T10:48:25Z",
+    "desc": "A lot of people talk about cypherpunk history. But what is our future? What technologies matter? Does Bitcoin need technological ..."
+  },
+  {
+    "id": "hcpp22-can-tech-serve-humanity",
+    "videoId": "l14BYZoxpIA",
+    "name": "Can Tech Serve Humanity?",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "mitch-altman"
+    ],
+    "url": "https://www.youtube.com/watch?v=l14BYZoxpIA",
+    "img": "hcpp22/hcpp22-can-tech-serve-humanity.jpg",
+    "publishedAt": "2022-10-16T16:00:08Z",
+    "desc": "Given that so many of the serious problems facing us today were created by past technologies, is it possible to create tech that ..."
+  },
+  {
+    "id": "hcpp23-tornado-cash-and-government-desperation",
+    "videoId": "OS0hIJ2K02c",
+    "name": "Tornado Cash And Government Desperation",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "sethforprivacy"
+    ],
+    "url": "https://www.youtube.com/watch?v=OS0hIJ2K02c",
+    "img": "hcpp23/hcpp23-tornado-cash-and-government-desperation.jpg",
+    "publishedAt": "2024-07-08T11:05:31Z",
+    "desc": "Almost precisely one year after the U.S. Treasury sanctioned the Tornado Cash project and tool itself, the U.S. Department of ..."
+  },
+  {
+    "id": "hcpp23-cyphernet-unlocking-privacy-and-empowering-self-sovereignty",
+    "videoId": "QyAmqP17go8",
+    "name": "Cyphernet: Unlocking Privacy & Empowering Self-sovereignty",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "maxim-orlovsky"
+    ],
+    "url": "https://www.youtube.com/watch?v=QyAmqP17go8",
+    "img": "hcpp23/hcpp23-cyphernet-unlocking-privacy-and-empowering-self-sovereignty.jpg",
+    "publishedAt": "2024-07-08T10:11:29Z",
+    "desc": "In a world where ever-increasing surveillance has become the new norm, privacy is a necessity. But it's not easy to build your own ..."
+  },
+  {
+    "id": "hcpp23-jaded-as-fuck",
+    "videoId": "eTkeMApiwL4",
+    "name": "Jaded As Fuck",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "bob-summerwill"
+    ],
+    "url": "https://www.youtube.com/watch?v=eTkeMApiwL4",
+    "img": "hcpp23/hcpp23-jaded-as-fuck.jpg",
+    "publishedAt": "2024-07-08T10:12:46Z",
+    "desc": "Some cathartic thoughts from a blockchain veteran. △△△ Paralelní Polis is a one-of-a-kind nonprofit organization that brings ..."
+  },
+  {
+    "id": "hcpp23-why-freedom-always-slides-backward",
+    "videoId": "gdjKHIi-lxw",
+    "name": "Why Freedom Always Slides Backward",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=gdjKHIi-lxw",
+    "img": "hcpp23/hcpp23-why-freedom-always-slides-backward.jpg",
+    "publishedAt": "2024-07-08T10:31:55Z",
+    "desc": "We've all seen it: Some person or group makes a notable move forward, into or in support of human liberty. Then, after some time, ..."
+  },
+  {
+    "id": "hcpp22-darkfi-the-coming-storm",
+    "videoId": "cH3x8WbbzCQ",
+    "name": "Darkfi: The Coming Storm",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "parazyd"
+    ],
+    "url": "https://www.youtube.com/watch?v=cH3x8WbbzCQ",
+    "img": "hcpp22/hcpp22-darkfi-the-coming-storm.jpg",
+    "publishedAt": "2022-12-04T17:30:11Z",
+    "desc": "Defining a new paradigm in anonymous ecosystems with free software and anonymous engineering. The talk will be an overview ..."
+  },
+  {
+    "id": "hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward",
+    "videoId": "vA_qlNP0ag0",
+    "name": "Liberland Settlement Under Attack: Perseverance, Progress, And Path Forward",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "vit-jedlicka"
+    ],
+    "url": "https://www.youtube.com/watch?v=vA_qlNP0ag0",
+    "img": "hcpp23/hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward.jpg",
+    "publishedAt": "2024-07-08T10:09:59Z",
+    "desc": "Liberland President Vit Jedlicka will delve into the challenges posed by Croatian police interventions and the broader implications ..."
+  },
+  {
+    "id": "hcpp23-holistic-anarchy",
+    "videoId": "ZKwc8Y_ExEE",
+    "name": "Holistic Anarchy",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=ZKwc8Y_ExEE",
+    "img": "hcpp23/hcpp23-holistic-anarchy.jpg",
+    "publishedAt": "2024-07-08T10:58:20Z",
+    "desc": "Break through the fragmented approach to freedom and see the whole puzzle rather than just pieces of it. Freedom requires a ..."
+  },
+  {
+    "id": "pd23-breaking-fud",
+    "videoId": "5NTypY91Q0I",
+    "name": "Breaking Fud",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "vlad-costea"
+    ],
+    "url": "https://www.youtube.com/watch?v=5NTypY91Q0I",
+    "img": "pd23/pd23-breaking-fud.jpg",
+    "publishedAt": "2023-09-22T10:50:52Z",
+    "desc": "This year's BTCTKVR magazine is here to break the FUD, as it tackles 10 of the most popular misconceptions about Bitcoin."
+  },
+  {
+    "id": "pd22-real-talk-on-building-a-circular-economy",
+    "videoId": "bkjEcSmZKfc",
+    "name": "Real Talk On Building A Circular Economy",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "sergej-kotliar"
+    ],
+    "url": "https://www.youtube.com/watch?v=bkjEcSmZKfc",
+    "img": "pd22/pd22-real-talk-on-building-a-circular-economy.jpg",
+    "publishedAt": "2022-07-02T17:30:10Z",
+    "desc": "Sergej Kotliar is the CEO and founder of Bitrefill. A well-known Bitcoin company that has become one of the most popular places ..."
+  },
+  {
+    "id": "hcpp23-darkfi-defining-the-metaphysics-of-markets",
+    "videoId": "tuqvTMYx4i0",
+    "name": "Darkfi: Defining The Metaphysics Of Markets",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "amir-taaki"
+    ],
+    "url": "https://www.youtube.com/watch?v=tuqvTMYx4i0",
+    "img": "hcpp23/hcpp23-darkfi-defining-the-metaphysics-of-markets.jpg",
+    "publishedAt": "2024-07-08T10:08:35Z",
+    "desc": "When we leverage crypto, we are tapping into cosmic energy to lend us strength in our struggle for freedom. As governments ..."
+  },
+  {
+    "id": "hcpp23-the-plastic-power",
+    "videoId": "SX4xldspRHA",
+    "name": "The Plastic Power",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "cody-wilson"
+    ],
+    "url": "https://www.youtube.com/watch?v=SX4xldspRHA",
+    "img": "hcpp23/hcpp23-the-plastic-power.jpg",
+    "publishedAt": "2024-07-08T10:33:33Z",
+    "desc": "Cody is an American gun rights activist and crypto-anarchist. He is a founder and director of Defense Distributed, a non-profit ..."
+  },
+  {
+    "id": "hcpp22-life-is-short-bitcoin-is-forever",
+    "videoId": "QquvK-gMOFk",
+    "name": "Life Is Short, Bitcoin Is Forever",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "daniela-brozzoni"
+    ],
+    "url": "https://www.youtube.com/watch?v=QquvK-gMOFk",
+    "img": "hcpp22/hcpp22-life-is-short-bitcoin-is-forever.jpg",
+    "publishedAt": "2023-01-15T17:30:07Z",
+    "desc": "What would happen to your coins if you were to die in the next three hours? Would they be lost forever? Would your relatives be ..."
+  },
+  {
+    "id": "hcpp23-free-software-and-your-freedom",
+    "videoId": "qJTuwqT6p4k",
+    "name": "Free Software And Your Freedom",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "richard-stallman"
+    ],
+    "url": "https://www.youtube.com/watch?v=qJTuwqT6p4k",
+    "img": "hcpp23/hcpp23-free-software-and-your-freedom.jpg",
+    "publishedAt": "2024-07-08T10:16:34Z",
+    "desc": "The Free Software Movement campaigns for computer users' freedom to cooperate and control their own computing. The Free ..."
+  }
+]

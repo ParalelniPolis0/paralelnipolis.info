@@ -1,0 +1,193 @@
+- id: pizza-day
+  name: Pizza Day Prague
+  years: [ 2022 ]
+  types: [ conference ]
+  refs:
+    web: https://pizzaday.cz
+  img: pizza-day.jpg
+  events:
+
+    - id: pd22
+      name: Pizza Day Prague 2022 
+      date: "2022-05-21"
+      seq: 1
+
+    - id: pd23
+      name: Pizza Day Prague 2023
+      date: "2023-05-19"
+      seq: 2
+
+    - id: pd24
+      name: "Pizza Day Prague 2024: Scaling Wars"
+      date: "2024-05-18"
+      days: 2
+      seq: 3
+      speakers:
+        - mario
+        - 0xorkun
+        - musalbas
+        - exiledsurfer
+        - juraj-bednar
+
+  description: |
+    The legendary Bitcoin pizza transaction marks an important moment in the history of libre digital money. A small step, signalizing the birth of a whole era. It’s been 12 years since Bitcoin stepped into the world of payment networks for physical goods and opened the gates for the creation of a global parallel economy. Since then, we have experienced rather exponential growth in this new financial world. From a small community of cypherpunks and hackers, Bitcoin grew into a phenomenon with today’s mainstream recognition. Flourishing adoption upholds further levels, as the public interest always comes in waves. Yet with each wave passing by, the inspirational spirit of the original innovators fades a little bit more. Mass adoption poses continued challenges from governments, the public, and often the community itself. New questions about the purpose, scalability and sustainability arise every day. These are not going to solve themselves, nor disappear.
+
+- id: ethprague
+  name: ETHPrague
+  years: [ 2022, 2023 ]
+  types: [ conference, hackathon ]
+  refs:
+    web: https://ethprague.com
+    twitter: EthPrague
+  img: ethprague.webp
+  events:
+    
+    - id: ethprague22
+      name: ETHPrague 2022
+      date: "2022-06-10"
+      days: 3
+      seq: 1
+
+    - id: ethprague23
+      name: ETHPrague 2023
+      date: "2022-06-09"
+      days: 3
+      seq: 2
+    
+
+- id: studio-pp
+  name: Paralelní Polis Studio
+  name_cs: Studio Paralelní Polis
+  years: [ 2020, 2022 ]
+  types: [ service ]
+  img: studio-pp.jpg
+  description_cs: |
+    Současný vysílací program Studia Paralelní Polis kopíruje původní programové schéma fyzických meetupů, tedy umění – věda – technologie, s programovou nadstavbou pro pokročilé uživatele bitcoinu, vycházející z tradičních bitcoinových meetupů. V době, kdy na ostatních YT kanálech recyklují Youtubeři pořád dokola stejná témata a osobnosti, my jsme se rozhodli nedělat clickbaitový obsah opřený o věštění ze svíčkových grafů, ale rozebírat věci do hloubky.
+
+- id: bordel-hackerspace
+  name: Bordel Hackerspace
+  years: [ 2016, 2023 ]
+  types: [ place ]
+  img: bordel.jpeg
+  description: |
+    Bordel is a small community hackerspace located in the basement of Paralelní Polis in Prague. Basically, It's room with a modular setup suitable for work, hacking or organizing smaller workshops. There is a bunch of hw, tools, 3d printers, soldering gear, a workbench and some music/noise instruments available for use. The space doesn't have an ideological affiliation nor explicit limitations of technological topics to be worked on. The topics of hosted events will be influenced by the users/members of the space. We are a non-profit initiative whose existence depends on community contributions and the courtesy of Paralelni Polis.
+
+- id: decentruck
+  name: Decentruck
+  types: [ service ]
+  years: [ 2020, 2021 ]
+  img: decentruck.jpg
+  description: |
+    “Decentruck” of Paralelní Polis is a multifunctional “crypto-liberation” truck. It promotes digital freedom and spreads the concept of decentralization and crypto-anarchy. The black vehicle is a mobile version of Paralelní Polis that shares the values ​​and ideas of this globally unique project and has ambitions to reach all of Europe and even travel around the world. We aim to educate the general public on cyber-security, the adoption of cryptocurrencies, and sustainable development.
+
+- id: hackathoshi-flying-circuit
+  name: Hackatoshi's Flying Circuit
+  types: [ hackathon ]
+  years: [ 2017, 2021 ]
+  img: hackatoshi-flying-circuit.png
+  description: |
+    Paralelní Polis' mission is to bring alternatives and tools for preventing authoritarian tendencies in society. Hackatoshi’s Flying Circuit is an intervention of cypherpunks into both virtual and physical public space to concentrate inspiration and knowledge to address sick parts of the system and fix them with solutions resulting from privacy and decentralized principles
+
+- id: the-coins
+  name: The Coins
+  name_cs: Mince
+  types: [ awards ]
+  years: [ 2017, 2020 ]
+  img: the-coins.jpeg
+  description: |
+    The first edition of coins came out in 2017 as one of independent projects of Paralelní Polis under the auspices of Institute of Cryptoanarchy. Since its beginnings, Paralelní Polis has had as its mission to provide the technology and education necessary for people to function in an independent society and to protect their individual freedom. A free independent society can function only in an environment where all the systemic instruments for its suppression have been demonopolized. With this project, we wanted to pay homage to people who rebelled against the system and whose work significantly contributed to internet freedom. Each person depicted on the coins was for their beliefs and deeds persecuted, restricted of freedom, their life was endangered, or they died fighting for digital freedom against the state. All of them were exceptional visionaries.
+
+- id: paper-hub
+  name: Paper Hub
+  types: [ place ]
+  years: [ 2014, 2024 ]
+  img: paper-hub.jpg
+  description_cs: |
+    Paper Hub je pracovní prostor v prvním patře Paralelní Polis. Funguje na bázi coworkingu – sdílení jednoho pracoviště různými lidmi s různými pracovními zájmy. Paper Hub je vybaven originálním voštinovým nábytkem. Nabízí příjemné prostředí a klidné zázemí pro angažované, inovativní a kreativní jedince. Jsme otevření freelancerům, studentům, malým firmám či startupům.
+  
+- id: bitcoin-coffee
+  name: Bitcoin Coffee
+  years: [ 2014, 2024 ]
+  types: [ service, place ]
+  img: bitcoin-coffee.png
+  description_cs: |
+    Koncept Paralelní polis lze rozklíčovat návštěvou espresso baru Bitcoin Coffee. Obrácený princip baru se zakládá na otevřeném a sdíleném výrobním postupu. Využití papírové voštiny reprezentuje hledání nových možností známých zajímavých materiálů. Bitcoin jako platební prostředek přivádí pozornost návštěvníka k využívání nových kryptotechnologií v praxi. Koncepce kavárny po vzoru berlínské kávové špičky, značky Bonanza Café, jako kávové laboratoře zacílené na dosažení špičkové chuti pak vyvolává zájem o doposud neobjevené kvality života. Pro pochopení složitých témat Paralelní polis je důležité posilnit se douškem silné kávy.
+
+- id: hcpp
+  name: Hackers Congress Paralelní Polis
+  years: [ 2014 ]
+  types: [ conference ]
+  refs:
+    web: https://hcpp.cz
+  img: hcpp.png
+  description: |
+    Hackers Congress Paralelni Polis is an annual conference in Prague focusing on cryptoanarchy, digital privacy, decentralization, and emerging technologies. Organized by the Czech nonprofit Paralelni Polis, it brings together hackers, activists, and tech enthusiasts to explore cutting-edge ideas and technologies that promote individual freedom in the digital age.
+  events:
+
+    - id: hccp24
+      name: "HCPP24: Hardcore"
+      date: "2024-10-04"
+      days: 3
+      seq: 11
+      speakers:
+        - mario
+        - exiledsurfer
+        - amir-taaki
+        - jaromil
+        - jarrad-hope
+        - mitch-altman
+        - juraj-bednar
+        - wilder
+        - yisi-liu
+        - paul-rosenberg
+        - kristian-csepcsar
+        - maxim-orlovsky
+        - ajs
+        - ryan-lackey
+        - florian-glatz
+        - oskar-thoren
+        - christian-lewe
+
+    - id: hcpp23
+      name: "HCPP23: Resistance"
+      date: "2023-09-29"
+      days: 3
+      seq: 10
+      speakers:
+        - rachel-rose
+        - amir-taaki
+        - richard-stallman
+      
+    - id: hcpp22
+      name: "HCPP22: Last Shot"
+      date: "2022-09-29"
+      days: 3
+      seq: 9
+
+    - id: hcpp21
+      name: "HCPP21: Chaos"
+      date: "2021-10-01"
+      days: 3
+      seq: 8
+    
+    - id: hcpp20
+      name: "HCPP20: Digital Totality"
+      date: "2020-10-02"
+      days: 3
+      seq: 7
+
+    - id: hcpp19
+      name: "HCPP19: Opt-Out"
+      date: "2019-10-04"
+      days: 3
+      seq: 6
+
+
+- id: institute-of-cryptoanarchy
+  name: Institute of Cryptoanarchy
+  name_cs: Institut Kryptoanarchie
+  years: [ 2014 ]
+  types: [ concept ]
+  img: ioc.png
+  description: |
+    The Institute of Cryptoanarchy is a research and education center within Paralelni Polis in Prague. It focuses on promoting digital freedom, privacy, and decentralized technologies. The institute explores and develops tools and concepts related to cryptography, cryptocurrencies, and alternative socio-economic models, aiming to empower individuals in the digital era.

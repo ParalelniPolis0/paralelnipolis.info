@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1.main::before,
+h2.main::before,
+h3.main::before {
+    content: "→/ "
+}
+
+a {
+    @apply underline decoration-8 decoration-gray-400/40 dark:decoration-gray-500/50 hover:decoration-red-500/80;
+    text-underline-offset: 1px;
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ethprague22-user-defined-organization-moving-beyond-coin-voting-governance",
+    "videoId": "41erliY4fjo",
+    "name": "User-Defined Organization. Moving beyond coin voting governance",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "wlodek-gogloza"
+    ],
+    "url": "https://www.youtube.com/watch?v=41erliY4fjo",
+    "img": "ethprague22/ethprague22-user-defined-organization-moving-beyond-coin-voting-governance.jpg",
+    "publishedAt": "2023-08-09T19:25:12Z",
+    "desc": "The User-Defined Organization is a new approach to decentralized governance developed as an alternative to coin voting governance. Its main goal is to empower the actual users of web3 platforms while decreasing the surface of economic attacks against DAOs."
+  },
+  {
+    "id": "ethprague22-from-cryptocurrencies-to-cryptostates",
+    "videoId": "iW5Qrf9Xqq4",
+    "name": "From Cryptocurrencies to Cryptostates",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "jarrad-hope"
+    ],
+    "url": "https://www.youtube.com/watch?v=iW5Qrf9Xqq4",
+    "img": "ethprague22/ethprague22-from-cryptocurrencies-to-cryptostates.jpg",
+    "publishedAt": "2023-08-09T19:33:59Z",
+    "desc": "This talk is for those who are serious, a reminder of the political consequences of our movement. It began with currency, then smart contracts, now - we're coming for the Nation State."
+  },
+  {
+    "id": "ethprague22-the-anthropology-of-value-and-reciprocity",
+    "videoId": "-vwObt8LCrA",
+    "name": "The anthropology of value and reciprocity",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "sara-polak"
+    ],
+    "url": "https://www.youtube.com/watch?v=-vwObt8LCrA",
+    "img": "ethprague22/ethprague22-the-anthropology-of-value-and-reciprocity.jpg",
+    "publishedAt": "2023-08-09T19:51:59Z",
+    "desc": "Whether you lived in the Upper Palaeolithic and traded shells like there was no yesterday, are minting NFTs, or are hoping someone will thank you for that great thing you did, humans are driven by gamifying and quantifying reciprocity. Let’s dive into its history and evolution."
+  },
+  {
+    "id": "ethprague22-designing-responsible-governance-ui-systems",
+    "videoId": "SiBGLw6Cqm0",
+    "name": "Designing Responsible Governance UI Systems",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "tina-haibodi"
+    ],
+    "url": "https://www.youtube.com/watch?v=SiBGLw6Cqm0",
+    "img": "ethprague22/ethprague22-designing-responsible-governance-ui-systems.jpg",
+    "publishedAt": "2023-08-09T19:55:22Z",
+    "desc": "The aim of this talk would be to review the history of 'Design in Defi' and then project on how we reflect on our current practices, the behavioural patterns they're causing in the community and how we can be responsible with our community member's consumption in the future."
+  },
+  {
+    "id": "ethprague22-bridging-cultural-heritage-and-blockchain",
+    "videoId": "EnPNy1JVnZI",
+    "name": "Bridging Cultural Heritage & Blockchain",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "william-lobkowicz"
+    ],
+    "url": "https://www.youtube.com/watch?v=EnPNy1JVnZI",
+    "img": "ethprague22/ethprague22-bridging-cultural-heritage-and-blockchain.jpg",
+    "publishedAt": "2023-08-09T20:03:56Z",
+    "desc": "With the vision of sharing the past and creating the future, the House of Lobkowicz, managing one of Europe's oldest and finest private art collections, wants to explore the intersection of the traditional art world and the rapidly evolving technology behind NFTs."
+  },
+  {
+    "id": "ethprague22-zk-rollups-tales-from-the-field",
+    "videoId": "BxEINVJMXsk",
+    "name": "ZK Rollups: Tales From the Field",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "danny-holland"
+    ],
+    "url": "https://www.youtube.com/watch?v=BxEINVJMXsk",
+    "img": "ethprague22/ethprague22-zk-rollups-tales-from-the-field.jpg",
+    "publishedAt": "2023-08-09T20:15:56Z",
+    "desc": "Everyone knows ZK Rollups are the future of scaling, but nobody provides examples. In this talk, Solidity dev Danny Holland presents concrete examples targeted at Solidity developers."
+  },
+  {
+    "id": "ethprague22-paralelni-polis-institute-of-cryptoanarchy-bordel-hackerspace",
+    "videoId": "W84zs6K7WuE",
+    "name": "Paralelni Polis, Institute of Cryptoanarchy, Bordel hackerspace",
+    "project": "ethprague",
+    "event": "ethprague22",
+    "people": [
+      "mario"
+    ],
+    "url": "https://www.youtube.com/watch?v=W84zs6K7WuE",
+    "img": "ethprague22/ethprague22-paralelni-polis-institute-of-cryptoanarchy-bordel-hackerspace.jpg",
+    "publishedAt": "2023-08-09T20:29:04Z",
+    "desc": "Introduction to the venue of ETHPrague 2022."
+  },
+  {
+    "id": "ethprague23-live-interview-jarrad-hope-and-sara-polak",
+    "videoId": "Lq8-0xu4lBo",
+    "people": [
+      "jarrad-hope",
+      "sara-polak"
+    ],
+    "project": "ethprague",
+    "event": "ethprague23",
+    "name": "Live Interview: Jarrad Hope and Sara Polak",
+    "url": "https://www.youtube.com/watch?v=Lq8-0xu4lBo",
+    "img": "ethprague23/ethprague23-live-interview-jarrad-hope-and-sara-polak.jpg",
+    "publishedAt": "2023-08-10T07:34:19Z",
+    "desc": ""
+  }
+]

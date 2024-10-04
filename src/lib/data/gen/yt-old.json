@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "hcpp16-tsunami-of-innovation",
+    "videoId": "Ibz_HMKHQl4",
+    "name": "Tsunami Of Innovation",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "andreas-antonopoulos"
+    ],
+    "url": "https://www.youtube.com/watch?v=Ibz_HMKHQl4",
+    "img": "hcpp16/hcpp16-tsunami-of-innovation.jpg",
+    "publishedAt": "2017-01-16T13:12:45Z",
+    "desc": "Keynote speaker at the Hackers Congress Paralelni Polis 2016. Andreas is world's most renowned Bitcoin evangelist and author ..."
+  },
+  {
+    "id": "hcpp18-panel-panama-papers",
+    "videoId": "vXfP9MYGKc4",
+    "name": "Panel - Panama Papers",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "adolfo-linares",
+      "pavla-holcova"
+    ],
+    "url": "https://www.youtube.com/watch?v=vXfP9MYGKc4",
+    "img": "hcpp18/hcpp18-panel-panama-papers.jpg",
+    "publishedAt": "2018-10-07T15:21:05Z",
+    "desc": "Panama papers panel will reflect the Panama scandal that happened two years ago. Many people, including Adolfo Enrique ..."
+  },
+  {
+    "id": "hcpp19-an-atlas-of-countries-that-dont-exist",
+    "videoId": "VE7agg_RKWs",
+    "name": "An Atlas Of Countries That Don’t Exist",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "nick-middleton"
+    ],
+    "url": "https://www.youtube.com/watch?v=VE7agg_RKWs",
+    "img": "hcpp19/hcpp19-an-atlas-of-countries-that-dont-exist.jpg",
+    "publishedAt": "2019-10-16T15:58:46Z",
+    "desc": "Most of us think we know what a country is, but in truth the concept is notoriously slippery. This talk starts with the familiar political ..."
+  },
+  {
+    "id": "hcpp18-how-a-crypto-economy-will-care-for-the-old-sick-and-disable",
+    "videoId": "TrPDz-xBuLg",
+    "name": "How A Crypto Economy Will Care For The Old, Sick And Disable",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=TrPDz-xBuLg",
+    "img": "hcpp18/hcpp18-how-a-crypto-economy-will-care-for-the-old-sick-and-disable.jpg",
+    "publishedAt": "2018-10-07T08:44:06Z",
+    "desc": "So, what happens if we win? The state whithers away, leaving us free to live as we wish... but what happens to the sick, the old ..."
+  },
+  {
+    "id": "hcpp20-paradigmatics-exploring-new-technological-freedoms-to-crush-the-old",
+    "videoId": "SHyRvKqV14o",
+    "name": "Paradigmatics - Exploring New Technological Freedoms To Crush The Old",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "alexander-bard"
+    ],
+    "url": "https://www.youtube.com/watch?v=SHyRvKqV14o",
+    "img": "hcpp20/hcpp20-paradigmatics-exploring-new-technological-freedoms-to-crush-the-old.jpg",
+    "publishedAt": "2021-01-02T19:00:11Z",
+    "desc": "Paradigmatics is the agreed term among cyberphilosophers for understanding the fundamentals of a new paradigm. What exactly ..."
+  },
+  {
+    "id": "hcpp20-from-figure-to-ground-how-humans-became-technologys-tools",
+    "videoId": "NBTDPU-cGXU",
+    "name": "From Figure To Ground: How Humans Became Technology’s Tools",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "douglas-rushkoff"
+    ],
+    "url": "https://www.youtube.com/watch?v=NBTDPU-cGXU",
+    "img": "hcpp20/hcpp20-from-figure-to-ground-how-humans-became-technologys-tools.jpg",
+    "publishedAt": "2021-02-13T18:30:13Z",
+    "desc": "Digital technology is being developed with little or no awareness of the underlying operating system: corporate capitalism."
+  },
+  {
+    "id": "hcpp19-will-ai-knock-before-slamming-the-humanitys-door",
+    "videoId": "K_5Ru68T2dc",
+    "name": "Will Ai Knock Before Slamming The Humanity's Door?",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "olga-ukolova"
+    ],
+    "url": "https://www.youtube.com/watch?v=K_5Ru68T2dc",
+    "img": "hcpp19/hcpp19-will-ai-knock-before-slamming-the-humanitys-door.jpg",
+    "publishedAt": "2019-10-16T15:58:13Z",
+    "desc": "Each code of conduct is a derivative from nature of actors and nature of interaction between them. Humans have been trying to ..."
+  },
+  {
+    "id": "hcpp18-the-project-of-cryptoanarchy",
+    "videoId": "gTtbkguROdk",
+    "name": "The Project Of Cryptoanarchy",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "smuggler"
+    ],
+    "url": "https://www.youtube.com/watch?v=gTtbkguROdk",
+    "img": "hcpp18/hcpp18-the-project-of-cryptoanarchy.jpg",
+    "publishedAt": "2018-10-05T18:31:38Z",
+    "desc": "Cryptoanarchy is all the buzz, but it has become a brand lacking content. There's a real risk of losing track of the liberating ..."
+  },
+  {
+    "id": "hcpp18-bitcoin-the-ultimate-social-justice",
+    "videoId": "9xNalfr45Qg",
+    "name": "Bitcoin: The Ultimate Social Justice",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "jimmy-song"
+    ],
+    "url": "https://www.youtube.com/watch?v=9xNalfr45Qg",
+    "img": "hcpp18/hcpp18-bitcoin-the-ultimate-social-justice.jpg",
+    "publishedAt": "2018-10-06T16:01:06Z",
+    "desc": "We tend to define good as charitable work that helps people short-term, like feeding people, or giving them shelter for a night."
+  },
+  {
+    "id": "hcpp17-crispr-and-biohacking",
+    "videoId": "Q2L142-qOQQ",
+    "name": "Crispr & Biohacking",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=Q2L142-qOQQ",
+    "img": "hcpp17/hcpp17-crispr-and-biohacking.jpg",
+    "publishedAt": "2018-01-02T20:57:25Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-how-to-build-our-own-city",
+    "videoId": "7D44a_203sI",
+    "name": "How To Build Our Own City",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "sondre-bjellas"
+    ],
+    "url": "https://www.youtube.com/watch?v=7D44a_203sI",
+    "img": "hcpp19/hcpp19-how-to-build-our-own-city.jpg",
+    "publishedAt": "2019-10-16T15:58:18Z",
+    "desc": "Get an introduction and status update on the Liberstad project, which aims to establish Norway's first private city. More than 125 ..."
+  },
+  {
+    "id": "hcpp19-a-proper-path-to-digital-immortality",
+    "videoId": "ztG8QNSgxlA",
+    "name": "A Proper Path To Digital Immortality",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "maxim-orlovsky"
+    ],
+    "url": "https://www.youtube.com/watch?v=ztG8QNSgxlA",
+    "img": "hcpp19/hcpp19-a-proper-path-to-digital-immortality.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "Last year my talk was devoted to uncensorable and unregulated artificial intelligence. This year I'd like to give more technical ..."
+  },
+  {
+    "id": "hcpp18-money-laundering",
+    "videoId": "l6dRUKDTuYo",
+    "name": "Money Laundering",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "pavla-holcova"
+    ],
+    "url": "https://www.youtube.com/watch?v=l6dRUKDTuYo",
+    "img": "hcpp18/hcpp18-money-laundering.jpg",
+    "publishedAt": "2018-10-07T16:00:36Z",
+    "desc": "Corruption, drug trade, arms trafficking, terrorism - all have one thing in common: they need to launder money. Even though there ..."
+  },
+  {
+    "id": "hcpp19-bitcoin-peer-banking",
+    "videoId": "vVajnwr5QPk",
+    "name": "Bitcoin Peer Banking",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "patrik-tjokorda"
+    ],
+    "url": "https://www.youtube.com/watch?v=vVajnwr5QPk",
+    "img": "hcpp19/hcpp19-bitcoin-peer-banking.jpg",
+    "publishedAt": "2019-10-16T15:58:45Z",
+    "desc": "Bitcoin backed trustless peer banking. What? Think peers banking peers. Alice the “hodler” going long Bitcoin, Bob the “lender” ..."
+  },
+  {
+    "id": "hcpp19-code-is-a-weapon",
+    "videoId": "6FwVH3hZUyk",
+    "name": "Code Is A Weapon",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "harry-halpin"
+    ],
+    "url": "https://www.youtube.com/watch?v=6FwVH3hZUyk",
+    "img": "hcpp19/hcpp19-code-is-a-weapon.jpg",
+    "publishedAt": "2019-10-21T15:28:48Z",
+    "desc": "In the era of ubiquitous surveillance and globally-banked cryptocurrency projects like Facebook's Libra, how can cryptoanarchists ..."
+  },
+  {
+    "id": "hcpp20-insanely-great-the-cypherpunk-totality",
+    "videoId": "9N0V8h0KZC0",
+    "name": "Insanely Great: The Cypherpunk Totality",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=9N0V8h0KZC0",
+    "img": "hcpp20/hcpp20-insanely-great-the-cypherpunk-totality.jpg",
+    "publishedAt": "2021-06-12T17:30:11Z",
+    "desc": "We often think of a digital totality as a dark, oppressive thing, and for obvious reasons. The digital totality of the cypherpunks, ..."
+  },
+  {
+    "id": "hcpp19-dishonest-devs-defeating-insider-attacks-on-decentralized-tech",
+    "videoId": "TO3GKLzr4Hg",
+    "name": "Dishonest Devs: Defeating Insider Attacks On Decentralized Tech",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "peter-todd"
+    ],
+    "url": "https://www.youtube.com/watch?v=TO3GKLzr4Hg",
+    "img": "hcpp19/hcpp19-dishonest-devs-defeating-insider-attacks-on-decentralized-tech.jpg",
+    "publishedAt": "2019-10-16T15:58:47Z",
+    "desc": "Decentralised systems are meant to be trustless. But our interactions with tech is always mediated by software. This talk will cover ..."
+  },
+  {
+    "id": "hcpp19-the-age-of-decentralisation-society-30",
+    "videoId": "7DI2QYq8RbA",
+    "name": "The Age Of Decentralisation: Society 3.0",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=7DI2QYq8RbA",
+    "img": "hcpp19/hcpp19-the-age-of-decentralisation-society-30.jpg",
+    "publishedAt": "2019-10-16T15:58:41Z",
+    "desc": "As we draw closer to an era where we are no longer bound by centralised rules dictating how our societies should function, we ..."
+  },
+  {
+    "id": "hcpp20-memetic-warfare-dangerous-memes-and-fallacies",
+    "videoId": "WH7EFk8ZI4s",
+    "name": "Memetic Warfare: Dangerous Memes & Fallacies",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "frank-braun"
+    ],
+    "url": "https://www.youtube.com/watch?v=WH7EFk8ZI4s",
+    "img": "hcpp20/hcpp20-memetic-warfare-dangerous-memes-and-fallacies.jpg",
+    "publishedAt": "2021-04-03T17:30:29Z",
+    "desc": "We live in times of memetic warfare. Mechanisms like authority and popularity bias, which might have been useful in earlier times, ..."
+  },
+  {
+    "id": "dehumanizing-technology",
+    "videoId": "xLiri2nqar4",
+    "name": "Dehumanizing Technology",
+    "project": null,
+    "event": null,
+    "people": [
+      "frank-braun"
+    ],
+    "url": "https://www.youtube.com/watch?v=xLiri2nqar4",
+    "img": "null/dehumanizing-technology.jpg",
+    "publishedAt": "2018-11-08T19:13:17Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp20-anarchy-online-a-world-of-strong-privacy",
+    "videoId": "ePPOjVAcVTk",
+    "name": "Anarchy Online: A World Of Strong Privacy",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "david-friedman"
+    ],
+    "url": "https://www.youtube.com/watch?v=ePPOjVAcVTk",
+    "img": "hcpp20/hcpp20-anarchy-online-a-world-of-strong-privacy.jpg",
+    "publishedAt": "2021-03-27T18:30:15Z",
+    "desc": "Public key encryption makes possible a world where much of human interaction is unobservable to anyone but the parties ..."
+  },
+  {
+    "id": "hcpp18-building-the-hcpp-nfc-badge",
+    "videoId": "DMz-HAoqOx8",
+    "name": "Building The Hcpp Nfc Badge",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "michael-schloh"
+    ],
+    "url": "https://www.youtube.com/watch?v=DMz-HAoqOx8",
+    "img": "hcpp18/hcpp18-building-the-hcpp-nfc-badge.jpg",
+    "publishedAt": "2018-10-05T13:23:03Z",
+    "desc": "In this half hour session, we consider the technology behind constructing the HCPP NFC badge from all angles. Beginning with ..."
+  },
+  {
+    "id": "hcpp19-financial-surveillance-and-crypto-utopias",
+    "videoId": "rj11uHZoXpM",
+    "name": "Financial Surveillance And Crypto Utopias",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "juraj-bednar"
+    ],
+    "url": "https://www.youtube.com/watch?v=rj11uHZoXpM",
+    "img": "hcpp19/hcpp19-financial-surveillance-and-crypto-utopias.jpg",
+    "publishedAt": "2019-10-16T15:58:44Z",
+    "desc": "In a world where financial surveillance is a norm and banking secrecy is gone, what are our option? And how does the ..."
+  },
+  {
+    "id": "hcpp19-enhanced-privacy-with-decentralized-identity",
+    "videoId": "qwhQT1x1aAA",
+    "name": "Enhanced Privacy With Decentralized Identity",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "yisi-liu"
+    ],
+    "url": "https://www.youtube.com/watch?v=qwhQT1x1aAA",
+    "img": "hcpp19/hcpp19-enhanced-privacy-with-decentralized-identity.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "A brief introduction to decentralized identities and how our open-source company enables users to talk freely on the existing ..."
+  },
+  {
+    "id": "hcpp17-bitcoins-price-and-adoption-trends-in-a-geopolitical-world",
+    "videoId": "-OaFDwDDe7g",
+    "name": "Bitcoin's Price & Adoption Trends In A Geopolitical World",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "tone-vays"
+    ],
+    "url": "https://www.youtube.com/watch?v=-OaFDwDDe7g",
+    "img": "hcpp17/hcpp17-bitcoins-price-and-adoption-trends-in-a-geopolitical-world.jpg",
+    "publishedAt": "2017-10-30T10:48:11Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp18-the-third-industrial-revolution-sharing-economy",
+    "videoId": "ldFK5Au5tIo",
+    "name": "The Third Industrial Revolution - Sharing Economy",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=ldFK5Au5tIo",
+    "img": "hcpp18/hcpp18-the-third-industrial-revolution-sharing-economy.jpg",
+    "publishedAt": "2018-10-05T16:55:12Z",
+    "desc": "\"Last year, Cybersecurity Ventures predicted that cybercrime will cost the world $6 trillion annually by 2021, up from $3 trillion in ..."
+  },
+  {
+    "id": "hcpp20-optionality-uncertainty-and-freedom",
+    "videoId": "N31UCtYqh5M",
+    "name": "Optionality, Uncertainty And Freedom",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "juraj-bednar"
+    ],
+    "url": "https://www.youtube.com/watch?v=N31UCtYqh5M",
+    "img": "hcpp20/hcpp20-optionality-uncertainty-and-freedom.jpg",
+    "publishedAt": "2021-07-24T18:00:12Z",
+    "desc": "Is it possible to make smart decisions in times of uncertainty? Is volatility of the environment the enemy? Could we perhaps utilize ..."
+  },
+  {
+    "id": "hcpp17-the-future-of-crowd-funding",
+    "videoId": "2NmbVhm7fu4",
+    "name": "The Future Of Crowd Funding",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "ondrej-pilny"
+    ],
+    "url": "https://www.youtube.com/watch?v=2NmbVhm7fu4",
+    "img": "hcpp17/hcpp17-the-future-of-crowd-funding.jpg",
+    "publishedAt": "2018-02-08T10:40:11Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp17-bitcoin-political-attack-vectors-and-common-misconceptions",
+    "videoId": "jgwW7XZCKPU",
+    "name": "Bitcoin: Political Attack Vectors And Common Misconceptions",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "giacomo-zucco"
+    ],
+    "url": "https://www.youtube.com/watch?v=jgwW7XZCKPU",
+    "img": "hcpp17/hcpp17-bitcoin-political-attack-vectors-and-common-misconceptions.jpg",
+    "publishedAt": "2018-02-03T19:35:41Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp18-how-to-torrent-a-pharmaceutical-drug-fine-sharing-saves-lives",
+    "videoId": "-TjBseEjnRw",
+    "name": "How To Torrent A Pharmaceutical Drug; Fine Sharing Saves Lives",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "michael-laufer"
+    ],
+    "url": "https://www.youtube.com/watch?v=-TjBseEjnRw",
+    "img": "hcpp18/hcpp18-how-to-torrent-a-pharmaceutical-drug-fine-sharing-saves-lives.jpg",
+    "publishedAt": "2018-10-08T07:42:21Z",
+    "desc": "wo years ago, the Four Thieves Vinegar Collective became public after almost a decade of working underground, and debuted ..."
+  },
+  {
+    "id": "hcpp19-dictatorship-20-powered-by-ai",
+    "videoId": "24EaKQK_2CE",
+    "name": "Dictatorship 2.0: 'powered By Ai'",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "frantisek-vrabel"
+    ],
+    "url": "https://www.youtube.com/watch?v=24EaKQK_2CE",
+    "img": "hcpp19/hcpp19-dictatorship-20-powered-by-ai.jpg",
+    "publishedAt": "2019-10-16T15:58:43Z",
+    "desc": "This analysis of hostile state sponsored disinformation will serve as an introduction to the more nuanced analysis of Facebook, ..."
+  },
+  {
+    "id": "hcpp20-black-market-logistics-context-threats-methods-future",
+    "videoId": "KUGmYzH5PN0",
+    "name": "Black Market Logistics - Context, Threats, Methods, Future",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "smuggler"
+    ],
+    "url": "https://www.youtube.com/watch?v=KUGmYzH5PN0",
+    "img": "hcpp20/hcpp20-black-market-logistics-context-threats-methods-future.jpg",
+    "publishedAt": "2021-01-09T18:30:10Z",
+    "desc": "The client paid for your product, and now you have to deliver - across territories and borders filled with hostile actors that want to ..."
+  },
+  {
+    "id": "hcpp18-in-code-we-trust",
+    "videoId": "iwY2Bq8vaQc",
+    "name": "In Code We Trust",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "frank-braun"
+    ],
+    "url": "https://www.youtube.com/watch?v=iwY2Bq8vaQc",
+    "img": "hcpp18/hcpp18-in-code-we-trust.jpg",
+    "publishedAt": "2018-10-06T16:43:39Z",
+    "desc": "IN CODE WE TRUST: FIGHTING TARGETED BACKDOORS WITH SECURE MULTIPARTY CODE REVIEWS AND A SINGLE ..."
+  },
+  {
+    "id": "hcpp20-the-nym-mixnet-testnet-is-live-the-fight-for-digital-privacy-and-autonomy",
+    "videoId": "xPNMpjstYm8",
+    "name": "The Nym Mixnet Testnet Is Live: The Fight For Digital Privacy And Autonomy",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "harry-halpin"
+    ],
+    "url": "https://www.youtube.com/watch?v=xPNMpjstYm8",
+    "img": "hcpp20/hcpp20-the-nym-mixnet-testnet-is-live-the-fight-for-digital-privacy-and-autonomy.jpg",
+    "publishedAt": "2021-03-06T19:30:14Z",
+    "desc": "What is at stake in the development of the Nym mixnet is not mere individual privacy, but our very autonomy. We will overview the ..."
+  },
+  {
+    "id": "bitcoin-scaling-with-andreas-antonopoulos",
+    "videoId": "Ul-WFb9MHR8",
+    "people": [
+      "andreas-antonopoulos"
+    ],
+    "name": "Bitcoin scaling with Andreas Antonopoulos",
+    "url": "https://www.youtube.com/watch?v=Ul-WFb9MHR8",
+    "img": "undefined/bitcoin-scaling-with-andreas-antonopoulos.jpg",
+    "publishedAt": "2016-04-03T13:34:51Z",
+    "desc": "In this talk, Andreas looks at scaling as an ongoing process. Using the example of the Internet which has \"failed to scale, ..."
+  },
+  {
+    "id": "hcpp20-on-privacy-enhancing-currencies-and-supply-auditability",
+    "videoId": "QAmOn8X-eKk",
+    "name": "On Privacy Enhancing Currencies & Supply Auditability",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "fluffy-pony"
+    ],
+    "url": "https://www.youtube.com/watch?v=QAmOn8X-eKk",
+    "img": "hcpp20/hcpp20-on-privacy-enhancing-currencies-and-supply-auditability.jpg",
+    "publishedAt": "2021-04-24T17:30:16Z",
+    "desc": "Privacy-enhancing have long been the subject of criticism around supply auditability. What are the trade-offs? What are the risks?"
+  },
+  {
+    "id": "hcpp18-behind-enemy-lines-part-2",
+    "videoId": "hfdYmIxbODw",
+    "name": "Behind Enemy Lines, Part 2",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "joerg-platzer"
+    ],
+    "url": "https://www.youtube.com/watch?v=hfdYmIxbODw",
+    "img": "hcpp18/hcpp18-behind-enemy-lines-part-2.jpg",
+    "publishedAt": "2018-10-06T13:59:07Z",
+    "desc": "BEHIND ENEMY LINES, PART 2."
+  },
+  {
+    "id": "hcpp19-the-inevitable-and-awful-end-of-the-grand-bitcoin-experiment",
+    "videoId": "f5-L--FlFjs",
+    "name": "The Inevitable And Awful End Of The Grand Bitcoin Experiment",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "joerg-platzer"
+    ],
+    "url": "https://www.youtube.com/watch?v=f5-L--FlFjs",
+    "img": "hcpp19/hcpp19-the-inevitable-and-awful-end-of-the-grand-bitcoin-experiment.jpg",
+    "publishedAt": "2019-10-16T15:58:16Z",
+    "desc": "Joerg Platzer - Crypto Economist and trustworthy bartender."
+  },
+  {
+    "id": "hcpp19-a-select-history-of-autonomy-sovereignty-and-ecology-in-the-cryptosphere",
+    "videoId": "jKisQis_zN0",
+    "name": "A Select History Of Autonomy, Sovereignty And Ecology In The Cryptosphere",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "max-hampshire"
+    ],
+    "url": "https://www.youtube.com/watch?v=jKisQis_zN0",
+    "img": "hcpp19/hcpp19-a-select-history-of-autonomy-sovereignty-and-ecology-in-the-cryptosphere.jpg",
+    "publishedAt": "2019-10-16T15:58:45Z",
+    "desc": "Science fiction has always served as a testbed for the reimagining of possible organisational structures outside of the existing ..."
+  },
+  {
+    "id": "hcpp20-origin-and-history-of-parallel-polis",
+    "videoId": "ROx9WAvz3rY",
+    "name": "Origin And History Of Parallel Polis",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "martin-leskovjan"
+    ],
+    "url": "https://www.youtube.com/watch?v=ROx9WAvz3rY",
+    "img": "hcpp20/hcpp20-origin-and-history-of-parallel-polis.jpg",
+    "publishedAt": "2021-03-20T18:30:14Z",
+    "desc": "In 1978 Václav Benda critically reflected Charter 77 - one of the most significant acts of the Czechoslovak dissident movement."
+  },
+  {
+    "id": "hcpp18-daos-are-the-new-order",
+    "videoId": "wDZVAtFm_CI",
+    "name": "Daos Are The New Order",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "luis-cuende"
+    ],
+    "url": "https://www.youtube.com/watch?v=wDZVAtFm_CI",
+    "img": "hcpp18/hcpp18-daos-are-the-new-order.jpg",
+    "publishedAt": "2018-10-07T15:01:15Z",
+    "desc": "Pseudonymous, trustless and fluid organizations are here to change our current corporate and government-centric approach to ..."
+  },
+  {
+    "id": "hcpp17-cryptocurrencies-live-forever-you-wont",
+    "videoId": "2XsoH4Okr_M",
+    "name": "Cryptocurrencies Live Forever. You Won't. ",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "pamela-morgan"
+    ],
+    "url": "https://www.youtube.com/watch?v=2XsoH4Okr_M",
+    "img": "hcpp17/hcpp17-cryptocurrencies-live-forever-you-wont.jpg",
+    "publishedAt": "2018-02-06T08:08:35Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-ux-challenges-of-the-bitcoin-ecosystem",
+    "videoId": "7TzunfdTlfg",
+    "name": "Ux Challenges Of The Bitcoin Ecosystem",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "habo"
+    ],
+    "url": "https://www.youtube.com/watch?v=7TzunfdTlfg",
+    "img": "hcpp19/hcpp19-ux-challenges-of-the-bitcoin-ecosystem.jpg",
+    "publishedAt": "2019-10-16T15:58:43Z",
+    "desc": "In some ways, Bitcoin UX is already better than Internet banking. In other ways, it's much worse. This presentation will describe ..."
+  },
+  {
+    "id": "hcpp19-lightning-talks",
+    "videoId": "JzsR1XGX-bE",
+    "name": "Lightning Talks",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "exiledsurfer",
+      "charles-hill",
+      "mario"
+    ],
+    "url": "https://www.youtube.com/watch?v=JzsR1XGX-bE",
+    "img": "hcpp19/hcpp19-lightning-talks.jpg",
+    "publishedAt": "2019-10-16T15:57:48Z",
+    "desc": "exiledsurfer BIO exiledsurfer co-founded Bitcoiners Without Borders in 2013 together with no-statist Mike Gogulski and ..."
+  },
+  {
+    "id": "hcpp18-trade-offs-in-the-history-of-money-from-shells-to-bitcoin",
+    "videoId": "bV9xV8gWZRg",
+    "name": "Trade-offs In The History Of Money, From Shells To Bitcoin",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "giacomo-zucco"
+    ],
+    "url": "https://www.youtube.com/watch?v=bV9xV8gWZRg",
+    "img": "hcpp18/hcpp18-trade-offs-in-the-history-of-money-from-shells-to-bitcoin.jpg",
+    "publishedAt": "2018-10-06T13:03:10Z",
+    "desc": "TRADE-OFFS IN THE HISTORY OF MONEY, FROM SHELLS TO BITCOIN (BUT ESPECIALLY IN BITCOIN) This presentation will ..."
+  },
+  {
+    "id": "hcpp19-bitcoins-security-budget-is-adequate-for-now",
+    "videoId": "YynzmTVyOa8",
+    "name": "Bitcoin's Security Budget Is Adequate... For Now ",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "josef-tetek"
+    ],
+    "url": "https://www.youtube.com/watch?v=YynzmTVyOa8",
+    "img": "hcpp19/hcpp19-bitcoins-security-budget-is-adequate-for-now.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "Towards a theory of adequate mining rewards. While some analysts have tried to derive the appropriate security budget / mining ..."
+  },
+  {
+    "id": "hcpp20-death-of-the-old-guard",
+    "videoId": "TyIlC5FQHPY",
+    "name": "Death Of The Old Guard",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "alexandra-moxin"
+    ],
+    "url": "https://www.youtube.com/watch?v=TyIlC5FQHPY",
+    "img": "hcpp20/hcpp20-death-of-the-old-guard.jpg",
+    "publishedAt": "2021-01-23T20:00:11Z",
+    "desc": "The new world order isn't a bunch of crusty old dudes plotting total world domination together in a military bunker. It's us."
+  },
+  {
+    "id": "hcpp20-sovereign-individual-kit",
+    "videoId": "26hl8G-Hmpc",
+    "name": "Sovereign Individual Kit",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "olga-ukolova"
+    ],
+    "url": "https://www.youtube.com/watch?v=26hl8G-Hmpc",
+    "img": "hcpp20/hcpp20-sovereign-individual-kit.jpg",
+    "publishedAt": "2021-05-29T18:00:12Z",
+    "desc": "In order to become a Sovereign individual we need to first answer 3 questions: - who is an individual? - what is freedom? - what is ..."
+  },
+  {
+    "id": "hcpp18-how-to-build-a-bitcoin-exchange-and-not-burn-in-hell",
+    "videoId": "ik5j38exsow",
+    "name": "How To Build A Bitcoin Exchange And Not Burn In Hell",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "max-keidun"
+    ],
+    "url": "https://www.youtube.com/watch?v=ik5j38exsow",
+    "img": "hcpp18/hcpp18-how-to-build-a-bitcoin-exchange-and-not-burn-in-hell.jpg",
+    "publishedAt": "2018-10-06T12:05:03Z",
+    "desc": "The talk is about building and maintaining a secure and safe peer to peer Bitcoin exchange that doesn't hold funds and doesn't ..."
+  },
+  {
+    "id": "hcpp18-the-freeai-manifesto-why-anarchy-should-not-be-only-for-humans",
+    "videoId": "tUez9IRZiEw",
+    "name": "The #freeai Manifesto: Why Anarchy Should Not Be Only For Humans",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "maxim-orlovsky"
+    ],
+    "url": "https://www.youtube.com/watch?v=tUez9IRZiEw",
+    "img": "hcpp18/hcpp18-the-freeai-manifesto-why-anarchy-should-not-be-only-for-humans.jpg",
+    "publishedAt": "2018-10-06T16:52:51Z",
+    "desc": "The rise of blockchain technologies has given a promise of massive decentralisation, that may solve problems of fragile central ..."
+  },
+  {
+    "id": "hcpp18-liberland-a-decentralised-autonomous-government",
+    "videoId": "6FOA5t0cMwM",
+    "name": "Liberland, A Decentralised Autonomous Government",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "vit-jedlicka"
+    ],
+    "url": "https://www.youtube.com/watch?v=6FOA5t0cMwM",
+    "img": "hcpp18/hcpp18-liberland-a-decentralised-autonomous-government.jpg",
+    "publishedAt": "2018-10-07T13:50:08Z",
+    "desc": "Start: 1:00 From the moment of proclamation, it was our goal to rethink the traditional government structure and upgrade it for the ..."
+  },
+  {
+    "id": "hcpp17-positive-libertarianism",
+    "videoId": "rtyW9n5qNbM",
+    "name": "Positive Libertarianism",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "juraj-bednar"
+    ],
+    "url": "https://www.youtube.com/watch?v=rtyW9n5qNbM",
+    "img": "hcpp17/hcpp17-positive-libertarianism.jpg",
+    "publishedAt": "2018-03-11T20:02:08Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp18-bitcoin-not-blockchain",
+    "videoId": "9z1nSqaGd_s",
+    "name": "Bitcoin, Not Blockchain",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "habo"
+    ],
+    "url": "https://www.youtube.com/watch?v=9z1nSqaGd_s",
+    "img": "hcpp18/hcpp18-bitcoin-not-blockchain.jpg",
+    "publishedAt": "2018-10-05T14:53:54Z",
+    "desc": "Last months you can hear people saying \"Blockchain, not Bitcoin\" however, that statement not only doesn't make sense, ..."
+  },
+  {
+    "id": "hcpp16-liberty-is-a-diy-project",
+    "videoId": "QBKsHW_9_UA",
+    "name": "Liberty Is A Diy Project",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "juraj-bednar"
+    ],
+    "url": "https://www.youtube.com/watch?v=QBKsHW_9_UA",
+    "img": "hcpp16/hcpp16-liberty-is-a-diy-project.jpg",
+    "publishedAt": "2017-05-23T14:16:53Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "insecurity-of-cryptospace",
+    "videoId": "s3BIDfjmhHI",
+    "name": "(in)security Of Cryptospace",
+    "project": null,
+    "event": null,
+    "people": [
+      "pavol-rusnak"
+    ],
+    "url": "https://www.youtube.com/watch?v=s3BIDfjmhHI",
+    "img": "null/insecurity-of-cryptospace.jpg",
+    "publishedAt": "2018-08-31T10:29:17Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-a-view-on-grin",
+    "videoId": "NShVKX6Ra7Y",
+    "name": " A View On Grin",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "michalis-kargakis"
+    ],
+    "url": "https://www.youtube.com/watch?v=NShVKX6Ra7Y",
+    "img": "hcpp19/hcpp19-a-view-on-grin.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "An introduction to Grin, the first public implementation of the Mimblewimble protocol. Grin is a cryptocurrency focused on privacy, ..."
+  },
+  {
+    "id": "hcpp16-bad-money",
+    "videoId": "pD3Uawu2JMQ",
+    "name": "Bad Money",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "juraj-karpis"
+    ],
+    "url": "https://www.youtube.com/watch?v=pD3Uawu2JMQ",
+    "img": "hcpp16/hcpp16-bad-money.jpg",
+    "publishedAt": "2017-04-07T11:18:00Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp18-skin-in-the-game-or-how-systems-learn-or-dont-learn",
+    "videoId": "OCwOmbYvpK0",
+    "name": "Skin In The Game Or How Systems Learn Or Don’t Learn",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "nassim-nicholas-taleb"
+    ],
+    "url": "https://www.youtube.com/watch?v=OCwOmbYvpK0",
+    "img": "hcpp18/hcpp18-skin-in-the-game-or-how-systems-learn-or-dont-learn.jpg",
+    "publishedAt": "2024-09-27T22:35:19Z",
+    "desc": "DO NOT PUBLISH The idea of skin in the game seen as risk mitigation, filtering, and learning device. How its absence hurts ..."
+  },
+  {
+    "id": "liberland-state-model-for-21st-century",
+    "videoId": "eUSl57aJU4E",
+    "name": "Liberland State Model For 21st Century",
+    "project": null,
+    "event": null,
+    "people": [
+      "vit-jedlicka"
+    ],
+    "url": "https://www.youtube.com/watch?v=eUSl57aJU4E",
+    "img": "null/liberland-state-model-for-21st-century.jpg",
+    "publishedAt": "2018-09-08T11:28:28Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-opting-out-of-the-legal-system-introducing-a-decentralized-court",
+    "videoId": "Z-ceGfjcRdk",
+    "name": "Opting Out Of The Legal System: Introducing A Decentralized Court",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "luis-cuende"
+    ],
+    "url": "https://www.youtube.com/watch?v=Z-ceGfjcRdk",
+    "img": "hcpp19/hcpp19-opting-out-of-the-legal-system-introducing-a-decentralized-court.jpg",
+    "publishedAt": "2019-10-16T15:58:42Z",
+    "desc": "Crypto is disintermediating and commoditizing many things that used to be monopolies. Currency is an example of a monopoly ..."
+  },
+  {
+    "id": "hcpp20-slavery-to-sovereignty-how-to-exit-the-matrix",
+    "videoId": "GiOBIlAUkLM",
+    "name": "Slavery To Sovereignty: How To Exit The Matrix",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=GiOBIlAUkLM",
+    "img": "hcpp20/hcpp20-slavery-to-sovereignty-how-to-exit-the-matrix.jpg",
+    "publishedAt": "2021-04-10T17:30:12Z",
+    "desc": "There is a game of musical chairs being played on a global scale. The music is about to stop, and those who have chosen ..."
+  },
+  {
+    "id": "institute-the-b-with-alena-vranova-remote-talk-giacomo-zucco",
+    "videoId": "boC38xXLypI",
+    "people": [
+      "alena-vranova",
+      "giacomo-zucco"
+    ],
+    "name": "Institute: The B with Alena Vránová (Remote Talk) Giacomo Zucco",
+    "url": "https://www.youtube.com/watch?v=boC38xXLypI",
+    "img": "undefined/institute-the-b-with-alena-vranova-remote-talk-giacomo-zucco.jpg",
+    "publishedAt": "2018-10-06T17:57:53Z",
+    "desc": "Start:6:45 Speakers: Alena Vránová (Remote Talk) Giacomo Zucco Institute of Cryptoanarchy."
+  },
+  {
+    "id": "hcpp16-the-future-of-voting",
+    "videoId": "HfJ5Kf9C7is",
+    "name": "The Future Of Voting",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "adam-kaleb-ernest"
+    ],
+    "url": "https://www.youtube.com/watch?v=HfJ5Kf9C7is",
+    "img": "hcpp16/hcpp16-the-future-of-voting.jpg",
+    "publishedAt": "2017-05-06T13:09:44Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp17-bio-hacking-overcoming-programmed-ideologies",
+    "videoId": "bQZcyKtkAe8",
+    "name": "Bio-hacking - Overcoming Programmed Ideologies",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=bQZcyKtkAe8",
+    "img": "hcpp17/hcpp17-bio-hacking-overcoming-programmed-ideologies.jpg",
+    "publishedAt": "2018-06-08T18:31:53Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp17-anonymous-insurance-and-predictions-markets",
+    "videoId": "Vfm_OKOG0LM",
+    "name": "Anonymous Insurance And Predictions Markets",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "wilder"
+    ],
+    "url": "https://www.youtube.com/watch?v=Vfm_OKOG0LM",
+    "img": "hcpp17/hcpp17-anonymous-insurance-and-predictions-markets.jpg",
+    "publishedAt": "2018-01-06T19:21:15Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp20-i-the-individual-exist",
+    "videoId": "GQAfZ_HyvjA",
+    "name": "I, The Individual, Exist",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "max-hillebrand"
+    ],
+    "url": "https://www.youtube.com/watch?v=GQAfZ_HyvjA",
+    "img": "hcpp20/hcpp20-i-the-individual-exist.jpg",
+    "publishedAt": "2021-01-16T19:30:11Z",
+    "desc": "This shall be the single axiom, the assumption on top of which a monumental construct can be logically deduced. The Individual is ..."
+  },
+  {
+    "id": "hcpp17-openbazaar-20-now-is-the-time-to-shift-to-a-decentralized-marketplace",
+    "videoId": "m5MMK5ZARqg",
+    "name": "Openbazaar 2.0: Now Is The Time To Shift To A Decentralized Marketplace",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "sam-patterson"
+    ],
+    "url": "https://www.youtube.com/watch?v=m5MMK5ZARqg",
+    "img": "hcpp17/hcpp17-openbazaar-20-now-is-the-time-to-shift-to-a-decentralized-marketplace.jpg",
+    "publishedAt": "2018-06-09T18:58:52Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-bitcoin-there-can-only-be-one",
+    "videoId": "Vrd1fT0qbOQ",
+    "name": "Bitcoin - There Can Only Be One",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "tone-vays"
+    ],
+    "url": "https://www.youtube.com/watch?v=Vrd1fT0qbOQ",
+    "img": "hcpp19/hcpp19-bitcoin-there-can-only-be-one.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "Dominance is back to 70%, which begs the following question: is it just getting started as it surpasses it's former status (pre-2017 ..."
+  },
+  {
+    "id": "hcpp19-opting-out-to-precisely-what",
+    "videoId": "Sz-vG4FG1tY",
+    "name": "Opting-out, To Precisely What?",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=Sz-vG4FG1tY",
+    "img": "hcpp19/hcpp19-opting-out-to-precisely-what.jpg",
+    "publishedAt": "2019-10-16T15:58:11Z",
+    "desc": "Yes, we all want to escape the pressures and abuse of the reigning systems, but things don't become magically wonderful just ..."
+  },
+  {
+    "id": "hcpp18-has-the-ico-bubble-popped",
+    "videoId": "LvU0bjrVyfE",
+    "name": "Has The Ico Bubble Popped?",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "tone-vays"
+    ],
+    "url": "https://www.youtube.com/watch?v=LvU0bjrVyfE",
+    "img": "hcpp18/hcpp18-has-the-ico-bubble-popped.jpg",
+    "publishedAt": "2018-10-05T18:08:31Z",
+    "desc": "This presentation will focus on the similarities and differences between the current ICO bubble and the DotCom bubble of the late ..."
+  },
+  {
+    "id": "hcpp16-a-negative-blocksize-for-an-honest-digital-money",
+    "videoId": "WQPfGOSVD2k",
+    "name": "A Negative Blocksize For An Honest Digital Money...",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "joerg-platzer"
+    ],
+    "url": "https://www.youtube.com/watch?v=WQPfGOSVD2k",
+    "img": "hcpp16/hcpp16-a-negative-blocksize-for-an-honest-digital-money.jpg",
+    "publishedAt": "2017-03-27T11:56:16Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp17-rojava-call-for-a-revolutionary-hacker-movement-and-the-study-of-polytechnics",
+    "videoId": "0lrk6WN7gqc",
+    "name": "Rojava: Call For A Revolutionary Hacker Movement And The Study Of Polytechnics",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "amir-taaki"
+    ],
+    "url": "https://www.youtube.com/watch?v=0lrk6WN7gqc",
+    "img": "hcpp17/hcpp17-rojava-call-for-a-revolutionary-hacker-movement-and-the-study-of-polytechnics.jpg",
+    "publishedAt": "2017-12-10T14:09:30Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp17-privacy-fungibility-and-scale-in-bitcoin",
+    "videoId": "bxh3TZIi5_w",
+    "name": "Privacy, Fungibility & Scale In Bitcoin",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "adam-back"
+    ],
+    "url": "https://www.youtube.com/watch?v=bxh3TZIi5_w",
+    "img": "hcpp17/hcpp17-privacy-fungibility-and-scale-in-bitcoin.jpg",
+    "publishedAt": "2018-02-14T12:07:28Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp17-giving-people-the-tools-to-unchain-themselves",
+    "videoId": "TcJDwbcAUwc",
+    "name": "Giving People The Tools To Unchain Themselves",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "amin-rafiee"
+    ],
+    "url": "https://www.youtube.com/watch?v=TcJDwbcAUwc",
+    "img": "hcpp17/hcpp17-giving-people-the-tools-to-unchain-themselves.jpg",
+    "publishedAt": "2018-02-15T21:35:40Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp16-project-damn-decentralizing-law",
+    "videoId": "s2AdWCKmyMI",
+    "name": "Project Damn - Decentralizing Law",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "pamela-morgan"
+    ],
+    "url": "https://www.youtube.com/watch?v=s2AdWCKmyMI",
+    "img": "hcpp16/hcpp16-project-damn-decentralizing-law.jpg",
+    "publishedAt": "2017-01-27T12:21:46Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp18-big-lies-by-big-brother-is-it-transparency-or-spying",
+    "videoId": "ZzOt_JJ5WvA",
+    "name": "Big Lies By Big Brother. Is It Transparency Or Spying?",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "adolfo-linares"
+    ],
+    "url": "https://www.youtube.com/watch?v=ZzOt_JJ5WvA",
+    "img": "hcpp18/hcpp18-big-lies-by-big-brother-is-it-transparency-or-spying.jpg",
+    "publishedAt": "2018-10-05T17:08:26Z",
+    "desc": "How the war on drugs, the financing of weapons of mass destruction, the war on terrorism and now tax evasion are being used by ..."
+  },
+  {
+    "id": "hcpp16-how-governments-push-forward-the-security-of-cryptomarkets",
+    "videoId": "BXt7SCqUWQY",
+    "name": "How Governments Push Forward The Security Of Cryptomarkets",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "wilder"
+    ],
+    "url": "https://www.youtube.com/watch?v=BXt7SCqUWQY",
+    "img": "hcpp16/hcpp16-how-governments-push-forward-the-security-of-cryptomarkets.jpg",
+    "publishedAt": "2017-04-07T11:17:38Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp20-decentralised-chat-and-commerce-on-the-lightning-network",
+    "videoId": "n2Cr7F5S5xk",
+    "name": "Decentralised Chat And Commerce On The Lightning Network",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "ketominer"
+    ],
+    "url": "https://www.youtube.com/watch?v=n2Cr7F5S5xk",
+    "img": "hcpp20/hcpp20-decentralised-chat-and-commerce-on-the-lightning-network.jpg",
+    "publishedAt": "2021-02-06T18:30:12Z",
+    "desc": "Introduction: The Encounter Part 1: The Tech - Sending payments without invoices - The early days - Running lnd farms at scale ..."
+  },
+  {
+    "id": "hcpp16-openbazaar-free-trade-through-decentralized-commerce",
+    "videoId": "BecY9dyTZMI",
+    "name": "Openbazaar: Free Trade Through Decentralized Commerce",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "sam-patterson"
+    ],
+    "url": "https://www.youtube.com/watch?v=BecY9dyTZMI",
+    "img": "hcpp16/hcpp16-openbazaar-free-trade-through-decentralized-commerce.jpg",
+    "publishedAt": "2017-03-10T09:22:39Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp20-artificially-intelligent-role-of-technology-in-politics",
+    "videoId": "Sx2FF5JBW1Q",
+    "name": "Artificially Intelligent: Role Of Technology In Politics",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "sara-polak"
+    ],
+    "url": "https://www.youtube.com/watch?v=Sx2FF5JBW1Q",
+    "img": "hcpp20/hcpp20-artificially-intelligent-role-of-technology-in-politics.jpg",
+    "publishedAt": "2020-12-29T19:30:11Z",
+    "desc": "Artificial intelligence, digital, prediction, privacy, GDPR. All these buzzwords are being thrown around haphazardly without the ..."
+  },
+  {
+    "id": "hcpp19-time-traveling-the-timechain-with-scriptless-script-atomic-utxo-swaps",
+    "videoId": "L2FCP1HXiXI",
+    "name": "Time Traveling The Timechain With Scriptless Script Atomic Utxo Swaps ",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "max-hillebrand"
+    ],
+    "url": "https://www.youtube.com/watch?v=L2FCP1HXiXI",
+    "img": "hcpp19/hcpp19-time-traveling-the-timechain-with-scriptless-script-atomic-utxo-swaps.jpg",
+    "publishedAt": "2019-10-16T15:58:14Z",
+    "desc": "The Taproot implementation of the Schnorr signature scheme opens up a whole wide range of privacy protecting tools for Bitcoin ..."
+  },
+  {
+    "id": "hcpp20-how-machines-operate-us",
+    "videoId": "oViqWoA0HhI",
+    "name": "How Machines Operate Us",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "julia-tourianski"
+    ],
+    "url": "https://www.youtube.com/watch?v=oViqWoA0HhI",
+    "img": "hcpp20/hcpp20-how-machines-operate-us.jpg",
+    "publishedAt": "2021-03-13T18:30:30Z",
+    "desc": "I like to say \"I write State with a capital \"S\" because it has become our God.\" But Technology, the very tool that has the potential to ..."
+  },
+  {
+    "id": "hcpp17-assassination-politics",
+    "videoId": "KcJdvQvzlNU",
+    "name": "Assassination Politics",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "jim-bell"
+    ],
+    "url": "https://www.youtube.com/watch?v=KcJdvQvzlNU",
+    "img": "hcpp17/hcpp17-assassination-politics.jpg",
+    "publishedAt": "2017-11-03T11:18:52Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp19-parallel-polis-revisited-way-from-concept-to-distributed-republic",
+    "videoId": "Pyoe1V9ku18",
+    "name": "Parallel Polis Revisited: Way From Concept To Distributed Republic ",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "josef-slerka"
+    ],
+    "url": "https://www.youtube.com/watch?v=Pyoe1V9ku18",
+    "img": "hcpp19/hcpp19-parallel-polis-revisited-way-from-concept-to-distributed-republic.jpg",
+    "publishedAt": "2019-10-16T16:00:13Z",
+    "desc": "Josef Šlerka is head of New Media Studies at the Institute of Information Studies and Librarianship at Charles University's Faculty ..."
+  },
+  {
+    "id": "hcpp19-the-past-present-and-future-of-opt-out-with-open-and-libre-hardware",
+    "videoId": "jWRZfbWUszo",
+    "name": "The Past Present And Future Of Opt-out With Open And Libre Hardware",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "matthias-tarasiewicz"
+    ],
+    "url": "https://www.youtube.com/watch?v=jWRZfbWUszo",
+    "img": "hcpp19/hcpp19-the-past-present-and-future-of-opt-out-with-open-and-libre-hardware.jpg",
+    "publishedAt": "2019-10-16T15:58:16Z",
+    "desc": "FOSH (Free and Open Source Hardware) in the past years has moved away from being a small niche and has developed to a ..."
+  },
+  {
+    "id": "hcpp18-hardware-wallet-threats-and-vulnerabilities",
+    "videoId": "r1qBuj_sco4",
+    "name": "Hardware Wallet Threats And Vulnerabilities",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "peter-todd"
+    ],
+    "url": "https://www.youtube.com/watch?v=r1qBuj_sco4",
+    "img": "hcpp18/hcpp18-hardware-wallet-threats-and-vulnerabilities.jpg",
+    "publishedAt": "2018-10-06T17:58:18Z",
+    "desc": "\"Get a hardware wallet\" is the defacto advice given to store cryptocurrencies securely, but how secure are they in reality?"
+  },
+  {
+    "id": "hcpp16-how-to-evolve-and-hack-your-soul",
+    "videoId": "C0yo4faAMQE",
+    "name": "How To Evolve And Hack Your Soul",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "paul-rosenberg"
+    ],
+    "url": "https://www.youtube.com/watch?v=C0yo4faAMQE",
+    "img": "hcpp16/hcpp16-how-to-evolve-and-hack-your-soul.jpg",
+    "publishedAt": "2017-02-17T12:20:13Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "hcpp17-what-does-blockchain-actually-do",
+    "videoId": "65cM7g4xpoU",
+    "name": "What Does \"blockchain\" Actually Do?",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "peter-todd"
+    ],
+    "url": "https://www.youtube.com/watch?v=65cM7g4xpoU",
+    "img": "hcpp17/hcpp17-what-does-blockchain-actually-do.jpg",
+    "publishedAt": "2018-02-04T20:26:50Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp17-liberate-education-from-the-state",
+    "videoId": "m604jCazD6A",
+    "name": "Liberate Education From The State",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "urza",
+      "zdenka-stankova"
+    ],
+    "url": "https://www.youtube.com/watch?v=m604jCazD6A",
+    "img": "hcpp17/hcpp17-liberate-education-from-the-state.jpg",
+    "publishedAt": "2018-02-08T09:29:08Z",
+    "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
+  },
+  {
+    "id": "hcpp18-crypto-liberation-story-of-one-perpetual-traveler",
+    "videoId": "OvrsFHtpx48",
+    "name": "Crypto Liberation Story Of One Perpetual Traveler",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "wilder"
+    ],
+    "url": "https://www.youtube.com/watch?v=OvrsFHtpx48",
+    "img": "hcpp18/hcpp18-crypto-liberation-story-of-one-perpetual-traveler.jpg",
+    "publishedAt": "2018-10-06T15:26:08Z",
+    "desc": "1. Choose the suitable country for your permanent residency. 2. Choose the suitable country for your company. 3. Eliminate the ..."
+  },
+  {
+    "id": "bitcoin-scaling-tradeoffs-with-adam-back",
+    "videoId": "HEZAlNBJjA0",
+    "people": [
+      "adam-back"
+    ],
+    "name": "Bitcoin scaling tradeoffs with Adam Back",
+    "url": "https://www.youtube.com/watch?v=HEZAlNBJjA0",
+    "img": "undefined/bitcoin-scaling-tradeoffs-with-adam-back.jpg",
+    "publishedAt": "2016-04-21T06:19:43Z",
+    "desc": "In this talk, Adam Back overviews the Bitcoin scaling and discuses his personal view about its tradeoffs and future development."
+  },
+  {
+    "id": "hcpp16-thirty-years-of-crypto-anarchy",
+    "videoId": "TdmpAy1hI8g",
+    "name": "Thirty Years Of Crypto Anarchy",
+    "project": "hcpp",
+    "event": "hcpp16",
+    "people": [
+      "timothy-c-may"
+    ],
+    "url": "https://www.youtube.com/watch?v=TdmpAy1hI8g",
+    "img": "hcpp16/hcpp16-thirty-years-of-crypto-anarchy.jpg",
+    "publishedAt": "2017-02-11T10:24:17Z",
+    "desc": "See the next Hackers Congress HCPP17 on October in Prague ▻ https://liberate.hcpp.cz Follow and support us ..."
+  },
+  {
+    "id": "the-forgotten-art-of-anonymous-digital-cash-opting-out-of-complexity-hcpp19",
+    "videoId": "mjt7pQkPbSA",
+    "name": "The Forgotten Art Of Anonymous Digital Cash: Opting-out Of Complexity #hcpp19",
+    "project": null,
+    "event": null,
+    "people": [
+      "smuggler"
+    ],
+    "url": "https://www.youtube.com/watch?v=mjt7pQkPbSA",
+    "img": "null/the-forgotten-art-of-anonymous-digital-cash-opting-out-of-complexity-hcpp19.jpg",
+    "publishedAt": "2019-10-16T15:57:48Z",
+    "desc": "Cypherpunks and cryptoanarchists have always dreamt of truely anonymous financial systems. This lead to Bitcoin and other ..."
+  }
+]

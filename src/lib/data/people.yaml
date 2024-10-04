@@ -1,0 +1,658 @@
+- id: rachel-rose
+  name: Rachel-Rose O’Leary
+  altNames:
+    - Rachel-Rose O&#39;Leary
+    - Rachel-Rose O'Leary
+  refs:
+    twitter: lunar_mining
+  desc: |
+    Rachel-Rose O’Leary is a core dev at lunarpunk layer 1, DarkFi. She is also co-editor of the philosophy journal Agorism in the 21st Century. As a writer, she has published in egirlcapital, CoinDesk, Defiant, Wired, and elsewhere under anonymous accounts. She believes privacy is necessary for communities to define their own destinies.
+  img: rachel-rose.jpeg
+
+- id: mario
+  name: Mário Havel
+  refs:
+    twitter: TMIYChao
+  desc: |
+    Mário is a hacker and researcher working with EF on making the crypto ecosystem more efficient and anonymous. As a member of Paralelní Polis, co-founder of Bordel Hackerspace, and the driving force behind Pizza Day Prague, Mário educates about tools of cryptoanarchy in local communities with a focus on onboarding via Lightning and p2p exchange. He is a vast enjoyer of FOSS, parallel economy, and trolling bitcoiners.
+  img: mario.png
+  altNames: [ Mario Havel ]
+
+- id: exiledsurfer
+  name: Exiledsurfer
+  refs:
+    twitter: exiledsurfer
+  desc: |
+    As a contributor to the archaic Bitcoin Foundation, he has been around the ecosystem for quite some time. He is a privacy, transparency & decentralization CryptoRealist with a background in various projects. He is a founder of NFTdroppr, a co-founder of Parallele Polis in Vienna, a contributor at Sovryn, and a strategist at Mattereum.
+  img: exiledsurfer.jpeg
+
+- id: amir-taaki
+  name: Amir Taaki
+  refs:
+    twitter: Narodism
+  desc: |
+    As part of the forming Bitcoin community, Amir became an early Bitcoin developer, author of the BIP process, and the Libbitcoin implementation. With contributions to many free and open-source projects, he collaborated with Cody Wilson on launching Darkwallet and laid the foundations for OpenBazaar. Later, he spent nearly 2 years in the Rojava revolution, first for nearly 4 months fighting in the YPG and then working for the administration on economic projects. Today, Amir is focused on the DarkFi project, a network bringing anonymity to decentralized finance, and is still working towards building an agonistic revolutionary hacker movement.
+  img: amir-taaki.png
+  altNames: [ A. Taaki ]
+
+- id: 0xorkun
+  name: Orkun Mahar Kilic
+  refs:
+    twitter: 0x_orkun
+  desc: |
+    Orkun is the CEO & Co-Founder of Chainway Labs. Chainway Labs is the company building **Citrea**, Bitcoin’s First ZK Rollup.
+    
+    As an engineer, Orkun has deep expertise in various scaling solutions and their applications, such as horizontal scaling, volitions in rollups, and zero-knowledge technology.
+  img: 0xorkun.png
+
+- id: musalbas
+  name: Mustafa Al-Bassam
+  refs:
+    twitter: musalbas
+  desc: |
+    Mustafa is a co-founder at Celestia, a modular data availability network. Previously, Mustafa was a PhD researcher at University College London, where he focused on layer 1 scaling.
+  img: musalbas.png
+
+- id: ruben-somsen
+  name: Ruben Somsen
+  refs:
+    twitter: SomsenRuben
+  desc: |
+    Ruben is working on a protocol design for enhancing Bitcoin. He is the author of protocol proposals like Softchains, Statechains, Spacechains, Succinct Atomic Swaps, and Trustless P2P Lending. As a long-term member of the Bitcoin community, he started Seoul Bitcoin Meetups, helps to maintain the bitcoin-dev mailing list, and co-hosts the Unhashed Podcast.
+  img: ruben-somsen.png
+
+- id: jaromil
+  name: Jaromil
+  refs:
+    twitter: jaromil
+  desc: |
+    Jaromil is a purpose-driven software artisan and hacktivist. Author of the forkbomb virus, dubbed as the most elegant computer code ever written, he is an expert in the politics of technology and doctor in philosophy. Jaromil is the founder of Dyne.org and has a long history in developing and disseminating digital tools for freedom of speech and privacy. For more Info and publications see jaromil.dyne.org
+  img: jaromil.png
+
+- id: jarrad-hope
+  name: Jarrad Hope
+  refs:
+    twitter: jarradhope_
+  desc: |
+    Jarrad came to Bitcoin in early 2011 through agorism, counter-economics & crypto-anarchy, seeing that Bitcoin could operate a monetary policy in a hostile environment, he began to view public blockchains as a voluntary social order, one that didn’t depend on a monopoly of violence. From there he participated in early attempts to generalise the bitcoin script to advance institutional libertarianism, ultimately becoming an early contributor to Ethereum. While Jarrad advances privacy technologies through developing an e2e and p2p private messaging client & super app, Status, he realised that privacy technologies are not enough and now is advocating for self-sovereign crypto-networks, the realisation of a latent cypherpunk dream, the crypto-state.
+  img: jarrad-hope.png
+  altNames:
+    - Jarred Hope
+    - J. Hope
+
+- id: mitch-altman
+  name: Mitch Altman
+  refs:
+    twitter: maltman23
+  desc: |
+    Mitch is a Berlin-based hacker and inventor, best known for inventing TV-B-Gone, as a featured speaker at hacker conferences, as an international expert on the hackerspace movement, and for teaching introductory electronics workshops. He is the founder of San Francisco hackerspace Noisebridge and also the Chief Scientist and CEO of Cornfield Electronics.
+  img: mitch-altman.jpeg
+
+- id: juraj-bednar
+  name: Juraj Bednár
+  refs:
+    web: https://juraj.bednar.io
+    twitter: jurbed
+  desc: |
+    Juraj is a serial entrepreneur and founder of Progressbar, Paralelná Polis, and Hacktrophy. He wrote several books, his latest one being “Cryptocurrencies – hack your way to a better life”. He creates online courses and content about privacy, crypto, and entrepreneurship.
+  img: juraj-bednar.png
+  altNames:
+    - Juraj Bednar
+    - Juraj Bednár
+
+- id: wilder
+  name: Pavol Lupták
+  altNames:
+    - Pavol Luptak
+    - P. Luptak
+  refs:
+    twitter: wilderko
+  desc: |
+    Global Opportunist, Cryptoanarchist, Voluntaryist, and Perpetual Traveler focused on technology and society hacking. And, of course, the HCPP lover 🙂
+  img: wilder.jpg
+
+- id: yisi-liu
+  name: Yisi Liu
+  refs:
+    twitter: TheYisiLiu
+  desc: |
+    Yisi is the co-founder and CTO of Mask Network, focusing on bringing privacy and digital ownership back to normal users using simple technologies. He is also a research fellow at the Institute of Network Society at China Academy of Arts, studying how technologies are reshaping our society.
+  img: yisi-liu.png
+
+- id: paul-rosenberg
+  name: Paul Rosenberg
+  desc: |
+    Paul Rosenberg is the author of the Free-Man’s Perspective newsletter and the co-founder of Cryptohippie. He is also the author of A Lodging of Wayfaring Men, Production Versus Plunder, and The Breaking Dawn. He is a co-author of The New Age of Intelligence.
+  img: paul-rosenberg.jpeg
+
+- id: kristian-csepcsar
+  name: Kristian Csepcsar
+  desc: |
+    Kristian is a Bitcoin miner & Chief of Propaganda at Braiins – a company building tools for bitcoin miners including pool, firmware, proxy, monitoring, Stratum V2, and more.
+  refs:
+    twitter: kristiancsep
+  img: kristian-csepcsar.jpeg
+
+- id: maxim-orlovsky
+  name: Maxim Orlovsky
+  desc: |
+    Maxim is a transhumanist and cypherpunk performing scientific, engineering, and business activities.
+
+    His primary focus is building foundations for the future – foundations, which will unlock the full potential of individuals, enabling self-sovereignty, privacy, and censorship-resistance. This is the future of vertical progress and humanity’s evolution into forms much outside of what current collectivistic society can propose or allow.
+  refs:
+    twitter: dr_orlovsky
+  img: maxim-orlovsky.jpeg
+  altNames: [ Dr. Maxim Orlovsky ]
+
+- id: ajs
+  name: AJ Santos
+  desc: |
+    Assistant Professor of Private International Law, Ankara Yildirim Beyazit University; Contributor, Monero Konferenco and Monero Policy Working Group.
+  img: ajs.jpg
+
+- id: ryan-lackey
+  name: Ryan Lackey
+  desc: |
+    Ryan discovered the cypherpunks mailing list as a young teenager in the early 1990s, telephoned NSA to order the NCSC Rainbow Series of books, and became a true believer in cryptoanarchy and the power of cryptography to stand up to nation-states and other oppressors. He’s worked on projects and companies involving Chaumian digital cash systems, offshore data havens in the North Sea, seasteading, uncensorable hosting technologies, remote attestation-based tamperproof cloud computing, and now cryptocurrency insurance infrastructure. He is currently the Chief Security Officer of Evertas Insurance and lives in San Juan, Puerto Rico.
+  refs:
+    twitter: octal
+  img: ryan-lackey.jpeg
+  altNames: [ R. Lackey ]
+
+- id: florian-glatz
+  name: Florian Glatz
+  desc: |
+    Florian is a lawyer, author, advocate; builder, coder, and eternal optimist. He is currently working on Common Ground, a new attempt at creating crypto’s missing app layer, and the European Crypto Initiative—a think tank for improved crypto regulation in the EU.
+  refs:
+    twitter: heckerhut
+  img: florian-glatz.jpg
+
+- id: josefj
+  name: JosefJ
+  refs:
+    twitter: JosefJ_
+  img: josefj.jpg
+
+- id: oskar-thoren
+  name: Oskar Thorén
+  desc: |
+    Oskar is an independent researcher, focused on programmable cryptography. Recently, he has been writing about Zero-Knowledge Proofs (ZKPs) at zkintro.com, exploring folding schemes with a Nova-based ZK-VM, and building mopro to make client-side proving on mobile easier. Previously, he founded and was Director of Research at Vac.dev, an R&D organization building public good protocols for the decentralized web, with a focus on privacy and communication.
+  refs:
+    twitter: oskarth
+  img: oskar-thoren.jpg
+
+- id: christian-lewe
+  name: Christian Lewe
+  refs:
+    github: uncomputable
+  desc: |
+    Christian is a researcher at Blockstream, where he mainly work on Simplicity. He builds tools and teaching materials around their research projects. Zero-knowledge proofs, cryptography and mathematics are topics he finds very interesting because they are not what they seem on the surface.
+  img: christian-lewe.jpg
+
+- id: richard-stallman
+  name: Richard M. Stallman
+  img: richard-stallman.jpeg
+  desc: |
+    Dr. Richard Stallman launched the free software movement in 1983 and started the development of the GNU operating system (see www.gnu.org) in 1984. GNU is free software: everyone has the freedom to copy and redistribute it, with or without changes. The GNU/Linux system, basically, the GNU operating system with Linux added, is used on tens of millions of computers today. Stallman has received the ACM Grace Hopper Award and the ACM Software and Systems Award, a MacArthur Foundation fellowship, the Electronic Frontier Foundations Pioneer Award, and the Takeda Award for Social/Economic Betterment, as well as many doctorates honoris causa, and has been inducted into the Internet Hall of Fame.
+
+- id: bob-summerwill
+  name: Bob Summerwill
+  img: bob-summerwill.jpeg
+  desc: |
+    Bob Summerwill is the Executive Director of the ETC Cooperative. He has been a community member of the Ethereum project since 2015 and of the Hyperledger project since 2016. Bob has been programming since 1984 and a professional software engineer since 1996. He started his blockchain journey in 2014 and he has been building bridges to enterprise and towards mainstream adoption since 2016.
+  refs:
+    twitter: BobSummerwill
+
+- id: parazyd
+  name: Parazyd
+  img: parazyd.jpeg
+  desc: |
+    open source software developer & advocate, co-founder of DarkFi
+  refs:
+    twitter: parazyd
+
+- id: habo
+  name: Martin Habovštiak
+  img: habo.jpg
+  desc: |
+    voluntaryist, open source contributor, programmer
+  refs:
+    twitter: kixunil
+  altNames:
+    - Martin Habovstiak
+
+- id: max-hillebrand
+  name: Max Hillebrand
+  img: max-hillebrand.jpeg
+  refs:
+    twitter: HillebrandMax
+
+- id: ketominer
+  name: Ketominer
+  img: ketominer.png
+  refs:
+    twitter: ketominer
+
+- id: sethforprivacy
+  name: Seth For Privacy
+  img: sethforprivacy.png
+  refs:
+    twitter: sethforprivacy
+
+- id: martin-leskovjan
+  name: Martin Leskovjan
+  img: martin-leskovjan.jpg
+  refs:
+    twitter: leskovjanmartin
+
+- id: calle
+  name: Calle
+  img: calle.jpeg
+  refs:
+    twitter: callebtc
+
+- id: odysseas
+  name: Odysseas
+  img: odysseas.jpeg
+  refs:
+    twitter: odysseas_eth
+
+- id: josef-slerka
+  name: Josef Šlerka
+  img: josef-slerka.jpg
+  refs:
+    twitter: josefslerka
+
+- id: vit-jedlicka
+  name: Vít Jedlička
+  img: vit-jedlicka.jpg
+  refs:
+    twitter: JedlickaVit
+  altNames: [ Vit Jedlicka ]
+
+- id: peter-todd
+  name: Peter Todd
+  img: peter-todd.jpg
+  refs:
+    twitter: peterktodd
+
+- id: amin-rafiee
+  name: Amin Rafiee
+  img: amin-rafiee.jpg
+  refs:
+    twitter: ev0k3d
+
+- id: sara-polak
+  name: Sara Polak
+  img: sara-polak.jpg
+  refs:
+    twitter: sarapolak_cz
+
+- id: vlad-costea
+  name: Vlad Costea
+  img: vlad-costea.jpeg
+  refs:
+    twitter: TheVladCostea
+
+- id: radim-kozub
+  name: Radim Kozub
+  img: radim-kozub.jpeg
+  refs:
+    twitter: RadimKozzub
+  desc: |
+    Radim is attorney-at-law and proud implementer of Paralelni Polis ideas. As a co-founder of Parallel Garden, he is primarily in charge of legal agenda - however, not only in a way you would assume. Project based on ideas of Paralelni Polis demands effort to keep the compliance with its ideas. It covers either searching for specific rules, or even creating the new ones. In 2017, Radim also co-founded Blockchain Legal, law firm focused on cryptocurrencies and digital technologies based in Prague. (hcpp19)
+
+- id: lea-petras
+  name: Lea Petras
+  img: lea-petras.jpeg
+  refs:
+    twitter: leapetras
+
+- id: sergej-kotliar
+  name: Sergej Kotliar
+  img: sergej-kotliar.jpeg
+  refs:
+    twitter: ziggamon
+
+- id: cody-wilson
+  name: Cody Wilson
+  img: cody-wilson.png
+  refs:
+    twitter: Radomysisky
+
+- id: max-hampshire
+  name: Max Hampshire
+  img: max-hampshire.jpeg
+  refs:
+    twitter: _wjth
+
+- id: daniela-brozzoni
+  name: Daniela Brozzoni
+  img: daniela-brozzoni.jpeg
+  refs:
+    twitter: danielabrozzoni
+
+- id: tey-el-rjula
+  name: Tey el-Rjula
+  img: tey-el-rjula.webp
+  refs:
+    twitter: tey070
+
+- id: urza
+  name: Urza
+  img: urza.jpg
+  refs:
+    web: https://urza.cz
+    twitter: urzanarchy
+
+- id: adam-back
+  name: Adam Back
+  img: adam-back.jpeg
+  refs:
+    twitter: adam3us
+
+- id: matthias-tarasiewicz
+  name: Matthias Tarasiewicz
+  img: matthias-tarasiewicz.png
+  refs:
+    twitter: parasew
+
+- id: josef-tetek
+  name: Josef Tětek
+  img: josef-tetek.jpg
+  refs:
+    twitter: JosefTetek
+
+- id: juraj-karpis
+  name: Juraj Karpiš
+  img: juraj-karpis.jpg
+  refs:
+    twitter: JurajKarpis
+  altNames: [ Juraj Karpis ]
+
+- id: pavol-rusnak
+  name: Pavol Rusnák
+  img: pavol-rusnak.jpg
+  refs:
+    twitter: pavolrusnak
+
+- id: michalis-kargakis
+  name: Michalis Kargakis
+  img: michalis-kargakis.jpg
+  desc: |
+    Michalis has some years of experience in the software industry, mainly as a sofware engineer but also as a public speaker in various tech conferences. He started his journey back in 2014 when he got briefly involved in Bitcoin development, then joined Red Hat for 4 years, working on infrastructure automation, only to jump back to the blockchain industry in the last year for good. He enjoys being part of the cryptocurrency community, and also attends a Masters degree in Digital Currency at the University of Nicosia.
+
+- id: vitalik-buterin
+  name: Vitalik Buterin
+  img: vitalik-buterin.jpg
+  refs:
+    web: https://vitalik.eth.limo
+    twitter: VitalikButerin
+
+- id: christoph-jentzsch
+  name: Christoph Jentzsch
+  img: christoph-jentzsch.jpg
+  refs:
+    twitter: chrjentzsch
+
+- id: joerg-platzer
+  name: Joerg Platzer
+  img: joerg-platzer.jpeg
+
+- id: frank-braun
+  name: Frank Braun
+  img: frank-braun.png
+  refs:
+    twitter: thefrankbraun
+
+- id: wlodek-gogloza
+  name: Wlodek Gogloza
+  img: wlodek-gogloza.webp
+  refs:
+    twitter: WGogloza
+
+- id: olga-ukolova
+  name: Olga Ukolova
+  img: olga-ukolova.jpg
+  refs:
+    twitter: dr_ukolova
+
+- id: harry-halpin
+  name: Harry Halpin
+  img: harry-halpin.jpeg
+  refs:
+    twitter: harryhalpin
+
+- id: sam-patterson
+  name: Sam Patterson
+  img: sam-patterson.jpeg
+
+- id: martin-matejka
+  name: Martin Matejka
+  img: martin-matejka.jpg
+  refs:
+    twitter: MatejkaMar
+
+- id: daniel-lumi
+  name: Daniel Lumi
+  img: daniel-lumi.webp
+  refs:
+    twitter: zkLumi
+
+- id: timothy-c-may
+  name: Timothy C. May
+  img: timothy-c-may.jpg
+  altNames: [ Timothy C.  May ]
+
+- id: smuggler
+  name: Smuggler
+  img: smuggler.jpeg
+
+- id: andreas-antonopoulos
+  name: Andreas Antonopoulos
+  img: andreas-antonopoulos.webp
+  refs:
+    twitter: aantonop
+
+- id: pamela-morgan
+  name: Pamela Morgan
+  img: pamela-morgan.jpg
+  refs:
+    twitter: pamelawjd
+
+- id: alena-vranova
+  name: Alena Vránová
+  img: alena-vranova.jpg
+  refs:
+    twitter: AlenaSatoshi
+  altNames:
+    - Alena Vránova
+
+- id: giacomo-zucco
+  name: Giacomo Zucco
+  img: giacomo-zucco.jpg
+  refs:
+    twitter: giacomozucco
+
+- id: tone-vays
+  name: Tone Vays
+  img: tone-vays.jpeg
+  refs:
+    twitter: ToneVays
+
+- id: tim-beiko
+  name: Tim Beiko
+  img: tim-beiko.webp
+  refs:
+    twitter: timbeiko
+
+- id: william-lobkowicz
+  name: William Rudolf Lobkowicz
+  img: william-lobkowicz.jpg
+  refs:
+    twitter: wrlobkowicz
+
+- id: Owen Barnes
+  name: Owen Barnes
+  img: owen-barnes.webp
+  refs:
+    twitter: temporalwave
+
+- id: zdenka-stankova
+  name: Zdeňka Staňková
+  img: zdenka-stankova.jpg
+  refs:
+    twitter: zdesipstankova
+
+- id: ondrej-pilny
+  name: Ondřej Pilný
+  img: ondrej-pilny.jpeg
+  refs:
+    twitter: ondrej_pilny
+
+- id: nick-middleton
+  name: Nick Middleton
+  img: nick-middleton.jpeg
+  refs:
+    web: https://www.nickmiddleton.net
+  desc: |
+    Nick works, teaches and communicates on a wide variety of geographical issues for a broad range of audiences, from policy-makers to five-year-old children. He also teaches at Oxford University where he is a Fellow of St Anne’s College. His most recent book, An Atlas of Countries that Don’t Exist, has been translated into six languages. Read more at www.nickmiddleton.net. (hcpp19)
+
+- id: fluffy-pony
+  name: Riccardo Spagni
+  img: fluffy-pony.jpg
+  refs:
+    twitter: fluffypony
+  altNames: [ Fluffy Pony ]
+
+- id: jim-bell
+  name: Jim Bell
+  img: jim-bell.jpeg
+
+- id: nassim-nicholas-taleb
+  name: Nassim Nicholas Taleb
+  img: nassim-nicholas-taleb.jpg
+  refs:
+    twitter: nntaleb
+
+- id: tina-haibodi
+  name: Tina Haibodi
+  img: tina-haibodi.jpg
+
+- id: adolfo-linares
+  name: Adolfo Linares
+  img: adolfo-linares.jpeg
+  refs:
+    twitter: linaresfulo
+
+- id: luis-cuende
+  name: Luis Cuende
+  img: luis-cuende.jpg
+  refs:
+    twitter: licuende
+
+- id: pavla-holcova
+  name: Pavla Holcová
+  img: pavla-holcova.jpg
+  refs:
+    twitter: pafak
+
+- id: michael-laufer
+  name: Michael Laufer
+  img: michael-laufer.jpeg
+  refs:
+    twitter: MichaelSLaufer
+
+- id: douglas-rushkoff
+  name: Douglas Rushkoff
+  img: douglas-rushkoff.jpeg
+  refs:
+    web: https://rushkoff.com
+    twitter: rushkoff
+
+- id: julia-tourianski
+  name: Julia Tourianski
+  img: julia-tourianski.jpeg
+  refs:
+    twitter: bravetheworld
+
+- id: sondre-bjellas
+  name: Sondre Bjellås
+  img: sondre-bjellas.jpg
+
+- id: alexandra-moxin
+  name: Alexandra Moxin
+  img: alexandra-moxin.jpg
+  refs:
+    twitter: alexandra933
+
+- id: david-friedman
+  name: David D. Friedman
+  img: david-friedman.jpg
+  refs:
+    web: http://www.daviddfriedman.com
+  altNames: [ David Friedman ]
+
+- id: jimmy-song
+  name: Jimmy Song
+  img: jimmy-song.jpg
+  refs:
+    twitter: jimmysong
+
+- id: michael-schloh
+  name: Michael Schloh von Bennewitz
+  img: michael-schloh.jpeg
+  refs:
+    twitter: icomkon
+
+- id: max-keidun
+  name: Max Keidun
+  img: max-keidun.png
+  refs:
+    twitter: keidunm
+
+- id: frantisek-vrabel
+  name: František Vrábel
+  img: frantisek-vrabel.jpg
+
+- id: charles-hill
+  name: Charles Hill
+  refs:
+    github: chill117
+  img: charles-hill.jpeg
+
+- id: danny-holland
+  name: Danny Holland
+  img: danny-holland.webp
+  refs:
+    twitter: icodeblockchain
+
+- id: josef-gattermayer
+  name: Josef Gattermayer
+  img: josef-gattermayer.jpg
+  refs:
+    twitter: jgattermayer
+
+- id: brewster-kahle
+  name: Brewster Kahle
+  img: brewster-kahle.jpg
+  refs:
+    twitter: brewster_kahle
+
+- id: alexander-bard
+  name: Alexander Bard
+  img: alexander-bard.jpeg
+  refs:
+    twitter: Bardissimo
+
+- id: adam-kaleb-ernest
+  name: Adam Kaleb Ernest
+  img: adam-kaleb-ernest.png
+  refs:
+    twitter: AdamKalebErnest
+
+- id: patrik-tjokorda
+  name: Patrik Tjokorda
+  img: patrik-tjokorda.jpeg
+  desc: |
+    From 10 years building payment Fintech companies with 2 exits and MasterCard Award to building trustless peer banking utility for Bitcoin. (hcpp19)
