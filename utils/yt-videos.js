@@ -1,8 +1,8 @@
 import { load } from 'js-yaml';
 import slugify from 'slugify';
 
-const config = load(await Bun.file('./src/config.yaml').text())
-const configBase = load(await Bun.file('./src/config-base.yaml').text())
+const people = load(await Bun.file('./src/lib/data/people.yaml').text())
+const configBase = load(await Bun.file('./src/lib/data/config-base.yaml').text())
 const apiKey = process.env.YT_API_KEY;
 const missingPersonCounter = {}
 
@@ -53,7 +53,7 @@ function toTitleCase(text) {
 function findPeople(title, arr) {
     return arr.map(p => {
         const re = new RegExp(`^${p}$`, 'i');
-        const found = config.people.find(x => x.name.match(re) || x.altNames?.find(an => an.match(re)))
+        const found = people.find(x => x.name.match(re) || x.altNames?.find(an => an.match(re)))
         if (!found) {
             const tslug = p //slugify(p, { lower: true, strict: true })
             if (missingPersonCounter[tslug]) {

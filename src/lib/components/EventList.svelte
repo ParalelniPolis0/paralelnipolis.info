@@ -14,10 +14,8 @@
             <div class="flex flex-wrap">
                 <div class="grow">
                     <h3 class="text-2xl inline-block">
-                        <a
-                            href="/p/{ev.project}#{ev.id}"
-                            alt={ev.name}
-                            class="font-semibold">{ev.name}</a
+                        <a href="/e/{ev.id}" alt={ev.name} class="font-semibold"
+                            >{ev.name}</a
                         >
                     </h3>
                     {#if person}

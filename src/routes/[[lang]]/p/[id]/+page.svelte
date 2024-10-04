@@ -13,6 +13,11 @@
     const events = $derived(
         p.events && p.events.sort((x, y) => (x.date < y.date ? 1 : -1)),
     );
+    const contributors = $derived(
+        people.filter((pe) => {
+            return pe.roles?.find((r) => r.project === p.id);
+        }),
+    );
 </script>
 
 <svelte:head>
@@ -33,6 +38,17 @@
         />
     </div>
 </div>
+
+{#if contributors.length > 0}
+    <div class="mt-8 mb-12">
+        <h2 class="text-2xl main">
+            {lang === "cs" ? "Přispěvatelé" : "Contributors"}
+        </h2>
+        <div class="mt-4">
+            <PeopleGrid people={contributors} />
+        </div>
+    </div>
+{/if}
 
 {#if p.events}
     <div class="mt-8">

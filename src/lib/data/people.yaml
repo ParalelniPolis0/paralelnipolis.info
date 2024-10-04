@@ -17,6 +17,15 @@
     Mário is a hacker and researcher working with EF on making the crypto ecosystem more efficient and anonymous. As a member of Paralelní Polis, co-founder of Bordel Hackerspace, and the driving force behind Pizza Day Prague, Mário educates about tools of cryptoanarchy in local communities with a focus on onboarding via Lightning and p2p exchange. He is a vast enjoyer of FOSS, parallel economy, and trolling bitcoiners.
   img: mario.png
   altNames: [ Mario Havel ]
+  roles:
+    - project: bordel
+      type: contributor
+    - project: pizza-day
+      type: contributor
+    - project: hackathoshi-flying-circuit
+      type: contributor
+    - project: hcpp
+      type: contributor
 
 - id: exiledsurfer
   name: Exiledsurfer
@@ -99,6 +108,9 @@
   altNames:
     - Juraj Bednar
     - Juraj Bednár
+  roles:
+    - project: institute-of-cryptoanarchy
+      type: contributor
 
 - id: wilder
   name: Pavol Lupták
@@ -110,6 +122,9 @@
   desc: |
     Global Opportunist, Cryptoanarchist, Voluntaryist, and Perpetual Traveler focused on technology and society hacking. And, of course, the HCPP lover 🙂
   img: wilder.jpg
+  roles:
+    - project: institute-of-cryptoanarchy
+      type: contributor
 
 - id: yisi-liu
   name: Yisi Liu
@@ -172,6 +187,9 @@
   refs:
     twitter: JosefJ_
   img: josefj.jpg
+  roles:
+    - project: bordel
+      type: contributor
 
 - id: oskar-thoren
   name: Oskar Thorén
@@ -244,6 +262,9 @@
   img: martin-leskovjan.jpg
   refs:
     twitter: leskovjanmartin
+  roles:
+    - project: institute-of-cryptoanarchy
+      type: contributor
 
 - id: calle
   name: Calle
@@ -656,3 +677,10 @@
   img: patrik-tjokorda.jpeg
   desc: |
     From 10 years building payment Fintech companies with 2 exits and MasterCard Award to building trustless peer banking utility for Bitcoin. (hcpp19)
+
+- id: sodomak
+  name: Milan Půlkrábek
+  img: sodomak.png
+  refs:
+    twitter: sodomak
+    github: sodomak
