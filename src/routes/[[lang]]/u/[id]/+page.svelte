@@ -75,9 +75,8 @@
                         />
                     </a>
                     <div>
-                        <a
-                            href="/projects/{cp.id}"
-                            class="text-2xl font-semibold">{cp.name}</a
+                        <a href="/p/{cp.id}" class="text-2xl font-semibold"
+                            >{cp.name}</a
                         >
                     </div>
                 </div>
