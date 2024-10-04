@@ -23,7 +23,7 @@
     <title>{pageTitle} | Paralelní Polis</title>
 </svelte:head>
 
-<div class="flex mt-4 mb-4">
+<div class="flex mt-4 mb-8">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
     <div>
         {lang === "cs" ? "Hledat" : "Search"}:

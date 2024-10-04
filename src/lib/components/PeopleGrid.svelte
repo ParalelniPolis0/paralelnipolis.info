@@ -4,19 +4,22 @@
     let sizePx = $derived(size === "small" ? 75 : 110);
 </script>
 
-<div class="flex {size === 'small' ? 'gap-1' : 'gap-4'} flex-wrap">
+<div
+    class="grid gap-4 {size === 'small'
+        ? 'grid-cols-4 sm:grid-cols-8 lg:grid-cols-10'
+        : 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7'}"
+>
     {#each people as p}
         <div
-            class="text-center font-semibold {size === 'small'
+            class="w-full text-center font-semibold {size === 'small'
                 ? 'text-sm'
                 : ''}"
-            style="width: {sizePx + 10}px;"
         >
             <a href="/u/{p.id}"
                 ><img
                     src="/people/{p.img}"
-                    style="width: {sizePx}px; height: {sizePx}px;"
-                    class="inline-block aspect-square object-cover {p.rand === 1
+                    class="w-full inline-block aspect-square object-cover {p.rand ===
+                    1
                         ? '-rotate-0'
                         : '-rotate-0'} hover:-rotate-6 hover:scale-110 transition-all rounded bg-gray-200 dark:bg-gray-800 mb-2"
                 /></a

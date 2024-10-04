@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="ml-2 mt-8">
+                    <div class="mt-8">
                         {#if e.speakers}
                             <PeopleGrid
                                 size="small"
