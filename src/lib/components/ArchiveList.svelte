@@ -15,13 +15,13 @@
 <div class="grid grid-cols-1 gap-12">
     {#each items as item}
         <div>
-            <div class="flex gap-6">
-                <div class="shrink-0">
+            <div class="sm:flex gap-6">
+                <div class="shrink-0 mb-2 sm:mb-0">
                     <a href="/v/{item.id}"
                         ><img
                             src="/archive/{item.img}"
                             alt={item.name}
-                            class="w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
+                            class="w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
                         /></a
                     >
                 </div>
