@@ -18,10 +18,12 @@
         {#each arr as p}
             <div class="mb-3 flex gap-6 group p-2">
                 <div>
-                    <img src="/projects/{p.img}" alt={p.name} class="aspect-square w-24 object-cover bg-gray-200 dark:bg-gray-800 group-hover:scale-125 transition-all rounded {gray ? "grayscale group-hover:grayscale-0" : ""} " />
+                    <a href="/p/{p.id}">
+                        <img src="/projects/{p.img}" alt={p.name} class="aspect-square w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray ? "grayscale group-hover:grayscale-0" : ""} " />
+                    </a>
                 </div>
                 <div>
-                    <h2 class="text-2xl font-semibold">
+                    <h2 class="text-3xl font-semibold">
                         <a href="/p/{p.id}">{p.name}</a>
                         <span class="font-normal text-sm opacity-50"
                             >{#if p.years}({p.years[0]} - {p.years[1]

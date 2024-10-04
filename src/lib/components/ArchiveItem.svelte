@@ -11,7 +11,7 @@
             ><img
                 src="/archive/{item.img}"
                 alt={item.name}
-                class="w-full rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800"
+                class="w-full rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
             /></a
         >
     </div>

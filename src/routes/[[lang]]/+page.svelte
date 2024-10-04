@@ -1,8 +1,10 @@
 <script>
     import { ArrowPath } from "svelte-heros-v2";
-    import { archive } from "$lib/data.js";
-    import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
     import { getContext, onMount } from "svelte";
+    import { goto } from "$app/navigation";
+
+    import { archive, projects } from "$lib/data.js";
+    import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
 
     const lang = getContext("lang");
     let randomVideos = null; //getRandomVideos();
@@ -43,7 +45,7 @@
     <title>Paralelní Polis</title>
 </svelte:head>
 
-<p>
+<p class="mt-8">
     Paralelní Polis je nestátní nezisková organizace, kterou v roce 2014 v
     pražských Holešovicích založila umělecká aktivistická skupina Ztohoven. Misí
     Paralelní Polis je poskytovat technologie a vzdělání, které lidé potřebují
@@ -52,7 +54,35 @@
     žít ve svobodné společnosti.
 </p>
 
-<div class="flex mt-8">
+<div class="mt-8">
+    <h2 class="main text-2xl">Current <a href="/concepts">concepts</a></h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+        {#each projects.filter((p) => !p.years[1]) as p}
+            <div
+                class="flex gap-4 group cursor-pointer"
+                onclick={() => goto("/p/" + p.id)}
+            >
+                <div class="shrink-0">
+                    <a href="/p/{p.id}">
+                        <img
+                            src="/projects/{p.img}"
+                            alt={p.name}
+                            class="w-20 aspect-square object-cover rounded transition-all"
+                        />
+                    </a>
+                </div>
+                <div class="text-2xl font-semibold">
+                    <a
+                        href="/p/{p.id}"
+                        class="group-hover:decoration-red-500/80">{p.name}</a
+                    >
+                </div>
+            </div>
+        {/each}
+    </div>
+</div>
+
+<div class="flex mt-12">
     <div class="grow"></div>
     {#if randomVideos}
         <div class="w-full">
@@ -72,7 +102,9 @@
                     <ArrowPath />
                 </a>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-8">
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
+            >
                 {#each randomVideos as item}
                     <ArchiveItem {item} />
                 {/each}
