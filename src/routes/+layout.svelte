@@ -3,7 +3,7 @@
     import { page } from "$app/stores";
     import { Sun, Moon } from "svelte-heros-v2";
     import { onMount, setContext } from "svelte";
-    import { pkg, build } from "$lib/data.js";
+    import { pkg, build, config } from "$lib/data.js";
 
     const { data } = $props();
     const lang = data.lang;
@@ -54,7 +54,7 @@
 </script>
 
 <svelte:head>
-    <title>Paralelní Polis</title>
+    <title>{config.title}</title>
 </svelte:head>
 
 <div
@@ -67,7 +67,7 @@
             <a href="/" class="pr-2 shrink-0"
                 ><img
                     src="/logo.png"
-                    alt="Paralelní Polis"
+                    alt={config.title}
                     class="invert dark:invert-0"
                 /></a
             >
@@ -107,26 +107,31 @@
                         >vejdi ven!</a
                     >
                     <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
-                        <a href="https://x.com/paralelnipolis">𝕏</a>
-                        <a
-                            href="https://primal.net/p/npub1m2mvvpjugwdehtaskrcl7ksvdqnnhnjur9v6g9v266nss504q7mqvlr8p9"
+                        <a href="https://x.com/{config.refs.twitter}">𝕏</a>
+                        <a href="https://primal.net/p/{config.refs.nostr}"
                             >Nostr</a
                         >
-                        <a href="https://bsky.app/profile/paralelnipolis.cz"
+                        <a href="https://bsky.app/profile/{config.refs.bsky}"
                             >Bluesky</a
                         >
-                        <a href="https://www.facebook.com/vejdiven">Facebook</a>
-                        <a href="https://www.instagram.com/paralelnipolis"
-                            >Instagram</a
+                        <a
+                            href="https://www.facebook.com/{config.refs
+                                .facebook}">Facebook</a
                         >
                         <a
-                            href="https://www.youtube.com/channel/UCfHJ5Y3akQ7LA0PQmSYlYmQ"
-                            >YouTube</a
+                            href="https://www.instagram.com/{config.refs
+                                .instagram}">Instagram</a
                         >
-                        <a href="https://www.meetup.com/paralelnipolis/"
+                        <a
+                            href="https://www.youtube.com/channel/{config.refs
+                                .youtube_channel}">YouTube</a
+                        >
+                        <a href="https://www.meetup.com/{config.refs.meetup}/"
                             >Meetup</a
                         >
-                        <a href="https://github.com/ParalelniPolis">GitHub</a>
+                        <a href="https://github.com/{config.refs.github}"
+                            >GitHub</a
+                        >
                     </div>
                 </div>
                 <div class="">
@@ -134,32 +139,19 @@
                         class="flex items-center gap-2 mt-8 lg:mt-0 lg:justify-end lg:text-right"
                     >
                         <div>
-                            <a href="https://www.wtfpl.cz/"
+                            <a href={config.license.url}
                                 ><img
-                                    src="/wtfpl.svg"
+                                    src={config.license.logo}
                                     class="text-black w-6"
-                                    alt="WTFPL – Do What the Fuck You Want to Public License"
+                                    alt={config.license.caption}
                                 /></a
                             >
                         </div>
                         <div class="font-semibold">
-                            <a href="https://www.wtfpl.cz/">WTFPL</a>
-                        </div>
-                        <!--div>/</div>
-                        <div>
-                            <a href="https://choosealicense.com/licenses/unlicense/"
-                                ><img
-                                    src="/unlicense.svg"
-                                    class="text-black w-5"
-                                    alt="The Unlicense"
-                                /></a
+                            <a href={config.license.url}
+                                >{config.license.name}</a
                             >
                         </div>
-                        <div class="font-semibold">
-                            <a href="https://choosealicense.com/licenses/unlicense/"
-                                >Unlicense</a
-                            >
-                        </div-->
                         <div>v{pkg.version}</div>
                         <div>
                             <a href={convertGitUrl(pkg.repository.url)}>

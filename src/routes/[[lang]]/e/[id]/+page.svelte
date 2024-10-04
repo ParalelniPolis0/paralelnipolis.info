@@ -1,5 +1,5 @@
 <script>
-    import { archive, people, projects } from "$lib/data.js";
+    import { archive, people, projects, config } from "$lib/data.js";
     import { getContext } from "svelte";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-    <title>{e.name} | Paralelní Polis</title>
+    <title>{e.name} | {config.title}</title>
 </svelte:head>
 
 <div class="mb-8 mt-4">

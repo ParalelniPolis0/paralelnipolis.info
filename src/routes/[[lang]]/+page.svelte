@@ -2,8 +2,9 @@
     import { ArrowPath } from "svelte-heros-v2";
     import { getContext, onMount } from "svelte";
     import { goto } from "$app/navigation";
+    import { marked } from "marked";
 
-    import { archive, projects } from "$lib/data.js";
+    import { archive, projects, config } from "$lib/data.js";
     import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
 
     const lang = getContext("lang");
@@ -42,17 +43,12 @@
 </script>
 
 <svelte:head>
-    <title>Paralelní Polis</title>
+    <title>{config.title}</title>
 </svelte:head>
 
-<p class="mt-8">
-    Paralelní Polis je nestátní nezisková organizace, kterou v roce 2014 v
-    pražských Holešovicích založila umělecká aktivistická skupina Ztohoven. Misí
-    Paralelní Polis je poskytovat technologie a vzdělání, které lidé potřebují
-    pro zapojení do nezávislé společnosti a na ochranu individuální svobody.
-    Vizí Paralelní Polis je svět, kde lidé mají možnost odloučit se od státu a
-    žít ve svobodné společnosti.
-</p>
+<div class="mt-8 mb-10 text-xl">
+    {@html marked.parse(config.description || config.description_cs)}
+</div>
 
 <div class="mt-8">
     <h2 class="main text-2xl">Current <a href="/concepts">concepts</a></h2>

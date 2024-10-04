@@ -1,5 +1,5 @@
 <script>
-    import { archive, projects, people } from "$lib/data.js";
+    import { archive, projects, people, config } from "$lib/data.js";
     import RefsBar from "$lib/components/RefsBar.svelte";
     import ArchiveList from "$lib/components/ArchiveList.svelte";
     import EventList from "$lib/components/EventList.svelte";
@@ -41,7 +41,7 @@
 </script>
 
 <svelte:head>
-    <title>{p.name} | Paralelní Polis</title>
+    <title>{p.name} | {config.title}</title>
 </svelte:head>
 
 <div class="flex gap-8 mt-4 mb-10">

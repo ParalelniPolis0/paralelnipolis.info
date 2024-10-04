@@ -1,5 +1,5 @@
 <script>
-    import { projects } from "$lib/data.js";
+    import { projects, config } from "$lib/data.js";
     import { getContext } from "svelte";
     
     const lang = getContext("lang");
@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <title>{lang === "cs" ? "Koncepty" : "Concepts"} | Paralelní Polis</title>
+    <title>{lang === "cs" ? "Koncepty" : "Concepts"} | {config.title}</title>
 </svelte:head>
 
 

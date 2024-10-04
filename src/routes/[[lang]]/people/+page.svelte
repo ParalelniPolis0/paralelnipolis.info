@@ -1,5 +1,5 @@
 <script>
-    import { people as allPeople } from "$lib/data.js";
+    import { people as allPeople, config } from "$lib/data.js";
     import { getContext, onMount } from "svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
 
@@ -20,10 +20,10 @@
 </script>
 
 <svelte:head>
-    <title>{pageTitle} | Paralelní Polis</title>
+    <title>{pageTitle} | {config.title}</title>
 </svelte:head>
 
-<div class="flex mt-4 mb-8">
+<div class="flex flex-wrap gap-4 mt-4 mb-8">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
     <div>
         {lang === "cs" ? "Hledat" : "Search"}:

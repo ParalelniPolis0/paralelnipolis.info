@@ -1,5 +1,5 @@
 <script>
-    import { people, archive } from "$lib/data.js";
+    import { people, archive, config } from "$lib/data.js";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-    <title>{p.name} | Paralelní Polis</title>
+    <title>{p.name} | {config.title}</title>
 </svelte:head>
 
 <div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">

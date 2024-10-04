@@ -1,5 +1,5 @@
 <script>
-    import { archive } from "$lib/data.js";
+    import { archive, config } from "$lib/data.js";
     import ArchiveList from "$lib/components/ArchiveList.svelte";
     import { getContext, onMount } from "svelte";
     import { Squares2x2, ListBullet } from "svelte-heros-v2";
@@ -36,7 +36,7 @@
 </script>
 
 <svelte:head>
-    <title>{lang === "cs" ? "Archiv" : "Archive"} | Paralelní Polis</title>
+    <title>{lang === "cs" ? "Archiv" : "Archive"} | {config.title}</title>
 </svelte:head>
 
 <div class="flex mt-4 mb-8 gap-4">
