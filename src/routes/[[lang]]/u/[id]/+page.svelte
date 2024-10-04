@@ -1,8 +1,11 @@
 <script>
     import { archive, projects, people } from "$lib/data.js";
     import RefsBar from "$lib/components/RefsBar.svelte";
-    import ArchiveList from "../../../lib/components/ArchiveList.svelte";
-    import EventList from "../../../lib/components/EventList.svelte";
+    import ArchiveList from "$lib/components/ArchiveList.svelte";
+    import EventList from "$lib/components/EventList.svelte";
+    import { getContext } from "svelte";
+
+    const lang = getContext("lang");
 
     function listEvents() {
         return projects
@@ -53,7 +56,7 @@
 
 {#if events.length > 0}
     <div class="mt-4 mb-10">
-        <h2 class="main text-xl">Události</h2>
+        <h2 class="main text-xl">{lang === "cs" ? "Události" : "Events"}</h2>
         <EventList {events} person={p.id} />
         <!--pre class="mt-64">{JSON.stringify(events, null, 2)}</pre-->
     </div>
@@ -61,7 +64,9 @@
 
 {#if archiveItems.length > 0}
     <div class="mt-4">
-        <h2 class="main text-xl mb-4">Archiv</h2>
+        <h2 class="main text-xl mb-4">
+            {lang === "cs" ? "Archiv" : "Archive"}
+        </h2>
         <ArchiveList items={archiveItems} />
     </div>
 {/if}

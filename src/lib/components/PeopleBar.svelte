@@ -1,6 +1,6 @@
 <script>
     import { people as allPeople } from "$lib/data.js";
-    let { people } = $props();
+    let { people, size = "text-lg" } = $props();
 
     let fullPeople = $derived(
         typeof people[0] === "string"
@@ -19,7 +19,7 @@
                     class="aspect-square w-6 h-6 object-cover rounded bg-gray-200 dark:bg-gray-800"
                 />
             </div>
-            <div class="text-lg">
+            <div class={size}>
                 <a href="/u/{p.id}" class="hover:underline">{p.name}</a>
             </div>
         </div>

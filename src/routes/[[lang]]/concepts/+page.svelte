@@ -1,19 +1,22 @@
 <script>
     import { projects } from "$lib/data.js";
+    import { getContext } from "svelte";
+    
+    const lang = getContext("lang");
 
     const activeProjects = projects.filter(p => p.years && !p.years[1])
     const pastProjects = projects.filter(p => p.years && p.years[1]).sort((x, y) => x.years[1] > y.years[1] ? -1 : 1)
 </script>
 
 <svelte:head>
-    <title>Koncepty | Paralelní Polis</title>
+    <title>{lang === "cs" ? "Koncepty" : "Concepts"} | Paralelní Polis</title>
 </svelte:head>
 
 
 {#snippet projectList(arr, gray = false)}
     <div class="mt-8">
         {#each arr as p}
-            <div class="mb-3 flex gap-4 group p-2">
+            <div class="mb-3 flex gap-6 group p-2">
                 <div>
                     <img src="/projects/{p.img}" alt={p.name} class="aspect-square w-24 object-cover bg-gray-200 dark:bg-gray-800 group-hover:scale-125 transition-all rounded {gray ? "grayscale group-hover:grayscale-0" : ""} " />
                 </div>
@@ -43,11 +46,11 @@
 {/snippet}
 
 <div class="mb-10 mt-4">
-    <h1 class="main text-2xl">Aktivní koncepty</h1>
+    <h1 class="main text-2xl">{lang === "cs" ? "Aktivní koncepty" : "Active concepts"}</h1>
     {@render projectList(activeProjects)}
 </div>
 
 <div class="mb-10 mt-4">
-    <h1 class="main text-2xl">Historické koncepty</h1>
+    <h1 class="main text-2xl">{lang === "cs" ? "Historické koncepty" : "Historical concepts"}</h1>
     {@render projectList(pastProjects, true)}
 </div>

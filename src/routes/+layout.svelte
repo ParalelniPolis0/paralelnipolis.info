@@ -2,17 +2,23 @@
     import "../app.css";
     import { page } from "$app/stores";
     import { Sun, Moon } from "svelte-heros-v2";
-    import { onMount } from "svelte";
+    import { onMount, setContext } from "svelte";
+
+    const { data } = $props();
+    const lang = data.lang;
+    setContext("lang", lang);
 
     let currentPath = $derived($page.url?.pathname);
     let darkMode = $state(null);
     const menu = [
         ["/", "→/"],
-        ["/concepts", "Koncepty"],
-        ["/people", "Lidé"],
-        ["/archive", "Archiv"],
+        ["/concepts", "Concepts", "Koncepty"],
+        ["/people", "People", "Lidé"],
+        ["/archive", "Archive", "Archiv"],
+        ["/membership", "Membership", "Členství"],
         ["https://forum.paralelnipolis.cz", "Forum"],
-        ["https://docs.paralelnipolis.cz", "Dokumentace"],
+        ["https://shop.paralelnipolis.cz", "Shop"],
+        /*["https://docs.paralelnipolis.cz", "Docs", "Dokumentace"],*/
     ];
 
     onMount(() => {
@@ -61,16 +67,17 @@
                 /></a
             >
             <div class="flex gap-1 px-4 top-menu grow">
-                {#each menu as [path, title]}
+                {#each menu as [path, titleEn, titleCs]}
                     <a
-                        href={path}
+                        href="{lang === 'cs' ? '/cs' : ''}{path}"
                         class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                             path === '/'
                                 ? currentPath === path
                                 : currentPath.match(path)
                         )
                             ? 'bg-gray-100 dark:bg-gray-900'
-                            : ''}">{title}</a
+                            : ''}"
+                        >{lang === "cs" ? titleCs || titleEn : titleEn}</a
                     >
                 {/each}
             </div>
@@ -80,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-5xl mx-auto px-3 pt-4 pb-12 flex-grow">
+        <div class="max-w-5xl mx-auto px-3 pt-4 pb-16 flex-grow">
             <slot />
         </div>
     </div>

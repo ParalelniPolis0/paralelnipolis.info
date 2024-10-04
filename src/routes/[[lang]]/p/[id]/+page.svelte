@@ -3,6 +3,9 @@
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
+    import { getContext } from "svelte";
+
+    const lang = getContext("lang");
 
     const { data } = $props();
     const p = $derived(data.item);
@@ -32,7 +35,7 @@
 
 {#if p.events}
     <div class="mt-8">
-        <h2 class="text-2xl main">Události</h2>
+        <h2 class="text-2xl main">{lang === "cs" ? "Události" : "Events"}</h2>
         <div class="grid grid-cols-1 gap-10 mt-4">
             {#each events as e}
                 <div id={e.id}>
@@ -44,12 +47,12 @@
                                 >{/if}
                         </h3>
                         <div class="text-xl opacity-50">
-                            {new Date(e.date).toLocaleDateString("cs-CZ")}
+                            {new Date(e.date).toLocaleDateString(lang)}
                             {#if e.days && e.days > 1}
                                 - {addDays(
                                     new Date(e.date),
                                     e.days - 1,
-                                ).toLocaleDateString("cs-CZ")}{/if}
+                                ).toLocaleDateString(lang)}{/if}
                         </div>
                     </div>
 

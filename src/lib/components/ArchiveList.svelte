@@ -15,7 +15,7 @@
 <div class="grid grid-cols-1 gap-12">
     {#each items as item}
         <div>
-            <div class="flex gap-4">
+            <div class="flex gap-6">
                 <div class="shrink-0">
                     <a href="/v/{item.id}"
                         ><img

@@ -1,7 +1,7 @@
 <script>
     import Youtube from "$lib/components/Youtube.svelte";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
-    import EventLink from "../../../lib/components/EventLink.svelte";
+    import EventLink from "$lib/components/EventLink.svelte";
 
     const { data } = $props();
     let item = $derived(data.item);

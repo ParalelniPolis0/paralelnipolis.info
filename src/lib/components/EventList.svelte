@@ -1,6 +1,9 @@
 <script>
     import { DeviceTablet } from "svelte-heros-v2";
     import { addDays } from "date-fns";
+    import { getContext } from "svelte";
+
+    const lang = getContext("lang");
 
     const { events, person = null } = $props();
 </script>
@@ -19,18 +22,18 @@
                     </h3>
                     {#if person}
                         <span
-                            class="py-0.5 px-1.5 bg-gray-100 dark:bg-gray-900 font-mono text-gray-500 text-xs rounded ml-1"
-                            >přednášející</span
+                            class="py-0.5 px-1.5 bg-blue-100 dark:bg-blue-900 font-mono text-black dark:text-white text-xs rounded ml-1"
+                            >{lang === "cs" ? "přednášející" : "speaker"}</span
                         >
                     {/if}
                 </div>
                 <div class="mt-1 inline-block text-xl opacity-50">
-                    {new Date(ev.date).toLocaleDateString("cs-CZ")}
+                    {new Date(ev.date).toLocaleDateString(lang)}
                     {#if ev.days && ev.days > 1}
                         - {addDays(
                             new Date(ev.date),
                             ev.days - 1,
-                        ).toLocaleDateString("cs-CZ")}{/if}
+                        ).toLocaleDateString(lang)}{/if}
                 </div>
             </div>
         </div>

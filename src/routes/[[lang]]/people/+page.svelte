@@ -1,7 +1,10 @@
 <script>
     import { people as allPeople } from "$lib/data.js";
-    import { onMount } from "svelte";
+    import { getContext, onMount } from "svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
+
+    const lang = getContext("lang");
+    const pageTitle = lang === "cs" ? "Lidé" : "People";
 
     let searchRef;
     let x = $state("");
@@ -17,13 +20,14 @@
 </script>
 
 <svelte:head>
-    <title>Lidé | Paralelní Polis</title>
+    <title>{pageTitle} | Paralelní Polis</title>
 </svelte:head>
 
 <div class="flex mt-4 mb-4">
-    <h1 class="main text-2xl grow">Lidé</h1>
+    <h1 class="main text-2xl grow">{pageTitle}</h1>
     <div>
-        Hledat: <input
+        {lang === "cs" ? "Hledat" : "Search"}:
+        <input
             type="text"
             class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
             bind:value={x}
