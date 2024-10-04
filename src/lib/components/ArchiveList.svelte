@@ -21,7 +21,7 @@
                         ><img
                             src="/archive/{item.img}"
                             alt={item.name}
-                            class="w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
+                            class="w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5 hover:scale-110 transition-all"
                         /></a
                     >
                 </div>

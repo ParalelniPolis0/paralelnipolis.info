@@ -167,7 +167,7 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
                     ...header,
                     url: "https://www.youtube.com/watch?v=" + videoId,
                     img,
-                    publishedAt: i.snippet.publishedAt,
+                    publishedAt: i.snippet.publishedAt || new Date('2015-01-01'),
                     desc: i.snippet.description,
                 })
             } else if (header === false) {

@@ -5,6 +5,7 @@
     import RefsBar from "$lib/components/RefsBar.svelte";
     import { getContext } from "svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
+    import { parse } from "marked";
 
     const lang = getContext("lang");
 
@@ -24,17 +25,19 @@
     <title>{p.name} | Paralelní Polis</title>
 </svelte:head>
 
-<div class="flex gap-6 mt-4">
+<div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
     <div class="grow">
         <h1 class="text-4xl font-semibold">{p.name}</h1>
         <RefsBar refs={p.refs} />
-        <div class="mt-4">{p.description || p.description_cs}</div>
+        {#if p.caption}
+            <div class="mt-6 text-lg">{p.caption}</div>
+        {/if}
     </div>
     <div class="shrink-0">
         <img
             src="/projects/{p.img}"
             alt={p.name}
-            class="w-64 h-64 aspect-square object-cover rounded"
+            class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
         />
     </div>
 </div>
@@ -46,6 +49,15 @@
         </h2>
         <div class="mt-4">
             <PeopleGrid people={contributors} />
+        </div>
+    </div>
+{/if}
+
+{#if p.description || p.description_cs}
+    <div class="mt-8 mb-12">
+        <h2 class="text-2xl main">{lang === "cs" ? "Popis" : "Description"}</h2>
+        <div class="prose prose-pp mt-6">
+            {@html parse(p.description || p.description_cs)}
         </div>
     </div>
 {/if}
@@ -98,7 +110,9 @@
                             {/each}
                         </div>
                         {#if e.archive.length > 3}
-                            <a href="/e/{e.id}">More from "{e.name}" →</a>
+                            <div class="text-right">
+                                <a href="/e/{e.id}">More from "{e.name}" →</a>
+                            </div>
                         {/if}
                     {/if}
                 </div>

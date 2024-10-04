@@ -16,7 +16,7 @@
         ["/concepts", "Concepts", "Koncepty"],
         ["/people", "People", "Lidé"],
         ["/archive", "Archive", "Archiv"],
-        ["/membership", "Membership", "Členství"],
+        /*["/membership", "Membership", "Členství"],*/
         ["https://forum.paralelnipolis.cz", "Forum"],
         ["https://shop.paralelnipolis.cz", "Shop"],
         /*["https://docs.paralelnipolis.cz", "Docs", "Dokumentace"],*/
@@ -119,6 +119,9 @@
                         <a
                             href="https://www.youtube.com/channel/UCfHJ5Y3akQ7LA0PQmSYlYmQ"
                             >YouTube</a
+                        >
+                        <a href="https://www.meetup.com/paralelnipolis/"
+                            >Meetup</a
                         >
                         <a href="https://github.com/ParalelniPolis">GitHub</a>
                     </div>

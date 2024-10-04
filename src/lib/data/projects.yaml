@@ -4,8 +4,29 @@
   years: [ 2014 ]
   types: [ concept ]
   img: ioc.png
+  refs:
+    web: https://paralelnipolis.cz/koncepty/cryptoanarchy-institute/
+  caption: |
+    A collective promoting digital freedom and decentralized technologies. It focuses on cryptography and alternative economic models, aiming to empower individuals against censorship and surveillance.
+  
   description: |
-    The Institute of Cryptoanarchy is a research and education center within Paralelni Polis in Prague. It focuses on promoting digital freedom, privacy, and decentralized technologies. The institute explores and develops tools and concepts related to cryptography, cryptocurrencies, and alternative socio-economic models, aiming to empower individuals in the digital era.
+    The term cryptoanarchy describes the growing environment of the unregulated Internet, where unlimited data sharing and the development of the free market became possible by using anonymous tools such as decentralized currencies like bitcoin, and anti-spyware encryption tools.
+
+    From the intervention of a live broadcast of Czech Television to the virtual interaction with politician’s mobile phones, we as members of the Ztohoven group are associated with hacking. The inspiration of technological innovation and it’s potential impact on society led us to a tight interaction with the hacker’s scene. As we understand the connection between the arts, science and technology as a tool to highlight the authoritarian tendencies which entered into our daily lives  with the development of modern technologies, we decided to join the international hackers network and to establish a hacker space called Institute of Cryptoanarchy.
+
+    The aim of the Institute of Cryptoanarchy is to make available tools for unlimited dissemination of information on the Internet and encouraging a parallel decentralized economy, crypto-currencies and other conditions for the development of a free society in the 21st century.
+
+    The main motive for us is the belief that censorship is not a phenomenon only in “the distant dictatorial world”.
+
+    States and their security agencies globally control access to information and use the protection of intellectual property as an excuse to apply total censorship to control the available resources.
+
+    The State on a global level  processes private mail and personal data, even though the European Court of Justice decided on the illegitimacy of “data retention”.
+
+    The State and corporations have data on economic behavior, and through  legislation they have received  complete access to all payment transactions and consumer habits.
+
+    New technology brings the possibility of choice – we are in a time that is defined by The Crypto Anarchist Manifesto.
+    
+    With a fast internet connection, reliable anonymity and decentralized currency, you preserve freedom which we have been losing as a society.
 
 - id: hcpp
   name: Hackers Congress Paralelní Polis
@@ -14,6 +35,8 @@
   refs:
     web: https://hcpp.cz
   img: hcpp.png
+  caption: |
+    An annual conference exploring cryptoanarchy, digital privacy, and decentralization. It brings together hackers, activists, and tech enthusiasts to discuss emerging technologies that promote individual freedom in the digital age.
   description: |
     Hackers Congress Paralelni Polis is an annual conference in Prague focusing on cryptoanarchy, digital privacy, decentralization, and emerging technologies. Organized by the Czech nonprofit Paralelni Polis, it brings together hackers, activists, and tech enthusiasts to explore cutting-edge ideas and technologies that promote individual freedom in the digital age.
   events:
@@ -124,7 +147,9 @@
         - musalbas
         - exiledsurfer
         - juraj-bednar
-
+    
+  caption: |
+    The event series explores the technical and ideological challenges of scaling a decentralized cryptocurrency, bringing together the community to navigate these issues.
   description: |
     The legendary Bitcoin pizza transaction marks an important moment in the history of libre digital money. A small step, signalizing the birth of a whole era. It’s been 12 years since Bitcoin stepped into the world of payment networks for physical goods and opened the gates for the creation of a global parallel economy. Since then, we have experienced rather exponential growth in this new financial world. From a small community of cypherpunks and hackers, Bitcoin grew into a phenomenon with today’s mainstream recognition. Flourishing adoption upholds further levels, as the public interest always comes in waves. Yet with each wave passing by, the inspirational spirit of the original innovators fades a little bit more. Mass adoption poses continued challenges from governments, the public, and often the community itself. New questions about the purpose, scalability and sustainability arise every day. These are not going to solve themselves, nor disappear.
 
@@ -149,6 +174,8 @@
       date: "2022-06-09"
       days: 3
       seq: 2
+  caption: |
+    A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
     
 
 - id: studio-pp
@@ -157,6 +184,8 @@
   years: [ 2020, 2022 ]
   types: [ service ]
   img: studio-pp.jpg
+  caption: |
+    A broadcasting program that mirrors the original meetup format of art, science, and technology, enhanced with advanced content. Unlike many YouTube channels that recycle the same topics and personalities, we focus on in-depth discussions that go beyond clickbait and simplistic analyses.
   description_cs: |
     Současný vysílací program Studia Paralelní Polis kopíruje původní programové schéma fyzických meetupů, tedy umění – věda – technologie, s programovou nadstavbou pro pokročilé uživatele bitcoinu, vycházející z tradičních bitcoinových meetupů. V době, kdy na ostatních YT kanálech recyklují Youtubeři pořád dokola stejná témata a osobnosti, my jsme se rozhodli nedělat clickbaitový obsah opřený o věštění ze svíčkových grafů, ale rozebírat věci do hloubky.
 
@@ -167,6 +196,8 @@
   img: bordel.jpeg
   refs:
     web: https://bordel.paralelnipolis.cz
+  caption: |
+    Bordel is a community hackerspace in the basement of Paralelní Polis in Prague, featuring a modular setup for work, hacking, and workshops. It offers a variety of tools, 3D printers, soldering equipment, and musical instruments, without any ideological affiliation or strict technological focus.
   description: |
     Bordel is a small community hackerspace located in the basement of Paralelní Polis in Prague. Basically, It's room with a modular setup suitable for work, hacking or organizing smaller workshops. There is a bunch of hw, tools, 3d printers, soldering gear, a workbench and some music/noise instruments available for use. The space doesn't have an ideological affiliation nor explicit limitations of technological topics to be worked on. The topics of hosted events will be influenced by the users/members of the space. We are a non-profit initiative whose existence depends on community contributions and the courtesy of Paralelni Polis.
 
@@ -175,6 +206,8 @@
   types: [ service ]
   years: [ 2020, 2021 ]
   img: decentruck.jpg
+  caption: |
+    A multifunctional “crypto-liberation” truck promoting digital freedom, decentralization, and crypto-anarchy. This black vehicle travels across Europe and beyond, aiming to educate the public on cybersecurity, cryptocurrency adoption, and sustainable development.
   description: |
     “Decentruck” of Paralelní Polis is a multifunctional “crypto-liberation” truck. It promotes digital freedom and spreads the concept of decentralization and crypto-anarchy. The black vehicle is a mobile version of Paralelní Polis that shares the values ​​and ideas of this globally unique project and has ambitions to reach all of Europe and even travel around the world. We aim to educate the general public on cyber-security, the adoption of cryptocurrencies, and sustainable development.
 
@@ -183,6 +216,10 @@
   types: [ hackathon ]
   years: [ 2017, 2021 ]
   img: hackatoshi-flying-circuit.png
+  refs:
+    web: https://flyingcircuit.com
+  caption: |
+    A cypherpunk initiative promoting privacy and decentralization to counter authoritarianism. It combines virtual and physical interventions to inspire and develop solutions for societal issues using privacy-focused and decentralized approaches.
   description: |
     Paralelní Polis' mission is to bring alternatives and tools for preventing authoritarian tendencies in society. Hackatoshi’s Flying Circuit is an intervention of cypherpunks into both virtual and physical public space to concentrate inspiration and knowledge to address sick parts of the system and fix them with solutions resulting from privacy and decentralized principles
 
@@ -192,14 +229,41 @@
   types: [ awards ]
   years: [ 2017, 2020 ]
   img: the-coins.jpeg
+  refs:
+    web: https://paralelnipolis.cz/coins
+  caption: |
+    This initiative honors digital freedom fighters with limited-edition silver coins, each tied to 0.01 BTC through secure BitNotes. Led by artist Roman Týc, it blends art, technology, and cryptocurrency, with only 100 coins minted per year.
   description: |
-    The first edition of coins came out in 2017 as one of independent projects of Paralelní Polis under the auspices of Institute of Cryptoanarchy. Since its beginnings, Paralelní Polis has had as its mission to provide the technology and education necessary for people to function in an independent society and to protect their individual freedom. A free independent society can function only in an environment where all the systemic instruments for its suppression have been demonopolized. With this project, we wanted to pay homage to people who rebelled against the system and whose work significantly contributed to internet freedom. Each person depicted on the coins was for their beliefs and deeds persecuted, restricted of freedom, their life was endangered, or they died fighting for digital freedom against the state. All of them were exceptional visionaries.
+    The **Coins Project** is a series of limited-edition silver commemorative coins launched in 2017 under Paralelní Polis, with support from the Institute of Cryptoanarchy. The project honors individuals who have fought for digital freedom and internet independence, often facing persecution for their beliefs and actions. The figures commemorated so far include:
+
+    - **2017**: Ross Ulbricht
+    - **2018**: Julian Assange
+    - **2019**: Aaron Swartz
+    - **2020**: Edward Snowden
+
+    Each coin is connected to the decentralized world of cryptocurrency, particularly **Bitcoin**, containing the value of **0.01 BTC**. This link is facilitated through **BitNotes**, which are paper notes with unique BTC addresses tied to the coin. These notes include security features and are guaranteed by Paralelní Polis, though the organization has no direct access to the coins' BTC.
+
+    ### BitNote and Bitcoin Integration
+
+    - BitNotes have unique BTC addresses corresponding to private keys guaranteed by the company.
+    - Paralelní Polis acts as a guarantor, but cannot access the BTC associated with the coins unless the second half of the code hidden under a scratch-off on the BitNote is revealed.
+
+    ### Art and Leadership
+
+    The project is led by **Roman Týc**, an artist and activist from the **Ztohoven** group, who also founded Paralelní Polis in 2014. He has a history of using technology in his art and activism. The production process of the coins combines craftsmanship and technology, symbolizing the fusion of art, science, and decentralized currency.
+
+    ### Limited Edition
+
+    Each annual edition is limited to **100 pieces**, with the molds destroyed afterward, enhancing the collectible and technological value of the coins.
+
 
 - id: paper-hub
   name: Paper Hub
   types: [ place ]
   years: [ 2014, 2024 ]
   img: paper-hub.jpg
+  caption: |
+    A cryptocurrency-only coworking space in Prague. It offers a unique work environment that embraces decentralized technologies and alternative economic models, supporting the broader mission of Paralelni Polis.
   description_cs: |
     Paper Hub je pracovní prostor v prvním patře Paralelní Polis. Funguje na bázi coworkingu – sdílení jednoho pracoviště různými lidmi s různými pracovními zájmy. Paper Hub je vybaven originálním voštinovým nábytkem. Nabízí příjemné prostředí a klidné zázemí pro angažované, inovativní a kreativní jedince. Jsme otevření freelancerům, studentům, malým firmám či startupům.
   
@@ -208,5 +272,7 @@
   years: [ 2014, 2024 ]
   types: [ service, place ]
   img: bitcoin-coffee.png
+  caption: |
+    A unique espresso bar, Bitcoin Coffee showcasing innovative technologies. By accepting only cryptocurrencies, it highlights practical applications of cryptocurrency, while drawing inspiration from Berlin's coffee culture to create exceptional flavors.
   description_cs: |
     Koncept Paralelní polis lze rozklíčovat návštěvou espresso baru Bitcoin Coffee. Obrácený princip baru se zakládá na otevřeném a sdíleném výrobním postupu. Využití papírové voštiny reprezentuje hledání nových možností známých zajímavých materiálů. Bitcoin jako platební prostředek přivádí pozornost návštěvníka k využívání nových kryptotechnologií v praxi. Koncepce kavárny po vzoru berlínské kávové špičky, značky Bonanza Café, jako kávové laboratoře zacílené na dosažení špičkové chuti pak vyvolává zájem o doposud neobjevené kvality života. Pro pochopení složitých témat Paralelní polis je důležité posilnit se douškem silné kávy.

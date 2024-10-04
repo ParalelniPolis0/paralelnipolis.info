@@ -3,8 +3,18 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      typography: ({ theme }) => ({
+        pp: {
+          css: {
+            '--tw-prose-body': theme('colors.black'),
+          }
+        }
+      })
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
 
