@@ -1,23 +1,42 @@
 <script>
-    import { people, archive } from "$lib/data.js";
-    import { addDays } from "date-fns";
-    import PeopleGrid from "$lib/components/PeopleGrid.svelte";
+    import { archive, projects, people } from "$lib/data.js";
     import RefsBar from "$lib/components/RefsBar.svelte";
+    import ArchiveList from "$lib/components/ArchiveList.svelte";
+    import EventList from "$lib/components/EventList.svelte";
     import { getContext } from "svelte";
-    import ArchiveItem from "$lib/components/ArchiveItem.svelte";
-    import { parse } from "marked";
 
     const lang = getContext("lang");
 
+    function listEvents() {
+        return projects
+            .map((pr) =>
+                pr.events?.map((e) => {
+                    e.project = pr.id;
+                    return e;
+                }),
+            )
+            .flat()
+            .filter((p) => p);
+    }
+
+    const allEvents = listEvents();
+
     const { data } = $props();
     const p = $derived(data.item);
+
+    //console.log(p.id, listEvents());
+
     const events = $derived(
-        p.events && p.events.sort((x, y) => (x.date < y.date ? 1 : -1)),
+        allEvents.filter((e) => e.speakers && e.speakers.includes(p.id)),
     );
-    const contributors = $derived(
-        people.filter((pe) => {
-            return pe.roles?.find((r) => r.project === p.id);
-        }),
+
+    const archiveItems = $derived(
+        archive.filter((i) => i.people.includes(p.id)),
+    );
+
+    const contributorProjectsIds = $derived(p.roles?.map((r) => r.project));
+    const contributorProjects = $derived(
+        projects.filter((pr) => contributorProjectsIds?.includes(pr.id)),
     );
 </script>
 
@@ -25,98 +44,61 @@
     <title>{p.name} | Paralelní Polis</title>
 </svelte:head>
 
-<div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
-    <div class="grow">
-        <h1 class="text-4xl font-semibold">{p.name}</h1>
-        <RefsBar refs={p.refs} />
-        {#if p.caption}
-            <div class="mt-6 text-lg">{p.caption}</div>
-        {/if}
-    </div>
+<div class="flex gap-8 mt-4 mb-10">
     <div class="shrink-0">
         <img
-            src="/projects/{p.img}"
+            src="/people/{p.img}"
             alt={p.name}
-            class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
+            class="aspect-square w-48 h-48 object-cover -rotate-6 rounded"
         />
+    </div>
+    <div>
+        <h1 class="text-3xl font-semibold">{p.name}</h1>
+        <RefsBar refs={p.refs} />
+        <div class="my-4">{p.desc}</div>
     </div>
 </div>
 
-{#if contributors.length > 0}
-    <div class="mt-8 mb-12">
-        <h2 class="text-2xl main">
-            {lang === "cs" ? "Přispěvatelé" : "Contributors"}
+{#if contributorProjects.length > 0}
+    <div class="mt-4 mb-14">
+        <h2 class="main text-xl mb-4">
+            {lang === "cs" ? "Přispěvatel" : "Contributor"}
         </h2>
-        <div class="mt-4">
-            <PeopleGrid people={contributors} />
-        </div>
-    </div>
-{/if}
-
-{#if p.description || p.description_cs}
-    <div class="mt-8 mb-12">
-        <h2 class="text-2xl main">{lang === "cs" ? "Popis" : "Description"}</h2>
-        <div class="prose prose-pp mt-6">
-            {@html parse(p.description || p.description_cs)}
-        </div>
-    </div>
-{/if}
-
-{#if p.events}
-    <div class="mt-8">
-        <h2 class="text-2xl main">{lang === "cs" ? "Události" : "Events"}</h2>
-        <div class="grid grid-cols-1 gap-10 mt-4">
-            {#each events.map((e) => {
-                e.archive = archive.filter((i) => i.event === e.id);
-                return e;
-            }) as e}
-                <hr />
-                <div id={e.id}>
-                    <div class="flex flex-wrap">
-                        <h3 class="text-3xl font-semibold grow">
-                            <a href="/e/{e.id}">
-                                {e.name}
-                            </a>
-                            {#if e.seq}<span class="opacity-50 font-normal"
-                                    >(#{e.seq})</span
-                                >{/if}
-                        </h3>
-                        <div class="text-xl opacity-50">
-                            {new Date(e.date).toLocaleDateString(lang)}
-                            {#if e.days && e.days > 1}
-                                - {addDays(
-                                    new Date(e.date),
-                                    e.days - 1,
-                                ).toLocaleDateString(lang)}{/if}
-                        </div>
-                    </div>
-
-                    <div class="mt-8">
-                        {#if e.speakers}
-                            <PeopleGrid
-                                size="small"
-                                people={e.speakers.map((s) =>
-                                    people.find((p) => p.id === s),
-                                )}
-                            />
-                        {/if}
-                    </div>
-                    {#if e.archive && e.archive.length > 0}
-                        <div
-                            class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10"
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {#each contributorProjects as cp}
+                <div class="flex gap-4 items-center">
+                    <a href="/c/{cp.id}" class="block shrink-0">
+                        <img
+                            src="/projects/{cp.img}"
+                            alt={cp.name}
+                            class="w-12 aspect-square object-cover rounded bg-gray-200 dark:bg-gray-800"
+                        />
+                    </a>
+                    <div>
+                        <a href="/c/{cp.id}" class="text-2xl font-semibold"
+                            >{cp.name}</a
                         >
-                            {#each e.archive.slice(0, 3) as item}
-                                <ArchiveItem {item} />
-                            {/each}
-                        </div>
-                        {#if e.archive.length > 3}
-                            <div class="text-right">
-                                <a href="/e/{e.id}">More from "{e.name}" →</a>
-                            </div>
-                        {/if}
-                    {/if}
+                    </div>
                 </div>
             {/each}
         </div>
+        <!--pre class="mt-64">{JSON.stringify(events, null, 2)}</pre-->
+    </div>
+{/if}
+
+{#if events.length > 0}
+    <div class="mt-4 mb-14">
+        <h2 class="main text-xl">{lang === "cs" ? "Události" : "Events"}</h2>
+        <EventList {events} person={p.id} />
+        <!--pre class="mt-64">{JSON.stringify(events, null, 2)}</pre-->
+    </div>
+{/if}
+
+{#if archiveItems.length > 0}
+    <div class="mt-4">
+        <h2 class="main text-xl mb-4">
+            {lang === "cs" ? "Archiv" : "Archive"}
+        </h2>
+        <ArchiveList items={archiveItems} />
     </div>
 {/if}

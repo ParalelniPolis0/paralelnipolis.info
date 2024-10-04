@@ -15,7 +15,7 @@
                 ? 'text-sm'
                 : ''}"
         >
-            <a href="/u/{p.id}"
+            <a href="/p/{p.id}"
                 ><img
                     src="/people/{p.img}"
                     class="w-full inline-block aspect-square object-cover {p.rand ===
@@ -24,7 +24,7 @@
                         : '-rotate-0'} hover:-rotate-6 hover:scale-110 transition-all rounded bg-gray-200 dark:bg-gray-800 mb-2"
                 /></a
             >
-            <a href="/u/{p.id}">{p.name}</a>
+            <a href="/p/{p.id}">{p.name}</a>
             <!--div class="font-normal"></div-->
         </div>
     {/each}

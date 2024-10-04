@@ -20,7 +20,7 @@
                 />
             </div>
             <div class={size}>
-                <a href="/u/{p.id}" class="hover:underline">{p.name}</a>
+                <a href="/p/{p.id}" class="hover:underline">{p.name}</a>
             </div>
         </div>
     {/each}

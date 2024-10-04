@@ -30,7 +30,7 @@
                 )}{/if}
         </div>
         <div class="text-2xl">
-            <a href="/p/{project.id}">{project.name}</a>
+            <a href="/c/{project.id}">{project.name}</a>
             {#if e.seq}<span class="opacity-50 font-normal">#{e.seq}</span>{/if}
         </div>
     </div>

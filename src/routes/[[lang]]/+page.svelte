@@ -60,10 +60,10 @@
         {#each projects.filter((p) => !p.years[1]) as p}
             <div
                 class="flex gap-4 group cursor-pointer items-center"
-                onclick={() => goto("/p/" + p.id)}
+                onclick={() => goto("/c/" + p.id)}
             >
                 <div class="shrink-0">
-                    <a href="/p/{p.id}">
+                    <a href="/c/{p.id}">
                         <img
                             src="/projects/{p.img}"
                             alt={p.name}
@@ -73,7 +73,7 @@
                 </div>
                 <div class="text-2xl font-semibold">
                     <a
-                        href="/p/{p.id}"
+                        href="/c/{p.id}"
                         class="group-hover:decoration-red-500/80">{p.name}</a
                     >
                 </div>

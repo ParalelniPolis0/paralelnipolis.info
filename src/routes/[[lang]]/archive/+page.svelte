@@ -1,12 +1,11 @@
 <script>
     import { archive } from "$lib/data.js";
     import ArchiveList from "$lib/components/ArchiveList.svelte";
-    import { getContext } from "svelte";
+    import { getContext, onMount } from "svelte";
     import { Squares2x2, ListBullet } from "svelte-heros-v2";
 
     const lang = getContext("lang");
-    const { data } = $props();
-    let type = $state(data.type);
+    let type = $state("list");
 
     function switchType() {
         let param = "";
@@ -25,6 +24,15 @@
         }
         window.history.pushState({}, "", url);
     }
+
+    onMount(() => {
+        const url = new URL(window.location);
+        const viewParam = url.searchParams.get("view");
+        console.log(viewParam);
+        if (viewParam) {
+            type = viewParam;
+        }
+    });
 </script>
 
 <svelte:head>

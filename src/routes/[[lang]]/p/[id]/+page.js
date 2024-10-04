@@ -1,9 +1,9 @@
 import { error } from '@sveltejs/kit';
-import { projects } from "$lib/data.js";
+import { people } from "$lib/data.js";
 
 export async function load({ params }) {
 
-    const item = projects.find((p) => p.id === params.id);
+    const item = people.find((p) => p.id === params.id);
     if (!item) {
         return error(404, 'Not found');
     }

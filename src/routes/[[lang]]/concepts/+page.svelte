@@ -18,13 +18,13 @@
         {#each arr as p}
             <div class="mb-4 sm:flex gap-6 group p-2">
                 <div class="shrink-0 sm:mb-0 mb-4">
-                    <a href="/p/{p.id}">
+                    <a href="/c/{p.id}">
                         <img src="/projects/{p.img}" alt={p.name} class="aspect-square w-1/2 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray ? "grayscale group-hover:grayscale-0" : ""} " />
                     </a>
                 </div>
                 <div>
                     <h2 class="text-3xl font-semibold">
-                        <a href="/p/{p.id}">{p.name}</a>
+                        <a href="/c/{p.id}">{p.name}</a>
                         <span class="font-normal text-sm opacity-50"
                             >{#if p.years}({p.years[0]} - {p.years[1]
                                     ? p.years[1]
