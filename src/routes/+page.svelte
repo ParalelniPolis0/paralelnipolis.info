@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Paralelní Polis</title>
+</svelte:head>
+
 <p>
     Paralelní Polis je nestátní nezisková organizace, kterou v roce 2014 v
     pražských Holešovicích založila umělecká aktivistická skupina Ztohoven. Misí

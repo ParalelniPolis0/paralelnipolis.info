@@ -32,6 +32,10 @@
     );
 </script>
 
+<svelte:head>
+    <title>{p.name} | Paralelní Polis</title>
+</svelte:head>
+
 <div class="flex gap-8 mt-4 mb-10">
     <div class="shrink-0">
         <img

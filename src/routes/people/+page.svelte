@@ -16,6 +16,10 @@
     });
 </script>
 
+<svelte:head>
+    <title>Lidé | Paralelní Polis</title>
+</svelte:head>
+
 <div class="flex mt-4 mb-4">
     <h1 class="main text-2xl grow">Lidé</h1>
     <div>

@@ -5,6 +5,11 @@
     const pastProjects = projects.filter(p => p.years && p.years[1]).sort((x, y) => x.years[1] > y.years[1] ? -1 : 1)
 </script>
 
+<svelte:head>
+    <title>Koncepty | Paralelní Polis</title>
+</svelte:head>
+
+
 {#snippet projectList(arr, gray = false)}
     <div class="mt-8">
         {#each arr as p}

@@ -8,6 +8,10 @@
     let youtubeId = $derived(item.url.match(/\?v=([^&]+)/)[1]);
 </script>
 
+<svelte:head>
+    <title>{item.name} | Paralelní Polis</title>
+</svelte:head>
+
 <div class="w-full">
     <Youtube id={youtubeId} autoplay="true" />
 </div>

@@ -11,6 +11,10 @@
     );
 </script>
 
+<svelte:head>
+    <title>{p.name} | Paralelní Polis</title>
+</svelte:head>
+
 <div class="flex gap-6 mt-4">
     <div class="grow">
         <h1 class="text-4xl font-semibold">{p.name}</h1>
