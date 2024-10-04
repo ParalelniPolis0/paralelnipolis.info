@@ -87,7 +87,10 @@
                 {/each}
             </div>
             <div>
-                <div onclick={switchDarkMode} class="cursor-pointer">
+                <div
+                    onclick={switchDarkMode}
+                    class="cursor-pointer hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
+                >
                     {#if darkMode}<Sun />{:else}<Moon />{/if}
                 </div>
             </div>

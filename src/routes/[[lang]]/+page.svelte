@@ -59,7 +59,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
         {#each projects.filter((p) => !p.years[1]) as p}
             <div
-                class="flex gap-4 group cursor-pointer"
+                class="flex gap-4 group cursor-pointer items-center"
                 onclick={() => goto("/p/" + p.id)}
             >
                 <div class="shrink-0">
@@ -95,7 +95,7 @@
                     {/if}
                 </h2>
                 <a
-                    class="cursor-pointer block"
+                    class="cursor-pointer block hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
                     href="/archive"
                     onclick={refreshArchive}
                 >
@@ -103,7 +103,7 @@
                 </a>
             </div>
             <div
-                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 mt-4"
             >
                 {#each randomVideos as item}
                     <ArchiveItem {item} />

@@ -7,7 +7,7 @@
 <div
     class="grid gap-4 {size === 'small'
         ? 'grid-cols-4 sm:grid-cols-8 lg:grid-cols-10'
-        : 'grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7'}"
+        : 'grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7'}"
 >
     {#each people as p}
         <div

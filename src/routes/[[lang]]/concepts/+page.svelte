@@ -16,7 +16,7 @@
 {#snippet projectList(arr, gray = false)}
     <div class="mt-8">
         {#each arr as p}
-            <div class="mb-3 sm:flex gap-6 group p-2">
+            <div class="mb-4 sm:flex gap-6 group p-2">
                 <div class="shrink-0 sm:mb-0 mb-4">
                     <a href="/p/{p.id}">
                         <img src="/projects/{p.img}" alt={p.name} class="aspect-square w-1/2 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray ? "grayscale group-hover:grayscale-0" : ""} " />

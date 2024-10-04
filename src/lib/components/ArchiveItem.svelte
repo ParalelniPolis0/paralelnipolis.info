@@ -6,7 +6,7 @@
 </script>
 
 <div class="w-full">
-    <div class="mt-4">
+    <div class="mt-0">
         <a href="/v/{item.id}"
             ><img
                 src="/archive/{item.img}"

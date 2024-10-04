@@ -28,6 +28,8 @@
       type: contributor
     - project: hcpp
       type: contributor
+    - project: ethprague
+      type: contributor
 
 - id: exiledsurfer
   name: Exiledsurfer
@@ -193,6 +195,8 @@
     - project: bordel
       type: contributor
     - project: hackathoshi-flying-circuit
+      type: contributor
+    - project: ethprague
       type: contributor
 
 - id: oskar-thoren
