@@ -16,7 +16,10 @@
                 }),
             )
             .flat()
-            .filter((p) => p);
+            .filter((p) => p)
+            .sort((x, y) => {
+                return y.date > x.date ? 1 : -1;
+            });
     }
 
     const allEvents = listEvents();

@@ -46,6 +46,8 @@
       date: "2024-10-04"
       days: 3
       seq: 11
+      refs:
+        web: https://hardcore.hcpp.cz
       speakers:
         - mario
         - exiledsurfer
@@ -70,58 +72,200 @@
       date: "2023-09-29"
       days: 3
       seq: 10
+      refs:
+        web: https://resistance.hcpp.cz
       speakers:
         - rachel-rose
         - amir-taaki
         - richard-stallman
+        - sethforprivacy
+        - amin-rafiee
+        - cody-wilson
+        - paul-rosenberg
+        - jarrad-hope
+        - ryan-lackey
+        - wilder
+        - juraj-bednar
+        - martin-leskovjan
+        - bob-summerwill
+        - maxim-orlovsky
+        - vit-jedlicka
+        - mitch-altman
       
     - id: hcpp22
       name: "HCPP22: Last Shot"
       date: "2022-09-29"
       days: 3
       seq: 9
+      refs:
+        web: https://last-shot.hcpp.cz
+      speakers:
+        - ryan-lackey
+        - paul-rosenberg
+        - daniela-brozzoni
+        - parazyd
+        - sethforprivacy
+        - max-hampshire
+        - jarrad-hope
+        - rachel-rose
+        - mitch-altman
 
     - id: hcpp21
       name: "HCPP21: Chaos"
       date: "2021-10-01"
       days: 3
       seq: 8
+      refs:
+        web: https://chaos.hcpp.cz
     
     - id: hcpp20
       name: "HCPP20: Digital Totality"
       date: "2020-10-02"
       days: 3
       seq: 7
+      refs:
+        web: https://digital-totality.hcpp.cz
+      speakers:
+        - juraj-bednar
+        - paul-rosenberg
+        - olga-ukolova
+        - fluffy-pony
+        - amin-rafiee
+        - frank-braun
+        - david-friedman
+        - martin-leskovjan
+        - julia-tourianski
+        - harry-halpin
+        - douglas-rushkoff
+        - ketominer
+        - alexandra-moxin
+        - max-hillebrand
+        - smuggler
+        - alexander-bard
+        - sara-polak
 
     - id: hcpp19
       name: "HCPP19: Opt-Out"
       date: "2019-10-04"
       days: 3
       seq: 6
+      refs:
+        web: https://opt-out.hcpp.cz
+      speakers:
+        - harry-halpin
+        - josef-slerka
+        - tone-vays
+        - michalis-kargakis
+        - josef-tetek
+        - yisi-liu
+        - maxim-orlovsky
+        - peter-todd
+        - nick-middleton
+        - max-hampshire
+        - patrik-tjokorda
+        - juraj-bednar
+        - habo
+        - frantisek-vrabel
+        - luis-cuende
+        - amin-rafiee
+        - sondre-bjellas
+        - matthias-tarasiewicz
+        - joerg-platzer
+        - max-hillebrand
+        - olga-ukolova
+        - paul-rosenberg
+        - exiledsurfer
+        - charles-hill
+        - mario
 
     - id: hcpp18
       name: "HCPP18: New Order"
       date: "2018-10-05"
       days: 3
       seq: 5
+      refs:
+        web: https://neworder.hcpp.cz
+      speakers:
+        - nassim-nicholas-taleb
+        - michael-laufer
+        - pavla-holcova
+        - adolfo-linares
+        - luis-cuende
+        - vit-jedlicka
+        - paul-rosenberg
+        - peter-todd
+        - maxim-orlovsky
+        - frank-braun
+        - jimmy-song
+        - wilder
+        - joerg-platzer
+        - giacomo-zucco
+        - max-keidun
+        - smuggler
+        - tone-vays
+        - amin-rafiee
+        - habo
+        - michael-schloh
 
     - id: hcpp17
       name: "HCPP17: Liberate!"
       date: "2017-10-06"
       days: 3
       seq: 4
+      refs:
+        web: https://liberate.hcpp.cz
+      speakers:
+        - vit-jedlicka
+        - sam-patterson
+        - amin-rafiee
+        - juraj-bednar
+        - adam-back
+        - ondrej-pilny
+        - urza
+        - zdenka-stankova
+        - pamela-morgan
+        - peter-todd
+        - giacomo-zucco
+        - wilder
+        - paul-rosenberg
+        - amir-taaki
+        - jim-bell
+        - tone-vays
 
     - id: hcpp16
       name: "HCPP16: Decentralized"
       date: "2016-09-30"
       days: 3
       seq: 3
+      refs:
+        web: https://decentralized.hcpp.cz
 
     - id: hcpp15
       name: "HCPP15: Blackout"
       date: "2015-10-02"
       days: 3
       seq: 2
+      refs:
+        web: https://blackout.hcpp.cz
+      speakers:
+        - martin-sip
+        - frantisek-weyda
+        - lyn-ulbricht
+        - susanne-tempelhof
+        - julia-tourianski
+        - tatiana-moroz
+        - ondrej-neff
+        - slush
+        - paul-rosenberg
+        - jasper-kalwies
+        - kristov-atlas
+        - michal-paal
+        - juraj-bednar
+        - smuggler
+        - frank-braun
+        - joerg-platzer
+        - pavol-rusnak
+        - jiri-materna
     
     - id: hcpp14
       name: "HCPP14: Paralelní Polis"
@@ -142,11 +286,27 @@
       name: Pizza Day Prague 2022 
       date: "2022-05-21"
       seq: 1
+      speakers:
+        - amir-taaki
+        - joerg-platzer
+        - vlad-costea
+        - exiledsurfer
+        - sergej-kotliar
+        - ruben-somsen
 
     - id: pd23
       name: "Pizza Day Prague 2023: P2P"
       date: "2023-05-19"
       seq: 2
+      speakers:
+        - peter-todd
+        - exiledsurfer
+        - martin-matejka
+        - vlad-costea
+        - maxim-orlovsky
+        - max-hillebrand
+        - lea-petras
+        - juraj-bednar
 
     - id: pd24
       name: "Pizza Day Prague 2024: Scaling Wars"
@@ -180,6 +340,14 @@
       date: "2022-06-10"
       days: 3
       seq: 1
+      speakers:
+        - mario
+        - danny-holland
+        - william-lobkowicz
+        - tina-haibodi
+        - sara-polak
+        - jarrad-hope
+        - wlodek-gogloza
 
     - id: ethprague23
       name: ETHPrague 2023

@@ -139,6 +139,8 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
             let header = await parseTitle(i.snippet.title, scanAll, defaultConfig, config)
             if (base && header === false) {
                 header = base
+            } else if (header) {
+                Object.assign(header, base)
             }
 
             if (header) {

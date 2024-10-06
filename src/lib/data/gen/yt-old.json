@@ -813,16 +813,16 @@
     "desc": "DO NOT PUBLISH The idea of skin in the game seen as risk mitigation, filtering, and learning device. How its absence hurts ..."
   },
   {
-    "id": "liberland-state-model-for-21st-century",
+    "id": "hcpp17-liberland-state-model-for-21st-century",
     "videoId": "eUSl57aJU4E",
     "name": "Liberland State Model For 21st Century",
-    "project": null,
-    "event": null,
+    "project": "hcpp",
+    "event": "hcpp17",
     "people": [
       "vit-jedlicka"
     ],
     "url": "https://www.youtube.com/watch?v=eUSl57aJU4E",
-    "img": "null/liberland-state-model-for-21st-century.jpg",
+    "img": "hcpp17/hcpp17-liberland-state-model-for-21st-century.jpg",
     "publishedAt": "2018-09-08T11:28:28Z",
     "desc": "Follow and support us ▻ https://liberate.hcpp.cz/#support Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/ ..."
   },
