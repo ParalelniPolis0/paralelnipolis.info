@@ -13,7 +13,9 @@
     }
 </script>
 
-{#if type === "grid"}
+{#if items.length === 0}
+    <div class="text-2xl">No results</div>
+{:else if type === "grid"}
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
         {#each items as item}
             <ArchiveItem {item} />

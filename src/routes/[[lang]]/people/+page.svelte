@@ -8,29 +8,42 @@
 
     let searchRef;
     let x = $state("");
-    let people = $derived(
-        x === ""
-            ? allPeople
-            : allPeople.filter((p) => p.name.match(new RegExp(x, "i"))),
-    );
+    let people = $derived(filterPeople(x));
 
     onMount(() => {
         searchRef.focus();
     });
+
+    function filterPeople(str) {
+        const re = new RegExp(str, "i");
+        if (str === "") {
+            return allPeople;
+        }
+        return allPeople.filter(
+            (p) =>
+                p.name.match(re) ||
+                p.altNames?.find((an) => an.match(re)) ||
+                p.refs?.twitter?.match(re),
+        );
+    }
 </script>
 
 <svelte:head>
     <title>{pageTitle} | {config.title}</title>
 </svelte:head>
 
-<div class="flex flex-wrap gap-4 mt-4 mb-8">
+<div class="flex flex-wrap gap-4 mt-4 mb-8 items-center">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
+    <div class="text-xl opacity-50">
+        {people.length}
+        {#if people.length !== allPeople.length}/ {allPeople.length}{/if}
+    </div>
     <div>
-        {lang === "cs" ? "Hledat" : "Search"}:
         <input
             type="text"
             class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
             bind:value={x}
+            placeholder="{lang === 'cs' ? 'Hledat' : 'Search'} ..."
             bind:this={searchRef}
         />
     </div>
