@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import { page } from "$app/stores";
-    import { Sun, Moon } from "svelte-heros-v2";
+    import { Sun, Moon, Bars3 } from "svelte-heros-v2";
     import { onMount, setContext } from "svelte";
     import { pkg, build, config } from "$lib/data.js";
 
@@ -9,18 +9,10 @@
     const lang = data.lang;
     setContext("lang", lang);
 
+    const menu = $derived(config.menu);
     let currentPath = $derived($page.url?.pathname);
     let darkMode = $state(null);
-    const menu = [
-        ["/", "→/"],
-        ["/concepts", "Concepts", "Koncepty"],
-        ["/people", "People", "Lidé"],
-        ["/archive", "Archive", "Archiv"],
-        /*["/membership", "Membership", "Členství"],*/
-        ["https://forum.paralelnipolis.cz", "Forum"],
-        ["https://shop.paralelnipolis.cz", "Shop"],
-        /*["https://docs.paralelnipolis.cz", "Docs", "Dokumentace"],*/
-    ];
+    let menuOpen = $state(false);
 
     onMount(() => {
         if (
@@ -57,6 +49,36 @@
     <title>{config.title}</title>
 </svelte:head>
 
+{#if menuOpen}
+    <div
+        class="absolute top-0 left-0 w-full h-full bg-white dark:bg-black z-30 p-4"
+    >
+        <a href="/" class="pr-2 shrink-0" onclick={() => (menuOpen = false)}
+            ><img
+                src="/logo.png"
+                alt={config.title}
+                class="invert dark:invert-0"
+            /></a
+        >
+
+        <div class="grid grid-cols-1 text-3xl">
+            {#each menu as [path, titleEn, titleCs]}
+                <a
+                    href="{lang === 'cs' ? '/cs' : ''}{path}"
+                    onclick={() => (menuOpen = false)}
+                    class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
+                        path === '/'
+                            ? currentPath === path
+                            : currentPath.match(path)
+                    )
+                        ? 'bg-gray-100 dark:bg-gray-900'
+                        : ''}">{lang === "cs" ? titleCs || titleEn : titleEn}</a
+                >
+            {/each}
+        </div>
+    </div>
+{/if}
+
 <div
     class="w-full bg-white dark:bg-black dark:text-white min-h-screen flex flex-col"
 >
@@ -71,7 +93,7 @@
                     class="invert dark:invert-0"
                 /></a
             >
-            <div class="flex gap-1 px-4 top-menu grow">
+            <div class="hidden sm:flex gap-1 px-4 top-menu">
                 {#each menu as [path, titleEn, titleCs]}
                     <a
                         href="{lang === 'cs' ? '/cs' : ''}{path}"
@@ -86,7 +108,14 @@
                     >
                 {/each}
             </div>
-            <div>
+            <div class="text-xl sm:hidden">
+                <button
+                    class="p-1.5 cursor-pointer hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
+                    onclick={() => (menuOpen = !menuOpen)}><Bars3 /></button
+                >
+            </div>
+            <div class="grow"></div>
+            <div class="flex items-center gap-2">
                 <div
                     onclick={switchDarkMode}
                     class="cursor-pointer hover:bg-gray-200 p-2 dark:hover:bg-gray-800"

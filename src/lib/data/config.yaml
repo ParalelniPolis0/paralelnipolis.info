@@ -24,3 +24,13 @@ license:
 #  url: https://choosealicense.com/licenses/unlicense/
 #  logo: /unlicense.svg
 #  caption: The Unlicense
+
+menu: 
+  - ["/", "→/"]
+  - ["/concepts", "Concepts", "Koncepty"]
+  - ["/people", "People", "Lidé"]
+  - ["/archive", "Archive", "Archiv"]
+  #- ["/membership", "Membership", "Členství"],*/
+  #- ["https://forum.paralelnipolis.cz", "Forum"]
+  #- ["https://shop.paralelnipolis.cz", "Shop"]
+  #- ["https://docs.paralelnipolis.cz", "Docs", "Dokumentace"]

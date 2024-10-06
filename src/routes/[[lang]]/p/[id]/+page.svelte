@@ -47,20 +47,22 @@
     <title>{p.name} | {config.title}</title>
 </svelte:head>
 
-<div class="flex gap-8 mt-4 mb-10">
+<div class="flex gap-4 sm:gap-8 mt-4 mb-10">
     <div class="shrink-0">
         <img
             src="/people/{p.img}"
             alt={p.name}
-            class="aspect-square w-48 h-48 object-cover -rotate-6 rounded"
+            class="aspect-square w-32 sm:w-48 ml-2 object-cover -rotate-6 rounded"
         />
     </div>
     <div>
         <h1 class="text-3xl font-semibold">{p.name}</h1>
         <RefsBar refs={p.refs} />
-        <div class="my-4">{p.desc}</div>
+        <div class="my-4 hidden sm:block">{p.desc}</div>
     </div>
 </div>
+
+<div class="block sm:hidden">{p.desc}</div>
 
 {#if contributorProjects.length > 0}
     <div class="mt-4 mb-14">

@@ -8,6 +8,10 @@ h3.main::before {
     content: "→/ "
 }
 
+body {
+    @apply bg-white dark:bg-black;
+}
+
 a {
     @apply underline decoration-8 decoration-gray-400/40 dark:decoration-gray-500/50 hover:decoration-yellow-500/80 dark:hover:decoration-yellow-500/80;
     text-underline-offset: 1px;

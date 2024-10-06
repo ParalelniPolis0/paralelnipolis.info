@@ -30,12 +30,12 @@
 </svelte:head>
 
 <div class="mb-8 mt-4">
-    <div class="grow flex items-center gap-4">
+    <div class="grow flex items-top gap-4">
         <h1 class="text-4xl font-semibold block grow">
             {e.name}
         </h1>
         {#if prev || next}
-            <div class="text-2xl">
+            <div class="text-2xl flex gap-1">
                 {#if prev}<a href="/e/{prev.id}">←</a>{:else}<span
                         class="opacity-50">⇤</span
                     >{/if}

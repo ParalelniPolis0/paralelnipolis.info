@@ -32,20 +32,22 @@
     <title>{pageTitle} | {config.title}</title>
 </svelte:head>
 
-<div class="flex flex-wrap gap-4 mt-4 mb-8 items-center">
+<div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
-    <div class="text-xl opacity-50">
-        {people.length}
-        {#if people.length !== allPeople.length}/ {allPeople.length}{/if}
-    </div>
-    <div>
-        <input
-            type="text"
-            class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
-            bind:value={x}
-            placeholder="{lang === 'cs' ? 'Hledat' : 'Search'} ..."
-            bind:this={searchRef}
-        />
+    <div class="flex items-center gap-2 mt-2 sm:mt-2">
+        <div class="text-xl opacity-50">
+            {people.length}
+            {#if people.length !== allPeople.length}/ {allPeople.length}{/if}
+        </div>
+        <div>
+            <input
+                type="text"
+                class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
+                bind:value={x}
+                placeholder="{lang === 'cs' ? 'Hledat' : 'Search'} ..."
+                bind:this={searchRef}
+            />
+        </div>
     </div>
 </div>
 
