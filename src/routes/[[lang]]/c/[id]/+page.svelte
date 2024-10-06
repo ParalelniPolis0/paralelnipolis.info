@@ -19,6 +19,15 @@
             return pe.roles?.find((r) => r.project === p.id);
         }),
     );
+    let eventView = $state("simple");
+
+    function switchEventView() {
+        if (eventView === "full") {
+            eventView = "simple";
+        } else {
+            eventView = "full";
+        }
+    }
 </script>
 
 <svelte:head>
@@ -64,13 +73,31 @@
 
 {#if p.events}
     <div class="mt-8">
-        <h2 class="text-2xl main">{lang === "cs" ? "Události" : "Events"}</h2>
-        <div class="grid grid-cols-1 gap-10 mt-4">
+        <div class="flex flex-wrap items-center">
+            <h2 class="grow text-2xl main">
+                {lang === "cs" ? "Události" : "Events"}
+            </h2>
+            <div>
+                <button
+                    class="button pointer-cursor p-1.5 hover:bg-gray-200 hover:dark:bg-gray-800"
+                    onclick={switchEventView}
+                    >{#if eventView === "full"}Show simple overview{:else}Show
+                        with details{/if}</button
+                >
+            </div>
+        </div>
+        <div
+            class="grid grid-cols-1 {eventView === 'full'
+                ? 'gap-10'
+                : 'gap-8'} mt-8"
+        >
             {#each events.map((e) => {
                 e.archive = archive.filter((i) => i.event === e.id);
                 return e;
             }) as e}
-                <hr />
+                {#if eventView === "full"}
+                    <hr />
+                {/if}
                 <div id={e.id}>
                     <div class="flex flex-wrap">
                         <h3 class="text-3xl font-semibold grow">
@@ -91,28 +118,32 @@
                         </div>
                     </div>
 
-                    <div class="mt-8">
-                        {#if e.speakers}
-                            <PeopleGrid
-                                size="small"
-                                people={e.speakers.map((s) =>
-                                    people.find((p) => p.id === s),
-                                )}
-                            />
-                        {/if}
-                    </div>
-                    {#if e.archive && e.archive.length > 0}
-                        <div
-                            class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10"
-                        >
-                            {#each e.archive.slice(0, 3) as item}
-                                <ArchiveItem {item} />
-                            {/each}
+                    {#if eventView === "full"}
+                        <div class="mt-8">
+                            {#if e.speakers}
+                                <PeopleGrid
+                                    size="small"
+                                    people={e.speakers.map((s) =>
+                                        people.find((p) => p.id === s),
+                                    )}
+                                />
+                            {/if}
                         </div>
-                        {#if e.archive.length > 3}
-                            <div class="text-right">
-                                <a href="/e/{e.id}">More from "{e.name}" →</a>
+                        {#if e.archive && e.archive.length > 0}
+                            <div
+                                class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10"
+                            >
+                                {#each e.archive.slice(0, 3) as item}
+                                    <ArchiveItem {item} />
+                                {/each}
                             </div>
+                            {#if e.archive.length > 3}
+                                <div class="text-right">
+                                    <a href="/e/{e.id}"
+                                        >More from "{e.name}" →</a
+                                    >
+                                </div>
+                            {/if}
                         {/if}
                     {/if}
                 </div>
