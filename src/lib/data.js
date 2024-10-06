@@ -6,6 +6,7 @@ import genYtDtpEthPrague23 from '$lib/data/gen/yt-dtp-ethprague23.json';
 import peopleSrc from '$lib/data/people.yaml';
 import projectsSrc from '$lib/data/projects.yaml';
 import configSrc from '$lib/data/config.yaml';
+import friendsSrc from "$lib/data/friends.yaml";
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -14,6 +15,7 @@ export const config = configSrc;
 
 export const people = peopleSrc;
 export const projects = projectsSrc;
+export const friends = friendsSrc;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;

@@ -4,7 +4,7 @@
     import { goto } from "$app/navigation";
     import { marked } from "marked";
 
-    import { archive, projects, config } from "$lib/data.js";
+    import { archive, projects, friends, config } from "$lib/data.js";
     import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
 
     const lang = getContext("lang");
@@ -70,7 +70,7 @@
                 <div class="text-2xl font-semibold">
                     <a
                         href="/c/{p.id}"
-                        class="group-hover:decoration-red-500/80">{p.name}</a
+                        class="group-hover:decoration-yellow-500/80">{p.name}</a
                     >
                 </div>
             </div>
@@ -108,3 +108,22 @@
         </div>
     {/if}
 </div>
+
+<!--div class="mt-12">
+    <h2 class="main text-2xl">Our friends</h2>
+    <div class="mt-4 grid grid-cols-5 gap-8">
+        {#each friends as item}
+            <div class="text-2xl">
+                <a
+                    href={item.refs?.web}
+                    class="flex items-center align-middle m-2"
+                    ><img
+                        src="/friends/{item.img}"
+                        class="w-full"
+                        alt={item.name}
+                    /></a
+                >
+            </div>
+        {/each}
+    </div>
+</div-->

@@ -1,0 +1,10 @@
+- id: paralelna-polis-kosice
+  name: Paralelná Polis Košice
+  refs:
+    web: paralelnapoliskosice.sk
+
+- id: web3privacy-now
+  name: Web3Privacy Now
+  img: w3pn.svg
+  refs:
+    web: web3privacy.info
