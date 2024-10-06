@@ -2,212 +2,227 @@
   {
     "id": "ethprague23-universal-access-to-all-knowledge",
     "videoId": "M5Cas9MZ69Y",
+    "url": "https://www.youtube.com/watch?v=M5Cas9MZ69Y",
+    "img": "ethprague23/ethprague23-universal-access-to-all-knowledge.jpg",
+    "publishedAt": "2023-08-07T14:24:16Z",
+    "desc": "Decentralization: In short:  A game with many winners",
+    "duration": 1683,
     "name": "Universal Access to All Knowledge",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "brewster-kahle"
-    ],
-    "url": "https://www.youtube.com/watch?v=M5Cas9MZ69Y",
-    "img": "ethprague23/ethprague23-universal-access-to-all-knowledge.jpg",
-    "publishedAt": "2023-08-07T14:24:16Z",
-    "desc": "Decentralization: In short:  A game with many winners"
+    ]
   },
   {
     "id": "ethprague23-protocol-guild-funding-and-incentivising-ethereums-core-protocol-development",
     "videoId": "UVuiJR_Aywk",
+    "url": "https://www.youtube.com/watch?v=UVuiJR_Aywk",
+    "img": "ethprague23/ethprague23-protocol-guild-funding-and-incentivising-ethereums-core-protocol-development.jpg",
+    "publishedAt": "2023-08-08T15:23:20Z",
+    "desc": "The Protocol Guild aims to secure the future of Ethereum, by enabling a highly efficient way for its ecosystem and community to sustainably fund core protocol development, while rebalancing incentives for core protocol contributors.",
+    "duration": 1198,
     "name": "Protocol Guild: Funding & Incentivising Ethereum's Core Protocol Development",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "mario"
-    ],
-    "url": "https://www.youtube.com/watch?v=UVuiJR_Aywk",
-    "img": "ethprague23/ethprague23-protocol-guild-funding-and-incentivising-ethereums-core-protocol-development.jpg",
-    "publishedAt": "2023-08-08T15:23:20Z",
-    "desc": "The Protocol Guild aims to secure the future of Ethereum, by enabling a highly efficient way for its ecosystem and community to sustainably fund core protocol development, while rebalancing incentives for core protocol contributors."
+    ]
   },
   {
     "id": "ethprague23-fireside-chat-the-prehistory-of-ethereum-and-proto-network-states",
     "videoId": "daHI1F-rR0k",
+    "url": "https://www.youtube.com/watch?v=daHI1F-rR0k",
+    "img": "ethprague23/ethprague23-fireside-chat-the-prehistory-of-ethereum-and-proto-network-states.jpg",
+    "publishedAt": "2023-08-08T15:36:04Z",
+    "desc": "The seeds for Ethereum were planted in Calafou, an eco-industrial\ntechno-village in a former factory complex in Catalunya.\n\nA fire side chat of Amir Taaki & Vitalik Buterin.",
+    "duration": 3549,
     "name": "Fireside chat: The prehistory of Ethereum and proto-network states",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "amir-taaki",
       "vitalik-buterin"
-    ],
-    "url": "https://www.youtube.com/watch?v=daHI1F-rR0k",
-    "img": "ethprague23/ethprague23-fireside-chat-the-prehistory-of-ethereum-and-proto-network-states.jpg",
-    "publishedAt": "2023-08-08T15:36:04Z",
-    "desc": "The seeds for Ethereum were planted in Calafou, an eco-industrial\ntechno-village in a former factory complex in Catalunya.\n\nA fire side chat of Amir Taaki & Vitalik Buterin."
+    ]
   },
   {
     "id": "ethprague23-applying-the-pyramid-principle-to-ethereum-development",
     "videoId": "5ou-oirPAh0",
+    "url": "https://www.youtube.com/watch?v=5ou-oirPAh0",
+    "img": "ethprague23/ethprague23-applying-the-pyramid-principle-to-ethereum-development.jpg",
+    "publishedAt": "2023-08-08T15:50:52Z",
+    "desc": "As Ethereum matures, so should its developers. Learn how to apply single layers of the Pyramid Principle to build secure and maintainable smart contracts and maximize everything developers can do themselves BEFORE the security audit.",
+    "duration": 1293,
     "name": "Applying the Pyramid Principle to Ethereum Development",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "josef-gattermayer"
-    ],
-    "url": "https://www.youtube.com/watch?v=5ou-oirPAh0",
-    "img": "ethprague23/ethprague23-applying-the-pyramid-principle-to-ethereum-development.jpg",
-    "publishedAt": "2023-08-08T15:50:52Z",
-    "desc": "As Ethereum matures, so should its developers. Learn how to apply single layers of the Pyramid Principle to build secure and maintainable smart contracts and maximize everything developers can do themselves BEFORE the security audit."
+    ]
   },
   {
     "id": "ethprague23-privacy-in-web3-improving-privacy-protocol-to-prevent-hackers-and-criminals",
     "videoId": "AsyNXQXcwko",
+    "url": "https://www.youtube.com/watch?v=AsyNXQXcwko",
+    "img": "ethprague23/ethprague23-privacy-in-web3-improving-privacy-protocol-to-prevent-hackers-and-criminals.jpg",
+    "publishedAt": "2023-08-08T15:54:52Z",
+    "desc": "How do we grant users privacy to users in blockchain without helping hackers or criminals? If crypto achieves mainstream, everyone will have access to all your information… Using newer technology like ZK proofs, FHE, Threshold, & Intel SGX, we can restore this human right.",
+    "duration": 1069,
     "name": "Privacy in Web3 - Improving Privacy Protocol To Prevent Hackers & Criminals",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "daniel-lumi"
-    ],
-    "url": "https://www.youtube.com/watch?v=AsyNXQXcwko",
-    "img": "ethprague23/ethprague23-privacy-in-web3-improving-privacy-protocol-to-prevent-hackers-and-criminals.jpg",
-    "publishedAt": "2023-08-08T15:54:52Z",
-    "desc": "How do we grant users privacy to users in blockchain without helping hackers or criminals? If crypto achieves mainstream, everyone will have access to all your information… Using newer technology like ZK proofs, FHE, Threshold, & Intel SGX, we can restore this human right."
+    ]
   },
   {
     "id": "ethprague23-the-future-of-apps",
     "videoId": "lWd1zdoy9Cc",
+    "url": "https://www.youtube.com/watch?v=lWd1zdoy9Cc",
+    "img": "ethprague23/ethprague23-the-future-of-apps.jpg",
+    "publishedAt": "2023-08-08T15:56:35Z",
+    "desc": "We all use them multiple times a day, but what exactly are apps? How do they work vs how should they work? This talk shows what is possible if we combine data privacy, composability, AI and Urbit to replace the concept of apps with something much better.",
+    "duration": 1713,
     "name": "The Future of Apps",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "Owen Barnes"
-    ],
-    "url": "https://www.youtube.com/watch?v=lWd1zdoy9Cc",
-    "img": "ethprague23/ethprague23-the-future-of-apps.jpg",
-    "publishedAt": "2023-08-08T15:56:35Z",
-    "desc": "We all use them multiple times a day, but what exactly are apps? How do they work vs how should they work? This talk shows what is possible if we combine data privacy, composability, AI and Urbit to replace the concept of apps with something much better."
+    ]
   },
   {
     "id": "ethprague23-lunarpunk-takeover-why-and-how",
     "videoId": "Ag5ZduZzSn0",
+    "url": "https://www.youtube.com/watch?v=Ag5ZduZzSn0",
+    "img": "ethprague23/ethprague23-lunarpunk-takeover-why-and-how.jpg",
+    "publishedAt": "2023-08-08T16:05:04Z",
+    "desc": "Lunarpunk is a revolution in anti-fragile and self-sovereign infrastructure that is taking over crypto.",
+    "duration": 1587,
     "name": "Lunarpunk Takeover: Why and How",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "rachel-rose"
-    ],
-    "url": "https://www.youtube.com/watch?v=Ag5ZduZzSn0",
-    "img": "ethprague23/ethprague23-lunarpunk-takeover-why-and-how.jpg",
-    "publishedAt": "2023-08-08T16:05:04Z",
-    "desc": "Lunarpunk is a revolution in anti-fragile and self-sovereign infrastructure that is taking over crypto."
+    ]
   },
   {
     "id": "ethprague23-ephemery-novel-approach-to-public-testnets",
     "videoId": "O2ncr5LDd4g",
+    "url": "https://www.youtube.com/watch?v=O2ncr5LDd4g",
+    "img": "ethprague23/ethprague23-ephemery-novel-approach-to-public-testnets.jpg",
+    "publishedAt": "2023-08-08T17:42:46Z",
+    "desc": "Introduction to Ephemery, a novel approach to testnets which enables a single testing infrastructure consisting of ephemeral networks with deterministic parameters.",
+    "duration": 1322,
     "name": "Ephemery: Novel approach to public testnets",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "mario"
-    ],
-    "url": "https://www.youtube.com/watch?v=O2ncr5LDd4g",
-    "img": "ethprague23/ethprague23-ephemery-novel-approach-to-public-testnets.jpg",
-    "publishedAt": "2023-08-08T17:42:46Z",
-    "desc": "Introduction to Ephemery, a novel approach to testnets which enables a single testing infrastructure consisting of ephemeral networks with deterministic parameters."
+    ]
   },
   {
     "id": "ethprague23-livestream-interview-with-amir-taaki",
     "videoId": "sKoqokDaOBA",
+    "url": "https://www.youtube.com/watch?v=sKoqokDaOBA",
+    "img": "ethprague23/ethprague23-livestream-interview-with-amir-taaki.jpg",
+    "publishedAt": "2023-08-08T18:12:19Z",
+    "desc": "Amir Taaki is a British-Iranian anarchist revolutionary, hacktivist, and programmer who is known for his leading role in the bitcoin project, and for pioneering many open source projects. Forbes listed Taaki in their 30 Under 30 listing of 2014.",
+    "duration": 332,
     "people": [
       "amir-taaki"
     ],
     "project": "ethprague",
     "event": "ethprague23",
-    "name": "Livestream Interview with Amir Taaki",
-    "url": "https://www.youtube.com/watch?v=sKoqokDaOBA",
-    "img": "ethprague23/ethprague23-livestream-interview-with-amir-taaki.jpg",
-    "publishedAt": "2023-08-08T18:12:19Z",
-    "desc": "Amir Taaki is a British-Iranian anarchist revolutionary, hacktivist, and programmer who is known for his leading role in the bitcoin project, and for pioneering many open source projects. Forbes listed Taaki in their 30 Under 30 listing of 2014."
+    "name": "Livestream Interview with Amir Taaki"
   },
   {
     "id": "ethprague23-tokenization-of-companies-from-thedao-icos-and-security-tokens-to-now",
     "videoId": "iwlgCNEmblE",
+    "url": "https://www.youtube.com/watch?v=iwlgCNEmblE",
+    "img": "ethprague23/ethprague23-tokenization-of-companies-from-thedao-icos-and-security-tokens-to-now.jpg",
+    "publishedAt": "2023-08-08T18:23:29Z",
+    "desc": "After a short review of the history of tokens, I will introduce a novel approach to the tokenization of company shares through the so-called \"Auslobung\".",
+    "duration": 1273,
     "name": "Tokenization of companies - from TheDAO, ICOs and security tokens to now. ",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "christoph-jentzsch"
-    ],
-    "url": "https://www.youtube.com/watch?v=iwlgCNEmblE",
-    "img": "ethprague23/ethprague23-tokenization-of-companies-from-thedao-icos-and-security-tokens-to-now.jpg",
-    "publishedAt": "2023-08-08T18:23:29Z",
-    "desc": "After a short review of the history of tokens, I will introduce a novel approach to the tokenization of company shares through the so-called \"Auslobung\"."
+    ]
   },
   {
     "id": "ethprague23-ethereum-governance-overview",
     "videoId": "mjUJ4PhBG0I",
+    "url": "https://www.youtube.com/watch?v=mjUJ4PhBG0I",
+    "img": "ethprague23/ethprague23-ethereum-governance-overview.jpg",
+    "publishedAt": "2023-08-08T18:29:55Z",
+    "desc": "A deep dive into how Ethereum governance works, past contentions, current challenges, and future directions.",
+    "duration": 1842,
     "name": "Ethereum Governance Overview",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "tim-beiko"
-    ],
-    "url": "https://www.youtube.com/watch?v=mjUJ4PhBG0I",
-    "img": "ethprague23/ethprague23-ethereum-governance-overview.jpg",
-    "publishedAt": "2023-08-08T18:29:55Z",
-    "desc": "A deep dive into how Ethereum governance works, past contentions, current challenges, and future directions."
+    ]
   },
   {
     "id": "ethprague23-zero-knowledge-proofs-101",
     "videoId": "uxWVF3zPvvU",
+    "url": "https://www.youtube.com/watch?v=uxWVF3zPvvU",
+    "img": "ethprague23/ethprague23-zero-knowledge-proofs-101.jpg",
+    "publishedAt": "2023-08-08T18:32:22Z",
+    "desc": "Are you hearing about ZK (Zero Knowledge Proofs) everywhere, including that they solve blockchain scalability, and still don’t know how they work? We will take you through ZK 101, explain why should you care, how it works, and how it will also affect the future beyond blockchain.",
+    "duration": 2517,
     "name": "Zero Knowledge Proofs 101",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "daniel-lumi"
-    ],
-    "url": "https://www.youtube.com/watch?v=uxWVF3zPvvU",
-    "img": "ethprague23/ethprague23-zero-knowledge-proofs-101.jpg",
-    "publishedAt": "2023-08-08T18:32:22Z",
-    "desc": "Are you hearing about ZK (Zero Knowledge Proofs) everywhere, including that they solve blockchain scalability, and still don’t know how they work? We will take you through ZK 101, explain why should you care, how it works, and how it will also affect the future beyond blockchain."
+    ]
   },
   {
     "id": "ethprague23-zk-rollups-applied-privacy",
     "videoId": "hN6jh0jNhbs",
+    "url": "https://www.youtube.com/watch?v=hN6jh0jNhbs",
+    "img": "ethprague23/ethprague23-zk-rollups-applied-privacy.jpg",
+    "publishedAt": "2023-08-08T20:57:27Z",
+    "desc": "Using ZK Rollups to obscure private information.",
+    "duration": 1097,
     "name": "ZK Rollups: Applied Privacy",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "danny-holland"
-    ],
-    "url": "https://www.youtube.com/watch?v=hN6jh0jNhbs",
-    "img": "ethprague23/ethprague23-zk-rollups-applied-privacy.jpg",
-    "publishedAt": "2023-08-08T20:57:27Z",
-    "desc": "Using ZK Rollups to obscure private information."
+    ]
   },
   {
     "id": "ethprague23-ethereum-protocol-fellowship-path-of-a-core-developer",
     "videoId": "XYeAyjG7IOk",
+    "url": "https://www.youtube.com/watch?v=XYeAyjG7IOk",
+    "img": "ethprague23/ethprague23-ethereum-protocol-fellowship-path-of-a-core-developer.jpg",
+    "publishedAt": "2023-08-08T21:17:04Z",
+    "desc": "The Ethereum Protocol Fellowship is a permissionless fellowship program that helps to streamline the process of becoming a core developer. Applications are now opened and everyone interested in Ethereum core protocol is welcomed to apply!",
+    "duration": 1248,
     "name": "Ethereum Protocol Fellowship: Path of a Core Developer",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "mario"
-    ],
-    "url": "https://www.youtube.com/watch?v=XYeAyjG7IOk",
-    "img": "ethprague23/ethprague23-ethereum-protocol-fellowship-path-of-a-core-developer.jpg",
-    "publishedAt": "2023-08-08T21:17:04Z",
-    "desc": "The Ethereum Protocol Fellowship is a permissionless fellowship program that helps to streamline the process of becoming a core developer. Applications are now opened and everyone interested in Ethereum core protocol is welcomed to apply!"
+    ]
   },
   {
     "id": "ethprague23-staking-for-common-good-an-experiment-in-participatory-public-goods-funding",
     "videoId": "kKuBLZrPihE",
+    "url": "https://www.youtube.com/watch?v=kKuBLZrPihE",
+    "img": "ethprague23/ethprague23-staking-for-common-good-an-experiment-in-participatory-public-goods-funding.jpg",
+    "publishedAt": "2023-08-09T08:09:01Z",
+    "desc": "What would you do with 100,000 ETH? The Golem Foundation has decided to stake this amount and use a portion of the staking rewards to fund a platform for experiments in participatory public goods funding. This talk will introduce the resulting testing ground, called Octant.",
+    "duration": 1412,
     "name": "Staking for common good - an experiment in participatory public goods funding",
     "project": "ethprague",
     "event": "ethprague23",
     "people": [
       "wlodek-gogloza"
-    ],
-    "url": "https://www.youtube.com/watch?v=kKuBLZrPihE",
-    "img": "ethprague23/ethprague23-staking-for-common-good-an-experiment-in-participatory-public-goods-funding.jpg",
-    "publishedAt": "2023-08-09T08:09:01Z",
-    "desc": "What would you do with 100,000 ETH? The Golem Foundation has decided to stake this amount and use a portion of the staking rewards to fund a platform for experiments in participatory public goods funding. This talk will introduce the resulting testing ground, called Octant."
+    ]
   }
 ]

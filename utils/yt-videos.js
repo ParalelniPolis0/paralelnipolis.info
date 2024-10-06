@@ -22,6 +22,27 @@ const matrix = [
     [null, null, /^([^\|]+) - ([^\|]+)$/, [2, 1]],
 ]
 
+function processDescription(obj, str) {
+    if (obj.event === 'hcpp17') {
+        const talkStart = str.indexOf('TALK:');
+        const aboutStart = str.indexOf('ABOUT HCPP17');
+
+        if (talkStart !== -1 && aboutStart !== -1) {
+            const talkSection = str.substring(talkStart, aboutStart);
+            const descriptionStart = 0 //talkSection.indexOf('Cryptocurrencies');
+
+            // Extract the description without the title
+            return talkSection.substring(descriptionStart).split('\n').slice(1).join('\n').trim();
+        }
+    }
+    if (obj.event === 'hcpp16') {
+        if (str.indexOf('http://bit.ly/playlistHCPP16') !== -1) {
+            return str.split('http://bit.ly/playlistHCPP16')[1].trim()
+        }
+    }
+    return str.split('▲▲▲')[0]
+}
+
 function decodeHtmlEntities(text) {
     const htmlEntities = {
         '&amp;': '&',
@@ -92,13 +113,7 @@ async function parseTitle(str, findAll = false, defaultConfig = {}, config = { t
     return false;
 }
 
-async function getResults(type = "channel", youtubeId, next) {
-    let url;
-    if (type === "playlist") {
-        url = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet,id&playlistId=${youtubeId}&maxResults=50&pageToken=${next}&key=${apiKey}`;
-    } else {
-        url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet,id&channelId=${youtubeId}&maxResults=50&type=video&pageToken=${next}&key=${apiKey}`;
-    }
+async function download(url) {
     const hash = new Bun.CryptoHasher("sha256");
     hash.update(url);
     const digest = hash.digest('hex');
@@ -119,6 +134,31 @@ async function getResults(type = "channel", youtubeId, next) {
 
     await Bun.write(tmpFile, JSON.stringify(json, null, 2));
     return json;
+}
+
+async function getDetail(videoId) {
+    const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails&id=${videoId}&key=${apiKey}`
+    const out = await download(url)
+    return out?.items[0]
+}
+
+async function getResults(type = "channel", youtubeId, next) {
+    let url;
+    if (type === "playlist") {
+        url = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet,id&playlistId=${youtubeId}&maxResults=50&pageToken=${next}&key=${apiKey}`;
+    } else {
+        url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet,id&channelId=${youtubeId}&maxResults=50&type=video&pageToken=${next}&key=${apiKey}`;
+    }
+    return download(url)
+}
+
+function parseYouTubeDuration(duration) {
+    let match = duration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+    let hours = (match[1] || '0H').slice(0, -1);
+    let minutes = (match[2] || '0M').slice(0, -1);
+    let seconds = (match[3] || '0S').slice(0, -1);
+
+    return (parseInt(hours) * 3600) + (parseInt(minutes) * 60) + parseInt(seconds);
 }
 
 async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}, config = { toTitleCase: true }) {
@@ -142,35 +182,39 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
             } else if (header) {
                 Object.assign(header, base)
             }
+            if (out.find(i => i.videoId === videoId)) {
+                continue
+            }
 
             if (header) {
                 if (!header.name) {
                     header.name = i.snippet.title
                 }
+
                 const slug = slugify(header.name, { lower: true, strict: true });
                 const id = `${header.event ? header.event + '-' : ''}${slug}`;
+
+                // get video details
+                const detail = await getDetail(videoId)
 
                 // download thumbnail
                 const img = `${header.event}/${id}.jpg`
                 const thumbFn = `./static/archive/${img}`;
                 if (!await Bun.file(thumbFn).exists()) {
-                    const thumb = await fetch(i.snippet.thumbnails.high.url);
+                    const thumb = await fetch(detail.snippet.thumbnails.maxres.url);
                     await Bun.write(thumbFn, thumb)
-                }
-
-                if (out.find(i => i.videoId === videoId)) {
-                    continue
                 }
 
                 // done
                 out.push({
                     id,
                     videoId,
-                    ...header,
                     url: "https://www.youtube.com/watch?v=" + videoId,
                     img,
                     publishedAt: i.snippet.publishedAt || new Date('2015-01-01'),
-                    desc: i.snippet.description,
+                    desc: processDescription(header, detail.snippet.description),
+                    duration: parseYouTubeDuration(detail.contentDetails.duration),
+                    ...header,
                 })
             } else if (header === false) {
                 console.error(`Unknown title: ${i.snippet.title}`)

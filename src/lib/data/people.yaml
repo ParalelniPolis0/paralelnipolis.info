@@ -296,12 +296,16 @@
   refs:
     twitter: JedlickaVit
   altNames: [ Vit Jedlicka ]
+  desc: |
+    Vit Jedlicka has been actively involved with the Liberty movement since his university days. He received his bachelor’s degree from the University of Economics, Prague in 2009. At the same time, he became the founding member of the Czech Libertarian Free Citizens Party. He also started libertarian educational NGO Reformy.cz and Zlatainiciativa.cz whose video channels have in excess of 18 million views. He received his Master’s degree in political science from CEVRO Institute in 2014. On 13th April 2015, he founded the Free Republic of Liberland and was elected its first President. Since the formation of Liberland, close to half a million individuals have applied or registered for citizenship. Vit considers himself a Frédéric Bastiat influenced libertarian. (hcpp17)
 
 - id: peter-todd
   name: Peter Todd
   img: peter-todd.jpg
   refs:
     twitter: peterktodd
+  desc: |
+    Peter Todd is an applied cryptography consultant known for his work on the OpenTimestamps project, Bitcoin protocol research, and contributions to the Bitcoin Core project. (hcpp17)
 
 - id: amin-rafiee
   name: Amin Rafiee
@@ -371,12 +375,16 @@
   refs:
     web: https://urza.cz
     twitter: urzanarchy
+  desc: |
+    Urza is an anarchocapitalist author who wrote almost one thousand of libertarian texts. He is a head of Ludwig von Mises Institute CZ & SK, member of Svoboda učení (Freedom to Learn), author of Urza.cz and associate of Paralelní Polis. Urza is mainly focusing on moral aspects of stateless society, free market based education system and government propaganda at public schools. He is about to publish the first Czech book about anarchocapitalism. (hcpp17)
 
 - id: adam-back
   name: Adam Back
   img: adam-back.jpeg
   refs:
     twitter: adam3us
+  desc: |
+    Dr. Adam Back is the inventor of hashcash (used in Bitcoin mining) and co-founder and CEO of Blockstream. Adam has worked on e-cash protocols since 1995. He was an architect and cryptographer at Zero-Knowledge Systems, and a consultant to companies such as Nokia and VMware. Adam holds a Ph.D. in computer science from the University of Exeter. (hcpp17)
 
 - id: matthias-tarasiewicz
   name: Matthias Tarasiewicz
@@ -425,6 +433,8 @@
 - id: joerg-platzer
   name: Joerg Platzer
   img: joerg-platzer.jpeg
+  desc: |
+    Hacktivist, founding member of the Crypto Economics Consulting Group. (hcpp16)
 
 - id: frank-braun
   name: Frank Braun
@@ -453,6 +463,8 @@
 - id: sam-patterson
   name: Sam Patterson
   img: sam-patterson.jpeg
+  desc: |
+    Sam Patterson is the operations leader on OpenBazaar, and a co-founder of the company OB1. He's a former technology policy analyst at a free market think tank in Washington D.C., and wrote one of the first books about Bitcoin in 2013.
 
 - id: martin-matejka
   name: Martin Matejka
@@ -470,6 +482,8 @@
   name: Timothy C. May
   img: timothy-c-may.jpg
   altNames: [ Timothy C.  May ]
+  desc: |
+    Timothy is an American technical and political writer, he was a former electronic engineer and senior scientist at Intel. Most importantly he is the founding member of the Cypherphunks and author of "Crypto-Anarchist Manifesto". (hcpp16)
 
 - id: smuggler
   name: Smuggler
@@ -500,12 +514,16 @@
   img: giacomo-zucco.jpg
   refs:
     twitter: giacomozucco
+  desc: |
+    Theoretical Physicist, former Technology Consultant for Accenture spa, serial entrepreneur in the field of emerging technologies. Economic blogger and contributor to several Italian newspapers. Involved in several projects in Bitcoin and blockchain space since 2012, he is now CEO of BHB Network, a research/development/incubation/consulting firm and a world-class competence center in the field. (hcpp17)
 
 - id: tone-vays
   name: Tone Vays
   img: tone-vays.jpeg
   refs:
     twitter: ToneVays
+  desc: |
+    Tone is a former Bear Stearns Risk Analyst & JP Morgan Chase VP. His expertise is in Economic Trends, Trading and Risk Analysis. Ever since getting involved in the Crypto Currency ecosystem in early 2013, he has been very active in spreading the relevance and importance of this technology as it helps promote economic freedom as the War on Cash rages on. Tone was recently featured in a Bitcoin Documentary – Magic Money. Tone is now an independent content creator at LibertyLifeTrail and the host of three YouTube podcasts: CryptoScam, On The Record, and Tone's Market Analysis. Tone holds a Masters Degree in Financial Engineering along with Bachelor Degrees in Mathematics and Geology. (hcpp17)
 
 - id: tim-beiko
   name: Tim Beiko
@@ -536,6 +554,8 @@
   img: ondrej-pilny.jpeg
   refs:
     twitter: ondrej_pilny
+  desc: |
+    Ondřej Pilný co-founder of ICOindex - a platform for analyzing Initial Coin Offerings. He is freedom lover, crypto investor, and digital nomad. Currently working on a concept of decentralized autonomous investment rating organization. You can reach him at ondrej@icoindex.com or twitter @Ondrej_Pilny. (hcpp17)
 
 - id: nick-middleton
   name: Nick Middleton
@@ -555,6 +575,8 @@
 - id: jim-bell
   name: Jim Bell
   img: jim-bell.jpeg
+  desc: |
+    James Dalton Bell, 59 years ago. Before age 9, I'd lived in Ohio, New York state, Ohio, Michigan. Moved to Kansas age 9. High School: Shawnee Mission North High School Hobbies: Primarily Chemistry and Electronics. Higher education: Bachelor of Science in Chemistry, Massachusetts Institute of Technology, Cambridge Massachusetts, USA. Worked for Intel Corporation, 1980-1982 as a semiconductor text engineer. Started my own company, "SemiDisk Systems Inc", in Aloha Oregon 1982, operated until July 1992. Electronics consultant 1992 onwards. Wrote Assassination Politics Essay from February 1995-about April 1996. (hcpp17)
 
 - id: nassim-nicholas-taleb
   name: Nassim Nicholas Taleb

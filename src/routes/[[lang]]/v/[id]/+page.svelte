@@ -24,4 +24,4 @@
     <EventLink event={item.event} />
 </div>
 
-<div class="mt-4">{item.desc}</div>
+<div class="mt-4 whitespace-pre-wrap">{item.desc}</div>

@@ -30,3 +30,49 @@ archive:
   - videoId: eUSl57aJU4E
     project: hcpp
     event: hcpp17
+
+  - videoId: xLiri2nqar4
+    project: hcpp
+    event: hcpp17
+
+  - videoId: s3BIDfjmhHI
+    project: hcpp
+    event: hcpp17
+
+  - videoId: pD3Uawu2JMQ
+    desc: |
+      Why did the banking sector fail – lessons from the last crises. Big state needs bad money to thrive. Why the euro is poised to fail. Waiting for the inflation. The Keynesian dead end. Reforms? Not probable. What are the alternatives? Practical implications.
+  
+  - videoId: s2AdWCKmyMI
+    desc: |
+      We have a global, borderless communication and transaction platform. We have global, borderless money. Why not a global, borderless justice system An opt-in justice system. The Decentralized Arbitration and Mediation Network is a project launched by Pamela Morgan to research and develop a system of smart contracts and legal structures for borderless, global and voluntary commercial contracts and dispute resolution. 
+
+      In this talk, Pamela Morgan will present the motivation behind DAMN and an overview of arbitration, mediation  and other dispute resolution mechanisms and how they can be used in conjuction with smart contracts and open blockchains.
+  
+  - videoId: TdmpAy1hI8g
+    desc: |
+      Timothy via Skype at Hackers Congress Paralelní Polis reflected on thirty years of crypto anarchy, the name for the version of a kind of anarchy where cryptographic tools provide the means for an un-coerced network of voluntary transactions.Many of the expected technologies have been realized: widespread encryption, anonymous remailers like TOR, file-sharing tools like BitTorrent. And most notably, Bitcoin and Blockchain-based systems. Ethereum for smart contracts and autonomous organizations.The prospects are bright.
+
+  - videoId: C0yo4faAMQE
+    desc: |
+      Humans are generally more evolved than their conduct would indicate, due to enforced behaviors. In addition, there are simple evolutionary steps that lie just before us - steps that we can take quickly, once we see them. This presentation will cover all this and more, ending with the topic of "How to hack your soul."
+
+  - videoId: WQPfGOSVD2k
+    desc: |
+      A negative blocksize for an honest digital money: Bitcoin – like gold – is a money as honest as a money can be. Decentralization is key to that honesty and decentralization demands us to aim for a negative blocksize, not a bigger one. Here's why.
+  
+  - videoId: BXt7SCqUWQY
+    desc: |
+      The first popular cryptomarket (Silk Road) was of course unique, but relatively simple - a single server with no decentralization, no multi-sig or anonymous cryptocurrency support. The goal of the presentation is to show that government financial dictatorship leads to significant improvement of cryptomarket security. Police and government agency raids were the main reason all cryptomarkets had to improve their overall security to survive and keep their business running. 
+
+      A new generation of cryptomarket uses multi-sig to prevent governments from seizing it's users deposits by utilizing integrated webmail PGP clients, I2P anonymization networks in addition to ""the government well-known"" Tor. They are fully decentralized (e.g. Axis Mundi, Bitmarkets, Shadow Markets), and therefore practically impossible to shut down by government agencies.
+
+      The new anonymous, untraceable cryptocurrencies (e,g, monero, zcash) are ready for cryptomarket adoption with no possibility of revealing transaction history. The weakest point - cryptocurrency exchanges that governments can regulate and shut down can be reinforced by the use of decentralized crypto exchanges (e.g. bitsquare).
+
+  - videoId: HfJ5Kf9C7is
+    desc: |
+      We are living in a new paradigm of what is technologically possible. With the advent of blockchain technology, we now have the tools we need to build end-to-end verifiable blockchain-based voting systems capable of hosting verified elections and polls of all types. We have a rare opportunity to leverage this technology to root out corruption within our respective societies. Adam will be talking about Follow My Vote's efforts to build grassroots movements around the world in support adopting secure online voting technology that will bring honesty and transparency to elections worldwide. He will also be discuss how this same technology could be leveraged to support the establishment of voluntary societies around the globe. His talk will end with a live demonstration of the software his company has developed to date.
+
+  - videoId: QBKsHW_9_UA
+    desc: |
+      In previous years I had a talk about why I think Liberty is a DIY project - that it's a personal responsibility of each and every one of us. Then I had two presentations about hacking the biology of our bodies and brain. This talk is continuation of all this work - how does liberty tie to our health, mental and physical performance? What are some of the best hacks to be more free, improve your brain and bodily function?
