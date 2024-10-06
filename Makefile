@@ -27,3 +27,7 @@ archive: ## Run all archive scrapers (require Bun)
 .PHONY: archive_yt
 archive_yt: ## Scrape archive videos from YouTube (require Bun)
 	bun utils/yt-videos.js
+
+.PHONY: data
+data: ## Write data bundle to ./dist
+	bun utils/data-write.js

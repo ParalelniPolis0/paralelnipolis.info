@@ -41,11 +41,16 @@
                                 >{item.name}</a
                             >
                         </h2>
-                        <div class="flex flex-wrap items-center">
+                        <div class="flex flex-wrap items-center gap-2">
                             {#if item.people}
                                 <PeopleBar people={item.people} />
                             {/if}
                             <EventLink event={item.event} />
+                            {#if item.duration}
+                                <div class="opacity-50 text-sm">
+                                    {Math.round(item.duration / 60)}m
+                                </div>
+                            {/if}
                         </div>
                         <div class="mt-2 text-sm">
                             {shortText(item.desc.split("\n")[0])}

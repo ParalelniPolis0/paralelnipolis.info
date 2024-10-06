@@ -17,11 +17,14 @@
     <Youtube id={youtubeId} autoplay="true" />
 </div>
 
-<h1 class="text-3xl font-semibold mt-4 mb-2">{item.name}</h1>
+<h1 class="grow text-3xl font-semibold">{item.name}</h1>
 
-<div class="flex flex-wrap">
+<div class="flex flex-wrap gap-2 items-center">
     <PeopleBar people={item.people} />
     <EventLink event={item.event} />
+    {#if item.duration}<div class="opacity-50 text-sm">
+            {Math.round(item.duration / 60)}m
+        </div>{/if}
 </div>
 
 <div class="mt-4 whitespace-pre-wrap">{item.desc}</div>

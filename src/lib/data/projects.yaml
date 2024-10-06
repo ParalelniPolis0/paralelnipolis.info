@@ -117,6 +117,8 @@
       seq: 8
       refs:
         web: https://chaos.hcpp.cz
+      speakers:
+        - tey-el-rjula
     
     - id: hcpp20
       name: "HCPP20: Digital Totality"
@@ -231,6 +233,8 @@
         - amir-taaki
         - jim-bell
         - tone-vays
+        - frank-braun
+        - pavol-rusnak
 
     - id: hcpp16
       name: "HCPP16: Decentralized"
@@ -239,6 +243,17 @@
       seq: 3
       refs:
         web: https://decentralized.hcpp.cz
+      speakers:
+        - andreas-antonopoulos
+        - juraj-bednar
+        - juraj-karpis
+        - adam-kaleb-ernest
+        - joerg-platzer
+        - pamela-morgan
+        - wilder
+        - sam-patterson
+        - paul-rosenberg
+        - timothy-c-may
 
     - id: hcpp15
       name: "HCPP15: Blackout"
@@ -354,6 +369,26 @@
       date: "2022-06-09"
       days: 3
       seq: 2
+      speakers:
+        - jarrad-hope
+        - sara-polak
+        - brewster-kahle
+        - mario
+        - amir-taaki
+        - vitalik-buterin
+        - josef-gattermayer
+        - daniel-lumi
+        - Owen Barnes
+        - rachel-rose
+        - mario
+        - amir-taaki
+        - christoph-jentzsch
+        - tim-beiko
+        - daniel-lumi
+        - danny-holland
+        - mario
+        - wlodek-gogloza
+
   caption: |
     A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
     

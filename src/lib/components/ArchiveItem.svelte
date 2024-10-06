@@ -18,7 +18,7 @@
     <div class="mt-2 mb-2 text-xl">
         <a href="/v/{item.id}"><h3>{item.name}</h3></a>
     </div>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap gap-2">
         <PeopleBar people={item.people} size="text-md" />
         <EventLink event={item.event} />
     </div>

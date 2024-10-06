@@ -9,6 +9,23 @@
     let x = $state("");
 
     let archive = $derived(filterArchive(x));
+    let totalDuration = $derived(
+        allArchive.reduce((total, cur) => total + (cur.duration || 0), 0),
+    );
+    let totalAuthors = $derived(
+        allArchive.reduce(
+            (all, cur) =>
+                all.concat(cur.people.filter((p) => !all.includes(p))),
+            [],
+        ).length,
+    );
+    let totalEvents = $derived(
+        allArchive.reduce(
+            (all, cur) =>
+                !all.includes(cur.event) ? all.concat([cur.event]) : all,
+            [],
+        ).length,
+    );
     let searchRef;
 
     function filterArchive(str) {
@@ -56,6 +73,14 @@
 <svelte:head>
     <title>{lang === "cs" ? "Archiv" : "Archive"} | {config.title}</title>
 </svelte:head>
+
+<div class="mt-4 text-xl mb-8">
+    Our archive contains <strong>{allArchive.length} videos</strong> from
+    <strong>{totalAuthors} authors</strong>
+    and <strong>{totalEvents} events</strong>
+    with a total length of
+    <strong>{Math.round((totalDuration / 60 / 24) * 100) / 100} hours</strong>.
+</div>
 
 <div class="sm:flex mt-4 mb-8 gap-4 items-center">
     <h1 class="block grow main text-2xl">
