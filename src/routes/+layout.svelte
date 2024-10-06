@@ -61,7 +61,7 @@
             /></a
         >
 
-        <div class="grid grid-cols-1 text-3xl">
+        <div class="grid grid-cols-1 text-3xl text-black dark:text-white">
             {#each menu as [path, titleEn, titleCs]}
                 <a
                     href="{lang === 'cs' ? '/cs' : ''}{path}"

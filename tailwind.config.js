@@ -8,6 +8,7 @@ export default {
         pp: {
           css: {
             '--tw-prose-body': theme('colors.black'),
+            '--tw-prose-invert-body': theme('colors.white')
           }
         }
       })
