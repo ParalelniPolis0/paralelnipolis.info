@@ -13,7 +13,7 @@
         <div>
             <div class="flex flex-wrap">
                 <div class="grow">
-                    <h3 class="text-2xl inline-block">
+                    <h3 class="text-2xl inline">
                         <a href="/e/{ev.id}" alt={ev.name} class="font-semibold"
                             >{ev.name}</a
                         >

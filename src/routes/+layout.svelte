@@ -171,7 +171,7 @@
                             <a href={config.license.url}
                                 ><img
                                     src={config.license.logo}
-                                    class="text-black w-6"
+                                    class="text-black w-6 dark:invert"
                                     alt={config.license.caption}
                                 /></a
                             >
