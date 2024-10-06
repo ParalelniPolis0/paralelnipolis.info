@@ -11,7 +11,10 @@
     let people = $derived(filterPeople(x));
 
     onMount(() => {
-        searchRef.focus();
+        const isMobile = window.innerWidth <= 768;
+        if (!isMobile) {
+            searchRef.focus();
+        }
     });
 
     function filterPeople(str) {

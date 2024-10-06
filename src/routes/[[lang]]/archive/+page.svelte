@@ -11,10 +11,6 @@
     let archive = $derived(filterArchive(x));
     let searchRef;
 
-    onMount(() => {
-        searchRef.focus();
-    });
-
     function filterArchive(str) {
         if (str === "") {
             return allArchive;
@@ -44,9 +40,13 @@
     }
 
     onMount(() => {
+        const isMobile = window.innerWidth <= 768;
+        if (!isMobile) {
+            searchRef.focus();
+        }
+
         const url = new URL(window.location);
         const viewParam = url.searchParams.get("view");
-        console.log(viewParam);
         if (viewParam) {
             type = viewParam;
         }
@@ -66,7 +66,7 @@
             {archive.length}
             {#if archive.length !== allArchive.length}/ {allArchive.length}{/if}
         </div>
-        <div>
+        <div class="hidden sm:block">
             <button
                 class="pointer-cursor p-1.5 hover:bg-gray-200 hover:dark:bg-gray-800"
                 onclick={switchType}
