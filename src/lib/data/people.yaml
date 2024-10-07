@@ -880,3 +880,30 @@
 - id: manel-de-aquas
   name: Manel de Aquas
   img: manel-de-aquas.jpeg
+
+- id: jindrich-karasek
+  name: Jindřich Karásek
+  img: jindrich-karasek.jpeg
+  caption: Senior Cyber Threat Researcher working for Trend Micro
+  altNames: [ J. Karasek aka 4n6strider, Jindrich Karasek ]
+
+- id: kai-landre
+  name: Kai Landre
+  img: kai-landre.jpeg
+  caption: cyborg musician who can hear the universe
+
+- id: filip-dvorak
+  name: Filip Dvořák
+  img: filip-dvorak.jpeg
+  altNames: [ Filip Dvorak ]
+  caption: AI Scientist & Entrepreneur
+
+- id: ariel-gabizon
+  name: Ariel Gabizon
+  img: ariel-gabizon.jpeg
+  caption: Chief scientist at Aztec network
+
+- id: janine
+  name: Janine
+  img: janine.png
+  caption: privacy researcher & investigative journalist focused on Bitcoin and (counter)surveillance

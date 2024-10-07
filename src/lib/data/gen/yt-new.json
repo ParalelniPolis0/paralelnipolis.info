@@ -1,5 +1,20 @@
 [
   {
+    "id": "hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml",
+    "videoId": "oMhZHT-CM7Q",
+    "url": "https://www.youtube.com/watch?v=oMhZHT-CM7Q",
+    "img": "hcpp22/hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml.jpg",
+    "publishedAt": "2023-01-29T17:30:08Z",
+    "desc": "We establish the foundations of Composite Artificial Intelligence through symbolic reasoning and machine learning and show how it can be applied to building intelligent automation systems solving practical real-world problems.\n\nAutomation, as the implementation of processes to perform activities towards a goal without human assistance, has been a key contributor to the evolution of humanity during the last 25 hundred years, saving us time, and resources, and opening playgrounds outside of human physical capabilities. Advances in operations research and symbolic reasoning powered by the proliferation of micro-electronics surpassed human decision-making capabilities, replacing with ease human planners and schedulers. The last two decades also showed us how machine learning excels in continuous problem spaces, providing predictive capabilities across enormous datasets. As intelligent automation systems grow and evolve to encompass combinations of discrete (symbolic) and continuous problems, their complexity increases exponentially, making building such systems difficult with a linear software engineering force. In this talk, we show how Composite AI allows can address a wide range of real-world problems.\n\n",
+    "duration": 3172,
+    "name": "Composite Ai: Bridging Intelligent Automation, Symbolic Reasoning, And Ml",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "filip-dvorak"
+    ]
+  },
+  {
     "id": "pd23-why-you-should-run-full-rbf-on-your-node",
     "videoId": "8aaXlInU8y4",
     "url": "https://www.youtube.com/watch?v=8aaXlInU8y4",
@@ -57,6 +72,21 @@
     "event": "pd22",
     "people": [
       "amir-taaki"
+    ]
+  },
+  {
+    "id": "hcpp22-counter-intelligence-defending-against-the-cognitive-warfare",
+    "videoId": "lA547Dv73ls",
+    "url": "https://www.youtube.com/watch?v=lA547Dv73ls",
+    "img": "hcpp22/hcpp22-counter-intelligence-defending-against-the-cognitive-warfare.jpg",
+    "publishedAt": "2023-03-12T18:22:17Z",
+    "desc": "Jindřich is a Senior Cyber Threat Researcher working for Trend Micro. Also, a security data scientist known as 4n6strider.\n\nThe main focus of his research is the domain of cognitive warfare, (cyber) espionage, and advanced persistent threats and manipulators.\n\nIn his work, he often analyses enormous piles of data to deduce the Ontology of the security issue to enable the machines to detect the threat on a scale.\n\n",
+    "duration": 2815,
+    "name": "Counter Intelligence: Defending Against The Cognitive Warfare",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "jindrich-karasek"
     ]
   },
   {
@@ -199,6 +229,36 @@
     ]
   },
   {
+    "id": "hcpp22-freedom-of-perception-thanks-to-cybernetic-senses",
+    "videoId": "eb9YlMcPcL4",
+    "url": "https://www.youtube.com/watch?v=eb9YlMcPcL4",
+    "img": "hcpp22/hcpp22-freedom-of-perception-thanks-to-cybernetic-senses.jpg",
+    "publishedAt": "2023-03-12T17:30:08Z",
+    "desc": "We live in a capitalist society that is constantly sending out inputs that stimulate our senses on a daily basis. It almost seems like we’ve lost control over our own perception, and we’re slaves of Marketing.\n\nIs there any way out? Can Cybernetic Senses give us the key to the pure perception of nature and life?\n\nIn this conference, I will develop my theory on how Cybernetic Senses allow us to escape a hyper-stimulated reality and connect with the pureness of the physical realm.\n\n",
+    "duration": 2338,
+    "name": "Freedom Of Perception Thanks To Cybernetic Senses",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "kai-landre"
+    ]
+  },
+  {
+    "id": "hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence",
+    "videoId": "PXuCH89Arv4",
+    "url": "https://www.youtube.com/watch?v=PXuCH89Arv4",
+    "img": "hcpp22/hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence.jpg",
+    "publishedAt": "2022-12-11T17:30:10Z",
+    "desc": "A peek into the overlap between blockchain analysis companies, private spyware firms, and government intelligence agencies.\n\nThis presentation will explore the corner of our industry that is occupied by so-called blockchain analysis companies, who (dis)claim many guises: analysts, scientists, artists, crime-fighting detectives, and spies. Where is the line between analysis and surveillance? What is their relationship with existing techniques, infrastructure, and norms shared with private hacking and spyware businesses, as well as nation-state intelligence apparati? And what could we do about it? \n\n",
+    "duration": 2787,
+    "name": "Blockchain Surveillance, Cyber Mercenaries, And Intelligence",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "janine"
+    ]
+  },
+  {
     "id": "hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state",
     "videoId": "hgme0qeCQYg",
     "url": "https://www.youtube.com/watch?v=hgme0qeCQYg",
@@ -271,6 +331,21 @@
     "event": "hcpp22",
     "people": [
       "rachel-rose"
+    ]
+  },
+  {
+    "id": "hcpp22-zero-knowledge-proofs-from-novice-to-master",
+    "videoId": "z8-U2oABnaA",
+    "url": "https://www.youtube.com/watch?v=z8-U2oABnaA",
+    "img": "hcpp22/hcpp22-zero-knowledge-proofs-from-novice-to-master.jpg",
+    "publishedAt": "2023-03-05T17:30:07Z",
+    "desc": "Zero-knowledge proofs have become a central tool for blockchain privacy and scalability. I will give a few examples of such proofs, starting from toy examples requiring no math, and ending with the state-of-the-art zk-SNARK constructions based on elliptic curve pairings. I will aim to have something for everyone in this talk, regardless of their background.\n\n",
+    "duration": 2518,
+    "name": "Zero-knowledge Proofs: From Novice To Master",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "ariel-gabizon"
     ]
   },
   {

@@ -17,9 +17,9 @@
     <Youtube id={youtubeId} autoplay="true" />
 </div>
 
-<h1 class="grow text-3xl font-semibold">{item.name}</h1>
+<h1 class="mt-4 grow text-3xl font-semibold">{item.name}</h1>
 
-<div class="flex flex-wrap gap-2 items-center">
+<div class="mt-2 flex flex-wrap gap-2 items-center">
     <PeopleBar people={item.people} />
     <EventLink event={item.event} />
     {#if item.duration}<div class="opacity-50 text-sm">

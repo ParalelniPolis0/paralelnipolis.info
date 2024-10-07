@@ -58,6 +58,9 @@
     <div>
         <h1 class="text-3xl font-semibold">{p.name}</h1>
         <RefsBar refs={p.refs} />
+        {#if p.caption}
+            <div class="mt-4">{p.caption}</div>
+        {/if}
         <div class="my-4 hidden sm:block">{p.desc}</div>
     </div>
 </div>
