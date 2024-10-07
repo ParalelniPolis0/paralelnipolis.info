@@ -91,6 +91,7 @@
         - maxim-orlovsky
         - vit-jedlicka
         - mitch-altman
+        - jessica-solce
       
     - id: hcpp22
       name: "HCPP22: Last Shot"
@@ -145,6 +146,7 @@
         - smuggler
         - alexander-bard
         - sara-polak
+        - travin-keith
 
     - id: hcpp19
       name: "HCPP19: Opt-Out"
@@ -179,6 +181,11 @@
         - exiledsurfer
         - charles-hill
         - mario
+        - radim-kozub
+        - michal-zatrepalek
+        - jakub-hamata
+        - frank-rieger
+        - jiri-horacek
 
     - id: hcpp18
       name: "HCPP18: New Order"

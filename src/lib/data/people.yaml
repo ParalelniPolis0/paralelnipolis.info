@@ -772,7 +772,7 @@
 
 - id: tatiana-moroz
   name: Tatiana Moroz
-  img: tatiana-moroz.jpg
+  img: tatiana-moroz.png
   caption: Singer-songwriter, Founder of Crypto Media Hub, Creator of 1st artist coin TatianaCoin
 
 - id: ondrej-neff
@@ -820,3 +820,63 @@
   img: jiri-materna.jpg
   desc: |
     Výzkumník, softwarový inženýr s vášní pro náročné problémy, především z oblasti získávání informací a zpracování přirozeného jazyka. (hcpp15)
+
+- id: michal-zatrepalek
+  name: Michal Zatřepálek
+  caption: Co-founder of Parallel Garden
+  img: michal-zatrepalek.jpg
+  desc: |
+    Michal is co-founder of Parallel Garden and entrepreneur with special focus on strategic management. In 2014, he started his first cryptocurrency minning project and got involved in Paralelni Polis shortly after its foundation. Inspiration by fundamental ideas of Bitcoin and practical minning experience lead him to start solving residual heat produced by miners in project "Kotel" ("The Boiler" in Czech). Especially thanks to his experience he understood substantial significance in linking ("bridging") cooperation between the disciplines and further develops this activity.
+
+- id: jakub-hamata
+  name: Jakub Hamata
+  caption: Co-founder of Parallel Garden
+  img: jakub-hamata.jpg
+  desc: |
+    Jakub co-founded Parallel Garden and manages activities within the main area of project specialization - agricultural technologies. As a graduated landscape manager and designer he spent several years operating resorts in remote tropical areas. Jakub is co-author of first hydroponic systems located in cafeteria in Paralelni Polis. Currently, he develops hydroponic systems controlled by IoT devices.
+
+- id: frank-rieger
+  name: Frank Rieger
+  caption: Hacker, entrepreneur, consultant and author
+  img: frank-rieger.jpg
+  desc: |
+    Frank Rieger, is an hacker, entrepreneur, consultant and author. Professionally he has co-founded successful startups in the fields of of mobile navigation, maps, information security and practical cryptography. He works as CTO of a leading supplier of encrypted communication devices and mobile network security systems. He serves as a spokesperson for the german Chaos Computer Club. His texts on the impact of technology on the society, digital freedom rights and privacy as well as the future of work and cyberwar are regularly published in german and international media. Together with Constanze Kurz he has published three german bestseller books on the future of privacy ("Die Datenfresser", S. Fischer 2011), the future of work in a world of machines and artificial intelligence ("Arbeitsfrei", Random House 2013) and "Cyberwar" (C. Bertelsmann, 2018).
+
+- id: travin-keith
+  name: Travin Keith
+  img: travin-keith.jpeg
+  caption: Cryptocurrency, Freedom, and Open Source Advocate and Former Digital Nomad
+  desc: |
+    Travin Keith, CTO of Consortio Group, is a former digital nomad who has lived in 8 countries across 4 continents. Since shifting from a primarily digital marketing background in 2016, he has worked in the cryptocurrency space, as a volunteer, such as with the Bitcoin Markets community, a Board Member, with the Nxt Foundation, an advisor and consultant for a wide range of projects, as well as an entrepreneur with his ventures Agavon, Altrean (both now defunct), and Stokr, of which he is a current Advising Co-Founder, to name just a few. He has also contributed significantly to open source projects in and out of the cryptocurrency space, especially with Hyperledger, of which he co-authored the white paper. He has frequently spoken at events ranging from meetups to large conferences across the world, such as the Open Source Leadership Summit in 2018, hosted by the Linux Foundation, mainly around the areas of cryptocurrency and distributed ledger technology.
+
+    During his time as a digital nomad, of which he in some ways still is, he has encountered numerous issues with regards to both relocating and basic travel, personally through his own experiences and 2nd hand through the experiences of many others he encountered. At HCPP 19, he looks forward to discussing these as well as reporting on his research to highlight the dehumanizing issues regarding the current immigration systems around the world.
+
+- id: jiri-horacek
+  name: Jiří Horáček
+  caption: Deputy director for RαD, National Institute of Mental Health & Professor of Psychiatry, Third Faculty of Medicine, Charles University in Prague
+  img: jiri-horacek.jpg
+  desc: |
+    Jiří Horáček, M.D., Ph.D. is a Professor of Psychiatry at the 3rd Faculty of Medicine, Charles University, Prague, Czech Republic. He holds a degree in psychiatry and psychotherapy. He is currently the Deputy Director of the National Institute of Mental Health, Czech Rep.
+
+    Prof. Jiří Horáček has been actively involved in 50 scientific research projects. His research activities involve the use of brain imaging (PET, fMRI and qEEG) in the fields of schizophrenia, depression and OCD, psychiatric genetics, psychedelic science and the modeling of mental disorders in both rodents and humans. He is the editor of several books and the author of more than 100 scientific articles. Prof. Jiří Horáček has received several national and international psychiatric awards from the International Pharmaco-EEG Society (Werner Hermann Memorial Award), the Czech Neuropsychopharmacological Society and ECNS-ISNIP. In his productive career he has been awarded the Senior Research Fellow of the Bedfordshire CMHR in association with the University of Cambridge. He was also the President of the Czech Neuropsychopharmacological Society.
+
+- id: silke-noa
+  name: Silke Noa
+  img: silke-noa.jpeg
+
+- id: pavel-hubacek
+  name: Pavel Hubáček
+  img: pavel-hubacek.jpeg
+  altNames: [ Pavel Hubacek ]
+
+- id: scott-beibin
+  name: Scott Beibin
+  img: scott-beibin.jpeg
+
+- id: jessica-solce
+  name: Jessica Solce
+  img: jessica-solce.jpg
+
+- id: manel-de-aquas
+  name: Manel de Aquas
+  img: manel-de-aquas.jpeg

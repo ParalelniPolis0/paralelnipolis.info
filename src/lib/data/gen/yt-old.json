@@ -151,6 +151,21 @@
     ]
   },
   {
+    "id": "hcpp20-decentralize-yourself-and-avoid-digital-totalitarian-control",
+    "videoId": "HGFssPMbG1c",
+    "url": "https://www.youtube.com/watch?v=HGFssPMbG1c",
+    "img": "hcpp20/hcpp20-decentralize-yourself-and-avoid-digital-totalitarian-control.jpg",
+    "publishedAt": "2021-01-30T18:30:11Z",
+    "desc": "It’s a common misconception that all the governments around the world are in full coordination. Though there are certainly varying levels of coordination among some countries and a general trend towards the growth of that, there’s still an opportunity to make it more difficult for the invasion of privacy and the forced control over you and your data, such as by having multiple residencies, \"obfuscation in plain sight\", decentralizing income potential, and moving, if necessary. This presentation will go over why this is important by pointing out why this is important by using examples from documented events around the world as well as personal experiences from having lived in 8 countries around the world with a relatively weak passport (as highlighted in HCPP19) and those that have been shared with me. Additionally, some recommendations on how to accomplish this in an optimal manner while still avoiding problems, in the long run, will be provided in order for audiences to be better equipped to avoid digital totality in the long run.\n\n",
+    "duration": 2903,
+    "name": "Decentralize Yourself And Avoid Digital Totalitarian Control",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "travin-keith"
+    ]
+  },
+  {
     "id": "hcpp19-how-to-build-our-own-city",
     "videoId": "7D44a_203sI",
     "url": "https://www.youtube.com/watch?v=7D44a_203sI",
@@ -298,6 +313,23 @@
     "event": "hcpp17",
     "people": [
       "frank-braun"
+    ]
+  },
+  {
+    "id": "hcpp19-parallel-garden-environmental-change",
+    "videoId": "K0DjPjmukII",
+    "url": "https://www.youtube.com/watch?v=K0DjPjmukII",
+    "img": "hcpp19/hcpp19-parallel-garden-environmental-change.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "You know the feeling: There is a an issue. The big one and globally significant. You understand its urgency and you would like to solve it. And you are alone, or there is only few of you. So what can you do? Get involved in politics. Initiate the protests or get involved in the existing ones. Will you succeed? Maybe or maybe not.\n\nThere is also another way of investing your time and energy - start the change on your own. Get a couple of similar minded people and start working on practical solutions. Make the first prototype. Then, address the relevant community with it and analyze the feedback. Learn, develop and scale after then.\n\nAs a members of Paralelni Polis community, we were surrounded by several environmental clichés, mostly about the eco-unfriendly cryptocurrency mining. Actually, their substance was similar to many others environmental issues: many debates and only a few practically-based conclusions with very poor impact. So, we decided to take action. We built up our first hydroponic system, start cooperation with hackerspace in order to include automation. And start the path to automated rooftop greenhouse. We also open-sourced all of our know-how in order to make it spread as far as possible. The accurate feedback on the effect of our actions was substantial to us - so we refused state-based financial sources and emphasize the peer-to-peer relation. We will be happy to share our story with you! In the meantime, we don 't waste time and iterate!\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2706,
+    "name": "Parallel Garden: Environmental Change",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "radim-kozub",
+      "michal-zatrepalek",
+      "jakub-hamata"
     ]
   },
   {
@@ -1185,6 +1217,21 @@
     ]
   },
   {
+    "id": "hcpp19-cryptography-alone-is-not-enough",
+    "videoId": "CI-QCDS06XA",
+    "url": "https://www.youtube.com/watch?v=CI-QCDS06XA",
+    "img": "hcpp19/hcpp19-cryptography-alone-is-not-enough.jpg",
+    "publishedAt": "2019-10-16T15:58:19Z",
+    "desc": "Cryptocurrency from an attackers perspective means one thing: you can steal data that literally *is* money. A multitude of methods to prevent theft or at least make it harder have been developed over the years – several generations of hardware wallets, paper wallets, various elaborate cold storage systems etc. pp.. 2FA tokens for remote system access and similar devices are very similar in their properties. But they all have one weakness: if an attacker gains physical possession, the security margin shrinks – often too far. Even if an attacker can not reverse engineer the secrets out of access tokens or hardware wallets, he can manipulate the computing devices you use them with, gain valuable information through surveillance or trick you into doing stupid stuff. So the necessary protection envelope is bigger than you may think. This talk will take a look at how real-world attacks against offline and online devices are carried out these days, discuss how to develop an adequate threat model for your needs, explain some basics (like the difference between \"tamper evident\" and \"tamper resistant\") as well as typical pitfalls in this game. Finally we will show some new developments that make it easier to achieve better protection in various circumstances.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 3342,
+    "name": "Cryptography Alone Is Not Enough",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "frank-rieger"
+    ]
+  },
+  {
     "id": "hcpp20-artificially-intelligent-role-of-technology-in-politics",
     "videoId": "Sx2FF5JBW1Q",
     "url": "https://www.youtube.com/watch?v=Sx2FF5JBW1Q",
@@ -1333,6 +1380,21 @@
     "people": [
       "urza",
       "zdenka-stankova"
+    ]
+  },
+  {
+    "id": "hcpp19-things-which-matter-the-most-reality-brain-and-consciousness",
+    "videoId": "KdkN2yHjb20",
+    "url": "https://www.youtube.com/watch?v=KdkN2yHjb20",
+    "img": "hcpp19/hcpp19-things-which-matter-the-most-reality-brain-and-consciousness.jpg",
+    "publishedAt": "2019-10-16T15:58:49Z",
+    "desc": "Linking physical reality, brain activity and consciousness still stands as one of the most interesting and elusive problems of neuroscience, psychology, psychiatry and philosophy. Finding their mutual relationships represents the first step toward explanation how the brain process external information and how the picture of reality in our mind relates the world.\n\nIn this lecture, I deal with two central questions of consciousness: how and why? “How” refers to the theoretical and empirical approach to reveal the neural correlates and mechanisms that form consciousness. On the other hand, “why” refers to both the evolutionary origin and the question why is there conscious experience at all.\n\nThe extraordinary states of consciousness elicited by the psychedelics, such as DMT, psilocybin and LSD, represent one of the most powerful tools for understanding neurobiology of consciousness and answering both “why” and “how” questions. The results of brain neuroimaging studies on the effect of psychedelic drugs on structure of consciousness provide an explanation for its phenomenological features, including unconstrained cognition, meaning of concepts of reality and a sense of expanded consciousness awareness. We will discuss how psychedelics, and other modern techniques such as neurostimulation, may increase cognitive flexibility and creativity, elucidate our understanding of the structure of external physical reality and enhance human potential in general.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 3322,
+    "name": "Things Which Matter The Most: Reality, Brain And Consciousness",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "jiri-horacek"
     ]
   },
   {

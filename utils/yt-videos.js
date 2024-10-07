@@ -231,8 +231,8 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
 
 await scan('yt-old', 'channel', 'UCfHJ5Y3akQ7LA0PQmSYlYmQ', true)
 await scan('yt-new', 'channel', 'UC_88YKXiY1KDqbS38DVnCqg', true)
-await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
-await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
+//await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
+//await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
 
 console.log('\nstats:')
 for (const i of Object.keys(missingPersonCounter).sort()) {

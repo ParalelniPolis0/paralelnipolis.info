@@ -289,6 +289,36 @@
     ]
   },
   {
+    "id": "hcpp22-mandelbot-ecotech-a-design-philosophy",
+    "videoId": "BeOzguY696w",
+    "url": "https://www.youtube.com/watch?v=BeOzguY696w",
+    "img": "hcpp22/hcpp22-mandelbot-ecotech-a-design-philosophy.jpg",
+    "publishedAt": "2022-12-18T17:30:09Z",
+    "desc": "In this talk, inventor Scott Beibin will be sharing the Mandelbot Ecotech philosophy that he developed for ecological machine design that respects human freedom and autonomy.\n\nWith a strong influence by DIY Maker cultures such as Solarpunk – one of the main purposes of the project is to provide practical solutions to the negative environmental impact of globalized systems of manufacturing and distribution by utilizing DAOs and other Radical Decentralization based technologies as a way of building community while shifting power back into the hands of everyday people.\n\n",
+    "duration": 1691,
+    "name": "Mandelbot Ecotech (a Design Philosophy)",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "scott-beibin"
+    ]
+  },
+  {
+    "id": "hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain",
+    "videoId": "rmEJsE4j2UI",
+    "url": "https://www.youtube.com/watch?v=rmEJsE4j2UI",
+    "img": "hcpp23/hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain.jpg",
+    "publishedAt": "2024-07-08T11:04:08Z",
+    "desc": "Proof of work is essential to consensus in Bitcoin, yet it is a source of inequality among miners as it stratifies them based on the available mining hardware. Aiming at leveling the field, cryptographers recently designed new primitives such as proof of sequential work or verifiable delay functions, which one could leverage towards more energy-efficient consensus protocols or completely novel applications such as distributed randomness beacons. In my talk, I will survey the recent progress and highlight some exciting future directions.\n\n",
+    "duration": 3196,
+    "name": "Verifiable Delay Functions And Cryptographic Foundations Of Blockchain",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "pavel-hubacek"
+    ]
+  },
+  {
     "id": "pd22-spacechains-one-way-pegged-sidechains-for-bitcoin",
     "videoId": "ToO1bki5cU4",
     "url": "https://www.youtube.com/watch?v=ToO1bki5cU4",
@@ -301,6 +331,21 @@
     "event": "pd22",
     "people": [
       "ruben-somsen"
+    ]
+  },
+  {
+    "id": "hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy",
+    "videoId": "3tu-m8_Dbls",
+    "url": "https://www.youtube.com/watch?v=3tu-m8_Dbls",
+    "img": "hcpp23/hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy.jpg",
+    "publishedAt": "2024-07-08T11:00:13Z",
+    "desc": "In this talk, I will look at regulatory design space for privacy preserving measures for blockchain transactions, which is quickly shrinking due to increasing regulatory scrutiny. I will cover the recent regulatory attack on Tornado Cash. I will look current practical measures and how our fundamental rights and the economic analysis of the surveillance and compliance industry may help us to resist this encroachment.\n\n",
+    "duration": 2757,
+    "name": "Resisting The Criminalization Of The Fundamental Right To Privacy",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "silke-noa"
     ]
   },
   {
