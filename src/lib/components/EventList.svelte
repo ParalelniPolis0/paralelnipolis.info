@@ -19,10 +19,22 @@
                         >
                     </h3>
                     {#if person}
-                        <span
-                            class="py-0.5 px-1.5 bg-blue-100 dark:bg-blue-900 font-mono text-black dark:text-white text-xs rounded ml-1"
-                            >{lang === "cs" ? "přednášející" : "speaker"}</span
-                        >
+                        {#if ev.organizers?.includes(person)}
+                            <span
+                                class="py-0.5 px-1.5 bg-red-100 dark:bg-red-900 font-mono text-black dark:text-white text-xs rounded ml-1"
+                                >{lang === "cs"
+                                    ? "organizátor"
+                                    : "organizer"}</span
+                            >
+                        {/if}
+                        {#if ev.speakers?.includes(person)}
+                            <span
+                                class="py-0.5 px-1.5 bg-blue-100 dark:bg-blue-900 font-mono text-black dark:text-white text-xs rounded ml-1"
+                                >{lang === "cs"
+                                    ? "přednášející"
+                                    : "speaker"}</span
+                            >
+                        {/if}
                     {/if}
                 </div>
                 <div class="mt-1 inline-block text-xl opacity-50">

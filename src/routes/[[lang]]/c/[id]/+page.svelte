@@ -36,7 +36,15 @@
 
 <div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
     <div class="grow">
-        <h1 class="text-4xl font-semibold">{p.name}</h1>
+        <div class="flex flex-wrap gap-2 items-center">
+            <h1 class="text-4xl font-semibold">{p.name}</h1>
+            <div class="font-normal text-xl opacity-50 block mt-1">
+                {#if p.years}({p.years[0]} - {p.years[1]
+                        ? p.years[1]
+                        : ""}){/if}
+            </div>
+        </div>
+
         <RefsBar refs={p.refs} />
         {#if p.caption}
             <div class="mt-6 text-lg">{p.caption}</div>

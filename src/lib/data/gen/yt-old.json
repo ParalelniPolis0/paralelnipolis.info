@@ -1,5 +1,20 @@
 [
   {
+    "id": "hcpp19-opt-out-of-money-for-fun-and-profit",
+    "videoId": "1HJdrBk3BlE",
+    "url": "https://www.youtube.com/watch?v=1HJdrBk3BlE",
+    "img": "hcpp19/hcpp19-opt-out-of-money-for-fun-and-profit.jpg",
+    "publishedAt": "2019-10-16T16:00:13Z",
+    "desc": "Civilization is going through a rapid radical shift, from a pre-Internet age to the Uberification of Industry, the Decentralization of Education, and the Polarization of Government. Both Industry & Government have figured out how to exploit the loopholes in the economic models of Capitalism & Socialism, without any ability for citizen people to opt-out. In this talk, we'll explore the 6 problems any economic system must address and see if there are holes that humanity can escape through.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 3060,
+    "name": "Opt-out Of Money: For Fun & Profit!",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "mark-nadal"
+    ]
+  },
+  {
     "id": "hcpp16-tsunami-of-innovation",
     "videoId": "Ibz_HMKHQl4",
     "url": "https://www.youtube.com/watch?v=Ibz_HMKHQl4",
@@ -106,6 +121,21 @@
     ]
   },
   {
+    "id": "a-post-libertarian-realpolitik",
+    "videoId": "jbSRl3iWNIk",
+    "url": "https://www.youtube.com/watch?v=jbSRl3iWNIk",
+    "img": "null/a-post-libertarian-realpolitik.jpg",
+    "publishedAt": "2018-11-06T20:48:21Z",
+    "desc": "Slides ► https://speakerdeck.com/arto/a-post-libertarian-realpolitik\n\nFollow and support us ► https://liberate.hcpp.cz/#support\nParalelní Polis website → https://www.paralelnipolis.cz/o-nas/en/\nParalelní Polis Facebook → https://www.facebook.com/vejdiven\n\nARTO BENDIKEN\n\nMaster Toolsmith, Cypherpunk Division of the Crypto Economics Consulting Group (CECG). Senior cryptoanarchist. Aspiring cryptotribalist. Perpetual traveler in training. Public domain advocate.\n\nTALK: A post-libertarian realpolitik\n\nWe as libertarians often maintain that the state is a fiction, sometimes a consensual one. But what if the notion of rights is equally a fiction, too? We will examine a realpolitik perspective on how individual autonomy was curtailed historically and what a posited rising marginal cost of oppression means for the future of liberty.\n\nABOUT HCPP17 → https://liberate.hcpp.cz/\n\nLiberate!\n\nHCPP17 PARTNERS:\n\nMAIN PARTNERS\n\nTREZOR → https://trezor.io/\nGENERAL BYTES → https://www.generalbytes.com/\nSLUSH POOL → https://slushpool.com\nBITCOIN PAY → https://www.bitcoinpay.com\nCOINMATE → https://coinmate.io\n\nCRYPTOPUZZLE PARTNERS\n\nNETHEMBA → https://nethemba.com\nSATORI → http://zd3n.com/\n\nNEWS LIVE BROADCASTING PARTNER\n\nWorld Crypto Network → http://www.worldcryptonetwork.com\n\nCATERING PARTNERS\n\nNordbeans, Street Catering",
+    "duration": 2915,
+    "name": "A Post-libertarian Realpolitik",
+    "project": null,
+    "event": null,
+    "people": [
+      "arto-bendiken"
+    ]
+  },
+  {
     "id": "hcpp18-the-project-of-cryptoanarchy",
     "videoId": "gTtbkguROdk",
     "url": "https://www.youtube.com/watch?v=gTtbkguROdk",
@@ -163,6 +193,21 @@
     "event": "hcpp20",
     "people": [
       "travin-keith"
+    ]
+  },
+  {
+    "id": "hcpp18-scarcity-in-crypto-networks",
+    "videoId": "2sJq775msDQ",
+    "url": "https://www.youtube.com/watch?v=2sJq775msDQ",
+    "img": "hcpp18/hcpp18-scarcity-in-crypto-networks.jpg",
+    "publishedAt": "2018-10-05T20:53:58Z",
+    "desc": "Physical goods have some properties that are very hard to replicate in the digital realm. Scarcity is one such property. Many attempts have been made to create scarce digital goods by adding artificial rules and constraints. But information (including software) can be easily copied, networks can be forked, and rules can be changed or broken. What does it actually mean for a digital good to be scarce? And what are the implications for cryptocurrency? What makes one digital good have stronger scarcity guarantees than another? Can we rely on built-in incentives or does it require external enforcement? We explore these issues drawing examples from existing networks.\n\nInstitute of Cryptoanarchy",
+    "duration": 1983,
+    "name": "Scarcity In Crypto Networks",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "eric-lombrozo"
     ]
   },
   {
@@ -253,6 +298,21 @@
     "event": "hcpp20",
     "people": [
       "paul-rosenberg"
+    ]
+  },
+  {
+    "id": "hcpp18-what-makes-a-jurisdiction-crypto-friendly",
+    "videoId": "TLgBKok-TY0",
+    "url": "https://www.youtube.com/watch?v=TLgBKok-TY0",
+    "img": "hcpp18/hcpp18-what-makes-a-jurisdiction-crypto-friendly.jpg",
+    "publishedAt": "2018-10-07T09:36:54Z",
+    "desc": "WHAT MAKES A JURISDICTION CRYPTO FRIENDLY: FROM REGULATION TO FINANCIAL SERVICES, IMMIGRATION AND BEYOND\nThe past year has seen the emergence of increased hostility toward the Crypto Ecosystem. However, there is a light at the end of the tunnel, as several countries have publicly identified themselves as Crypto Friendly and are making inroads by creating regulatory environments in which crypto companies can thrive This presentation analyzes the challenges crypto companies face in starting operations and proposes a methodology for evaluating and scoring the crypto friendliness of a given jurisdiction.",
+    "duration": 2959,
+    "name": "What Makes A Jurisdiction Crypto Friendly",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "pablo-coirolo"
     ]
   },
   {
@@ -453,6 +513,21 @@
     ]
   },
   {
+    "id": "hcpp19-who-vouches-for-you-a-radical-crime-law-proposal",
+    "videoId": "rPdHXw05SvU",
+    "url": "https://www.youtube.com/watch?v=rPdHXw05SvU",
+    "img": "hcpp19/hcpp19-who-vouches-for-you-a-radical-crime-law-proposal.jpg",
+    "publishedAt": "2019-10-16T15:57:48Z",
+    "desc": "Most ancient societies used simple A-sues-B-for-cash legal systems to deal with most harms. But in the last few centuries, states added “crime law”, wherein the state investigates, sues, and imprisons “criminals.” These centrally-run one-size-fits-all bureaucratic systems don’t innovate well nor adapt well to individual conditions. And even though most of your “constitutional rights” are regarding such systems, they still seem badly broken.\n\nIn the ancient world, a stranger who came to town was trusted more if a local “vouched” for them. We still use vouching today in bonded contractors, in organized crime, and in requiring most everyone to get an insurer who pays on their behalf if they cause a car accident. I propose requiring everyone to get an insurer to vouch for them regarding any crimes they might commit. If you are found guilty of a crime, your “voucher” pays the state a fine, and then pays to punish you according to your contract with them. This fine in part pays the private bounty-hunter who convinced the court of your guilt. Competing bounty-hunters obey law because they can’t maintain a blue-wall-of-silence.\n\nTo lower your voucher premiums, you might agree to (1) prison, torture, or exile, if caught, (2) prior limits on your freedom like curfews, ankle bracelets, and their reading your emails, and (3) co-liability wherein you and your buddies are all punished if any one of you is found guilty. In this system, the state still decides what behaviors are crimes and if any one accusation is true, and it sets fine and bounty levels regarding how hard to discourage and detect each kind of crime. But each person chooses their own “constitutional rights”, and vouchers acquire incentives and opportunity to innovate and adapt, by searching in a large space of ways to discourage crime.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 3231,
+    "name": "Who Vouches For You?: A Radical Crime Law Proposal",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "robin-hanson"
+    ]
+  },
+  {
     "id": "hcpp17-bitcoin-political-attack-vectors-and-common-misconceptions",
     "videoId": "jgwW7XZCKPU",
     "url": "https://www.youtube.com/watch?v=jgwW7XZCKPU",
@@ -495,6 +570,21 @@
     "event": "hcpp19",
     "people": [
       "frantisek-vrabel"
+    ]
+  },
+  {
+    "id": "hcpp18-the-peace-potential-of-cryptoanarchy",
+    "videoId": "9k3rhGcdnv0",
+    "url": "https://www.youtube.com/watch?v=9k3rhGcdnv0",
+    "img": "hcpp18/hcpp18-the-peace-potential-of-cryptoanarchy.jpg",
+    "publishedAt": "2018-10-05T14:17:49Z",
+    "desc": "",
+    "duration": 2251,
+    "name": "The Peace Potential Of Cryptoanarchy",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "liora"
     ]
   },
   {
@@ -586,6 +676,51 @@
     ]
   },
   {
+    "id": "hcpp19-paradoxes-of-personalised-nutrition-and-diet-hacking",
+    "videoId": "yJSJc8oLOBs",
+    "url": "https://www.youtube.com/watch?v=yJSJc8oLOBs",
+    "img": "hcpp19/hcpp19-paradoxes-of-personalised-nutrition-and-diet-hacking.jpg",
+    "publishedAt": "2019-10-16T15:58:44Z",
+    "desc": "Roman poet and philosopher Lucretius said in the 1st century BC that what is food to one, may be bitter poison to others. In 2019, hyperconnected, health-focused consumers return to this premise and claim the obsolescence of one-size-fits-all dietary guidelines in favour of personalised nutrition (PN) approaches. Drawing on the recent advances in self-quantification technologies, affordable machine learning, and genome sequencing techniques, PN practitioners experiment with food products and services tailored to their individual lifestyle preferences as well as phenotypic and genotypic traits. ​These practitioners are often motivated by their distrust in official dietary recommendations issued by food and health authorities, and prefer a knowledge derived through self-experimentation. By measuring and quantifying their everyday food intake and outtake, they aim to develop a — supposedly precise — data-driven understanding of their bodies and diets. ​PN provides opportunities for empowered human-food relationships but also risks regarding limited scientific validity, health safety, and data security.\n\nThis talk presents findings from our long-term research on emerging PN technologies, practices, and issues. I will discuss a three-year ethnographic study of the ​Complete Foods​ community of ‘diet hackers’ replacing their daily meals with personalized food powders, and share insights from our recent ​DNA Diets​ project exploring the risks and opportunities of gene-based PN. The ​Complete Foods​ (CF) study ​(2014-2017) involved interviews with 65 ​CF dieters, a content analysis of three ​CF​ ​community forums, and two autoethnographic self-experiments where I probed the opportunities and limitations of the diet on myself. The ​DNA Diets​ study initiated in 2019, involves experiments with the Promethease service enabling a DIY analysis of personal DNA test reports, and crafting of dinner menus tailored to my and collaborator’s genetic codes. ​Findings from both case studies will be discussed within the broader context of food-tech innovation and data-driven optimisation of everyday food and health practices.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2954,
+    "name": "Paradoxes Of Personalised Nutrition & Diet Hacking",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "marketa-dolejsova"
+    ]
+  },
+  {
+    "id": "hcpp19-opendex-a-protocol-for-unstoppable-p2p-trading",
+    "videoId": "euSr9A6tI90",
+    "url": "https://www.youtube.com/watch?v=euSr9A6tI90",
+    "img": "hcpp19/hcpp19-opendex-a-protocol-for-unstoppable-p2p-trading.jpg",
+    "publishedAt": "2019-10-16T15:58:19Z",
+    "desc": "The talk covers architecture design choices, the different layers involved, the p2p messaging layer and discusses scalability. The second part demos a trade of an implementation implementing the OpenDEX protocol, an atomic swap between Bitcoin and DAI, a USD stablecoin via the Lightning and Raiden Network. The last part discusses the transition to a community-driven, open & token free protocol and gives a glimpse into implications for society.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2785,
+    "name": "Opendex - A Protocol For Unstoppable P2p Trading",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "kilian-rausch"
+    ]
+  },
+  {
+    "id": "hcpp19-why-do-we-need-to-be-and-should-be-opt-out",
+    "videoId": "IttNbUR2S7Y",
+    "url": "https://www.youtube.com/watch?v=IttNbUR2S7Y",
+    "img": "hcpp19/hcpp19-why-do-we-need-to-be-and-should-be-opt-out.jpg",
+    "publishedAt": "2019-10-16T15:58:19Z",
+    "desc": "You will find the answer from the stories of my life.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 3247,
+    "name": "Why Do We Need To Be And Should Be Opt-out? ",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "li-zhao-schoolland"
+    ]
+  },
+  {
     "id": "hcpp19-the-inevitable-and-awful-end-of-the-grand-bitcoin-experiment",
     "videoId": "f5-L--FlFjs",
     "url": "https://www.youtube.com/watch?v=f5-L--FlFjs",
@@ -598,6 +733,21 @@
     "event": "hcpp19",
     "people": [
       "joerg-platzer"
+    ]
+  },
+  {
+    "id": "hcpp20-abusing-the-mastercard-protocol-to-hack-bitcoin-into-fiat-payment-terminals",
+    "videoId": "sqYwsGl-Pls",
+    "url": "https://www.youtube.com/watch?v=sqYwsGl-Pls",
+    "img": "hcpp20/hcpp20-abusing-the-mastercard-protocol-to-hack-bitcoin-into-fiat-payment-terminals.jpg",
+    "publishedAt": "2021-05-27T17:39:09Z",
+    "desc": "Hardware (card) wallets used today are very far from being backward-compatible. Every bitcoin card wallet needs their own app, in some cases their own reading device. In this talk we explore how the EMV protocol used in our (fiat) credit cards could be abused to complete the signature of a BTC transaction while hiding the crypto-specific stuff from the reader so we can accept crypto payments using the payment terminals out in the shops today.\n\n",
+    "duration": 2758,
+    "name": "Abusing The Mastercard Protocol To Hack Bitcoin Into Fiat Payment Terminals",
+    "project": "hcpp",
+    "event": "hcpp20",
+    "people": [
+      "silur"
     ]
   },
   {
@@ -673,6 +823,21 @@
     "event": "hcpp19",
     "people": [
       "habo"
+    ]
+  },
+  {
+    "id": "hcpp17-3d-printing-decentralization-of-manufacturing",
+    "videoId": "PVGBWboKNtU",
+    "url": "https://www.youtube.com/watch?v=PVGBWboKNtU",
+    "img": "hcpp17/hcpp17-3d-printing-decentralization-of-manufacturing.jpg",
+    "publishedAt": "2018-06-06T20:36:06Z",
+    "desc": "We are living at very exciting times. You can start manufacturing right on your desktop. The future of manufacturing is going to be local again thanks to 3D printing. Imagine consumer goods manufacturers publishing spare parts for download and letting anyone to print them on their 3D printers. Think of on-demand manufacturing and digital stock of items.",
+    "duration": 2442,
+    "name": "3d Printing: Decentralization Of Manufacturing",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "tomas-michalek"
     ]
   },
   {
@@ -843,6 +1008,21 @@
     ]
   },
   {
+    "id": "hcpp18-smashing-bitcoin-for-pain-and-losses",
+    "videoId": "lIwBAPWYaOw",
+    "url": "https://www.youtube.com/watch?v=lIwBAPWYaOw",
+    "img": "hcpp18/hcpp18-smashing-bitcoin-for-pain-and-losses.jpg",
+    "publishedAt": "2018-10-05T12:54:04Z",
+    "desc": "Threat modeling is a systematic analysis of the security of a system. It became commonplace in the department of energy 30 years ago and has been used by fortune 500 software companies for at least a decade.\n\nAfter describing the system all of the ways that the system could be attacked are cataloged. For each of those threats the security researcher provides the safeguards, if any, that attempt to prevent the attack and his own judgement on the likely success of an attack.\n\nBy applying this technique to bitcoin we get a much clearer view of its incredible value and why alt coins, including the recent forks, not only fall short, but are themselves an attack on bitcoin itself.\n\nIn my presentation we will walk through the bitcoin threat model, discuss specific threats that are of particular interest, and have a lengthy Q and A where we reference the threat model to answer question that only seem complex without a systematic analysis to reference.",
+    "duration": 2847,
+    "name": "Smashing Bitcoin For Pain And Losses",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "jw-weatherman"
+    ]
+  },
+  {
     "id": "hcpp17-insecurity-of-cryptospace",
     "videoId": "s3BIDfjmhHI",
     "url": "https://www.youtube.com/watch?v=s3BIDfjmhHI",
@@ -918,6 +1098,21 @@
     ]
   },
   {
+    "id": "hcpp17-innovations-in-education",
+    "videoId": "3efMh8B__E0",
+    "url": "https://www.youtube.com/watch?v=3efMh8B__E0",
+    "img": "hcpp17/hcpp17-innovations-in-education.jpg",
+    "publishedAt": "2018-03-11T19:57:17Z",
+    "desc": "The world is changing rapidly and education needs to adapt. But this is not always the case. In Hemisféra, we managed to innovate the education of children independently as a business without any external founding (Punk style). Business grows and we apply innovative methods such as gamification, freedom to learn, project education, edularping, new technology, NVC, and mindfulness.",
+    "duration": 2681,
+    "name": "Innovations In Education",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "matej-held"
+    ]
+  },
+  {
     "id": "hcpp19-opting-out-of-the-legal-system-introducing-a-decentralized-court",
     "videoId": "Z-ceGfjcRdk",
     "url": "https://www.youtube.com/watch?v=Z-ceGfjcRdk",
@@ -930,6 +1125,21 @@
     "event": "hcpp19",
     "people": [
       "luis-cuende"
+    ]
+  },
+  {
+    "id": "hcpp18-bitnation-your-world-your-way-in-a-box",
+    "videoId": "BV9N2Ymrfqs",
+    "url": "https://www.youtube.com/watch?v=BV9N2Ymrfqs",
+    "img": "hcpp18/hcpp18-bitnation-your-world-your-way-in-a-box.jpg",
+    "publishedAt": "2018-10-06T13:26:18Z",
+    "desc": "In BITNATION's world sovereignty shifts decisively from the State to the Citizen. By reducing competition between citizens for services and increasing competition between Nations for citizens we will improve the quality of governance and reduce incentives for coercion and violence. We wish you to be able to create, opt-in or opt-out of the Nation of your choice on your mobile phone. You can choose where to access services and who to do business with based on AI generated performance criteria, and make binding agreements and resolve disputes with anyone, anywhere, without facing the high costs, time inefficiencies, legislative incompatibilities and potential coercion and arbitrariness of legacy territorial jurisdictions. Core infrastructure to live in our world is a smartphone chat-based polylegal jurisdiction. Bitnation’s Pangea is an encrypted, decentralized, blockchain-agnostic incentive network powered by a ECR20 Ethereum token awarded when users (and the nations they create) fulfil agreements with one another, resolve disputes and provide quality governance services. Users can also use the token to pay for services on Pangea. This is the Pangea Arbitration Token (PAT). We have built the first version of Pangea, a mesh network which can write smart contracts to any integrated blockchain. The first service offered on Pangea lets you create and join a Decentralized Borderless Voluntary Nation (DBVN) with a constitution and code of law of your choice. Soon new functions will be added to allow group and personal chat, write P2P smart contracts from chat, resolve disputes and access governance service DApps. Our automated and human reputation and arbitration systems and arbitrator and code of law registries will provide positive incentives for contract compliance, strengthened through network effect as Pangea attracts more users.",
+    "duration": 1168,
+    "name": "Bitnation - Your World, Your Way - In A Box",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "sonja-prstec"
     ]
   },
   {
@@ -992,6 +1202,36 @@
     ]
   },
   {
+    "id": "hcpp19-opt-out-opportunities-for-small-towns",
+    "videoId": "n_qTEeg54No",
+    "url": "https://www.youtube.com/watch?v=n_qTEeg54No",
+    "img": "hcpp19/hcpp19-opt-out-opportunities-for-small-towns.jpg",
+    "publishedAt": "2019-10-16T15:58:45Z",
+    "desc": "Ing. arch. Michal Postránecký is a Czech architect and urbanist currently living in Florida, USA. His portfolio counts many projects in the Czech Republic and the USA, where he has lived and worked since 2000. He focuses on eco-friendly and smart projects, the regeneration of existing settlements and the design of new urban structures with the help of smart technologies. He is the founder and head of Center of City of the Future Center within, Czech Institute of Informatics, Robotics and Cyberentics CTU and he is also a founder of SynopCity.com, a global platform for sharing information, knowledge. and experience, focusing on the Smart and Innovative Cities concepts. He is the author of a number of scholarly articles on smart cities and related issues. Together with Professor Svítek and a team of their colleagues, he is the author of the book The City of Future.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2679,
+    "name": "Opt-out Opportunities For Small Towns",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "michal-postranecky"
+    ]
+  },
+  {
+    "id": "hcpp17-particl-a-private-and-decentralized-marketplace",
+    "videoId": "R--Mx-bLq4A",
+    "url": "https://www.youtube.com/watch?v=R--Mx-bLq4A",
+    "img": "hcpp17/hcpp17-particl-a-private-and-decentralized-marketplace.jpg",
+    "publishedAt": "2018-03-18T11:33:09Z",
+    "desc": "A technical presentation on how we plan to build a decentralized marketplace with a focus on privacy. Particl is a platform that features an anonymous cryptocurrency (CT, RingCT) and a BitMessage-style messaging system. We are in the process of designing a protocol (Open Market Protocol) for interactions between sellers and buyers.",
+    "duration": 2294,
+    "name": "Particl: A Private And Decentralized Marketplace",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "ido-kaiser"
+    ]
+  },
+  {
     "id": "hcpp17-anonymous-insurance-and-predictions-markets",
     "videoId": "Vfm_OKOG0LM",
     "url": "https://www.youtube.com/watch?v=Vfm_OKOG0LM",
@@ -1019,6 +1259,21 @@
     "event": "hcpp20",
     "people": [
       "max-hillebrand"
+    ]
+  },
+  {
+    "id": "hcpp18-hacking-law-and-antifragility-of-anonymous-cryptocurrencies",
+    "videoId": "ct1_ozWU2Nc",
+    "url": "https://www.youtube.com/watch?v=ct1_ozWU2Nc",
+    "img": "hcpp18/hcpp18-hacking-law-and-antifragility-of-anonymous-cryptocurrencies.jpg",
+    "publishedAt": "2018-10-06T12:52:40Z",
+    "desc": "Many people perceive the current jurisprudence as a fair and impartial system, but the real practical cases prove the opposite. Tremendous side effects, such as full arbitrariness and uncertainty of government law, cause that the whole system continues to operate empowered by the myth of the rule of law. The decisions of the judges are thoroughly unpredictable these days. Even though it can be hard to survive in such a system, it is possible to create a tribe, where we can liberate ourselves and preserve internal trust. All that based on paradoxes emerged from the case law. A new level of the trust can be reached by applying these legal paradoxes in combination with cryptography. \n\nHacking of the law could be a new professional discipline among proxy merchants and 2nd realm to avoid interaction with a 1st realm. The goal is not to act in fraudem legis, on the contrary, to avoid completely an interaction with a state by using legal knowledge and risk management techniques.\n\nThe government's proposal to ban anonymous cryptocurrencies could slow down a mass adoption of ledgers focused on anonymity. However, after acquiring knowledge of hacking law I will explain why such a ban cannot harm anonymous cryptocurrencies and why we should welcome it instead. Also, I will show the practical examples of hacking law - have you ever heard about proof of crime?",
+    "duration": 2847,
+    "name": "Hacking Law & Antifragility Of Anonymous Cryptocurrencies",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "pavol-travnik"
     ]
   },
   {
@@ -1079,6 +1334,21 @@
     "event": "hcpp18",
     "people": [
       "tone-vays"
+    ]
+  },
+  {
+    "id": "hcpp17-the-future-of-swiss-private-banking-monero",
+    "videoId": "ra9vOJZXt-U",
+    "url": "https://www.youtube.com/watch?v=ra9vOJZXt-U",
+    "img": "hcpp17/hcpp17-the-future-of-swiss-private-banking-monero.jpg",
+    "publishedAt": "2018-03-08T00:56:02Z",
+    "desc": "Switzerland’s banking sector is legendary for respecting its clients’ privacy. But that privacy is only available to very wealthy clients, and it vanishes at the first request of a foreign power. Cryptocurrency is the solution, and Bitcoin seems to be a safe bet. But while Bitcoin is useful in many ways, it’s Monero that will likely become the technology of choice for the future of private banking and wealth management.",
+    "duration": 2711,
+    "name": "The Future Of Swiss Private Banking: Monero",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "justin-smith"
     ]
   },
   {
@@ -1172,6 +1442,21 @@
     ]
   },
   {
+    "id": "exploring-consensual-non-monogamy",
+    "videoId": "pKd4G4Mv7b0",
+    "url": "https://www.youtube.com/watch?v=pKd4G4Mv7b0",
+    "img": "null/exploring-consensual-non-monogamy.jpg",
+    "publishedAt": "2018-02-11T15:32:40Z",
+    "desc": "Follow and support us ► https://liberate.hcpp.cz/#support\nParalelní Polis website → https://www.paralelnipolis.cz/o-nas/en/\nParalelní Polis Facebook → https://www.facebook.com/vejdiven\n\nALEXA MARTINEZ\n\nAlexa is a sex and relationship anarchist from New Orleans, Louisiana, who is constantly questioning the status quo when it comes to the deepest and most personal aspects of who we are. She is a sex coach, mentor, educator and the founder of The Violet Butterfly LLC.\n\nTALK: EXPLORING CONSENSUAL NON MONOGAMY\n\nA look at the evolution of monogamy, how relationships have changed through time along with what is currently available on the fringe today.\n\nABOUT HCPP17 → https://liberate.hcpp.cz/\n\nLiberate!\n\nHCPP17 PARTNERS:\n\nMAIN PARTNERS\n\nTREZOR → https://trezor.io/\nGENERAL BYTES → https://www.generalbytes.com/\nSLUSH POOL → https://slushpool.com\nBITCOIN PAY → https://www.bitcoinpay.com\nCOINMATE → https://coinmate.io\n\nCRYPTOPUZZLE PARTNERS\n\nNETHEMBA → https://nethemba.com\nSATORI → http://zd3n.com/\n\nNEWS LIVE BROADCASTING PARTNER\n\nWorld Crypto Network → http://www.worldcryptonetwork.com\n\nCATERING PARTNERS\n\nNordbeans, Street Catering",
+    "duration": 2828,
+    "name": "Exploring Consensual Non Monogamy",
+    "project": null,
+    "event": null,
+    "people": [
+      "alexa-martinez"
+    ]
+  },
+  {
     "id": "hcpp16-how-governments-push-forward-the-security-of-cryptomarkets",
     "videoId": "BXt7SCqUWQY",
     "url": "https://www.youtube.com/watch?v=BXt7SCqUWQY",
@@ -1187,6 +1472,36 @@
     ]
   },
   {
+    "id": "hcpp17-how-to-bootstrap-a-dao",
+    "videoId": "rSiHPcuwbo8",
+    "url": "https://www.youtube.com/watch?v=rSiHPcuwbo8",
+    "img": "hcpp17/hcpp17-how-to-bootstrap-a-dao.jpg",
+    "publishedAt": "2018-03-19T14:31:46Z",
+    "desc": "We’ve heard a lot about decentralized autonomous organizations over the last several years, but thus far few have become fully operational. In this talk we’ll look at the practical considerations of designing and building a real-world DAO, using the Bisq exchange and its forthcoming DAO as a case study.",
+    "duration": 2727,
+    "name": "How To Bootstrap A Dao",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "chris-beams"
+    ]
+  },
+  {
+    "id": "hcpp19-constructing-parallel-opt-out-infrastructures-a-sociological-contribution",
+    "videoId": "d-egwtOglLU",
+    "url": "https://www.youtube.com/watch?v=d-egwtOglLU",
+    "img": "hcpp19/hcpp19-constructing-parallel-opt-out-infrastructures-a-sociological-contribution.jpg",
+    "publishedAt": "2019-10-16T15:58:14Z",
+    "desc": "We are deeply entrenched in numerous socio-technological systems that structure our everyday life. They function by channelling, prohibiting, controlling, limiting, categorizing, standardizing (…) our behaviour. Just count how many of these systems you have “joined/used” to this very day.\n\nCurrent ideas and attempts at finding a technological solution to help us opt out from this “first constrained realm” are not entirely novel. In light of this congress, the one most worth considering is the very notion of a decentralized and free computer network, one which should catalyse a positive societal revolution and leave behind the evils of centralised and alienating state-corporate systems.\n\nBy employing a sociological approach (namely sociology of technology), we will look at what went wrong in the socio-technical history of the free computer network project and examine how the resulting system forms new hard-to-escape dependencies.\n\nWas A Declaration of the Independence of Cyberspace too early, just in time or too late? Is it even possible to construct a technological infrastructure to opt out of “the first realm“? Which sociological criteria would facilitate an opt-out system? And lastly, how are new dependencies formed when two parallel systems meet?\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2715,
+    "name": "Constructing Parallel Opt-out Infrastructures: A Sociological Contribution",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "petr-lupac"
+    ]
+  },
+  {
     "id": "hcpp20-decentralised-chat-and-commerce-on-the-lightning-network",
     "videoId": "n2Cr7F5S5xk",
     "url": "https://www.youtube.com/watch?v=n2Cr7F5S5xk",
@@ -1199,6 +1514,21 @@
     "event": "hcpp20",
     "people": [
       "ketominer"
+    ]
+  },
+  {
+    "id": "hcpp19-trustless-loan-backed-by-btc",
+    "videoId": "FDdo4GCnv08",
+    "url": "https://www.youtube.com/watch?v=FDdo4GCnv08",
+    "img": "hcpp19/hcpp19-trustless-loan-backed-by-btc.jpg",
+    "publishedAt": "2019-10-16T16:00:12Z",
+    "desc": "How loan can be replicated using derivatives, mainly futures and swaps. And how to enter such contracts in p2p fashion. The talk examines current possibilities how to take the loan backed by hodlers BTC and how to construct loan using BTC derivatives, mainly futures and swaps. In the end simple p2p derivative construction will be described.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2668,
+    "name": "Trustless Loan Backed By Btc",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "tomas-marada"
     ]
   },
   {
@@ -1322,6 +1652,22 @@
     ]
   },
   {
+    "id": "hcpp18-building-voluntary-paralel-legal-systems",
+    "videoId": "8Z3FhWgfadE",
+    "url": "https://www.youtube.com/watch?v=8Z3FhWgfadE",
+    "img": "hcpp18/hcpp18-building-voluntary-paralel-legal-systems.jpg",
+    "publishedAt": "2018-10-07T12:56:57Z",
+    "desc": "The most of current legal systems has one thing in common - they have been produced by national states. Why? Because the state has the sovereign power over its territory and only this power is recognized by other states (and their corporate fellows). According to the current doctrine, of course. But there is another power here now - power of eletronic networks given to the global crowd regardless the power of states. The power that brings social and economic structures competitive to the national states, for the first time in their history. The structures that will not be in the opposition to the national states. They will be paralel to them. Beign self-governed by their own rules - paralel legal systems.",
+    "duration": 2819,
+    "name": "Building Voluntary Paralel Legal Systems",
+    "project": "hcpp",
+    "event": "hcpp18",
+    "people": [
+      "radim-kozub",
+      "pavel-urbaczka"
+    ]
+  },
+  {
     "id": "hcpp18-hardware-wallet-threats-and-vulnerabilities",
     "videoId": "r1qBuj_sco4",
     "url": "https://www.youtube.com/watch?v=r1qBuj_sco4",
@@ -1364,6 +1710,21 @@
     "event": "hcpp17",
     "people": [
       "peter-todd"
+    ]
+  },
+  {
+    "id": "hcpp19-crypto-enabled-time-travel",
+    "videoId": "GARpRtE61ig",
+    "url": "https://www.youtube.com/watch?v=GARpRtE61ig",
+    "img": "hcpp19/hcpp19-crypto-enabled-time-travel.jpg",
+    "publishedAt": "2019-10-15T13:40:42Z",
+    "desc": "Technology to skip the present times is available today, and improving fast. It is not for the faint-hearted, for sure. But for safely landing into the future, not as a poor immigrant from the past, but rather as a rich tourist, technology is not enough. The right incentives must get aligned and be put to work. This talk is about what is missing, and how Crypto could be the final ingredient to really achieve time travel.\n\n#hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy",
+    "duration": 2837,
+    "name": "Crypto-enabled Time Travel",
+    "project": "hcpp",
+    "event": "hcpp19",
+    "people": [
+      "spyros-dovas"
     ]
   },
   {
@@ -1410,6 +1771,36 @@
     "event": "hcpp18",
     "people": [
       "wilder"
+    ]
+  },
+  {
+    "id": "hcpp17-fostering-individual-empowerment-through-social-cohesion",
+    "videoId": "8GaNRgyWILg",
+    "url": "https://www.youtube.com/watch?v=8GaNRgyWILg",
+    "img": "hcpp17/hcpp17-fostering-individual-empowerment-through-social-cohesion.jpg",
+    "publishedAt": "2018-02-19T12:20:52Z",
+    "desc": "The liberal vision of freedom sees the individual to be able to choose from a variety of options without being restricted externally. An equal access to economic structures and the legal system realizes the liberal goal of equal chances for any member of society. The lack of an external boundary stopping the individual to act does not necessarily empower the individual to deal with existing things around him in a creative manner though. How does an approach to the concept of freedom as an individually acquired ability in a socially fostered environment relate to the modern version of liberty as a structural-political achievement?",
+    "duration": 2299,
+    "name": "Fostering Individual Empowerment Through Social Cohesion",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "david-hemmerle"
+    ]
+  },
+  {
+    "id": "hcpp17-anarchy-as-a-conservative-program",
+    "videoId": "qHWzhFJA8h8",
+    "url": "https://www.youtube.com/watch?v=qHWzhFJA8h8",
+    "img": "hcpp17/hcpp17-anarchy-as-a-conservative-program.jpg",
+    "publishedAt": "2018-02-10T00:58:41Z",
+    "desc": "Many people consider anarchy to be a recipe for revolution and advocacy of chaotic social relations. Both claims are wrong. Not only we can easily see anarchy producing order, rather than chaos, but we can also show that the call for anarchy rests on very common-sense or even conservative requirements of social life.",
+    "duration": 2985,
+    "name": "Anarchy As A Conservative Program",
+    "project": "hcpp",
+    "event": "hcpp17",
+    "people": [
+      "josef-sima"
     ]
   },
   {

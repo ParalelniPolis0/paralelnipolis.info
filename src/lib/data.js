@@ -31,7 +31,7 @@ export const archive = [
 );
 
 export const people = peopleSrc.map(p => {
-    p.merit = Number((p.roles?.length || 0) * 5) +
+    p.merit = Number((p.roles?.length || 0) * 3) +
         (events.filter(e => e.speakers?.includes(p.id)).length * 1) +
         (archive.filter(i => i.people?.includes(p.id)).length * 2)
     return p

@@ -30,7 +30,9 @@
     //console.log(p.id, listEvents());
 
     const events = $derived(
-        allEvents.filter((e) => e.speakers && e.speakers.includes(p.id)),
+        allEvents.filter(
+            (e) => e.speakers?.includes(p.id) || e.organizers?.includes(p.id),
+        ),
     );
 
     const archiveItems = $derived(

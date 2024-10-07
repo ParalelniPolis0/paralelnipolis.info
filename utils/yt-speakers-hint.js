@@ -12,6 +12,6 @@ for (const e of bundle.events) {
         }
     }
     if (missing.length > 0) {
-        console.log(`${e.name} missing:\n - ` + missing.join("\n - ") + '\n')
+        console.log(`${e.name} missing:\n- ` + missing.join("\n- ") + '\n')
     }
 }

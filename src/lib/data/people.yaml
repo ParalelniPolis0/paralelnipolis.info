@@ -375,6 +375,7 @@
   refs:
     web: https://urza.cz
     twitter: urzanarchy
+  caption: Anarchocapitalist author, member of Svoboda učení (Freedom to Learn), head of Ludwig von Mises Institute CZ/SK, author of Urza.cz
   desc: |
     Urza is an anarchocapitalist author who wrote almost one thousand of libertarian texts. He is a head of Ludwig von Mises Institute CZ & SK, member of Svoboda učení (Freedom to Learn), author of Urza.cz and associate of Paralelní Polis. Urza is mainly focusing on moral aspects of stateless society, free market based education system and government propaganda at public schools. He is about to publish the first Czech book about anarchocapitalism. (hcpp17)
 
@@ -438,6 +439,7 @@
 
 - id: frank-braun
   name: Frank Braun
+  caption: Cryptoanarchist and cypherpunk
   img: frank-braun.png
   refs:
     twitter: thefrankbraun
@@ -488,6 +490,9 @@
 - id: smuggler
   name: Smuggler
   img: smuggler.jpeg
+  caption: Cryptoanarchist and cypherpunk
+  desc: |
+    Cryptoanarchist for 20 years. An operator of anonymous remailers and darknet hangouts. Author (Second Realm - Book on Strategy, The Treasure that is Privacy, Aristocracy of Action). Privacy extremist and crypto absolutist. Coder, admin, network cuddler. Covert communications specialist. (hcpp19)
 
 - id: andreas-antonopoulos
   name: Andreas Antonopoulos
@@ -554,6 +559,7 @@
   img: ondrej-pilny.jpeg
   refs:
     twitter: ondrej_pilny
+  caption: Co-Founder of ICOindex and Crypto Investor
   desc: |
     Ondřej Pilný co-founder of ICOindex - a platform for analyzing Initial Coin Offerings. He is freedom lover, crypto investor, and digital nomad. Currently working on a concept of decentralized autonomous investment rating organization. You can reach him at ondrej@icoindex.com or twitter @Ondrej_Pilny. (hcpp17)
 
@@ -907,3 +913,202 @@
   name: Janine
   img: janine.png
   caption: privacy researcher & investigative journalist focused on Bitcoin and (counter)surveillance
+
+- id: ido-kaiser
+  name: Ido Kaiser
+  caption: Cypherpunk, security researcher and open source developer - Particl
+  img: ido-kaiser.jpg
+  desc: |
+    An academic student in Business Engineering with a passion for security, privacy and cryptocurrencies. The past two years he has dedicated his spare time to aiding privacy projects, and researching/developing decentralized marketplaces. (hcpp17)
+
+- id: tomas-michalek
+  name: Tomáš Michálek
+  img: tomas-michalek.png
+  desc: |
+    Tomas Michalek is the co-founder of Prague's MakersLab – a 3D printing makerspace founded in Paralelni Polis. He is a 3D printing enthusiast, sees a huge potential of 3D printing across all industries and feels that it is one of the tools that is going to change the world. Tomas is the 3D printing community leader educating public in the use of this technology. Company teams and individuals are coming to MakersLab to learn what it takes to print their own product and how it can help them. He is also building a 3D factory. He is fascinated by new technologies and their applications that can help people solve their problems and needs. (hcpp17)
+  caption: Co-founder of Prague's MakersLab – a 3D printing makerspace
+
+- id: justin-smith
+  name: Justin Smith
+  img: justin-smith.jpg
+  caption: Cryptofinance technologist, CEO of XMR Systems
+  desc: |
+    Justin Smith is a cryptofinance technologist and programmer. He started working with Bitcoin almost 5 years ago when he created a Bitcoin payment system for his own e-commerce startup and spent the last two years working with Swiss banks. As the CEO of XMR Systems, he’s an advocate of solutions built on Bitcoin and Monero technologies. (hcpp17)
+
+- id: matej-held
+  name: Matej Held
+  img: matej-held.jpg
+  caption: White market agorist, educator and gamer, CEO of Hemisféra
+  desc: |
+    Matej studied marketing and economics. He is currently focusing on innovation in education and entrepreneurial activism. He is the founder of Hemisféra and a member of the Progressbar hackerspace in Bratislava. He is interested in complex systems theory, philosophy and vipassana meditation in his free time. (hcpp17)
+
+- id: pavel-urbaczka
+  name: Pavel Urbaczka
+  caption: Attorney at law and co-founder of Blockchain Legal
+  img: pavel-urbaczka.png
+  desc: |
+    Pavel is an attorney at law and since 2017 co-founder of Blockchain Legal, Czech law firm focused on decentralized technology solutions (including cryptocurrencies). He is crypto-anarchist and Bitcoin enthusiast. (hcpp17)
+
+- id: alexa-martinez
+  name: Alexa Martinez
+  caption: Sex educator and researcher, focusing on love & relationships in the new millennia
+  img: alexa-martinez.png
+  desc: |
+    Alexa is a sex and relationship anarchist from New Orleans, Louisiana, who is constantly questioning the status quo when it comes to the deepest and most personal aspects of who we are. She is a sex coach, mentor, educator and the founder of The Violet Butterfly LLC. (hcpp17)
+
+- id: arto-bendiken
+  name: Arto Bendiken
+  caption: Cryptoanarchist and aspiring cryptotribalist
+  desc: |
+    Master Toolsmith, Cypherpunk Division of the Crypto Economics Consulting Group (CECG). Senior cryptoanarchist. Aspiring cryptotribalist. Perpetual traveler in training. Public domain advocate. (hcpp17)
+  img: arto-bendiken.png
+
+- id: josef-sima
+  name: Josef Šíma
+  caption: President of CEVRO Institute and Director of its international PPE MA program
+  desc: |
+    Josef Šíma is the president of CEVRO Institute [school of legal and social studies] and a Director of its unique international Philosophy, Politics, Economics (PPE) MA program. He translated over 10 books including Ludwig von Mises’s Human Action or Murray Rothbard’s Man, Economy and State, and Power and Market. (hcpp17)
+  img: josef-sima.jpg
+
+- id: chris-beams
+  name: Chris Beams
+  caption: Developer, Bisq P2P crypto-fiat exchange and DAO
+  img: chris-beams.jpg
+  desc: |
+    Chris is an open-source developer, project manager and public speaker currently working on Bisq, a decentralized crypto-fiat exchange. (hcpp17)
+
+- id: david-hemmerle
+  name: David Hemmerle
+  img: david-hemmerle.jpg
+  caption: Economic philosopher and researcher
+  desc: |
+    Studied Business Economics with a focus on heterodox financial theory as well as sustainable alternatives in accounting. Later on, he switched to Economics and Philosophy and focused on plural economic theory as well as the history of economic and political thought. His Ph.D. will focus on the relationship between economic thought and the development of modern technology, i. e. blockchain. (hcpp17)
+
+- id: pavol-travnik
+  name: Pavol Trávnik
+  img: pavol-travnik.jpg
+  caption: IT developer, lawyer & entrepreneur
+  desc: |
+    Pavol Travnik studied law both in Slovakia and Czechia. After graduation, Pavol has changed his professional interest into IT development in insurance and pharmacy companies. He described the definition of cryptocurrencies in Czech and Slovak civil law. His constant fascination by legal imperfection and anonymous cryptocurrencies lead him to explore and collect more examples of how to liberate himself and others by hacking the law. (hcpp18)
+
+- id: pablo-coirolo
+  name: Pablo Coirolo
+  img: pablo-coirolo.jpg
+  caption: Entrepreneur, CEO of Light 47, Global Coordinating Node of Crypto Bay Montevideo
+  desc: |
+    Pablo has over 20 years of international experience leading innovative business projects, working with both startups and established multinationals. Among these, he was CEO Telefónica Data Uruguay where he launched the companies LMDS high speed internet data network. He later started Latin America’s first mobile payment platform Debifone, and designed and implemented a Big Data Business Intelligence Platform for Nestle, Peru.
+
+    Since 2015 Pablo has been focusing on crypto currencies and block chain development in Germany, Zug Crypto Valley and Liechtenstein. In 2018 he founded Light47 a Blockchain and Crypto services company that draws on an extensive worldwide partner network to provide business with a full range of ICO advisory services. He is also spearheading the development of Crypto Bay Montevideo to create a community of service providers and businesses to help Uruguay join the club of Crypto-friendly jurisdictions
+
+    Pablo has an MBA in International Finance and Management Information Systems from the American University, Washington D.C. (hcpp18)
+
+- id: eric-lombrozo
+  name: Eric Lombrozo
+  img: eric-lombrozo.jpg
+  caption: Cofounder and CEO of Ciphrex, Bitcoin developer
+  desc: |
+    Eric Lombrozo is a software developer and entrepreneur with seven years of blockchain development experience and over 20 years of experience in enterprise-scale software architecture, information security, systems integration, and project management. He is cofounder and CEO of Ciphrex Corp, a company developing tools and applications for cryptocurrency networks. In addition, Lombrozo has contributed to the Bitcoin Core open source project as well as software for other networks such as Litecoin, Ethereum, and Ripple. (hcpp18)
+
+- id: jw-weatherman
+  name: JW Weatherman
+  img: jw-weatherman.jpg
+  caption: Security expert, author of the Bitcoin Threat Model
+  desc: |
+    JW Weatherman is a software security expert that has been working with Fortune 500 companies for over 20 years. He's the author of the Bitcoin Threat Model, found at http://btcThreats.com . A successful entrepreneur in the software start-up space, JW is currently the lead contributor of the open-source project http://mathbot.com.
+
+    Mathbot teaches kids math and programming by giving a robot a series of graphical commands. It's an intuitive and fun way for kids to learn. Mathbot is free to play, but allows parents to reward kids in Bitcoin for mastering a topic. If we succeed, the public schools will stop pretending to teach math.
+
+    You can reach JW on Twitter at @weathermanIam, or on his YouTube channel and Podcast, where he talks math, Bitcoin, government, software security and hosts interviews with old-school cypherpunk legends, like Timothy C. May and new cypherpunks like Cody Wilson. (hcpp18)
+
+- id: liora
+  name: Liora
+  caption: Cryptoanarchist and Researcher
+  img: liora.jpg
+  desc: |
+    Cryptoanarchist and researcher of Information security with a deep interest in cryptography, cryptocurrencies, privacy and freedom.
+
+- id: silur
+  name: Silur
+  caption: Cryptographer, Hacker, Monero Research Lab
+  img: silur.jpg
+  desc: |
+    Originally a hacker, pentester and criminal advisor with (self-claimed) relatively good knowledge in cryptography design, the blockchain industry literally grew around me from being a shady question around web projects to one of the most thrilling subjects both in startup and government levels. Since then I'm mostly researching ways to keep this new kind of P2P economy private and anonymous, with a focus on quantum-safety.
+
+    I was a former member of Ethereum Foundation, currently a contributor to Monero research lab, Libertaria, and founder of Rhyno tech where I help companies to adopt advanced use-cases like zeroknowledge protocols, ANDOS, outsourced computing and homomorphic encryption. (hcpp18)
+
+- id: petr-lupac
+  name: Petr Lupač
+  caption: Assistant Professor at the Department of Sociology, Faculty of Arts, Charles Univerzity (CZ)
+  img: petr-lupac.jpg
+  desc: |
+    Petr Lupač obtained a Doctoral Degree in Sociology from the Faculty of Arts at Charles University, Czech Republic where he now serves as Assistant Professor. He has participated in academic and research programmes in Kansas State University and New York University. His primary sociological interests include technology, globalization and media. Since 2015, he has also been working as an external consultant for the Czech Strategy for Digital Literacy. He is the Czech representative for the World Internet Project. Recently, he published the book Beyond the Digital Divide: Contextualizing the Information Society. (hcpp19)
+
+- id: spyros-dovas
+  name: Spyros Dovas
+  img: spyros-dovas.jpg
+  caption: Entrepreneur, crypto enthusiast
+
+- id: marketa-dolejsova
+  name: Markéta Dolejšová
+  img: marketa-dolejsova.jpg
+  altNames: [ Marketa Dolejsova ]
+  caption: Design Researcher
+  desc: |
+    Markéta is a design researcher with a background in Human-Computer Interaction (HCI) and Food Studies. Her research combines the methods and techniques of Research through Design (RtD) with ethnography to investigate the growing role of digital and bio-technologies in everyday human-food practices. She is currently a postdoctoral research fellow at the Faculty of Social and Economic Studies, Jan Evangelista Purkyně University, and a research fellow in New Media Studies at the Charles University (CZ). She has co-founded several independent design research collectives including the HotKarot & OpenSauce, Fermentation GutHub, Extreme Biopolitical Bistro, and ALTTAB. In 2018, she received a PhD in Interactive Media Design at the National University of Singapore for her doctoral project Edible Speculations: Designing for Human-Food Interaction. Her work is regularly published in HCI and design research journals and conference proceedings. (hcpp19)
+
+- id: kilian-rausch
+  name: Kilian Rausch
+  img: kilian-rausch.jpg
+  caption: Product Anarchist
+  desc: |
+    Kilian plays product at Exchange Union, the project bootstrapping OpenDEX, a protocol for unstoppable P2P trading. OpenDEX is built on the Lightning & Raiden Network and brings individuals and exchanges onto the same network to trade instantly and trustlessly. Previously, he was the PO of Mobi at BTCC, the world’s first true global & mobile wallet for everyday people. (hcpp19)
+
+- id: tomas-marada
+  name: Tomáš Marada
+  img: tomas-marada.jpg
+  caption: Mathematician
+  desc: |
+    Tomáš is a mathematician fascinated with new technologies, their exponential growth, and transformative potential to human society. Tomáš is a co-founder of Debnk - decentralized trustless bitcoin backed banking. (hcpp19)
+
+- id: michal-postranecky
+  name: Michal Postránecký
+  img: michal-postranecky.jpg
+  caption: Autonomous Architect and Urbanist
+  desc: |
+    Ing. arch. Michal Postránecký is a Czech architect and urbanist currently living in Florida, USA. His portfolio counts many projects in the Czech Republic and the USA, where he has lived and worked since 2000. He focuses on eco-friendly and smart projects, the regeneration of existing settlements and the design of new urban structures with the help of smart technologies. He is the founder and head of Center of City of the Future Center within, Czech Institute of Informatics, Robotics and Cyberentics CTU and he is also a founder of SynopCity.com, a global platform for sharing information, knowledge. and experience, focusing on the Smart and Innovative Cities concepts. He is the author of a number of scholarly articles on smart cities and related issues. Together with Professor Svítek and a team of their colleagues, he is the author of the book The City of Future. (hcpp19)
+
+- id: li-zhao-schoolland
+  name: Li Zhao Schoolland
+  img: li-zhao-schoolland.jpg
+  caption: Director of External Relations—Asia Pacific for the Acton Institute and the Founder of TFT Events
+  desc: |
+    Li Zhao Schoolland is an independent educator, writer, translator, and event organizer and a member of the Mont Pelerin Society.
+
+    Mrs. Schoolland survived 26 years through the horrors of Mao’s regime in China. This motivated her to a lifetime of promoting freedom and liberty globally through the organization of Austrian economics and entrepreneurship conferences and summer camps over two decades in Eastern Europe, Asia/Pacific, and North Africa. She arranges translation and publication of libertarian literature in China and coaches parents in raising liberty-minded youth. (hcpp19)
+
+- id: mark-nadal
+  name: Mark Nadal
+  img: mark-nadal.jpg
+  caption: GUN Founder
+  desc: |
+    Mark is a mathematician turned programmer. He runs a VC backed Open Source company and has traveled to 30 countries. The diverse cultures he has experienced fuels his passion for learning, sharing, and creating open technology freely for all. (hcpp19)
+
+- id: robin-hanson
+  name: Robin Hanson
+  img: robin-hanson.jpg
+  caption: Associate Professor of Economics, George Mason University
+  desc: |
+    Robin Hanson is associate professor of economics at George Mason University, and research associate at the Future of Humanity Institute of Oxford University. He has a doctorate in social science from California Institute of Technology, master's degrees in physics and philosophy from the University of Chicago, and nine years experience as a research programmer, at Lockheed and NASA.
+
+    Professor Hanson has 4126 citations, a citation h-index of 32, and over ninety academic publications. Oxford University Press published his book The Age of Em: Work, Love and Life When Robots Rule the Earth in June 2016, and his book The Elephant in the Brain: Hidden Motives in Everyday Life, co-authored with Kevin Simler, in January, 2018. Professor Hanson has 900 media mentions, given 350 invited talks, and his blog OvercomingBias.com has had eight million visits.
+
+    Professor Hanson has pioneered prediction markets, also known as information markets and idea futures, since 1988. He was the first to write in detail about creating and subsidizing markets to gain better estimates on a wide variety of important topics. He was a principal architect of the first internal corporate markets, at Xanadu in 1990, of the first web markets, the Foresight Exchange since 1994, of DARPA's Policy Analysis Market, from 2001 to 2003, and of IARPA's combinatorial markets DAGGRE and SCICAST from 2010 to 2015. Professor Hanson developed new technologies for conditional, combinatorial, and intermediated trading, and studied insider trading, manipulation, and other foul play. He has written and spoken widely on the application of idea futures to business and policy, and has advised many ventures. He suggests "futarchy", a form of governance based on prediction markets.
+
+    Robin has diverse research interests, with papers on spatial product competition, health incentive contracts, group insurance, product bans, evolutionary psychology and bioethics of health care, voter information incentives, incentives to fake expertise, Bayesian classification, agreeing to disagree, self-deception in disagreement, probability elicitation, wiretaps, image reconstruction, the history of science prizes, reversible computation, the origin of life, the survival of humanity, very long term economic growth, growth given machine intelligence, and interstellar colonization. He coined the phrase "The Great Filter" as part of an effort to understand why the universe looks so dead. (hcpp19)
+
+- id: sonja-prstec
+  name: Sonja Prstec
+  caption: Lawyer and CLO of Bitnation
+  img: sonja-prstec.jpg
+  desc: |
+    I have been working as a lawyer for 12 years. I have been the official legal advisor and representative for project Liberland for the last 3 years and for the project Bitnation for 1 year. I'm interested in credible alternatives to existing governmental and nation structures, crypto community, blockchain and AI technology implementations. I want to focus on legal consultancy, support for startups regarding technology and cryptocurrency projects. I'm personally interested in defending individual freedom and humanitarian rights in general. (hcpp18)

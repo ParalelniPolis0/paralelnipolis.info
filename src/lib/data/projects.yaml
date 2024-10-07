@@ -66,6 +66,8 @@
         - florian-glatz
         - oskar-thoren
         - christian-lewe
+      organizers:
+        - kx
 
     - id: hcpp23
       name: "HCPP23: Resistance"
@@ -98,6 +100,8 @@
         - scott-beibin
         - max-hampshire
         - amin-rafiee
+      organizers:
+        - kx
       
     - id: hcpp22
       name: "HCPP22: Last Shot"
@@ -159,6 +163,7 @@
         - alexander-bard
         - sara-polak
         - travin-keith
+        - silur
 
     - id: hcpp19
       name: "HCPP19: Opt-Out"
@@ -198,6 +203,15 @@
         - jakub-hamata
         - frank-rieger
         - jiri-horacek
+        - mark-nadal
+        - robin-hanson
+        - marketa-dolejsova
+        - kilian-rausch
+        - li-zhao-schoolland
+        - michal-postranecky
+        - petr-lupac
+        - tomas-marada
+        - spyros-dovas
 
     - id: hcpp18
       name: "HCPP18: New Order"
@@ -227,6 +241,15 @@
         - amin-rafiee
         - habo
         - michael-schloh
+        - radim-kozub
+        - pavel-urbaczka
+        - silur
+        - eric-lombrozo
+        - pablo-coirolo
+        - liora
+        - jw-weatherman
+        - pavol-travnik
+        - sonja-prstec
 
     - id: hcpp17
       name: "HCPP17: Liberate!"
@@ -254,6 +277,13 @@
         - tone-vays
         - frank-braun
         - pavol-rusnak
+        - tomas-michalek
+        - matej-held
+        - ido-kaiser
+        - justin-smith
+        - chris-beams
+        - david-hemmerle
+        - josef-sima
 
     - id: hcpp16
       name: "HCPP16: Decentralized"
@@ -327,6 +357,8 @@
         - exiledsurfer
         - sergej-kotliar
         - ruben-somsen
+      organizers:
+        - mario
 
     - id: pd23
       name: "Pizza Day Prague 2023: P2P"
@@ -341,6 +373,9 @@
         - max-hillebrand
         - lea-petras
         - juraj-bednar
+      organizers:
+        - mario
+        - kx
 
     - id: pd24
       name: "Pizza Day Prague 2024: Scaling Wars"
@@ -353,6 +388,9 @@
         - musalbas
         - exiledsurfer
         - juraj-bednar
+      organizers:
+        - mario
+        - kx
     
   caption: |
     The event series explores the technical and ideological challenges of scaling a decentralized cryptocurrency, bringing together the community to navigate these issues.
@@ -382,10 +420,13 @@
         - sara-polak
         - jarrad-hope
         - wlodek-gogloza
+      organizers:
+        - mario
+        - josefj
 
     - id: ethprague23
       name: ETHPrague 2023
-      date: "2022-06-09"
+      date: "2023-06-09"
       days: 3
       seq: 2
       speakers:
@@ -407,6 +448,8 @@
         - danny-holland
         - mario
         - wlodek-gogloza
+      organizers:
+        - josefj
 
   caption: |
     A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
