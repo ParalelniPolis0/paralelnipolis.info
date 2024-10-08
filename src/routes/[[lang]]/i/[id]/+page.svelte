@@ -20,7 +20,13 @@
             return pe.roles?.find((r) => r.project === p.id);
         }),
     );
-    const concepts = projects.filter((i) => i.instances.includes(p.id));
+    const instanceProjects = projects.filter((i) => i.instances.includes(p.id));
+    const activeProjects = instanceProjects.filter(
+        (i) => i.years && !i.years[1],
+    );
+    const pastProjects = instanceProjects
+        .filter((i) => i.years && i.years[1])
+        .sort((x, y) => (x.years[1] > y.years[1] ? -1 : 1));
 
     let eventView = $state("simple");
 
@@ -82,14 +88,21 @@
     </div>
 {/if}
 
-{#if concepts.length > 0}
-    <div class="mt-8">
-        <h2 class="grow text-2xl main">
-            {lang === "cs" ? "Koncepty" : "Concepts"}
-        </h2>
-        <div>
-            <ProjectList arr={concepts} />
-        </div>
+{#if activeProjects.length > 0}
+    <div class="mb-10 mt-4">
+        <h1 class="main text-2xl">
+            {lang === "cs" ? "Aktivní koncepty" : "Active concepts"}
+        </h1>
+        <ProjectList arr={activeProjects} />
+    </div>
+{/if}
+
+{#if pastProjects.length > 0}
+    <div class="mb-10 mt-4">
+        <h1 class="main text-2xl">
+            {lang === "cs" ? "Historické koncepty" : "Historical concepts"}
+        </h1>
+        <ProjectList arr={pastProjects} gray="true" />
     </div>
 {/if}
 

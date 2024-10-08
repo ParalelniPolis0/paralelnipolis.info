@@ -1,10 +1,20 @@
 <script>
-    const { arr, gray, type } = $props();
+    import { projects } from "$lib/data.js";
+    let { arr, gray, type } = $props();
+
+    if (type === "instance") {
+        arr = arr.map((instance) => {
+            instance.activeProjects = projects
+                .filter((i) => i.instances.includes(instance.id))
+                .filter((i) => i.years && !i.years[1]);
+            return instance;
+        });
+    }
 </script>
 
 <div class="mt-8 w-full">
     {#each arr as p}
-        <div class="mb-4 group p-2">
+        <div class="mb-8 group p-2">
             <div class="flex gap-4 sm:gap-6">
                 <div class="shrink-0 sm:mb-0 mb-4">
                     <a href="/{type === 'instance' ? 'i' : 'c'}/{p.id}">
@@ -44,6 +54,24 @@
                     {/if}-->
                     {#if p.caption}
                         <div class="mt-2 hidden sm:block">{p.caption}</div>
+                    {/if}
+                    {#if p.activeProjects?.length > 0}
+                        <div class="grid grid-cols-1 gap-2 mt-4 ml-4">
+                            {#each p.activeProjects as sp}
+                                <div class="flex gap-3 items-center">
+                                    <div>
+                                        <img
+                                            src="/projects/{sp.img}"
+                                            class="w-8 rounded aspect-square object-cover"
+                                            alt={sp.name}
+                                        />
+                                    </div>
+                                    <div class="text-2xl">
+                                        <a href="/c/{sp.id}">{sp.name}</a>
+                                    </div>
+                                </div>
+                            {/each}
+                        </div>
                     {/if}
                     <!--div class="mt-2">{p.description || p.description_cs}</div-->
                 </div>

@@ -21,9 +21,9 @@ license:
 
 menu: 
   - ["/", "→/"]
-  - ["/people", "People", "Lidé"]
-  - ["/concepts", "Concepts", "Koncepty"]
   - ["/instances", "Instances", "Instance"]
+  #- ["/concepts", "Concepts", "Koncepty"]
+  - ["/people", "People", "Lidé"]
   - ["/archive", "Archive", "Archiv"]
   #- ["/membership", "Membership", "Členství"],*/
   #- ["https://forum.paralelnipolis.cz", "Forum"]
