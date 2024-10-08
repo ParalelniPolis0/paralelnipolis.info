@@ -1,5 +1,5 @@
 <script>
-    import { people, archive, config } from "$lib/data.js";
+    import { people, archive, instances, config } from "$lib/data.js";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
@@ -18,6 +18,9 @@
         people.filter((pe) => {
             return pe.roles?.find((r) => r.project === p.id);
         }),
+    );
+    const conceptInstances = $derived(
+        p.instances?.map((i) => instances.find((x) => x.id === i)),
     );
     let eventView = $state("simple");
 
@@ -44,10 +47,19 @@
                         : ""}){/if}
             </div>
         </div>
-
         <RefsBar refs={p.refs} />
         {#if p.caption}
             <div class="mt-6 text-lg">{p.caption}</div>
+        {/if}
+        {#if conceptInstances}
+            <div class="mt-4 flex gap-2 text-xl items-center">
+                <div>Instance:</div>
+                {#each conceptInstances as ci}
+                    <div class="mr-2">
+                        <a href="/i/{ci.id}">{ci.name}</a>
+                    </div>
+                {/each}
+            </div>
         {/if}
     </div>
     <div class="shrink-0">

@@ -19,6 +19,14 @@
         {lang === "cs" ? "Aktivní instance" : "Active instances"}
     </h1>
     <ProjectList arr={activeInstances} type="instance" />
+
+    <div class="mt-4 text-xl italic">
+        Want to start your own Parallel Polis? Check-out our
+        <a
+            href="https://github.com/ParalelniPolis0/ParalelniPolis-decentralized/blob/master/README.md"
+            target="_blank">know-how and guidelines →</a
+        >
+    </div>
 </div>
 
 <div class="mb-10 mt-4">

@@ -595,3 +595,10 @@
     A unique espresso bar, Bitcoin Coffee showcasing innovative technologies. By accepting only cryptocurrencies, it highlights practical applications of cryptocurrency, while drawing inspiration from Berlin's coffee culture to create exceptional flavors.
   description_cs: |
     Koncept Paralelní polis lze rozklíčovat návštěvou espresso baru Bitcoin Coffee. Obrácený princip baru se zakládá na otevřeném a sdíleném výrobním postupu. Využití papírové voštiny reprezentuje hledání nových možností známých zajímavých materiálů. Bitcoin jako platební prostředek přivádí pozornost návštěvníka k využívání nových kryptotechnologií v praxi. Koncepce kavárny po vzoru berlínské kávové špičky, značky Bonanza Café, jako kávové laboratoře zacílené na dosažení špičkové chuti pak vyvolává zájem o doposud neobjevené kvality života. Pro pochopení složitých témat Paralelní polis je důležité posilnit se douškem silné kávy.
+
+#- id: ioc-forum
+#  name: Parallel Research
+#  instances: [ zero ]
+#  years: [ 2024 ]
+#  types: [ service, archive ]
+#  img: ../instances/pp.webp
