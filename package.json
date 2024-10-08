@@ -1,5 +1,5 @@
 {
-	"name": "pp-web",
+	"name": "paralelnipolis.info",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -25,7 +25,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/burningtree/pp-web.git"
+		"url": "git+https://github.com/ParalelniPolis0/paralelnipolis.info.git"
 	},
 	"type": "module",
 	"license": "MIT"

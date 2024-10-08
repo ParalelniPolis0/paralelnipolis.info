@@ -90,7 +90,7 @@
                 ><img
                     src="/logo.png"
                     alt={config.title}
-                    class="invert dark:invert-0"
+                    class="invert dark:invert-0 inline-block"
                 /></a
             >
             <div class="hidden sm:flex gap-1 px-4 top-menu">
@@ -132,11 +132,21 @@
         <div class="max-w-6xl h-auto mx-auto py-2 mb-2">
             <div class="w-full lg:flex gap-4 items-start">
                 <div class="grow">
-                    <a href="https://vojdivon.sk/" class="text-2xl"
+                    <!--a href="https://vojdivon.sk/" class="text-2xl"
                         >vejdi ven!</a
-                    >
+                    -->
+                    <span class="text-2xl">enter outside!</span>
                     <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
-                        <a href="https://x.com/{config.refs.twitter}">𝕏</a>
+                        {#if config.refs.signal}
+                            <a href={config.refs.signal}>Signal</a>
+                        {/if}
+                        {#if config.refs.github}
+                            <a href="https://github.com/{config.refs.github}"
+                                >GitHub</a
+                            >
+                        {/if}
+
+                        <!--a href="https://x.com/{config.refs.twitter}">𝕏</a>
                         <a href="https://primal.net/p/{config.refs.nostr}"
                             >Nostr</a
                         >
@@ -157,10 +167,8 @@
                         >
                         <a href="https://www.meetup.com/{config.refs.meetup}/"
                             >Meetup</a
-                        >
-                        <a href="https://github.com/{config.refs.github}"
-                            >GitHub</a
-                        >
+
+                        -->
                     </div>
                 </div>
                 <div class="">
@@ -188,7 +196,7 @@
                             >
                         </div>
                     </div>
-                    <div class="mt-3 opacity-50">
+                    <div class="mt-3 opacity-50 sm:text-right">
                         Last update: {new Date(build.time).toLocaleString(lang)}
                     </div>
                 </div>

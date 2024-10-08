@@ -7,6 +7,7 @@ import peopleSrc from '$lib/data/people.yaml';
 import projectsSrc from '$lib/data/projects.yaml';
 import configSrc from '$lib/data/config.yaml';
 import friendsSrc from "$lib/data/friends.yaml";
+import instancesSrc from '$lib/data/instances.yaml';
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -15,6 +16,7 @@ export const config = configSrc;
 
 export const projects = projectsSrc;
 export const friends = friendsSrc;
+export const instances = instancesSrc;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;

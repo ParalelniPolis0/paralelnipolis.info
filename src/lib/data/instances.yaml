@@ -1,0 +1,39 @@
+- id: prague
+  name: Paralelní Polis Prague
+  years: [ 2014, 2024 ]
+  types: [ place, community ]
+  img: pp-prague.jpg
+  refs:
+    web: https://paralelnipolis.cz
+    twitter: paralelni_polis
+    facebook: vejdiven
+    instagram: paralelnipolis
+    youtube_channel: UCfHJ5Y3akQ7LA0PQmSYlYmQ
+    meetup: paralelnipolis
+    github: ParalelniPolis
+
+- id: bratislava
+  name: Paralelná Polis Bratislava
+  years: [ 2018 ]
+  types: [ community ]
+  img: pp-bratislava.webp
+  refs:
+    web: https://paralelnapolis.sk
+    github: ParalelnaPolis
+
+- id: kosice
+  name: Paralelná Polis Košice
+  years: [ 2018 ]
+  types: [ place, community ]
+  img: pp-kosice.webp
+  refs:
+    web: https://paralelnapoliskosice.sk
+
+- id: zero
+  name: Paralelní Polis Zero
+  years: [ 2024 ]
+  types: [ community ]
+  img: pp.webp
+  refs:
+    web: https://paralelnipolis.info
+    github: ParalelniPolis0

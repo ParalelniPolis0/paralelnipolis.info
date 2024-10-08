@@ -1,4 +1,4 @@
-# paralelnipolis.cz
+# paralelnipolis.info
 
 New shiny website.
 
