@@ -2,18 +2,27 @@
   name: "Parallel Polis Zero"
   years: [ 2024 ]
   img: pp.webp
-  caption: "The digital meta-instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy in cyberspace."
+  caption: "The digital-first meta instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy (not only) in cyberspace."
   refs:
     web: https://paralelnipolis.info
     github: ParalelniPolis0
   description: |
 
     ## Mission
+    * provide the technology and education that people need to engage in an independent society
+    * protect individual freedom
+
+    ## Purpose within PP movement
     * serve as a meta-instance that interconnects all PP instances
     * preserves (archives) PP knowledge for future generations
     * helps to publish and popularise PP knowledge and concepts
     * explores options for the financial sustainability of the entire movement
     * the operation of services and protocols that preserve individual freedoms
+
+    ## Components
+    * [Web](https://paralelnipolis.info) - encyclopedia and archive of the entire PP ecosystem
+    * Forum - a public forum for research and discussion across the movement (TODO)
+    * Matrix server - communication platform available for the whole community (TODO)
 
 - id: kosice
   name: Paralelná Polis Košice
