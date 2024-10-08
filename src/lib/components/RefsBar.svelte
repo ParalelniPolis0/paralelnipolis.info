@@ -20,6 +20,22 @@
                 </a>
             </div>
         {/if}
+        {#if refs.nostr}
+            <div class="flex gap-2 items-center">
+                <div class="text-2xl">
+                    <img
+                        src="/nostr.webp"
+                        class="w-5 dark:invert"
+                        alt="Nostr"
+                    />
+                </div>
+                <a
+                    href="https://primal.net/p/{refs.nostr}"
+                    class="hover:underline"
+                    >{refs.nostr.slice(0, 15)}..
+                </a>
+            </div>
+        {/if}
         {#if refs.github}
             <div class="flex gap-2 items-center">
                 <div class="font-semibold">

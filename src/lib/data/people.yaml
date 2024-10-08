@@ -13,6 +13,7 @@
   name: Mário Havel
   refs:
     twitter: TMIYChao
+    github: taxmeifyoucan
   desc: |
     Mário is a hacker and researcher working with EF on making the crypto ecosystem more efficient and anonymous. As a member of Paralelní Polis, co-founder of Bordel Hackerspace, and the driving force behind Pizza Day Prague, Mário educates about tools of cryptoanarchy in local communities with a focus on onboarding via Lightning and p2p exchange. He is a vast enjoyer of FOSS, parallel economy, and trolling bitcoiners.
   img: mario.png
@@ -102,6 +103,8 @@
   refs:
     web: https://juraj.bednar.io
     twitter: jurbed
+    nostr: npub1m2mvvpjugwdehtaskrcl7ksvdqnnhnjur9v6g9v266nss504q7mqvlr8p9
+    github: jooray
   desc: |
     Juraj is a serial entrepreneur and founder of Progressbar, Paralelná Polis, and Hacktrophy. He wrote several books, his latest one being “Cryptocurrencies – hack your way to a better life”. He creates online courses and content about privacy, crypto, and entrepreneurship.
   img: juraj-bednar.png
@@ -119,6 +122,7 @@
     - P. Luptak
   refs:
     twitter: wilderko
+    nostr: npub15xkpvjux5fw2q0kgl8m9c6pv0wu5urgctq9tthftmu559lf4wxqqknkrnh
   desc: |
     Global Opportunist, Cryptoanarchist, Voluntaryist, and Perpetual Traveler focused on technology and society hacking. And, of course, the HCPP lover 🙂
   img: wilder.jpg
@@ -721,6 +725,7 @@
   name: Roman Týc
   img: roman-tyc.webp
   refs:
+    web: https://romantyc.cz
     twitter: Roman_Tyc
   roles:
     - project: institute-of-cryptoanarchy
@@ -988,6 +993,9 @@
   caption: IT developer, lawyer & entrepreneur
   desc: |
     Pavol Travnik studied law both in Slovakia and Czechia. After graduation, Pavol has changed his professional interest into IT development in insurance and pharmacy companies. He described the definition of cryptocurrencies in Czech and Slovak civil law. His constant fascination by legal imperfection and anonymous cryptocurrencies lead him to explore and collect more examples of how to liberate himself and others by hacking the law. (hcpp18)
+  roles:
+    - project: tame-me
+      type: contributor
 
 - id: pablo-coirolo
   name: Pablo Coirolo

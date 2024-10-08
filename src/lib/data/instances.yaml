@@ -15,6 +15,7 @@
     web: https://paralelnapoliskosice.sk
     twitter: parallelpoliske
     github: ParalelnaPolisKE
+    nostr: npub19u6u0h9pwg8k63e9f535enqdkgzl8wqzwzlnrtnwr853wt4ypszsapm6e6
 
 - id: prague
   name: Paralelní Polis Prague
@@ -37,6 +38,7 @@
   img: pp-bratislava.webp
   refs:
     web: https://paralelnapolis.sk
+    twitter: paralelnapolis
     github: ParalelnaPolis
 
 - id: wien
