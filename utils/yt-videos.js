@@ -5,6 +5,7 @@ const people = load(await Bun.file('./src/lib/data/people.yaml').text())
 const configBase = load(await Bun.file('./src/lib/data/config-base.yaml').text())
 const apiKey = process.env.YT_API_KEY;
 const missingPersonCounter = {}
+const processed = []
 
 const matrix = [
     ['hcpp', 'hcpp16', /^([^-]+) - ([^\|]+) \| HCPP16$/, [2, 1]],
@@ -146,8 +147,10 @@ async function getResults(type = "channel", youtubeId, next) {
     let url;
     if (type === "playlist") {
         url = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet,id&playlistId=${youtubeId}&maxResults=50&pageToken=${next}&key=${apiKey}`;
-    } else {
+    } else if (type === "channel") {
         url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet,id&channelId=${youtubeId}&maxResults=50&type=video&pageToken=${next}&key=${apiKey}`;
+    } else {
+        url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,id,contentDetails&id=${youtubeId}&key=${apiKey}`
     }
     return download(url)
 }
@@ -174,7 +177,7 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
         next = json.nextPageToken || false
 
         for (const i of json.items) {
-            const videoId = i.id?.videoId || i.snippet.resourceId?.videoId;
+            const videoId = i.id?.videoId || i.snippet.resourceId?.videoId || i.id;
             const base = (configBase.archive.find(i => i.videoId === videoId))
             let header = await parseTitle(i.snippet.title, scanAll, defaultConfig, config)
             if (base && header === false) {
@@ -201,7 +204,7 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
                 const img = `${header.event}/${id}.jpg`
                 const thumbFn = `./static/archive/${img}`;
                 if (!await Bun.file(thumbFn).exists()) {
-                    const thumb = await fetch(detail.snippet.thumbnails.maxres.url);
+                    const thumb = await fetch((detail.snippet.thumbnails.maxres || detail.snippet.thumbnails.high).url);
                     await Bun.write(thumbFn, thumb)
                 }
 
@@ -216,6 +219,8 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
                     duration: parseYouTubeDuration(detail.contentDetails.duration),
                     ...header,
                 })
+                processed.push(videoId)
+
             } else if (header === false) {
                 console.error(`Unknown title: ${i.snippet.title}`)
                 //console.log(i.snippet.title)
@@ -223,21 +228,35 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
         }
     }
 
-    const outputFn = `./src/lib/data/gen/${suffix}.json`
-    await Bun.write(outputFn, JSON.stringify(out, null, 2))
+    if (suffix) {
+        const outputFn = `./src/lib/data/gen/${suffix}.json`
+        await Bun.write(outputFn, JSON.stringify(out, null, 2))
 
-    console.log(`\nWrited: ${outputFn} (${out.length} items)`)
+        console.log(`\nWrited: ${outputFn} (${out.length} items)`)
+    }
+    return out
 }
 
 await scan('yt-old', 'channel', 'UCfHJ5Y3akQ7LA0PQmSYlYmQ', true)
 await scan('yt-new', 'channel', 'UC_88YKXiY1KDqbS38DVnCqg', true)
-//await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
-//await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
+await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
+await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
+
+const others = []
+for (const v of configBase.archive.filter(i => !processed.includes(i.videoId))) {
+    const item = await scan(null, 'video', v.videoId, true)
+    others.push(...item)
+}
+
+const outputFn = `./src/lib/data/gen/yt-others.json`
+await Bun.write(outputFn, JSON.stringify(others, null, 2))
+console.log(`\nWrited: ${outputFn} (${others.length} items)`)
+
 
 console.log('\nstats:')
 for (const i of Object.keys(missingPersonCounter).sort()) {
     if (missingPersonCounter[i] < 2) {
         //continue
     }
-    console.log(`  ${i}: ${missingPersonCounter[i]}`)
+    //console.log(`  ${i}: ${missingPersonCounter[i]}`)
 }

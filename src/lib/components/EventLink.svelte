@@ -2,7 +2,7 @@
     import { events } from "$lib/data.js";
     const { event: eid } = $props();
 
-    const e = events.find((e) => e.id === eid);
+    const e = $derived(events.find((e) => e.id === eid));
 </script>
 
 {#if e}

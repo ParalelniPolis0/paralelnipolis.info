@@ -1,8 +1,29 @@
+- id: zero
+  name: Parallel Polis Zero
+  years: [ 2024 ]
+  types: [ global ]
+  img: pp.webp
+  caption: PP0. Polis without physical space, focused on communication and education throughout cyberspace.
+  refs:
+    web: https://paralelnipolis.info
+    github: ParalelniPolis0
+
+- id: kosice
+  name: Paralelná Polis Košice
+  years: [ 2021 ]
+  types: [ local, place ]
+  img: pp-kosice.webp
+  refs:
+    web: https://paralelnapoliskosice.sk
+    twitter: parallelpoliske
+    github: ParalelnaPolisKE
+
 - id: prague
   name: Paralelní Polis Prague
   years: [ 2014, 2024 ]
   types: [ global, local, place ]
   img: pp-prague.jpg
+  caption: The original Paralelní Polis, established by the Czech art collective Ztohoven in 2014, was a social cryptoanarchy experiment that operated as physical space for over a decade in Prague's Holešovice district.
   refs:
     web: https://paralelnipolis.cz
     twitter: paralelni_polis
@@ -14,38 +35,19 @@
 
 - id: bratislava
   name: Paralelná Polis Bratislava
-  years: [ 2018 ]
+  years: [ 2018, 2020 ]
   types: [ local ]
   img: pp-bratislava.webp
   refs:
     web: https://paralelnapolis.sk
     github: ParalelnaPolis
 
-- id: kosice
-  name: Paralelná Polis Košice
-  years: [ 2018 ]
-  types: [ local, place ]
-  img: pp-kosice.webp
-  refs:
-    web: https://paralelnapoliskosice.sk
-    twitter: parallelpoliske
-    github: ParalelnaPolisKE
-
 - id: wien
   name: Parallele Polis Vienna
-  years: []
+  years: [ 2020, 2022 ]
   types: [ global, local ]
   img: pp-wien.webp
   refs:
     twitter: ParallelePolis
     web: https://parallele.at
     github: parallele-at
-
-- id: zero
-  name: Paralelní Polis Zero
-  years: [ 2024 ]
-  types: [ global ]
-  img: pp.webp
-  refs:
-    web: https://paralelnipolis.info
-    github: ParalelniPolis0

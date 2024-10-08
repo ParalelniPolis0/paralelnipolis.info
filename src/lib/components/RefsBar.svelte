@@ -20,5 +20,21 @@
                 </a>
             </div>
         {/if}
+        {#if refs.github}
+            <div class="flex gap-2 items-center">
+                <div class="font-semibold">
+                    <img
+                        src="/github.svg"
+                        class="w-5 dark:invert"
+                        alt="GitHub"
+                    />
+                </div>
+                <a
+                    href="https://github.com/{refs.github}"
+                    class="hover:underline"
+                    >{refs.github}
+                </a>
+            </div>
+        {/if}
     </div>
 {/if}

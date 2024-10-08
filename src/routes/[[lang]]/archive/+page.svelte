@@ -15,7 +15,7 @@
     let totalAuthors = $derived(
         allArchive.reduce(
             (all, cur) =>
-                all.concat(cur.people.filter((p) => !all.includes(p))),
+                all.concat(cur.people?.filter((p) => !all.includes(p))),
             [],
         ).length,
     );

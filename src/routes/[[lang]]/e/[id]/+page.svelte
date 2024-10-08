@@ -5,12 +5,19 @@
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
+    import Youtube from "$lib/components/Youtube.svelte";
 
     const lang = getContext("lang");
 
     const { data } = $props();
     const e = $derived(data.item);
-    const archiveItems = $derived(archive.filter((i) => i.event === e.id));
+    const archiveItems = $derived(
+        archive.filter(
+            (i) =>
+                i.event === e.id &&
+                ((e.aftermovie && e.aftermovie !== i.videoId) || !e.aftermovie),
+        ),
+    );
     const project = $derived(projects.find((p) => p.id === e.project));
 
     const prev = $derived(
@@ -72,6 +79,16 @@
         />
     </div>
 {/if}
+
+{#if e.aftermovie}
+    <div class="mt-10">
+        <h3 class="main text-2xl mb-4">Aftermovie</h3>
+        <div class="lg:w-2/3">
+            <Youtube id={e.aftermovie} />
+        </div>
+    </div>
+{/if}
+
 {#if archiveItems && archiveItems.length > 0}
     <h3 class="mt-10 main text-2xl">Archive</h3>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">

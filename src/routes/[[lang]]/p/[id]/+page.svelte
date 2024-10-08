@@ -36,7 +36,7 @@
     );
 
     const archiveItems = $derived(
-        archive.filter((i) => i.people.includes(p.id)),
+        archive.filter((i) => i.people?.includes(p.id)),
     );
 
     const contributorProjectsIds = $derived(p.roles?.map((r) => r.project));

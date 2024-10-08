@@ -1,8 +1,8 @@
 - id: institute-of-cryptoanarchy
   name: Institute of Cryptoanarchy
   name_cs: Institut Kryptoanarchie
-  instances: [ prague, zero ]
-  years: [ 2014 ]
+  instances: [ prague ]
+  years: [ 2014, 2024 ]
   types: [ institution ]
   img: ioc.png
   caption: |
@@ -126,6 +126,7 @@
         - kai-landre
         - janine
         - ariel-gabizon
+      aftermovie: MDJLELT0fpw
 
     - id: hcpp21
       name: "HCPP21: Chaos"
@@ -136,6 +137,7 @@
         web: https://chaos.hcpp.cz
       speakers:
         - tey-el-rjula
+      aftermovie: vc2AZPTMWcI
     
     - id: hcpp20
       name: "HCPP20: Digital Totality"
@@ -164,6 +166,7 @@
         - sara-polak
         - travin-keith
         - silur
+      aftermovie: 8QYNUPxLdGw
 
     - id: hcpp19
       name: "HCPP19: Opt-Out"
@@ -425,6 +428,7 @@
       organizers:
         - mario
         - josefj
+      aftermovie: Gvv-lTjmQ9o
 
     - id: ethprague23
       name: ETHPrague 2023
@@ -452,6 +456,7 @@
         - wlodek-gogloza
       organizers:
         - josefj
+      aftermovie: bOIYk4Hrjhw
 
   caption: |
     A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
@@ -493,6 +498,8 @@
       days: 4
       seq: 1
       speakers:
+        - exiledsurfer
+      organizers:
         - exiledsurfer
 
 - id: bordel

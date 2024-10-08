@@ -19,7 +19,9 @@
         <a href="/v/{item.id}"><h3>{item.name}</h3></a>
     </div>
     <div class="flex flex-wrap gap-2">
-        <PeopleBar people={item.people} size="text-md" />
+        {#if item.people && item.people.length > 0}
+            <PeopleBar people={item.people} size="text-md" />
+        {/if}
         <EventLink event={item.event} />
     </div>
 </div>

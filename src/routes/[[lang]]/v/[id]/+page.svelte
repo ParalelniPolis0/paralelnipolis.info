@@ -20,7 +20,9 @@
 <h1 class="mt-4 grow text-3xl font-semibold">{item.name}</h1>
 
 <div class="mt-2 flex flex-wrap gap-2 items-center">
-    <PeopleBar people={item.people} />
+    {#if item.people}
+        <PeopleBar people={item.people} />
+    {/if}
     <EventLink event={item.event} />
     {#if item.duration}<div class="opacity-50 text-sm">
             {Math.round(item.duration / 60)}m

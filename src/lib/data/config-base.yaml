@@ -76,3 +76,28 @@ archive:
   - videoId: QBKsHW_9_UA
     desc: |
       In previous years I had a talk about why I think Liberty is a DIY project - that it's a personal responsibility of each and every one of us. Then I had two presentations about hacking the biology of our bodies and brain. This talk is continuation of all this work - how does liberty tie to our health, mental and physical performance? What are some of the best hacks to be more free, improve your brain and bodily function?
+
+  # HCPP22 aftermovie
+  - videoId: MDJLELT0fpw
+    project: hcpp
+    event: hcpp22
+
+  # HCPP21 aftermovie
+  - videoId: vc2AZPTMWcI
+    project: hcpp
+    event: hcpp21
+
+  # HCPP20 aftermovie
+  - videoId: 8QYNUPxLdGw
+    project: hcpp
+    event: hcpp20
+
+  # ETHPrague 2022 aftermovie
+  - videoId: Gvv-lTjmQ9o
+    project: ethprague
+    event: ethprague22
+
+  # ETHPrague 2023 aftermovie
+  - videoId: bOIYk4Hrjhw
+    project: ethprague
+    event: ethprague23

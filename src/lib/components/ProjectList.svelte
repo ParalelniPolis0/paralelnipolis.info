@@ -31,7 +31,7 @@
                                     : ""}){/if}</span
                         >
                     </h2>
-                    {#if p.types}
+                    <!--{#if p.types}
                         <div class="flex gap-2 text-sm mt-1 text-gray-500">
                             {#each p.types as t}
                                 <div
@@ -41,7 +41,7 @@
                                 </div>
                             {/each}
                         </div>
-                    {/if}
+                    {/if}-->
                     {#if p.caption}
                         <div class="mt-2 hidden sm:block">{p.caption}</div>
                     {/if}
