@@ -1,11 +1,12 @@
 <script>
-    import { people, archive, config } from "$lib/data.js";
+    import { people, archive, config, projects } from "$lib/data.js";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
     import { getContext } from "svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import { parse } from "marked";
+    import ProjectList from "../../../../lib/components/ProjectList.svelte";
 
     const lang = getContext("lang");
 
@@ -19,6 +20,8 @@
             return pe.roles?.find((r) => r.project === p.id);
         }),
     );
+    const concepts = projects.filter((i) => i.instances.includes(p.id));
+
     let eventView = $state("simple");
 
     function switchEventView() {
@@ -75,6 +78,17 @@
         <h2 class="text-2xl main">{lang === "cs" ? "Popis" : "Description"}</h2>
         <div class="prose prose-pp dark:prose-invert mt-6">
             {@html parse(p.description || p.description_cs)}
+        </div>
+    </div>
+{/if}
+
+{#if concepts.length > 0}
+    <div class="mt-8">
+        <h2 class="grow text-2xl main">
+            {lang === "cs" ? "Koncepty" : "Concepts"}
+        </h2>
+        <div>
+            <ProjectList arr={concepts} />
         </div>
     </div>
 {/if}

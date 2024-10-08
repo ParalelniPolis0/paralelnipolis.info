@@ -1,13 +1,10 @@
-
 - id: institute-of-cryptoanarchy
   name: Institute of Cryptoanarchy
   name_cs: Institut Kryptoanarchie
-  parent: pp-prague
-  years: [ 2014, 2024 ]
-  types: [ concept ]
+  instances: [ prague, zero ]
+  years: [ 2014 ]
+  types: [ institution ]
   img: ioc.png
-  refs:
-    web: https://paralelnipolis.cz/koncepty/cryptoanarchy-institute/
   caption: |
     A collective promoting digital freedom and decentralized technologies. It focuses on cryptography and alternative economic models, aiming to empower individuals against censorship and surveillance.
   
@@ -32,6 +29,7 @@
 
 - id: hcpp
   name: Hackers Congress Paralelní Polis
+  instances: [ prague ]
   years: [ 2014 ]
   types: [ conference ]
   refs:
@@ -341,6 +339,7 @@
 
 - id: pizza-day
   name: Pizza Day Prague
+  instances: [ prague ]
   years: [ 2022 ]
   types: [ conference ]
   refs:
@@ -401,6 +400,7 @@
 
 - id: ethprague
   name: ETHPrague
+  instances: [ prague ]
   years: [ 2022, 2023 ]
   types: [ conference, hackathon ]
   refs:
@@ -456,9 +456,19 @@
   caption: |
     A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
     
+- id: tame-me
+  name: tameMe
+  instances: [ bratislava ]
+  years: [ 2020, 2022 ]
+  img: tame-me.png
+  refs:
+    web: https://paralelnapolis.github.io/tameMe/
+  caption: |
+    The crypto wedding project aims to facilitate cohabitation for couples who do not want to undergo an institutionalized marriage and for us (🏳️‍🌈) who are still not allowed by law to live with dignity.
 
 - id: studio-pp
   name: Paralelní Polis Studio
+  instances: [ prague ]
   name_cs: Studio Paralelní Polis
   years: [ 2020, 2022 ]
   types: [ service ]
@@ -468,8 +478,26 @@
   description_cs: |
     Současný vysílací program Studia Paralelní Polis kopíruje původní programové schéma fyzických meetupů, tedy umění – věda – technologie, s programovou nadstavbou pro pokročilé uživatele bitcoinu, vycházející z tradičních bitcoinových meetupů. V době, kdy na ostatních YT kanálech recyklují Youtubeři pořád dokola stejná témata a osobnosti, my jsme se rozhodli nedělat clickbaitový obsah opřený o věštění ze svíčkových grafů, ale rozebírat věci do hloubky.
 
+- id: noncon
+  name: NONCON
+  instances: [ wien ]
+  years: [ 2020, 2020 ]
+  types: [ conference ]
+  img: noncon.jpg
+  caption: |
+    NONCON is an unconventional (online) conference organized by Parallele Polis Vienna, focused on digital privacy, decentralization, and crypto-anarchism.
+  events:
+    - id: noncon20
+      name: NONCON 2020
+      date: "2020-04-03"
+      days: 4
+      seq: 1
+      speakers:
+        - exiledsurfer
+
 - id: bordel
   name: Bordel
+  instances: [ prague ]
   years: [ 2016, 2023 ]
   types: [ place ]
   img: bordel.jpeg
@@ -482,6 +510,7 @@
 
 - id: decentruck
   name: Decentruck
+  instances: [ prague ]
   types: [ service ]
   years: [ 2020, 2021 ]
   img: decentruck.jpg
@@ -492,6 +521,7 @@
 
 - id: hackathoshi-flying-circuit
   name: Hackatoshi's Flying Circuit
+  instances: [ prague ]
   types: [ hackathon ]
   years: [ 2017, 2021 ]
   img: hackatoshi-flying-circuit.png
@@ -505,6 +535,7 @@
 - id: the-coins
   name: The Coins
   name_cs: Mince
+  instances: [ prague ]
   types: [ awards ]
   years: [ 2017, 2020 ]
   img: the-coins.jpeg
@@ -538,7 +569,8 @@
 
 - id: paper-hub
   name: Paper Hub
-  types: [ place ]
+  instances: [ prague ]
+  types: [ place, coworking ]
   years: [ 2014, 2024 ]
   img: paper-hub.jpg
   caption: |
@@ -548,6 +580,7 @@
   
 - id: bitcoin-coffee
   name: Bitcoin Coffee
+  instances: [ prague ]
   years: [ 2014, 2024 ]
   types: [ service, place ]
   img: bitcoin-coffee.png

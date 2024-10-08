@@ -1,7 +1,7 @@
 - id: prague
   name: Paralelní Polis Prague
   years: [ 2014, 2024 ]
-  types: [ place, community ]
+  types: [ global, local, place ]
   img: pp-prague.jpg
   refs:
     web: https://paralelnipolis.cz
@@ -15,7 +15,7 @@
 - id: bratislava
   name: Paralelná Polis Bratislava
   years: [ 2018 ]
-  types: [ community ]
+  types: [ local ]
   img: pp-bratislava.webp
   refs:
     web: https://paralelnapolis.sk
@@ -24,15 +24,27 @@
 - id: kosice
   name: Paralelná Polis Košice
   years: [ 2018 ]
-  types: [ place, community ]
+  types: [ local, place ]
   img: pp-kosice.webp
   refs:
     web: https://paralelnapoliskosice.sk
+    twitter: parallelpoliske
+    github: ParalelnaPolisKE
+
+- id: wien
+  name: Parallele Polis Vienna
+  years: []
+  types: [ global, local ]
+  img: pp-wien.webp
+  refs:
+    twitter: ParallelePolis
+    web: https://parallele.at
+    github: parallele-at
 
 - id: zero
   name: Paralelní Polis Zero
   years: [ 2024 ]
-  types: [ community ]
+  types: [ global ]
   img: pp.webp
   refs:
     web: https://paralelnipolis.info
