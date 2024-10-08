@@ -2,10 +2,18 @@
   name: "Parallel Polis Zero"
   years: [ 2024 ]
   img: pp.webp
-  caption: "Cypherpunk-rooted instance without physical location, focused on global cyberspace. It was created as a self-proclaimed carrier of PP ideas after the closure of the Prague location in 2024. #PP0"
+  caption: "The digital meta-instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy in cyberspace."
   refs:
     web: https://paralelnipolis.info
     github: ParalelniPolis0
+  description: |
+
+    ## Mission
+    * serve as a meta-instance that interconnects all PP instances
+    * preserves (archives) PP knowledge for future generations
+    * helps to publish and popularise PP knowledge and concepts
+    * explores options for the financial sustainability of the entire movement
+    * the operation of services and protocols that preserve individual freedoms
 
 - id: kosice
   name: Paralelná Polis Košice
