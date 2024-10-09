@@ -70,7 +70,7 @@
 
 - id: wien
   name: Parallele Polis Vienna
-  years: [ 2020, 2020 ]
+  years: [ 2020, 2024 ]
   types: [ global, local ]
   img: pp-wien.webp
   refs:
