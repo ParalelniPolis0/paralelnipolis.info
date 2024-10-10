@@ -2,11 +2,13 @@
   name: "Parallel Polis Zero"
   years: [ 2024 ]
   img: pp.webp
-  caption: "The digital-first meta instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy (not only) in cyberspace."
+  caption: "[Draft] The digital-first meta instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy (not only) in cyberspace."
   refs:
     web: https://paralelnipolis.info
     github: ParalelniPolis0
   description: |
+
+    This is just a draft for now.
 
     ## Mission
     * provide the technology and education that people need to engage in an independent society
@@ -48,6 +50,7 @@
     meetup: paralelnipolis
     github: ParalelniPolis
   description: |
+
     The Parallel Polis project combines art, social sciences and modern technology. It is based on the ideas of freedom, independence and innovative development of society. One of the main concepts is the consistent effort to remain "state free". Parallel Polis operates completely without state participation. At the same time, it does not draw any funds from public finances, i.e. from money raised by the state monopoly through involuntary forced payments ? taxes.
 
     Parallel Polis is a non-profit organisation with the legal form of a 'society'. The structure of Polis is based on a membership base. The members of the organisation contribute to the running of the project financially or by their own activity. Each member shows interest in the main ideas of Parallel Polis and tries to spread them. These are new technologies, decentralization and cryptoanarchy. We see cryptoanarchy as a potentially reasonable variant of social order. Through our activities we try to contribute to the critical discussion of the related problems of our time.

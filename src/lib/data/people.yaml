@@ -35,6 +35,9 @@
   desc: |
     As a contributor to the archaic Bitcoin Foundation, he has been around the ecosystem for quite some time. He is a privacy, transparency & decentralization CryptoRealist with a background in various projects. He is a founder of NFTdroppr, a co-founder of Parallele Polis in Vienna, a contributor at Sovryn, and a strategist at Mattereum.
   img: exiledsurfer.jpeg
+  roles:
+    - project: pizza-day
+      type: contributor
 
 - id: amir-taaki
   name: Amir Taaki
