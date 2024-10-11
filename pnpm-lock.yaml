@@ -20,6 +20,9 @@ devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.15
     version: 0.5.15(tailwindcss@3.4.13)
+  '@vavt/vite-plugin-import-markdown':
+    specifier: ^1.0.1
+    version: 1.0.1(vite@5.4.8)
   autoprefixer:
     specifier: ^10.4.20
     version: 10.4.20(postcss@8.4.47)
@@ -587,6 +590,14 @@ packages:
 
   /@types/estree@1.0.6:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
+    dev: true
+
+  /@vavt/vite-plugin-import-markdown@1.0.1(vite@5.4.8):
+    resolution: {integrity: sha512-t1DnQJsAFhVHjS25tUKD6vPjlJy7U3+HvBz+0cBosIIx8cvu8SHB33d/7aR5wv0egsDjJdXDOX/vuYlbY8Vpxw==}
+    peerDependencies:
+      vite: '>=2.0.0'
+    dependencies:
+      vite: 5.4.8
     dev: true
 
   /acorn-typescript@1.4.13(acorn@8.12.1):

@@ -248,7 +248,7 @@ for (const v of configBase.archive.filter(i => !processed.includes(i.videoId))) 
     others.push(...item)
 }
 
-const outputFn = `./src/lib/data/gen/yt-others.json`
+const outputFn = `./src/data/gen/yt-others.json`
 await Bun.write(outputFn, JSON.stringify(others, null, 2))
 console.log(`\nWrited: ${outputFn} (${others.length} items)`)
 

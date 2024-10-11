@@ -8,7 +8,7 @@ const collections = [
     "projects",
 ]
 
-const srcDir = "./src/lib/data"
+const srcDir = "./src/data"
 
 async function loadYaml(fn) {
     return load(await Bun.file(fn).text())

@@ -1,15 +1,15 @@
 
-import genYtOld from '$lib/data/gen/yt-old.json';
-import genYtNew from '$lib/data/gen/yt-new.json';
-import genYtDtpEthPrague22 from '$lib/data/gen/yt-dtp-ethprague22.json';
-import genYtDtpEthPrague23 from '$lib/data/gen/yt-dtp-ethprague23.json';
-import genYtOthers from '$lib/data/gen/yt-others.json';
+import genYtOld from '$lib/../data/gen/yt-old.json';
+import genYtNew from '$lib/../data/gen/yt-new.json';
+import genYtDtpEthPrague22 from '$lib/../data/gen/yt-dtp-ethprague22.json';
+import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
+import genYtOthers from '$lib/../data/gen/yt-others.json';
 
-import peopleSrc from '$lib/data/people.yaml';
-import projectsSrc from '$lib/data/projects.yaml';
-import configSrc from '$lib/data/config.yaml';
-import friendsSrc from "$lib/data/friends.yaml";
-import instancesSrc from '$lib/data/instances.yaml';
+import peopleSrc from '$lib/../data/people.yaml';
+import projectsSrc from '$lib/../data/projects.yaml';
+import configSrc from '$lib/../data/config.yaml';
+import friendsSrc from "$lib/../data/friends.yaml";
+import instancesSrc from '$lib/../data/instances.yaml';
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
