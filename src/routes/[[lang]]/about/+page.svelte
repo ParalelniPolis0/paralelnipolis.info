@@ -23,7 +23,7 @@
 
 <div class="mt-4 mb-10">
     <h1 class="main text-2xl">About Paralelní Polis</h1>
-    <div class="mt-8 mb-10 text-xl prose prose-pp max-w-none">
+    <div class="mt-8 mb-10 text-xl prose prose-pp dark:prose-invert max-w-none">
         {@html marked.parse(AboutPageMd)}
     </div>
 </div>
