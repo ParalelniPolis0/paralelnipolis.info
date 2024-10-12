@@ -6,6 +6,7 @@
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
     import Youtube from "$lib/components/Youtube.svelte";
+    import { marked } from "marked";
 
     const lang = getContext("lang");
 
@@ -61,7 +62,7 @@
                 )}{/if}
         </div>
         <div class="text-2xl">
-            <a href="/c/{project.id}">{project.name}</a>
+            {#if project}<a href="/c/{project.id}">{project.name}</a>{/if}
             {#if e.seq}<span class="opacity-50 font-normal">#{e.seq}</span>{/if}
         </div>
     </div>
@@ -85,6 +86,14 @@
         <h3 class="main text-2xl mb-4">Aftermovie</h3>
         <div class="lg:w-2/3">
             <Youtube id={e.aftermovie} />
+        </div>
+    </div>
+{/if}
+
+{#if e.description}
+    <div class="mt-4 mb-10">
+        <div class="mt-8 mb-10 prose prose-pp dark:prose-invert max-w-none">
+            {@html marked.parse(e.description)}
         </div>
     </div>
 {/if}

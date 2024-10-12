@@ -120,7 +120,7 @@ async function download(url) {
     const digest = hash.digest('hex');
     console.log({ url, digest })
 
-    const tmpFile = `./tmp/${digest}`
+    const tmpFile = `./tmp/yt/${digest}`
     const f = Bun.file(tmpFile);
     if (await f.exists()) {
         return JSON.parse(await f.text());
@@ -251,7 +251,6 @@ for (const v of configBase.archive.filter(i => !processed.includes(i.videoId))) 
 const outputFn = `./src/data/gen/yt-others.json`
 await Bun.write(outputFn, JSON.stringify(others, null, 2))
 console.log(`\nWrited: ${outputFn} (${others.length} items)`)
-
 
 console.log('\nstats:')
 for (const i of Object.keys(missingPersonCounter).sort()) {
