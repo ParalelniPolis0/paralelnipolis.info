@@ -12,6 +12,7 @@
     {#each events as ev}
         <div>
             <div class="flex flex-wrap">
+                <div class="text-2xl mr-4 opacity-50">PRG</div>
                 <div class="grow">
                     <h3 class="text-2xl inline">
                         <a href="/e/{ev.id}" alt={ev.name} class="font-semibold"

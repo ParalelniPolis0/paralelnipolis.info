@@ -47,10 +47,7 @@
 
 <svelte:head>
     <title>{config.title}</title>
-    <meta
-        http-equiv="onion-location"
-        content="http://pp2ai5sztzgad3ipkui7w4sddkjjcp4qr6gud6obo6btxi2op5ib36qd.onion"
-    />
+    <meta http-equiv="onion-location" content={config.refs.onion} />
 </svelte:head>
 
 {#if menuOpen}
