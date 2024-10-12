@@ -1,8 +1,8 @@
 import { load } from 'js-yaml';
 import slugify from 'slugify';
 
-const people = load(await Bun.file('./src/lib/data/people.yaml').text())
-const configBase = load(await Bun.file('./src/lib/data/config-base.yaml').text())
+const people = load(await Bun.file('./src/data/people.yaml').text())
+const configBase = load(await Bun.file('./src/data/config-base.yaml').text())
 const apiKey = process.env.YT_API_KEY;
 const missingPersonCounter = {}
 const processed = []
@@ -229,7 +229,7 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
     }
 
     if (suffix) {
-        const outputFn = `./src/lib/data/gen/${suffix}.json`
+        const outputFn = `./src/data/gen/${suffix}.json`
         await Bun.write(outputFn, JSON.stringify(out, null, 2))
 
         console.log(`\nWrited: ${outputFn} (${out.length} items)`)
