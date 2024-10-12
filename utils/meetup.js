@@ -88,7 +88,7 @@ while (nextPage) {
             date,
             dateTime: e.dateTime,
             endTime: e.endTime,
-            description: e.description,
+            description: e.description.replace(/\[(.*?)\]\((?!https?:\/\/)(.*?)\)/g, '[$1](https://$2)'),
             refs: {
                 meetup_id: e.id
             },

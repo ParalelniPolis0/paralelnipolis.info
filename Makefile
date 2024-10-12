@@ -35,3 +35,7 @@ data: ## Write data bundle to ./dist
 .PHONY: images
 images: ## Generate optimized images
 	bun utils/images.js
+
+.PHONY: meetup
+meetup: ## Fetch data from meetup.com
+	bun utils/meetup.js
