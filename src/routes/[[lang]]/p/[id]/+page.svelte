@@ -52,7 +52,7 @@
 <div class="flex gap-4 sm:gap-8 mt-4 mb-10">
     <div class="shrink-0">
         <img
-            src="/people/{p.img}"
+            src="/gimg/people/m/{p.id}.webp"
             alt={p.name}
             class="aspect-square w-32 sm:w-48 ml-2 object-cover -rotate-6 rounded"
         />

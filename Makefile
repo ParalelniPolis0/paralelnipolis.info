@@ -31,3 +31,7 @@ archive_yt: ## Scrape archive videos from YouTube (require Bun)
 .PHONY: data
 data: ## Write data bundle to ./dist
 	bun utils/data-write.js
+
+.PHONY: images
+images: ## Generate optimized images
+	bun utils/images.js

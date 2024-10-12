@@ -20,7 +20,7 @@
             >
                 <a href="/p/{p.id}"
                     ><img
-                        src="/people/{p.img}"
+                        src="/gimg/people/s/{p.id}.webp"
                         class="w-full inline-block aspect-square object-cover {p.rand ===
                         1
                             ? '-rotate-0'

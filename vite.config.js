@@ -6,9 +6,9 @@ import markdown from '@vavt/vite-plugin-import-markdown';
 
 export default defineConfig({
 	plugins: [
-		sveltekit(),
 		ViteYaml(),
 		markdown(),
+		sveltekit(),
 	],
 	assetsInclude: [
 		//"**/*.md"
