@@ -136,7 +136,7 @@
                     <!--a href="https://vojdivon.sk/" class="text-2xl"
                         >vejdi ven!</a
                     -->
-                    <span class="text-2xl">enter outside!</span>
+                    <span class="text-2xl">opt-out!</span>
                     <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
                         {#if config.refs.signal}
                             <a href={config.refs.signal}>Signal</a>
@@ -144,6 +144,15 @@
                         {#if config.refs.github}
                             <a href="https://github.com/{config.refs.github}"
                                 >GitHub</a
+                            >
+                        {/if}
+                        {#if config.refs.onion}
+                            <a href={config.refs.onion}
+                                ><img
+                                    class="w-5 inline-block dark:invert"
+                                    src="/tor.svg"
+                                    alt="Tor Network (onion)"
+                                /> Onion</a
                             >
                         {/if}
 

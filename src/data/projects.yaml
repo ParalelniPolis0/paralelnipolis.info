@@ -462,7 +462,7 @@
     A major Ethereum hackathon and conference in Prague, uniting developers and enthusiasts from the blockchain community. The event features workshops, talks, and networking, encouraging collaboration on innovative Ethereum projects.
     
 - id: tame-me
-  name: tameMe
+  name: Tame Me
   instances: [ bratislava ]
   years: [ 2020, 2022 ]
   img: tame-me.png
@@ -602,3 +602,12 @@
 #  years: [ 2024 ]
 #  types: [ service, archive ]
 #  img: ../instances/pp.webp
+
+- id: vojdivon
+  name: vojdi von
+  instances: [ kosice ]
+  years: [ 2020 ]
+  img: ../instances/pp-kosice.webp
+  caption: A list of friendly projects and organisations of [Paralelná Polis Košice](/i/kosice).
+  refs:
+    web: https://vojdivon.sk

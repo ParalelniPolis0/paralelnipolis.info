@@ -49,7 +49,7 @@
         </div>
         <RefsBar refs={p.refs} />
         {#if p.caption}
-            <div class="mt-6 text-lg">{p.caption}</div>
+            <div class="mt-6 text-lg">{@html parse(p.caption)}</div>
         {/if}
         {#if conceptInstances}
             <div class="mt-4 flex gap-2 text-xl items-center">

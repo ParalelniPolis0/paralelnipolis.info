@@ -14,7 +14,7 @@
         <div class="flex items-center gap-2">
             <div class="shrink-0">
                 <img
-                    src="/people/{p.img}"
+                    src="/gimg/people/s/{p.id}.webp"
                     alt={p.name}
                     class="aspect-square w-6 h-6 object-cover rounded bg-gray-200 dark:bg-gray-800"
                 />

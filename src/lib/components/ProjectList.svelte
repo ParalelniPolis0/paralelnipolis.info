@@ -1,6 +1,7 @@
 <script>
     import { projects } from "$lib/data.js";
     let { arr, gray, type } = $props();
+    import { marked } from "marked";
 
     if (type === "instance") {
         arr = arr.map((instance) => {
@@ -11,6 +12,10 @@
         });
     }
 </script>
+
+{#snippet captionView(p)}
+    {@html marked(p.caption)}
+{/snippet}
 
 <div class="mt-8 w-full">
     {#each arr as p}
@@ -53,7 +58,7 @@
                         </div>
                     {/if}-->
                     {#if p.caption}
-                        <div class="mt-2 hidden sm:block">{p.caption}</div>
+                        <div class="mt-2 hidden sm:block">{@render captionView(p)}</div>
                     {/if}
                     {#if p.activeProjects?.length > 0}
                         <div class="grid grid-cols-1 gap-2 mt-4 ml-4">
@@ -77,7 +82,9 @@
                 </div>
             </div>
             {#if p.caption}
-                <div class="block sm:hidden mt-2">{p.caption}</div>
+                <div class="block sm:hidden mt-2">
+                    {@render captionView(p)}
+                </div>
             {/if}
         </div>
     {/each}
