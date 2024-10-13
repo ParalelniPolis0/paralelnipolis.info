@@ -1,74 +1,104 @@
 [
   {
-    "id": "hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml",
-    "videoId": "oMhZHT-CM7Q",
-    "url": "https://www.youtube.com/watch?v=oMhZHT-CM7Q",
-    "img": "hcpp22/hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml.jpg",
-    "publishedAt": "2023-01-29T17:30:08Z",
-    "desc": "We establish the foundations of Composite Artificial Intelligence through symbolic reasoning and machine learning and show how it can be applied to building intelligent automation systems solving practical real-world problems.\n\nAutomation, as the implementation of processes to perform activities towards a goal without human assistance, has been a key contributor to the evolution of humanity during the last 25 hundred years, saving us time, and resources, and opening playgrounds outside of human physical capabilities. Advances in operations research and symbolic reasoning powered by the proliferation of micro-electronics surpassed human decision-making capabilities, replacing with ease human planners and schedulers. The last two decades also showed us how machine learning excels in continuous problem spaces, providing predictive capabilities across enormous datasets. As intelligent automation systems grow and evolve to encompass combinations of discrete (symbolic) and continuous problems, their complexity increases exponentially, making building such systems difficult with a linear software engineering force. In this talk, we show how Composite AI allows can address a wide range of real-world problems.\n\n",
-    "duration": 3172,
-    "name": "Composite Ai: Bridging Intelligent Automation, Symbolic Reasoning, And Ml",
+    "id": "hcpp21-hcpp21-chaos-aftermovie",
+    "videoId": "vc2AZPTMWcI",
+    "url": "https://www.youtube.com/watch?v=vc2AZPTMWcI",
+    "img": "hcpp21/hcpp21-hcpp21-chaos-aftermovie.jpg",
+    "publishedAt": "2021-11-19T06:44:01Z",
+    "desc": "The world we knew is ceasing to exist. The old rulers are becoming obsolete. Their laws are becoming unenforceable. Institutions are being shaken to their core. There are no authorities or guardians we can rely on, except ourselves. The very nature of trust and identity has changed. Former values are being dramatically redefined. Former economies are disappearing and new ones are emerging. We have new tools that allow us to create new cloud societies without the interference of coercive authorities.\n\nOut of Chaos, a universe has emerged. Out of Chaos came life. Chaos is not destruction. Chaos is a new beginning and we can shape it ourselves.\n\nWe are entering an era of Chaos. The primordial formless matter before creation.\n\nNow is not the time to wait – the old will never return. It’s time to saddle up for change – by courageous pioneers, those who will become the new narrative, let our stories be its tribute! History doesn’t creep, history leaps. Get out there, spin it, experiment! Play, hack, innovate! Stretch the grey area between the newly created structures! Barbed-wire fences will not stop evolution. Use Chaos!\n\nThis is our time – the time of beginnings. Zoom out and embrace Chaos!\n\n",
+    "duration": 163,
     "project": "hcpp",
-    "event": "hcpp22",
+    "event": "hcpp21",
+    "name": "HCPP21 Chaos Aftermovie"
+  },
+  {
+    "id": "hcpp21-fawda",
+    "videoId": "MPUUkDOo_CQ",
+    "url": "https://www.youtube.com/watch?v=MPUUkDOo_CQ",
+    "img": "hcpp21/hcpp21-fawda.jpg",
+    "publishedAt": "2021-12-04T18:30:11Z",
+    "desc": "Tey is an early adopter of Bitcoin, pioneering the use of blockchain to break financial and identity barriers, through his work as the founder of Fluus. Finance and earning an MSc in Digital Currencies and Blockchain Technology. His story is an unlikely one. Born in Kuwait, from Syrian parents, he was nicknamed \"The Invisible Man\" at age 5 and literally became one as a refugee in the Netherlands 25 years later. Using his mined Bitcoins to buy pizzas in the refugee camp, Tey discovered his life mission: turning invisible people into invincible ones.\n\n",
+    "duration": 1286,
+    "name": "Fawda",
+    "project": "hcpp",
+    "event": "hcpp21",
     "people": [
-      "filip-dvorak"
+      "tey-el-rjula"
     ]
   },
   {
-    "id": "hcpp22-hcpp22-last-shot-aftermovie",
-    "videoId": "MDJLELT0fpw",
-    "url": "https://www.youtube.com/watch?v=MDJLELT0fpw",
-    "img": "hcpp22/hcpp22-hcpp22-last-shot-aftermovie.jpg",
-    "publishedAt": "2022-10-16T16:32:53Z",
-    "desc": "They took a shot at privacy, by building surveillance systems.\n\nThey took a shot at encryption, saying surveillance cannot work if we don’t give them keys.\n\nThey took a shot at anonymity, with face recognition, profiling, and social credit scores.\n\nWe were hiding in a masked crowd.\n\nThey took a shot at financial communication, counterfeiting units of money, and taking the wealth of society for themselves.\n\nThey enlisted their friendly corporations to supply them with bullets of control and oppression.\n\nWho will fire the LAST SHOT?\n\nAnd will we then – finally – disappear?\n\n",
-    "duration": 91,
-    "project": "hcpp",
-    "event": "hcpp22",
-    "name": "HCPP22 Last Shot Aftermovie"
-  },
-  {
-    "id": "pd23-why-you-should-run-full-rbf-on-your-node",
-    "videoId": "8aaXlInU8y4",
-    "url": "https://www.youtube.com/watch?v=8aaXlInU8y4",
-    "img": "pd23/pd23-why-you-should-run-full-rbf-on-your-node.jpg",
-    "publishedAt": "2023-09-22T10:52:13Z",
-    "desc": "Over 17% of Bitcoin Core v24 nodes have turned on full-rbf and you should do it too. This lightning talk aims to cut through the controversy, explain what full-rbf is and why it's good for Bitcoin, and hopefully leave you with setting mempoolfullrbf=1 on your node.\n\nPeter Todd is the founder of OpenTimestamps and a former Bitcoin Core developer. But mainly known for giving a lot of talks.\n\n",
-    "duration": 508,
-    "name": "Why You Should Run Full-rbf On Your Node",
+    "id": "pd22-spacechains-one-way-pegged-sidechains-for-bitcoin",
+    "videoId": "ToO1bki5cU4",
+    "url": "https://www.youtube.com/watch?v=ToO1bki5cU4",
+    "img": "pd22/pd22-spacechains-one-way-pegged-sidechains-for-bitcoin.jpg",
+    "publishedAt": "2022-06-25T17:30:10Z",
+    "desc": "Spacechains are permissionless sidechains that are tied to the value of Bitcoin via a one-way peg. All of the value goes directly to existing Bitcoin holders (unlike altcoins), and all fees go to Bitcoin miners. Use cases are stablecoins, NFTs, federated pegs, low-value payments, DNS, and more.\n\n",
+    "duration": 2597,
+    "name": "Spacechains: One-way Pegged Sidechains For Bitcoin",
     "project": "pizza-day",
-    "event": "pd23",
+    "event": "pd22",
     "people": [
-      "peter-todd"
+      "ruben-somsen"
     ]
   },
   {
-    "id": "pd23-rgb-nostr-lightning-the-road-to-bitcoin-future",
-    "videoId": "i83KP3hCeT4",
-    "url": "https://www.youtube.com/watch?v=i83KP3hCeT4",
-    "img": "pd23/pd23-rgb-nostr-lightning-the-road-to-bitcoin-future.jpg",
-    "publishedAt": "2023-09-22T10:50:37Z",
-    "desc": "Bitcoin has proven to be the most robust technological base for both reckless experiments and rock-solid use cases. What do the technologies on top of it bring? What are those technologies? How will they change the world we live in? Let's try to tackle all these and many more questions together.\n\nMaxim Orlovsky is a dedicated transhumanist and cypherpunk who actively engages in a wide range of activities spanning science, engineering, and business. His central mission revolves around constructing the essential building blocks for a future where individuals can realize their full potential, achieve self-sovereignty, safeguard their privacy, and resist censorship. This vision represents a bold departure from the constraints of today's collectivist society, offering humanity the opportunity to evolve into new forms of existence far beyond the boundaries of the present.\n\n",
-    "duration": 2667,
-    "name": "Rgb. Nostr. Lightning: The Road To Bitcoin Future",
+    "id": "pd22-real-talk-on-building-a-circular-economy",
+    "videoId": "bkjEcSmZKfc",
+    "url": "https://www.youtube.com/watch?v=bkjEcSmZKfc",
+    "img": "pd22/pd22-real-talk-on-building-a-circular-economy.jpg",
+    "publishedAt": "2022-07-02T17:30:10Z",
+    "desc": "Sergej Kotliar is the CEO and founder of Bitrefill. A well-known Bitcoin company that has become one of the most popular places for people to spend their Bitcoin. Bitrefill allows everybody to purchase almost anything with Bitcoin and Lightning using digital coupons, enabling people to deeply integrate into the parallel economy. Sergej is an M.Sc. in Engineering, has been programming since his teenage years, and actively leads product development at Bitrefill.\n\n",
+    "duration": 2545,
+    "name": "Real Talk On Building A Circular Economy",
     "project": "pizza-day",
-    "event": "pd23",
+    "event": "pd22",
     "people": [
-      "maxim-orlovsky"
+      "sergej-kotliar"
     ]
   },
   {
-    "id": "hcpp23-the-future-of-our-communities",
-    "videoId": "RpmDtxWmvgs",
-    "url": "https://www.youtube.com/watch?v=RpmDtxWmvgs",
-    "img": "hcpp23/hcpp23-the-future-of-our-communities.jpg",
-    "publishedAt": "2024-07-08T10:07:27Z",
-    "desc": "Is there a future for hackerspaces? Is there a future for humanity? If so, the keys lay with community. We need community. Community is hard work. We humans are not necessarily good at it. Mix in the rise of authoritarianism, manipulation through \"social\" media, bad actors, trolling, the skyrocketing cost of real estate, the ability for lefty-identified people to be mean to each other -- and the result is a serious threat to the future of our communities. Yet, our future depends on our ability to continue. What can we do? What do we want to do?\n\n",
-    "duration": 3852,
-    "name": "The Future Of Our Communities",
-    "project": "hcpp",
-    "event": "hcpp23",
+    "id": "pd22-we-are-winning-change-my-mind",
+    "videoId": "0vl2niwZQLY",
+    "url": "https://www.youtube.com/watch?v=0vl2niwZQLY",
+    "img": "pd22/pd22-we-are-winning-change-my-mind.jpg",
+    "publishedAt": "2022-07-09T17:30:12Z",
+    "desc": "By every conceivable metric, the public/private cryptographic keypair standard established by the bitcoin use-case has changed the world we live in. In this one-hour session, Exiledsurfer will define who “we” are, outline the key benefits that he believes will continue on an upward trend, and then invite the audience to engage with him to change his mind.\n\n",
+    "duration": 2732,
+    "name": "We Are Winning. Change My Mind.",
+    "project": "pizza-day",
+    "event": "pd22",
     "people": [
-      "mitch-altman"
+      "exiledsurfer"
+    ]
+  },
+  {
+    "id": "pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use",
+    "videoId": "t77rGx37Epg",
+    "url": "https://www.youtube.com/watch?v=t77rGx37Epg",
+    "img": "pd22/pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use.jpg",
+    "publishedAt": "2022-07-16T17:30:09Z",
+    "desc": "Vlad introduces the BTCTKVR magazine, a free open source project that’s meant to provide accessible Bitcoin education to everyone in need – including meet-ups, conferences, and family events. Published under the Creative Commons Zero license, it enables anyone around the world to print, modify, and even translate the works to create a tailored version.\n\n",
+    "duration": 965,
+    "name": "Btctkvr - The Free Open Source Bitcoin Magazine You Should Use",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "vlad-costea"
+    ]
+  },
+  {
+    "id": "pd22-freedom-of-transaction",
+    "videoId": "hNc8sF-bG8U",
+    "url": "https://www.youtube.com/watch?v=hNc8sF-bG8U",
+    "img": "pd22/pd22-freedom-of-transaction.jpg",
+    "publishedAt": "2022-07-31T17:30:17Z",
+    "desc": "Today we are declaring Freedom of Transaction a universal basic human right:\n\nFreedom of transaction is the freedom of all people, based on mutual voluntary action, to carry out monetary transactions with any other person.\n\nWithout intermediaries, without the possibility of censorship, monitoring, or reversibility of transactions by third parties, and with free choice of the medium of exchange.\n\n",
+    "duration": 2374,
+    "name": "Freedom Of Transaction",
+    "project": "pizza-day",
+    "event": "pd22",
+    "people": [
+      "joerg-platzer"
     ]
   },
   {
@@ -87,36 +117,60 @@
     ]
   },
   {
-    "id": "hcpp22-counter-intelligence-defending-against-the-cognitive-warfare",
-    "videoId": "lA547Dv73ls",
-    "url": "https://www.youtube.com/watch?v=lA547Dv73ls",
-    "img": "hcpp22/hcpp22-counter-intelligence-defending-against-the-cognitive-warfare.jpg",
-    "publishedAt": "2023-03-12T18:22:17Z",
-    "desc": "Jindřich is a Senior Cyber Threat Researcher working for Trend Micro. Also, a security data scientist known as 4n6strider.\n\nThe main focus of his research is the domain of cognitive warfare, (cyber) espionage, and advanced persistent threats and manipulators.\n\nIn his work, he often analyses enormous piles of data to deduce the Ontology of the security issue to enable the machines to detect the threat on a scale.\n\n",
-    "duration": 2815,
-    "name": "Counter Intelligence: Defending Against The Cognitive Warfare",
+    "id": "hcpp22-can-tech-serve-humanity",
+    "videoId": "l14BYZoxpIA",
+    "url": "https://www.youtube.com/watch?v=l14BYZoxpIA",
+    "img": "hcpp22/hcpp22-can-tech-serve-humanity.jpg",
+    "publishedAt": "2022-10-16T16:00:08Z",
+    "desc": "Given that so many of the serious problems facing us today were created by past technologies, is it possible to create tech that overall helps, rather than harms? This talk explores this important question.\n\n“Tech is good.” “Tech is bad.” “Tech is neutral.” Whatever tech is, it changes our world. It helps. It hurts. It connects us. It isolates us. It changes our environment. It helps some more than others. Creating tech is an inherent part of being human. It isn’t going away. Given the incentives inherent in our economies, the nature of governments for increasing their power, and the nature of corporations to put profits over essentially anything else, along with the need for individuals to earn enough money to eat and have shelter — is it even possible to create technologies that serve humanity and support the environment that supports life? If so, can these technologies help create a future where we do much more good than harm? How do we begin to wade through these questions? In my decades of playing with and making a living from a wide variety of fields in tech, I’ve come up with a few of my own ideas. Perhaps they can be of some inspiration for others.\n\n",
+    "duration": 3671,
+    "name": "Can Tech Serve Humanity?",
     "project": "hcpp",
     "event": "hcpp22",
     "people": [
-      "jindrich-karasek"
+      "mitch-altman"
     ]
   },
   {
-    "id": "hcpp23-end-of-empire-and-rise-of-the-parallel-society",
-    "videoId": "m6xzvytaE_w",
-    "url": "https://www.youtube.com/watch?v=m6xzvytaE_w",
-    "img": "hcpp23/hcpp23-end-of-empire-and-rise-of-the-parallel-society.jpg",
-    "publishedAt": "2024-07-08T10:30:42Z",
-    "desc": "We stand at the precipice and the end of the empire. From this will emerge political strains vying to define the next emergent era.\n\nThe original vision of crypto was to expand the space of freedom, rendering a parallel economic society free from the influence of state domination. Gradually our community was infiltrated by statists and scammers who clouded that vision.\n\nStates will react with force by combining the IRS with the CIA, increasingly unmasking their authoritarian tendency as we raise the stakes. For inevitably, cybermoney controlled by markets will transcend fiat money issued by states. The high priority is to step up our game and start moving towards the realization of this eventuality.\n\nWe must get back on track, and formulate a paradigm that can enable us to unlock the original promise still latent within this tech. But still important questions remain on metaphysics, philosophy, strategy, and tactics. This panel will discuss the core heart of our movement- its vision.\n\n",
-    "duration": 3175,
-    "name": "End Of Empire And Rise Of The Parallel Society",
+    "id": "hcpp22-hcpp22-last-shot-aftermovie",
+    "videoId": "MDJLELT0fpw",
+    "url": "https://www.youtube.com/watch?v=MDJLELT0fpw",
+    "img": "hcpp22/hcpp22-hcpp22-last-shot-aftermovie.jpg",
+    "publishedAt": "2022-10-16T16:32:53Z",
+    "desc": "They took a shot at privacy, by building surveillance systems.\n\nThey took a shot at encryption, saying surveillance cannot work if we don’t give them keys.\n\nThey took a shot at anonymity, with face recognition, profiling, and social credit scores.\n\nWe were hiding in a masked crowd.\n\nThey took a shot at financial communication, counterfeiting units of money, and taking the wealth of society for themselves.\n\nThey enlisted their friendly corporations to supply them with bullets of control and oppression.\n\nWho will fire the LAST SHOT?\n\nAnd will we then – finally – disappear?\n\n",
+    "duration": 91,
     "project": "hcpp",
-    "event": "hcpp23",
+    "event": "hcpp22",
+    "name": "HCPP22 Last Shot Aftermovie"
+  },
+  {
+    "id": "hcpp22-lunarpunk-and-anonymous-daos",
+    "videoId": "KKVVQWiaLFQ",
+    "url": "https://www.youtube.com/watch?v=KKVVQWiaLFQ",
+    "img": "hcpp22/hcpp22-lunarpunk-and-anonymous-daos.jpg",
+    "publishedAt": "2022-10-23T16:30:11Z",
+    "desc": "Lunarpunk is an applied science-fiction. It combines speculative techniques with anonymous engineering to generate new worlds. This talk consists of a Lunarpunk manifesto followed by the announcement of two revolutionary DarkFi primitives.\n\n",
+    "duration": 4299,
+    "name": "Lunarpunk And Anonymous Daos",
+    "project": "hcpp",
+    "event": "hcpp22",
     "people": [
-      "jarrad-hope",
-      "ryan-lackey",
-      "amir-taaki",
-      "wilder"
+      "rachel-rose"
+    ]
+  },
+  {
+    "id": "hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state",
+    "videoId": "hgme0qeCQYg",
+    "url": "https://www.youtube.com/watch?v=hgme0qeCQYg",
+    "img": "hcpp22/hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state.jpg",
+    "publishedAt": "2022-10-30T17:30:10Z",
+    "desc": "The sanctions of Tornado Cash have implications for base layer neutrality & open-source developers which threatens the utility of crypto. I propose introducing a concept of sovereignty to crypto networks and outline and an approach in competing with the State.\n\nIn Cypherpunk Supra-jurisdictions against the Nation State, we'll cover the implications of sanctioning open-source technology, touch upon the US Infrastructure Bill & Patriot Act giving rise to the US Super-jurisdiction and contrast that against self-sovereign crypto-networks.\n\nWe'll discuss how we're positioned to leverage these networks and Institutional Economics to create voluntaryist social orders that can achieve a greater legitimacy than the nation-state, yet also offer competitive governing services to under-serviced citizens with access to the net.\nThis talk is a call for a return to our Cypherpunk roots. We can create a civilization of the mind in cyberspace. May it be more humane and fairer than the world governments.\n\n",
+    "duration": 2832,
+    "name": "Cypherpunk Suprajurisdictions Against The Nation-state",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "jarrad-hope"
     ]
   },
   {
@@ -135,6 +189,21 @@
     ]
   },
   {
+    "id": "hcpp22-weaponizing-cryptoanarchy-with-monero",
+    "videoId": "-U2NqRpcqwk",
+    "url": "https://www.youtube.com/watch?v=-U2NqRpcqwk",
+    "img": "hcpp22/hcpp22-weaponizing-cryptoanarchy-with-monero.jpg",
+    "publishedAt": "2022-11-20T17:30:08Z",
+    "desc": "How we fight back with digital privacy tools like Monero as a shot back at “them”, and how financial privacy (and thus autonomy) are key to broader personal autonomy and human rights.\n\n",
+    "duration": 2759,
+    "name": "Weaponizing Cryptoanarchy With Monero",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "sethforprivacy"
+    ]
+  },
+  {
     "id": "hcpp22-how-something-as-mundane-as-insurance-can-be-a-tool-for-societal-good",
     "videoId": "3E41Uum8TJg",
     "url": "https://www.youtube.com/watch?v=3E41Uum8TJg",
@@ -150,18 +219,108 @@
     ]
   },
   {
-    "id": "hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience",
-    "videoId": "2j-XAJOH7-c",
-    "url": "https://www.youtube.com/watch?v=2j-XAJOH7-c",
-    "img": "hcpp23/hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience.jpg",
-    "publishedAt": "2024-07-08T09:59:54Z",
-    "desc": "Cypherpunks and allies want a new world of finance and technology — individual freedom, non-violence, permissionless innovation, and human flourishing. Replacing current systems (governments built for the world of the past, complex IT systems built with layer of layer of unmaintainable patches and spaghetti, and the omnipresent fear that those more willing to initiate force against those less powerful can impose their will) is desirable, and this weekend we’ve discussed a lot about what this world will be like, and why it is needed.\n\nTo remake the world as we would like it, we have to make some substantial contributions as technologists, activists, and supporters to solve some of the obvious and major roadblocks to broad adoption.\n\n",
-    "duration": 3441,
-    "name": "The Road To Freedom And Privacy Through Security And User Experience",
+    "id": "hcpp22-darkfi-the-coming-storm",
+    "videoId": "cH3x8WbbzCQ",
+    "url": "https://www.youtube.com/watch?v=cH3x8WbbzCQ",
+    "img": "hcpp22/hcpp22-darkfi-the-coming-storm.jpg",
+    "publishedAt": "2022-12-04T17:30:11Z",
+    "desc": "Defining a new paradigm in anonymous ecosystems with free software and anonymous engineering. \n\nThe talk will be an overview of what is happening in the world regarding crackdowns against crypto, how incompetence and having no ideology leads to broken systems, and how with free software we can be vigilant against oppressors and regain our privacy, sovereignty, and anonymity.\n\n",
+    "duration": 2215,
+    "name": "Darkfi: The Coming Storm",
     "project": "hcpp",
-    "event": "hcpp23",
+    "event": "hcpp22",
     "people": [
-      "ryan-lackey"
+      "parazyd"
+    ]
+  },
+  {
+    "id": "hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence",
+    "videoId": "PXuCH89Arv4",
+    "url": "https://www.youtube.com/watch?v=PXuCH89Arv4",
+    "img": "hcpp22/hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence.jpg",
+    "publishedAt": "2022-12-11T17:30:10Z",
+    "desc": "A peek into the overlap between blockchain analysis companies, private spyware firms, and government intelligence agencies.\n\nThis presentation will explore the corner of our industry that is occupied by so-called blockchain analysis companies, who (dis)claim many guises: analysts, scientists, artists, crime-fighting detectives, and spies. Where is the line between analysis and surveillance? What is their relationship with existing techniques, infrastructure, and norms shared with private hacking and spyware businesses, as well as nation-state intelligence apparati? And what could we do about it? \n\n",
+    "duration": 2787,
+    "name": "Blockchain Surveillance, Cyber Mercenaries, And Intelligence",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "janine"
+    ]
+  },
+  {
+    "id": "hcpp22-mandelbot-ecotech-a-design-philosophy",
+    "videoId": "BeOzguY696w",
+    "url": "https://www.youtube.com/watch?v=BeOzguY696w",
+    "img": "hcpp22/hcpp22-mandelbot-ecotech-a-design-philosophy.jpg",
+    "publishedAt": "2022-12-18T17:30:09Z",
+    "desc": "In this talk, inventor Scott Beibin will be sharing the Mandelbot Ecotech philosophy that he developed for ecological machine design that respects human freedom and autonomy.\n\nWith a strong influence by DIY Maker cultures such as Solarpunk – one of the main purposes of the project is to provide practical solutions to the negative environmental impact of globalized systems of manufacturing and distribution by utilizing DAOs and other Radical Decentralization based technologies as a way of building community while shifting power back into the hands of everyday people.\n\n",
+    "duration": 1691,
+    "name": "Mandelbot Ecotech (a Design Philosophy)",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "scott-beibin"
+    ]
+  },
+  {
+    "id": "hcpp22-strenght-in-numbers",
+    "videoId": "novBLR7W_yQ",
+    "url": "https://www.youtube.com/watch?v=novBLR7W_yQ",
+    "img": "hcpp22/hcpp22-strenght-in-numbers.jpg",
+    "publishedAt": "2023-01-08T17:30:09Z",
+    "desc": "We live in a world where our data is monetized, privacy is an afterthought, and many feel rudderless in the chaos. How do we rebuild a broken world?\n\nSomewhere between burning it all down and full compliance lies a path to a better world. This talk will explore how we find strength, through connection: friendship, ideas & ideals, aligned groups, work, creativity, and community.\n\nHow do you realize your mission and begin to build it out? The author’s first two talks: Death of the Old Guard and Rebuild, given in 2020, explored why we put in the effort, and why now. This talk provides insight into how we do this.\n\nDon’t fight the world as it is, build a better one. Watch this talk to find out how.\n\n",
+    "duration": 2349,
+    "name": "Strenght In Numbers",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "alexandra-moxin"
+    ]
+  },
+  {
+    "id": "hcpp22-life-is-short-bitcoin-is-forever",
+    "videoId": "QquvK-gMOFk",
+    "url": "https://www.youtube.com/watch?v=QquvK-gMOFk",
+    "img": "hcpp22/hcpp22-life-is-short-bitcoin-is-forever.jpg",
+    "publishedAt": "2023-01-15T17:30:07Z",
+    "desc": "What would happen to your coins if you were to die in the next three hours? Would they be lost forever? Would your relatives be able to recover them? Descriptors, timelocks, taproot. 0% custodians.\n\n# The premise\n\nWe don’t like custodians. Not your keys, not your coins.\n\n# The problem\n\nSelf-custody of Bitcoin is hard. Making sure that your relatives can access your coin after your death, but can’t steal them before your death, is even harder.\n\n# The solution\n\n…You’ll have to listen to my talk to find out. Sorry, no spoilers!\n\n",
+    "duration": 1780,
+    "name": "Life Is Short, Bitcoin Is Forever",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "daniela-brozzoni"
+    ]
+  },
+  {
+    "id": "hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml",
+    "videoId": "oMhZHT-CM7Q",
+    "url": "https://www.youtube.com/watch?v=oMhZHT-CM7Q",
+    "img": "hcpp22/hcpp22-composite-ai-bridging-intelligent-automation-symbolic-reasoning-and-ml.jpg",
+    "publishedAt": "2023-01-29T17:30:08Z",
+    "desc": "We establish the foundations of Composite Artificial Intelligence through symbolic reasoning and machine learning and show how it can be applied to building intelligent automation systems solving practical real-world problems.\n\nAutomation, as the implementation of processes to perform activities towards a goal without human assistance, has been a key contributor to the evolution of humanity during the last 25 hundred years, saving us time, and resources, and opening playgrounds outside of human physical capabilities. Advances in operations research and symbolic reasoning powered by the proliferation of micro-electronics surpassed human decision-making capabilities, replacing with ease human planners and schedulers. The last two decades also showed us how machine learning excels in continuous problem spaces, providing predictive capabilities across enormous datasets. As intelligent automation systems grow and evolve to encompass combinations of discrete (symbolic) and continuous problems, their complexity increases exponentially, making building such systems difficult with a linear software engineering force. In this talk, we show how Composite AI allows can address a wide range of real-world problems.\n\n",
+    "duration": 3172,
+    "name": "Composite Ai: Bridging Intelligent Automation, Symbolic Reasoning, And Ml",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "filip-dvorak"
+    ]
+  },
+  {
+    "id": "hcpp22-who-are-we-shooting-at-and-why",
+    "videoId": "E9XM-8Ftbgk",
+    "url": "https://www.youtube.com/watch?v=E9XM-8Ftbgk",
+    "img": "hcpp22/hcpp22-who-are-we-shooting-at-and-why.jpg",
+    "publishedAt": "2023-02-12T17:30:07Z",
+    "desc": "What, to us, is “winning”? And how do we attain it? We must have a clear and coherent vision of victory, and an effective path to it. Strategy, philosophy, and passion must rise together. Make no small plans.\n\nIf we are to take winning seriously, we must examine it seriously. More than that, we must engage ourselves in it, effectively and efficiently. We have more ability and more opportunity than we’ve understood: We are, in the most important ways, better than our opponents. An open door stands before us; we must recognize it and use it.\n\n",
+    "duration": 3323,
+    "name": "Who Are We Shooting At... And Why?",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "paul-rosenberg"
     ]
   },
   {
@@ -180,18 +339,228 @@
     ]
   },
   {
-    "id": "hcpp22-who-are-we-shooting-at-and-why",
-    "videoId": "E9XM-8Ftbgk",
-    "url": "https://www.youtube.com/watch?v=E9XM-8Ftbgk",
-    "img": "hcpp22/hcpp22-who-are-we-shooting-at-and-why.jpg",
-    "publishedAt": "2023-02-12T17:30:07Z",
-    "desc": "What, to us, is “winning”? And how do we attain it? We must have a clear and coherent vision of victory, and an effective path to it. Strategy, philosophy, and passion must rise together. Make no small plans.\n\nIf we are to take winning seriously, we must examine it seriously. More than that, we must engage ourselves in it, effectively and efficiently. We have more ability and more opportunity than we’ve understood: We are, in the most important ways, better than our opponents. An open door stands before us; we must recognize it and use it.\n\n",
-    "duration": 3323,
-    "name": "Who Are We Shooting At... And Why?",
+    "id": "hcpp22-zero-knowledge-proofs-from-novice-to-master",
+    "videoId": "z8-U2oABnaA",
+    "url": "https://www.youtube.com/watch?v=z8-U2oABnaA",
+    "img": "hcpp22/hcpp22-zero-knowledge-proofs-from-novice-to-master.jpg",
+    "publishedAt": "2023-03-05T17:30:07Z",
+    "desc": "Zero-knowledge proofs have become a central tool for blockchain privacy and scalability. I will give a few examples of such proofs, starting from toy examples requiring no math, and ending with the state-of-the-art zk-SNARK constructions based on elliptic curve pairings. I will aim to have something for everyone in this talk, regardless of their background.\n\n",
+    "duration": 2518,
+    "name": "Zero-knowledge Proofs: From Novice To Master",
     "project": "hcpp",
     "event": "hcpp22",
     "people": [
-      "paul-rosenberg"
+      "ariel-gabizon"
+    ]
+  },
+  {
+    "id": "hcpp22-freedom-of-perception-thanks-to-cybernetic-senses",
+    "videoId": "eb9YlMcPcL4",
+    "url": "https://www.youtube.com/watch?v=eb9YlMcPcL4",
+    "img": "hcpp22/hcpp22-freedom-of-perception-thanks-to-cybernetic-senses.jpg",
+    "publishedAt": "2023-03-12T17:30:08Z",
+    "desc": "We live in a capitalist society that is constantly sending out inputs that stimulate our senses on a daily basis. It almost seems like we’ve lost control over our own perception, and we’re slaves of Marketing.\n\nIs there any way out? Can Cybernetic Senses give us the key to the pure perception of nature and life?\n\nIn this conference, I will develop my theory on how Cybernetic Senses allow us to escape a hyper-stimulated reality and connect with the pureness of the physical realm.\n\n",
+    "duration": 2338,
+    "name": "Freedom Of Perception Thanks To Cybernetic Senses",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "kai-landre"
+    ]
+  },
+  {
+    "id": "hcpp22-counter-intelligence-defending-against-the-cognitive-warfare",
+    "videoId": "lA547Dv73ls",
+    "url": "https://www.youtube.com/watch?v=lA547Dv73ls",
+    "img": "hcpp22/hcpp22-counter-intelligence-defending-against-the-cognitive-warfare.jpg",
+    "publishedAt": "2023-03-12T18:22:17Z",
+    "desc": "Jindřich is a Senior Cyber Threat Researcher working for Trend Micro. Also, a security data scientist known as 4n6strider.\n\nThe main focus of his research is the domain of cognitive warfare, (cyber) espionage, and advanced persistent threats and manipulators.\n\nIn his work, he often analyses enormous piles of data to deduce the Ontology of the security issue to enable the machines to detect the threat on a scale.\n\n",
+    "duration": 2815,
+    "name": "Counter Intelligence: Defending Against The Cognitive Warfare",
+    "project": "hcpp",
+    "event": "hcpp22",
+    "people": [
+      "jindrich-karasek"
+    ]
+  },
+  {
+    "id": "pd23-cypherpunk-visions-and-trends",
+    "videoId": "NQ_-mv0aILQ",
+    "url": "https://www.youtube.com/watch?v=NQ_-mv0aILQ",
+    "img": "pd23/pd23-cypherpunk-visions-and-trends.jpg",
+    "publishedAt": "2023-09-22T10:48:25Z",
+    "desc": "A lot of people talk about cypherpunk history. But what is our future? What technologies matter? Does Bitcoin need technological upgrades and if yes, on which level? What about related technologies? Nostr as a bitcoin-friendly social network, open-source AI that knows the answer to who would build the roads without the state. How do we react to regulatory pressure and where do we go from here?\n\nJuraj is an educator, book author, coder, cryptoanarchist, and biohacker. He helps people turn off statism in their own heads and disconnect their brains from the hierarchies of the world. He is a co-founder of Paralelná Polis. His latest book Cryptocurrencies: Hack your way to a better life and Cypherpunk visions and trends 2023-2025.\n\n",
+    "duration": 3495,
+    "name": "Cypherpunk Visions And Trends",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "juraj-bednar"
+    ]
+  },
+  {
+    "id": "pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs",
+    "videoId": "Vu2AHs4jdX8",
+    "url": "https://www.youtube.com/watch?v=Vu2AHs4jdX8",
+    "img": "pd23/pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs.jpg",
+    "publishedAt": "2023-09-22T10:48:42Z",
+    "desc": "All of the current methods for obtaining bitcoin come with a specific set of their own drawbacks: Centralized exchanges put the users at risk of linking their identity to a trade, and while bitcoin ATMs and decentralized exchanges offer more privacy, they can come with high fees and are not always easily accessible or user-friendly. Trying to mitigate these flaws generates undesired complexity for the users.\n\nIn this talk, Lea will explain how we can reevaluate how we think about privacy in bitcoin transactions and the ability to trade safely, while still keeping the users in charge of their identity, without disclosing it to a third party - including the service provider.\n\nLea is a co-founder and the CEO of Vexl, an anonymous marketplace for trading bitcoin as it was intended: peer-to-peer and without KYC.\n\n",
+    "duration": 1585,
+    "name": "Real-world Reputation As The Ultimate Collateral In P2p Txs",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "lea-petras"
+    ]
+  },
+  {
+    "id": "pd23-anonymous-transactions-of-base-money",
+    "videoId": "_B-bTm3oVgM",
+    "url": "https://www.youtube.com/watch?v=_B-bTm3oVgM",
+    "img": "pd23/pd23-anonymous-transactions-of-base-money.jpg",
+    "publishedAt": "2023-09-22T10:48:54Z",
+    "desc": "Max Hillebrand is an economist and open-source entrepreneur who runs Agora Towards Liberty. In this interview, we discuss fiat money’s fundamental weaknesses, the teachings of Austrian Economics, the importance of privacy, and how nano cameras mean privacy technology will need to keep evolving.\n",
+    "duration": 3748,
+    "name": "Anonymous Transactions Of Base Money",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "max-hillebrand"
+    ]
+  },
+  {
+    "id": "pd23-rgb-nostr-lightning-the-road-to-bitcoin-future",
+    "videoId": "i83KP3hCeT4",
+    "url": "https://www.youtube.com/watch?v=i83KP3hCeT4",
+    "img": "pd23/pd23-rgb-nostr-lightning-the-road-to-bitcoin-future.jpg",
+    "publishedAt": "2023-09-22T10:50:37Z",
+    "desc": "Bitcoin has proven to be the most robust technological base for both reckless experiments and rock-solid use cases. What do the technologies on top of it bring? What are those technologies? How will they change the world we live in? Let's try to tackle all these and many more questions together.\n\nMaxim Orlovsky is a dedicated transhumanist and cypherpunk who actively engages in a wide range of activities spanning science, engineering, and business. His central mission revolves around constructing the essential building blocks for a future where individuals can realize their full potential, achieve self-sovereignty, safeguard their privacy, and resist censorship. This vision represents a bold departure from the constraints of today's collectivist society, offering humanity the opportunity to evolve into new forms of existence far beyond the boundaries of the present.\n\n",
+    "duration": 2667,
+    "name": "Rgb. Nostr. Lightning: The Road To Bitcoin Future",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "maxim-orlovsky"
+    ]
+  },
+  {
+    "id": "pd23-breaking-fud",
+    "videoId": "5NTypY91Q0I",
+    "url": "https://www.youtube.com/watch?v=5NTypY91Q0I",
+    "img": "pd23/pd23-breaking-fud.jpg",
+    "publishedAt": "2023-09-22T10:50:52Z",
+    "desc": "This year's BTCTKVR magazine is here to break the FUD, as it tackles 10 of the most popular misconceptions about Bitcoin.\n\nOn a personal level, it marks 10 years since I first read about Bitcoin, and explains how and why it took me 4 years to break the FUD.\n\nAt the technical level, it's a battle between man and AI: ChatGPT writes the FUD, and then the man uses his lesser time-efficient writing skills to manually debunk all the bad takes and unjustified fear-mongering.\n\nAnd in the grand scheme of things, it's the bear market reading material that you should give to your parents and no-coiner friends in order to help them understand why Bitcoin is here to stay.\n\nVlad records the Bitcoin Takeover podcast, writes the open-source BTCTKVR magazine, eats, sleeps, dreams of Toyota Supras, and prays for girlfriends.\n\n",
+    "duration": 612,
+    "name": "Breaking Fud",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "vlad-costea"
+    ]
+  },
+  {
+    "id": "pd23-why-you-should-run-full-rbf-on-your-node",
+    "videoId": "8aaXlInU8y4",
+    "url": "https://www.youtube.com/watch?v=8aaXlInU8y4",
+    "img": "pd23/pd23-why-you-should-run-full-rbf-on-your-node.jpg",
+    "publishedAt": "2023-09-22T10:52:13Z",
+    "desc": "Over 17% of Bitcoin Core v24 nodes have turned on full-rbf and you should do it too. This lightning talk aims to cut through the controversy, explain what full-rbf is and why it's good for Bitcoin, and hopefully leave you with setting mempoolfullrbf=1 on your node.\n\nPeter Todd is the founder of OpenTimestamps and a former Bitcoin Core developer. But mainly known for giving a lot of talks.\n\n",
+    "duration": 508,
+    "name": "Why You Should Run Full-rbf On Your Node",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "peter-todd"
+    ]
+  },
+  {
+    "id": "pd23-bitcoin-backed-everything",
+    "videoId": "aGU4JdrqV1k",
+    "url": "https://www.youtube.com/watch?v=aGU4JdrqV1k",
+    "img": "pd23/pd23-bitcoin-backed-everything.jpg",
+    "publishedAt": "2023-09-22T10:52:22Z",
+    "desc": "While Bitcoin is often recognized for promoting freedom through its payment system and store of value properties, there is another application worth exploring: using Bitcoin as a universal collateral.\n\nMartin is a co-founder of Firefish, the Bitcoin-backed everything platform. He is a Bitcoin enthusiast with a background in finance and derivatives.\n\n",
+    "duration": 1307,
+    "name": "Bitcoin-backed Everything",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "martin-matejka"
+    ]
+  },
+  {
+    "id": "pd23-nothing-is-wrong-with-bitcoin-except-its-culture",
+    "videoId": "QGE2iLKeau0",
+    "url": "https://www.youtube.com/watch?v=QGE2iLKeau0",
+    "img": "pd23/pd23-nothing-is-wrong-with-bitcoin-except-its-culture.jpg",
+    "publishedAt": "2023-09-22T10:52:31Z",
+    "desc": "exiledsurfer has been a community builder in the ecosystem for quite some time. He is a privacy, transparency & decentralization CryptoRealist, and co-founder of Parallele Polis in Vienna.\n\n",
+    "duration": 812,
+    "name": "Nothing Is Wrong With Bitcoin Except Its Culture",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "exiledsurfer"
+    ]
+  },
+  {
+    "id": "pd23-data-publication-on-the-bitcoin-blockchain",
+    "videoId": "bnolAGgGIO0",
+    "url": "https://www.youtube.com/watch?v=bnolAGgGIO0",
+    "img": "pd23/pd23-data-publication-on-the-bitcoin-blockchain.jpg",
+    "publishedAt": "2023-09-22T10:52:53Z",
+    "desc": "Why do people publish data on Bitcoin? What does that accomplish? How are they doing it? Is this an attack on Bitcoin? With the recent fuss about people putting whole JPEGs on Bitcoin - even filling up entire blocks - we'll go through this issue and what it means for Bitcoin.\n\nPeter Todd is the founder of OpenTimestamps and a former Bitcoin Core developer. But mainly known for giving a lot of talks.\n\n",
+    "duration": 2968,
+    "name": "Data Publication On The Bitcoin Blockchain",
+    "project": "pizza-day",
+    "event": "pd23",
+    "people": [
+      "peter-todd"
+    ]
+  },
+  {
+    "id": "hcpp23-crypto-as-a-revolutionary-power-centre",
+    "videoId": "l-p3Ub1z420",
+    "url": "https://www.youtube.com/watch?v=l-p3Ub1z420",
+    "img": "hcpp23/hcpp23-crypto-as-a-revolutionary-power-centre.jpg",
+    "publishedAt": "2024-07-08T09:58:22Z",
+    "desc": "Crypto has spawned an entire industry. Today, we command $1T in the capital with which to pursue the depoliticization of money and the creation of a decentralized financial system. Fifteen years on, the political formula that underpinned crypto's rise – with its origins in libertarian, extropian, and cypherpunk ideals – remains largely unchanged. In the absence of political thought development, we remain unable to understand the true nature of blockchain-based orders. In this talk, Jarrad views crypto through the lens of Bertrand de Jouvenel’s political works and those of other elite theorists. By casting the space as a new center of power, he hopes to shed light on who we are, and what our futures may hold.\n\n",
+    "duration": 4633,
+    "name": "Crypto As A Revolutionary Power Centre",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "jarrad-hope"
+    ]
+  },
+  {
+    "id": "hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience",
+    "videoId": "2j-XAJOH7-c",
+    "url": "https://www.youtube.com/watch?v=2j-XAJOH7-c",
+    "img": "hcpp23/hcpp23-the-road-to-freedom-and-privacy-through-security-and-user-experience.jpg",
+    "publishedAt": "2024-07-08T09:59:54Z",
+    "desc": "Cypherpunks and allies want a new world of finance and technology — individual freedom, non-violence, permissionless innovation, and human flourishing. Replacing current systems (governments built for the world of the past, complex IT systems built with layer of layer of unmaintainable patches and spaghetti, and the omnipresent fear that those more willing to initiate force against those less powerful can impose their will) is desirable, and this weekend we’ve discussed a lot about what this world will be like, and why it is needed.\n\nTo remake the world as we would like it, we have to make some substantial contributions as technologists, activists, and supporters to solve some of the obvious and major roadblocks to broad adoption.\n\n",
+    "duration": 3441,
+    "name": "The Road To Freedom And Privacy Through Security And User Experience",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "ryan-lackey"
+    ]
+  },
+  {
+    "id": "hcpp23-dark-forest-path",
+    "videoId": "hk-St_zpOyM",
+    "url": "https://www.youtube.com/watch?v=hk-St_zpOyM",
+    "img": "hcpp23/hcpp23-dark-forest-path.jpg",
+    "publishedAt": "2024-07-08T10:01:59Z",
+    "desc": "The Dark Forest is a mythical image often referenced by lunarpunks but rarely explored. This talk will unravel some secrets of the forest and reflect on what it means to build freedom technology today.\n\n",
+    "duration": 3030,
+    "name": "Dark Forest Path",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "rachel-rose"
     ]
   },
   {
@@ -211,392 +580,48 @@
     ]
   },
   {
-    "id": "pd23-anonymous-transactions-of-base-money",
-    "videoId": "_B-bTm3oVgM",
-    "url": "https://www.youtube.com/watch?v=_B-bTm3oVgM",
-    "img": "pd23/pd23-anonymous-transactions-of-base-money.jpg",
-    "publishedAt": "2023-09-22T10:48:54Z",
-    "desc": "Max Hillebrand is an economist and open-source entrepreneur who runs Agora Towards Liberty. In this interview, we discuss fiat money’s fundamental weaknesses, the teachings of Austrian Economics, the importance of privacy, and how nano cameras mean privacy technology will need to keep evolving.\n",
-    "duration": 3748,
-    "name": "Anonymous Transactions Of Base Money",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "max-hillebrand"
-    ]
-  },
-  {
-    "id": "hcpp22-weaponizing-cryptoanarchy-with-monero",
-    "videoId": "-U2NqRpcqwk",
-    "url": "https://www.youtube.com/watch?v=-U2NqRpcqwk",
-    "img": "hcpp22/hcpp22-weaponizing-cryptoanarchy-with-monero.jpg",
-    "publishedAt": "2022-11-20T17:30:08Z",
-    "desc": "How we fight back with digital privacy tools like Monero as a shot back at “them”, and how financial privacy (and thus autonomy) are key to broader personal autonomy and human rights.\n\n",
-    "duration": 2759,
-    "name": "Weaponizing Cryptoanarchy With Monero",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "sethforprivacy"
-    ]
-  },
-  {
-    "id": "hcpp22-freedom-of-perception-thanks-to-cybernetic-senses",
-    "videoId": "eb9YlMcPcL4",
-    "url": "https://www.youtube.com/watch?v=eb9YlMcPcL4",
-    "img": "hcpp22/hcpp22-freedom-of-perception-thanks-to-cybernetic-senses.jpg",
-    "publishedAt": "2023-03-12T17:30:08Z",
-    "desc": "We live in a capitalist society that is constantly sending out inputs that stimulate our senses on a daily basis. It almost seems like we’ve lost control over our own perception, and we’re slaves of Marketing.\n\nIs there any way out? Can Cybernetic Senses give us the key to the pure perception of nature and life?\n\nIn this conference, I will develop my theory on how Cybernetic Senses allow us to escape a hyper-stimulated reality and connect with the pureness of the physical realm.\n\n",
-    "duration": 2338,
-    "name": "Freedom Of Perception Thanks To Cybernetic Senses",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "kai-landre"
-    ]
-  },
-  {
-    "id": "hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence",
-    "videoId": "PXuCH89Arv4",
-    "url": "https://www.youtube.com/watch?v=PXuCH89Arv4",
-    "img": "hcpp22/hcpp22-blockchain-surveillance-cyber-mercenaries-and-intelligence.jpg",
-    "publishedAt": "2022-12-11T17:30:10Z",
-    "desc": "A peek into the overlap between blockchain analysis companies, private spyware firms, and government intelligence agencies.\n\nThis presentation will explore the corner of our industry that is occupied by so-called blockchain analysis companies, who (dis)claim many guises: analysts, scientists, artists, crime-fighting detectives, and spies. Where is the line between analysis and surveillance? What is their relationship with existing techniques, infrastructure, and norms shared with private hacking and spyware businesses, as well as nation-state intelligence apparati? And what could we do about it? \n\n",
-    "duration": 2787,
-    "name": "Blockchain Surveillance, Cyber Mercenaries, And Intelligence",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "janine"
-    ]
-  },
-  {
-    "id": "hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state",
-    "videoId": "hgme0qeCQYg",
-    "url": "https://www.youtube.com/watch?v=hgme0qeCQYg",
-    "img": "hcpp22/hcpp22-cypherpunk-suprajurisdictions-against-the-nation-state.jpg",
-    "publishedAt": "2022-10-30T17:30:10Z",
-    "desc": "The sanctions of Tornado Cash have implications for base layer neutrality & open-source developers which threatens the utility of crypto. I propose introducing a concept of sovereignty to crypto networks and outline and an approach in competing with the State.\n\nIn Cypherpunk Supra-jurisdictions against the Nation State, we'll cover the implications of sanctioning open-source technology, touch upon the US Infrastructure Bill & Patriot Act giving rise to the US Super-jurisdiction and contrast that against self-sovereign crypto-networks.\n\nWe'll discuss how we're positioned to leverage these networks and Institutional Economics to create voluntaryist social orders that can achieve a greater legitimacy than the nation-state, yet also offer competitive governing services to under-serviced citizens with access to the net.\nThis talk is a call for a return to our Cypherpunk roots. We can create a civilization of the mind in cyberspace. May it be more humane and fairer than the world governments.\n\n",
-    "duration": 2832,
-    "name": "Cypherpunk Suprajurisdictions Against The Nation-state",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "jarrad-hope"
-    ]
-  },
-  {
-    "id": "hcpp21-fawda",
-    "videoId": "MPUUkDOo_CQ",
-    "url": "https://www.youtube.com/watch?v=MPUUkDOo_CQ",
-    "img": "hcpp21/hcpp21-fawda.jpg",
-    "publishedAt": "2021-12-04T18:30:11Z",
-    "desc": "Tey is an early adopter of Bitcoin, pioneering the use of blockchain to break financial and identity barriers, through his work as the founder of Fluus. Finance and earning an MSc in Digital Currencies and Blockchain Technology. His story is an unlikely one. Born in Kuwait, from Syrian parents, he was nicknamed \"The Invisible Man\" at age 5 and literally became one as a refugee in the Netherlands 25 years later. Using his mined Bitcoins to buy pizzas in the refugee camp, Tey discovered his life mission: turning invisible people into invincible ones.\n\n",
-    "duration": 1286,
-    "name": "Fawda",
-    "project": "hcpp",
-    "event": "hcpp21",
-    "people": [
-      "tey-el-rjula"
-    ]
-  },
-  {
-    "id": "pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs",
-    "videoId": "Vu2AHs4jdX8",
-    "url": "https://www.youtube.com/watch?v=Vu2AHs4jdX8",
-    "img": "pd23/pd23-real-world-reputation-as-the-ultimate-collateral-in-p2p-txs.jpg",
-    "publishedAt": "2023-09-22T10:48:42Z",
-    "desc": "All of the current methods for obtaining bitcoin come with a specific set of their own drawbacks: Centralized exchanges put the users at risk of linking their identity to a trade, and while bitcoin ATMs and decentralized exchanges offer more privacy, they can come with high fees and are not always easily accessible or user-friendly. Trying to mitigate these flaws generates undesired complexity for the users.\n\nIn this talk, Lea will explain how we can reevaluate how we think about privacy in bitcoin transactions and the ability to trade safely, while still keeping the users in charge of their identity, without disclosing it to a third party - including the service provider.\n\nLea is a co-founder and the CEO of Vexl, an anonymous marketplace for trading bitcoin as it was intended: peer-to-peer and without KYC.\n\n",
-    "duration": 1585,
-    "name": "Real-world Reputation As The Ultimate Collateral In P2p Txs",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "lea-petras"
-    ]
-  },
-  {
-    "id": "hcpp21-hcpp21-chaos-aftermovie",
-    "videoId": "vc2AZPTMWcI",
-    "url": "https://www.youtube.com/watch?v=vc2AZPTMWcI",
-    "img": "hcpp21/hcpp21-hcpp21-chaos-aftermovie.jpg",
-    "publishedAt": "2021-11-19T06:44:01Z",
-    "desc": "The world we knew is ceasing to exist. The old rulers are becoming obsolete. Their laws are becoming unenforceable. Institutions are being shaken to their core. There are no authorities or guardians we can rely on, except ourselves. The very nature of trust and identity has changed. Former values are being dramatically redefined. Former economies are disappearing and new ones are emerging. We have new tools that allow us to create new cloud societies without the interference of coercive authorities.\n\nOut of Chaos, a universe has emerged. Out of Chaos came life. Chaos is not destruction. Chaos is a new beginning and we can shape it ourselves.\n\nWe are entering an era of Chaos. The primordial formless matter before creation.\n\nNow is not the time to wait – the old will never return. It’s time to saddle up for change – by courageous pioneers, those who will become the new narrative, let our stories be its tribute! History doesn’t creep, history leaps. Get out there, spin it, experiment! Play, hack, innovate! Stretch the grey area between the newly created structures! Barbed-wire fences will not stop evolution. Use Chaos!\n\nThis is our time – the time of beginnings. Zoom out and embrace Chaos!\n\n",
-    "duration": 163,
-    "project": "hcpp",
-    "event": "hcpp21",
-    "name": "HCPP21 Chaos Aftermovie"
-  },
-  {
-    "id": "pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use",
-    "videoId": "t77rGx37Epg",
-    "url": "https://www.youtube.com/watch?v=t77rGx37Epg",
-    "img": "pd22/pd22-btctkvr-the-free-open-source-bitcoin-magazine-you-should-use.jpg",
-    "publishedAt": "2022-07-16T17:30:09Z",
-    "desc": "Vlad introduces the BTCTKVR magazine, a free open source project that’s meant to provide accessible Bitcoin education to everyone in need – including meet-ups, conferences, and family events. Published under the Creative Commons Zero license, it enables anyone around the world to print, modify, and even translate the works to create a tailored version.\n\n",
-    "duration": 965,
-    "name": "Btctkvr - The Free Open Source Bitcoin Magazine You Should Use",
-    "project": "pizza-day",
-    "event": "pd22",
-    "people": [
-      "vlad-costea"
-    ]
-  },
-  {
-    "id": "hcpp22-lunarpunk-and-anonymous-daos",
-    "videoId": "KKVVQWiaLFQ",
-    "url": "https://www.youtube.com/watch?v=KKVVQWiaLFQ",
-    "img": "hcpp22/hcpp22-lunarpunk-and-anonymous-daos.jpg",
-    "publishedAt": "2022-10-23T16:30:11Z",
-    "desc": "Lunarpunk is an applied science-fiction. It combines speculative techniques with anonymous engineering to generate new worlds. This talk consists of a Lunarpunk manifesto followed by the announcement of two revolutionary DarkFi primitives.\n\n",
-    "duration": 4299,
-    "name": "Lunarpunk And Anonymous Daos",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "rachel-rose"
-    ]
-  },
-  {
-    "id": "hcpp22-zero-knowledge-proofs-from-novice-to-master",
-    "videoId": "z8-U2oABnaA",
-    "url": "https://www.youtube.com/watch?v=z8-U2oABnaA",
-    "img": "hcpp22/hcpp22-zero-knowledge-proofs-from-novice-to-master.jpg",
-    "publishedAt": "2023-03-05T17:30:07Z",
-    "desc": "Zero-knowledge proofs have become a central tool for blockchain privacy and scalability. I will give a few examples of such proofs, starting from toy examples requiring no math, and ending with the state-of-the-art zk-SNARK constructions based on elliptic curve pairings. I will aim to have something for everyone in this talk, regardless of their background.\n\n",
-    "duration": 2518,
-    "name": "Zero-knowledge Proofs: From Novice To Master",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "ariel-gabizon"
-    ]
-  },
-  {
-    "id": "pd22-we-are-winning-change-my-mind",
-    "videoId": "0vl2niwZQLY",
-    "url": "https://www.youtube.com/watch?v=0vl2niwZQLY",
-    "img": "pd22/pd22-we-are-winning-change-my-mind.jpg",
-    "publishedAt": "2022-07-09T17:30:12Z",
-    "desc": "By every conceivable metric, the public/private cryptographic keypair standard established by the bitcoin use-case has changed the world we live in. In this one-hour session, Exiledsurfer will define who “we” are, outline the key benefits that he believes will continue on an upward trend, and then invite the audience to engage with him to change his mind.\n\n",
-    "duration": 2732,
-    "name": "We Are Winning. Change My Mind.",
-    "project": "pizza-day",
-    "event": "pd22",
-    "people": [
-      "exiledsurfer"
-    ]
-  },
-  {
-    "id": "hcpp22-mandelbot-ecotech-a-design-philosophy",
-    "videoId": "BeOzguY696w",
-    "url": "https://www.youtube.com/watch?v=BeOzguY696w",
-    "img": "hcpp22/hcpp22-mandelbot-ecotech-a-design-philosophy.jpg",
-    "publishedAt": "2022-12-18T17:30:09Z",
-    "desc": "In this talk, inventor Scott Beibin will be sharing the Mandelbot Ecotech philosophy that he developed for ecological machine design that respects human freedom and autonomy.\n\nWith a strong influence by DIY Maker cultures such as Solarpunk – one of the main purposes of the project is to provide practical solutions to the negative environmental impact of globalized systems of manufacturing and distribution by utilizing DAOs and other Radical Decentralization based technologies as a way of building community while shifting power back into the hands of everyday people.\n\n",
-    "duration": 1691,
-    "name": "Mandelbot Ecotech (a Design Philosophy)",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "scott-beibin"
-    ]
-  },
-  {
-    "id": "hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain",
-    "videoId": "rmEJsE4j2UI",
-    "url": "https://www.youtube.com/watch?v=rmEJsE4j2UI",
-    "img": "hcpp23/hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain.jpg",
-    "publishedAt": "2024-07-08T11:04:08Z",
-    "desc": "Proof of work is essential to consensus in Bitcoin, yet it is a source of inequality among miners as it stratifies them based on the available mining hardware. Aiming at leveling the field, cryptographers recently designed new primitives such as proof of sequential work or verifiable delay functions, which one could leverage towards more energy-efficient consensus protocols or completely novel applications such as distributed randomness beacons. In my talk, I will survey the recent progress and highlight some exciting future directions.\n\n",
-    "duration": 3196,
-    "name": "Verifiable Delay Functions And Cryptographic Foundations Of Blockchain",
+    "id": "hcpp23-the-future-of-our-communities",
+    "videoId": "RpmDtxWmvgs",
+    "url": "https://www.youtube.com/watch?v=RpmDtxWmvgs",
+    "img": "hcpp23/hcpp23-the-future-of-our-communities.jpg",
+    "publishedAt": "2024-07-08T10:07:27Z",
+    "desc": "Is there a future for hackerspaces? Is there a future for humanity? If so, the keys lay with community. We need community. Community is hard work. We humans are not necessarily good at it. Mix in the rise of authoritarianism, manipulation through \"social\" media, bad actors, trolling, the skyrocketing cost of real estate, the ability for lefty-identified people to be mean to each other -- and the result is a serious threat to the future of our communities. Yet, our future depends on our ability to continue. What can we do? What do we want to do?\n\n",
+    "duration": 3852,
+    "name": "The Future Of Our Communities",
     "project": "hcpp",
     "event": "hcpp23",
-    "people": [
-      "pavel-hubacek"
-    ]
-  },
-  {
-    "id": "pd22-spacechains-one-way-pegged-sidechains-for-bitcoin",
-    "videoId": "ToO1bki5cU4",
-    "url": "https://www.youtube.com/watch?v=ToO1bki5cU4",
-    "img": "pd22/pd22-spacechains-one-way-pegged-sidechains-for-bitcoin.jpg",
-    "publishedAt": "2022-06-25T17:30:10Z",
-    "desc": "Spacechains are permissionless sidechains that are tied to the value of Bitcoin via a one-way peg. All of the value goes directly to existing Bitcoin holders (unlike altcoins), and all fees go to Bitcoin miners. Use cases are stablecoins, NFTs, federated pegs, low-value payments, DNS, and more.\n\n",
-    "duration": 2597,
-    "name": "Spacechains: One-way Pegged Sidechains For Bitcoin",
-    "project": "pizza-day",
-    "event": "pd22",
-    "people": [
-      "ruben-somsen"
-    ]
-  },
-  {
-    "id": "hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy",
-    "videoId": "3tu-m8_Dbls",
-    "url": "https://www.youtube.com/watch?v=3tu-m8_Dbls",
-    "img": "hcpp23/hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy.jpg",
-    "publishedAt": "2024-07-08T11:00:13Z",
-    "desc": "In this talk, I will look at regulatory design space for privacy preserving measures for blockchain transactions, which is quickly shrinking due to increasing regulatory scrutiny. I will cover the recent regulatory attack on Tornado Cash. I will look current practical measures and how our fundamental rights and the economic analysis of the surveillance and compliance industry may help us to resist this encroachment.\n\n",
-    "duration": 2757,
-    "name": "Resisting The Criminalization Of The Fundamental Right To Privacy",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "silke-noa"
-    ]
-  },
-  {
-    "id": "pd22-freedom-of-transaction",
-    "videoId": "hNc8sF-bG8U",
-    "url": "https://www.youtube.com/watch?v=hNc8sF-bG8U",
-    "img": "pd22/pd22-freedom-of-transaction.jpg",
-    "publishedAt": "2022-07-31T17:30:17Z",
-    "desc": "Today we are declaring Freedom of Transaction a universal basic human right:\n\nFreedom of transaction is the freedom of all people, based on mutual voluntary action, to carry out monetary transactions with any other person.\n\nWithout intermediaries, without the possibility of censorship, monitoring, or reversibility of transactions by third parties, and with free choice of the medium of exchange.\n\n",
-    "duration": 2374,
-    "name": "Freedom Of Transaction",
-    "project": "pizza-day",
-    "event": "pd22",
-    "people": [
-      "joerg-platzer"
-    ]
-  },
-  {
-    "id": "hcpp23-crypto-as-a-revolutionary-power-centre",
-    "videoId": "l-p3Ub1z420",
-    "url": "https://www.youtube.com/watch?v=l-p3Ub1z420",
-    "img": "hcpp23/hcpp23-crypto-as-a-revolutionary-power-centre.jpg",
-    "publishedAt": "2024-07-08T09:58:22Z",
-    "desc": "Crypto has spawned an entire industry. Today, we command $1T in the capital with which to pursue the depoliticization of money and the creation of a decentralized financial system. Fifteen years on, the political formula that underpinned crypto's rise – with its origins in libertarian, extropian, and cypherpunk ideals – remains largely unchanged. In the absence of political thought development, we remain unable to understand the true nature of blockchain-based orders. In this talk, Jarrad views crypto through the lens of Bertrand de Jouvenel’s political works and those of other elite theorists. By casting the space as a new center of power, he hopes to shed light on who we are, and what our futures may hold.\n\n",
-    "duration": 4633,
-    "name": "Crypto As A Revolutionary Power Centre",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "jarrad-hope"
-    ]
-  },
-  {
-    "id": "hcpp23-dark-forest-path",
-    "videoId": "hk-St_zpOyM",
-    "url": "https://www.youtube.com/watch?v=hk-St_zpOyM",
-    "img": "hcpp23/hcpp23-dark-forest-path.jpg",
-    "publishedAt": "2024-07-08T10:01:59Z",
-    "desc": "The Dark Forest is a mythical image often referenced by lunarpunks but rarely explored. This talk will unravel some secrets of the forest and reflect on what it means to build freedom technology today.\n\n",
-    "duration": 3030,
-    "name": "Dark Forest Path",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "rachel-rose"
-    ]
-  },
-  {
-    "id": "pd23-nothing-is-wrong-with-bitcoin-except-its-culture",
-    "videoId": "QGE2iLKeau0",
-    "url": "https://www.youtube.com/watch?v=QGE2iLKeau0",
-    "img": "pd23/pd23-nothing-is-wrong-with-bitcoin-except-its-culture.jpg",
-    "publishedAt": "2023-09-22T10:52:31Z",
-    "desc": "exiledsurfer has been a community builder in the ecosystem for quite some time. He is a privacy, transparency & decentralization CryptoRealist, and co-founder of Parallele Polis in Vienna.\n\n",
-    "duration": 812,
-    "name": "Nothing Is Wrong With Bitcoin Except Its Culture",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "exiledsurfer"
-    ]
-  },
-  {
-    "id": "hcpp23-paralelni-polis-decade",
-    "videoId": "hZIIEPqv0oE",
-    "url": "https://www.youtube.com/watch?v=hZIIEPqv0oE",
-    "img": "hcpp23/hcpp23-paralelni-polis-decade.jpg",
-    "publishedAt": "2024-07-08T10:28:28Z",
-    "desc": "Paralelní Polis represents a non-state, non-profit entity, birthed in 2014 amidst the creative activism of the Ztohoven collective. The annals of time have witnessed our continued stewardship of the esteemed Hackers Congress. As we now converge to bring its momentous tenth iteration to a reverent closure, we simultaneously embark on a meaningful commencement of the tenth chapter in the chronicles of Paralelní Polis. How has this profound social experiment metamorphosed and evolved over the epochs, and how might its venerable progenitors distill its essence and triumphs, as they reflect upon its myriad passages?\n\n",
-    "duration": 3583,
-    "name": "Paralelní Polis Decade",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "juraj-bednar",
-      "wilder",
-      "martin-leskovjan"
-    ]
-  },
-  {
-    "id": "pd23-bitcoin-backed-everything",
-    "videoId": "aGU4JdrqV1k",
-    "url": "https://www.youtube.com/watch?v=aGU4JdrqV1k",
-    "img": "pd23/pd23-bitcoin-backed-everything.jpg",
-    "publishedAt": "2023-09-22T10:52:22Z",
-    "desc": "While Bitcoin is often recognized for promoting freedom through its payment system and store of value properties, there is another application worth exploring: using Bitcoin as a universal collateral.\n\nMartin is a co-founder of Firefish, the Bitcoin-backed everything platform. He is a Bitcoin enthusiast with a background in finance and derivatives.\n\n",
-    "duration": 1307,
-    "name": "Bitcoin-backed Everything",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "martin-matejka"
-    ]
-  },
-  {
-    "id": "pd23-data-publication-on-the-bitcoin-blockchain",
-    "videoId": "bnolAGgGIO0",
-    "url": "https://www.youtube.com/watch?v=bnolAGgGIO0",
-    "img": "pd23/pd23-data-publication-on-the-bitcoin-blockchain.jpg",
-    "publishedAt": "2023-09-22T10:52:53Z",
-    "desc": "Why do people publish data on Bitcoin? What does that accomplish? How are they doing it? Is this an attack on Bitcoin? With the recent fuss about people putting whole JPEGs on Bitcoin - even filling up entire blocks - we'll go through this issue and what it means for Bitcoin.\n\nPeter Todd is the founder of OpenTimestamps and a former Bitcoin Core developer. But mainly known for giving a lot of talks.\n\n",
-    "duration": 2968,
-    "name": "Data Publication On The Bitcoin Blockchain",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "peter-todd"
-    ]
-  },
-  {
-    "id": "pd23-cypherpunk-visions-and-trends",
-    "videoId": "NQ_-mv0aILQ",
-    "url": "https://www.youtube.com/watch?v=NQ_-mv0aILQ",
-    "img": "pd23/pd23-cypherpunk-visions-and-trends.jpg",
-    "publishedAt": "2023-09-22T10:48:25Z",
-    "desc": "A lot of people talk about cypherpunk history. But what is our future? What technologies matter? Does Bitcoin need technological upgrades and if yes, on which level? What about related technologies? Nostr as a bitcoin-friendly social network, open-source AI that knows the answer to who would build the roads without the state. How do we react to regulatory pressure and where do we go from here?\n\nJuraj is an educator, book author, coder, cryptoanarchist, and biohacker. He helps people turn off statism in their own heads and disconnect their brains from the hierarchies of the world. He is a co-founder of Paralelná Polis. His latest book Cryptocurrencies: Hack your way to a better life and Cypherpunk visions and trends 2023-2025.\n\n",
-    "duration": 3495,
-    "name": "Cypherpunk Visions And Trends",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "juraj-bednar"
-    ]
-  },
-  {
-    "id": "hcpp22-can-tech-serve-humanity",
-    "videoId": "l14BYZoxpIA",
-    "url": "https://www.youtube.com/watch?v=l14BYZoxpIA",
-    "img": "hcpp22/hcpp22-can-tech-serve-humanity.jpg",
-    "publishedAt": "2022-10-16T16:00:08Z",
-    "desc": "Given that so many of the serious problems facing us today were created by past technologies, is it possible to create tech that overall helps, rather than harms? This talk explores this important question.\n\n“Tech is good.” “Tech is bad.” “Tech is neutral.” Whatever tech is, it changes our world. It helps. It hurts. It connects us. It isolates us. It changes our environment. It helps some more than others. Creating tech is an inherent part of being human. It isn’t going away. Given the incentives inherent in our economies, the nature of governments for increasing their power, and the nature of corporations to put profits over essentially anything else, along with the need for individuals to earn enough money to eat and have shelter — is it even possible to create technologies that serve humanity and support the environment that supports life? If so, can these technologies help create a future where we do much more good than harm? How do we begin to wade through these questions? In my decades of playing with and making a living from a wide variety of fields in tech, I’ve come up with a few of my own ideas. Perhaps they can be of some inspiration for others.\n\n",
-    "duration": 3671,
-    "name": "Can Tech Serve Humanity?",
-    "project": "hcpp",
-    "event": "hcpp22",
     "people": [
       "mitch-altman"
     ]
   },
   {
-    "id": "hcpp23-tornado-cash-and-government-desperation",
-    "videoId": "OS0hIJ2K02c",
-    "url": "https://www.youtube.com/watch?v=OS0hIJ2K02c",
-    "img": "hcpp23/hcpp23-tornado-cash-and-government-desperation.jpg",
-    "publishedAt": "2024-07-08T11:05:31Z",
-    "desc": "Almost precisely one year after the U.S. Treasury sanctioned the Tornado Cash project and tool itself, the U.S. Department of Justice (DOJ) took another monumental leap in the war on privacy by charging the founders of Tornado Cash with money transmission, money laundering, and breaking U.S. sanctions law. The rapidly expanding legal aggression against privacy tools for cryptocurrencies like Bitcoin and Ethereum is beginning to show clear signs of desperation by the U.S. government. If they can’t outright prevent the use of these decentralized and autonomous tools, they’ll instead turn to legal and regulatory pressure to leverage fear and uncertainty as chilling agents against the privacy-focused developer community.\n\nThe DOJ has shown themselves in the indictment to either be willingly manipulating the public by putting forward a false view of Tornado Cash, or simply not understand Tornado Cash at a fundamental technical level. To dispel the fog of war being placed by the DOJ in this indictment, let’s walk through what Tornado Cash is and how it works first.\n\n",
-    "duration": 3466,
-    "name": "Tornado Cash And Government Desperation",
+    "id": "hcpp23-darkfi-defining-the-metaphysics-of-markets",
+    "videoId": "tuqvTMYx4i0",
+    "url": "https://www.youtube.com/watch?v=tuqvTMYx4i0",
+    "img": "hcpp23/hcpp23-darkfi-defining-the-metaphysics-of-markets.jpg",
+    "publishedAt": "2024-07-08T10:08:35Z",
+    "desc": "When we leverage crypto, we are tapping into cosmic energy to lend us strength in our struggle for freedom. As governments wage war on crypto markets, we are forced to reach deep into our wellspring of wisdom, and summon the most powerful spirits from deep within nature.\n\nThe DarkFi codex records cryptographic oracula sibyllina written in hexameter verse. This talk will examine metaphysical theory and show practical examples of summoning lunar energy.\n\n",
+    "duration": 2926,
+    "name": "Darkfi: Defining The Metaphysics Of Markets",
     "project": "hcpp",
     "event": "hcpp23",
     "people": [
-      "sethforprivacy"
+      "amir-taaki"
+    ]
+  },
+  {
+    "id": "hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward",
+    "videoId": "vA_qlNP0ag0",
+    "url": "https://www.youtube.com/watch?v=vA_qlNP0ag0",
+    "img": "hcpp23/hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward.jpg",
+    "publishedAt": "2024-07-08T10:09:59Z",
+    "desc": "Liberland President Vit Jedlicka will delve into the challenges posed by Croatian police interventions and the broader implications for accessing Liberland territory - the freest country in the world. Come to listen to the speech about building the freest country in the world in the 21st century. Vit will mention also Liberland's pioneering projects, from blockchain endeavors to infrastructure advancements. The session will cover the rising global interest in Liberland's e-residency and passport programs as well.\n\n",
+    "duration": 2539,
+    "name": "Liberland Settlement Under Attack: Perseverance, Progress, And Path Forward",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "vit-jedlicka"
     ]
   },
   {
@@ -630,6 +655,56 @@
     ]
   },
   {
+    "id": "hcpp23-free-software-and-your-freedom",
+    "videoId": "qJTuwqT6p4k",
+    "url": "https://www.youtube.com/watch?v=qJTuwqT6p4k",
+    "img": "hcpp23/hcpp23-free-software-and-your-freedom.jpg",
+    "publishedAt": "2024-07-08T10:16:34Z",
+    "desc": "The Free Software Movement campaigns for computer users' freedom to cooperate and control their own computing. The Free Software Movement developed the GNU operating system, typically used together with the kernel Linux, specifically to make these freedoms possible.\n\n",
+    "duration": 6507,
+    "name": "Free Software And Your Freedom",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "richard-stallman"
+    ]
+  },
+  {
+    "id": "hcpp23-paralelni-polis-decade",
+    "videoId": "hZIIEPqv0oE",
+    "url": "https://www.youtube.com/watch?v=hZIIEPqv0oE",
+    "img": "hcpp23/hcpp23-paralelni-polis-decade.jpg",
+    "publishedAt": "2024-07-08T10:28:28Z",
+    "desc": "Paralelní Polis represents a non-state, non-profit entity, birthed in 2014 amidst the creative activism of the Ztohoven collective. The annals of time have witnessed our continued stewardship of the esteemed Hackers Congress. As we now converge to bring its momentous tenth iteration to a reverent closure, we simultaneously embark on a meaningful commencement of the tenth chapter in the chronicles of Paralelní Polis. How has this profound social experiment metamorphosed and evolved over the epochs, and how might its venerable progenitors distill its essence and triumphs, as they reflect upon its myriad passages?\n\n",
+    "duration": 3583,
+    "name": "Paralelní Polis Decade",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "juraj-bednar",
+      "wilder",
+      "martin-leskovjan"
+    ]
+  },
+  {
+    "id": "hcpp23-end-of-empire-and-rise-of-the-parallel-society",
+    "videoId": "m6xzvytaE_w",
+    "url": "https://www.youtube.com/watch?v=m6xzvytaE_w",
+    "img": "hcpp23/hcpp23-end-of-empire-and-rise-of-the-parallel-society.jpg",
+    "publishedAt": "2024-07-08T10:30:42Z",
+    "desc": "We stand at the precipice and the end of the empire. From this will emerge political strains vying to define the next emergent era.\n\nThe original vision of crypto was to expand the space of freedom, rendering a parallel economic society free from the influence of state domination. Gradually our community was infiltrated by statists and scammers who clouded that vision.\n\nStates will react with force by combining the IRS with the CIA, increasingly unmasking their authoritarian tendency as we raise the stakes. For inevitably, cybermoney controlled by markets will transcend fiat money issued by states. The high priority is to step up our game and start moving towards the realization of this eventuality.\n\nWe must get back on track, and formulate a paradigm that can enable us to unlock the original promise still latent within this tech. But still important questions remain on metaphysics, philosophy, strategy, and tactics. This panel will discuss the core heart of our movement- its vision.\n\n",
+    "duration": 3175,
+    "name": "End Of Empire And Rise Of The Parallel Society",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "jarrad-hope",
+      "ryan-lackey",
+      "amir-taaki",
+      "wilder"
+    ]
+  },
+  {
     "id": "hcpp23-why-freedom-always-slides-backward",
     "videoId": "gdjKHIi-lxw",
     "url": "https://www.youtube.com/watch?v=gdjKHIi-lxw",
@@ -642,96 +717,6 @@
     "event": "hcpp23",
     "people": [
       "paul-rosenberg"
-    ]
-  },
-  {
-    "id": "hcpp22-darkfi-the-coming-storm",
-    "videoId": "cH3x8WbbzCQ",
-    "url": "https://www.youtube.com/watch?v=cH3x8WbbzCQ",
-    "img": "hcpp22/hcpp22-darkfi-the-coming-storm.jpg",
-    "publishedAt": "2022-12-04T17:30:11Z",
-    "desc": "Defining a new paradigm in anonymous ecosystems with free software and anonymous engineering. \n\nThe talk will be an overview of what is happening in the world regarding crackdowns against crypto, how incompetence and having no ideology leads to broken systems, and how with free software we can be vigilant against oppressors and regain our privacy, sovereignty, and anonymity.\n\n",
-    "duration": 2215,
-    "name": "Darkfi: The Coming Storm",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "parazyd"
-    ]
-  },
-  {
-    "id": "hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward",
-    "videoId": "vA_qlNP0ag0",
-    "url": "https://www.youtube.com/watch?v=vA_qlNP0ag0",
-    "img": "hcpp23/hcpp23-liberland-settlement-under-attack-perseverance-progress-and-path-forward.jpg",
-    "publishedAt": "2024-07-08T10:09:59Z",
-    "desc": "Liberland President Vit Jedlicka will delve into the challenges posed by Croatian police interventions and the broader implications for accessing Liberland territory - the freest country in the world. Come to listen to the speech about building the freest country in the world in the 21st century. Vit will mention also Liberland's pioneering projects, from blockchain endeavors to infrastructure advancements. The session will cover the rising global interest in Liberland's e-residency and passport programs as well.\n\n",
-    "duration": 2539,
-    "name": "Liberland Settlement Under Attack: Perseverance, Progress, And Path Forward",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "vit-jedlicka"
-    ]
-  },
-  {
-    "id": "hcpp23-holistic-anarchy",
-    "videoId": "ZKwc8Y_ExEE",
-    "url": "https://www.youtube.com/watch?v=ZKwc8Y_ExEE",
-    "img": "hcpp23/hcpp23-holistic-anarchy.jpg",
-    "publishedAt": "2024-07-08T10:58:20Z",
-    "desc": "Break through the fragmented approach to freedom and see the whole puzzle rather than just pieces of it. Freedom requires a holistic approach to life that takes into account all areas of our lives. Join me for my 9th year at HCPP to learn from my life story on navigating an inverted world.\n\n",
-    "duration": 4064,
-    "name": "Holistic Anarchy",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "amin-rafiee"
-    ]
-  },
-  {
-    "id": "pd23-breaking-fud",
-    "videoId": "5NTypY91Q0I",
-    "url": "https://www.youtube.com/watch?v=5NTypY91Q0I",
-    "img": "pd23/pd23-breaking-fud.jpg",
-    "publishedAt": "2023-09-22T10:50:52Z",
-    "desc": "This year's BTCTKVR magazine is here to break the FUD, as it tackles 10 of the most popular misconceptions about Bitcoin.\n\nOn a personal level, it marks 10 years since I first read about Bitcoin, and explains how and why it took me 4 years to break the FUD.\n\nAt the technical level, it's a battle between man and AI: ChatGPT writes the FUD, and then the man uses his lesser time-efficient writing skills to manually debunk all the bad takes and unjustified fear-mongering.\n\nAnd in the grand scheme of things, it's the bear market reading material that you should give to your parents and no-coiner friends in order to help them understand why Bitcoin is here to stay.\n\nVlad records the Bitcoin Takeover podcast, writes the open-source BTCTKVR magazine, eats, sleeps, dreams of Toyota Supras, and prays for girlfriends.\n\n",
-    "duration": 612,
-    "name": "Breaking Fud",
-    "project": "pizza-day",
-    "event": "pd23",
-    "people": [
-      "vlad-costea"
-    ]
-  },
-  {
-    "id": "pd22-real-talk-on-building-a-circular-economy",
-    "videoId": "bkjEcSmZKfc",
-    "url": "https://www.youtube.com/watch?v=bkjEcSmZKfc",
-    "img": "pd22/pd22-real-talk-on-building-a-circular-economy.jpg",
-    "publishedAt": "2022-07-02T17:30:10Z",
-    "desc": "Sergej Kotliar is the CEO and founder of Bitrefill. A well-known Bitcoin company that has become one of the most popular places for people to spend their Bitcoin. Bitrefill allows everybody to purchase almost anything with Bitcoin and Lightning using digital coupons, enabling people to deeply integrate into the parallel economy. Sergej is an M.Sc. in Engineering, has been programming since his teenage years, and actively leads product development at Bitrefill.\n\n",
-    "duration": 2545,
-    "name": "Real Talk On Building A Circular Economy",
-    "project": "pizza-day",
-    "event": "pd22",
-    "people": [
-      "sergej-kotliar"
-    ]
-  },
-  {
-    "id": "hcpp23-darkfi-defining-the-metaphysics-of-markets",
-    "videoId": "tuqvTMYx4i0",
-    "url": "https://www.youtube.com/watch?v=tuqvTMYx4i0",
-    "img": "hcpp23/hcpp23-darkfi-defining-the-metaphysics-of-markets.jpg",
-    "publishedAt": "2024-07-08T10:08:35Z",
-    "desc": "When we leverage crypto, we are tapping into cosmic energy to lend us strength in our struggle for freedom. As governments wage war on crypto markets, we are forced to reach deep into our wellspring of wisdom, and summon the most powerful spirits from deep within nature.\n\nThe DarkFi codex records cryptographic oracula sibyllina written in hexameter verse. This talk will examine metaphysical theory and show practical examples of summoning lunar energy.\n\n",
-    "duration": 2926,
-    "name": "Darkfi: Defining The Metaphysics Of Markets",
-    "project": "hcpp",
-    "event": "hcpp23",
-    "people": [
-      "amir-taaki"
     ]
   },
   {
@@ -750,33 +735,63 @@
     ]
   },
   {
-    "id": "hcpp22-life-is-short-bitcoin-is-forever",
-    "videoId": "QquvK-gMOFk",
-    "url": "https://www.youtube.com/watch?v=QquvK-gMOFk",
-    "img": "hcpp22/hcpp22-life-is-short-bitcoin-is-forever.jpg",
-    "publishedAt": "2023-01-15T17:30:07Z",
-    "desc": "What would happen to your coins if you were to die in the next three hours? Would they be lost forever? Would your relatives be able to recover them? Descriptors, timelocks, taproot. 0% custodians.\n\n# The premise\n\nWe don’t like custodians. Not your keys, not your coins.\n\n# The problem\n\nSelf-custody of Bitcoin is hard. Making sure that your relatives can access your coin after your death, but can’t steal them before your death, is even harder.\n\n# The solution\n\n…You’ll have to listen to my talk to find out. Sorry, no spoilers!\n\n",
-    "duration": 1780,
-    "name": "Life Is Short, Bitcoin Is Forever",
-    "project": "hcpp",
-    "event": "hcpp22",
-    "people": [
-      "daniela-brozzoni"
-    ]
-  },
-  {
-    "id": "hcpp23-free-software-and-your-freedom",
-    "videoId": "qJTuwqT6p4k",
-    "url": "https://www.youtube.com/watch?v=qJTuwqT6p4k",
-    "img": "hcpp23/hcpp23-free-software-and-your-freedom.jpg",
-    "publishedAt": "2024-07-08T10:16:34Z",
-    "desc": "The Free Software Movement campaigns for computer users' freedom to cooperate and control their own computing. The Free Software Movement developed the GNU operating system, typically used together with the kernel Linux, specifically to make these freedoms possible.\n\n",
-    "duration": 6507,
-    "name": "Free Software And Your Freedom",
+    "id": "hcpp23-holistic-anarchy",
+    "videoId": "ZKwc8Y_ExEE",
+    "url": "https://www.youtube.com/watch?v=ZKwc8Y_ExEE",
+    "img": "hcpp23/hcpp23-holistic-anarchy.jpg",
+    "publishedAt": "2024-07-08T10:58:20Z",
+    "desc": "Break through the fragmented approach to freedom and see the whole puzzle rather than just pieces of it. Freedom requires a holistic approach to life that takes into account all areas of our lives. Join me for my 9th year at HCPP to learn from my life story on navigating an inverted world.\n\n",
+    "duration": 4064,
+    "name": "Holistic Anarchy",
     "project": "hcpp",
     "event": "hcpp23",
     "people": [
-      "richard-stallman"
+      "amin-rafiee"
+    ]
+  },
+  {
+    "id": "hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy",
+    "videoId": "3tu-m8_Dbls",
+    "url": "https://www.youtube.com/watch?v=3tu-m8_Dbls",
+    "img": "hcpp23/hcpp23-resisting-the-criminalization-of-the-fundamental-right-to-privacy.jpg",
+    "publishedAt": "2024-07-08T11:00:13Z",
+    "desc": "In this talk, I will look at regulatory design space for privacy preserving measures for blockchain transactions, which is quickly shrinking due to increasing regulatory scrutiny. I will cover the recent regulatory attack on Tornado Cash. I will look current practical measures and how our fundamental rights and the economic analysis of the surveillance and compliance industry may help us to resist this encroachment.\n\n",
+    "duration": 2757,
+    "name": "Resisting The Criminalization Of The Fundamental Right To Privacy",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "silke-noa"
+    ]
+  },
+  {
+    "id": "hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain",
+    "videoId": "rmEJsE4j2UI",
+    "url": "https://www.youtube.com/watch?v=rmEJsE4j2UI",
+    "img": "hcpp23/hcpp23-verifiable-delay-functions-and-cryptographic-foundations-of-blockchain.jpg",
+    "publishedAt": "2024-07-08T11:04:08Z",
+    "desc": "Proof of work is essential to consensus in Bitcoin, yet it is a source of inequality among miners as it stratifies them based on the available mining hardware. Aiming at leveling the field, cryptographers recently designed new primitives such as proof of sequential work or verifiable delay functions, which one could leverage towards more energy-efficient consensus protocols or completely novel applications such as distributed randomness beacons. In my talk, I will survey the recent progress and highlight some exciting future directions.\n\n",
+    "duration": 3196,
+    "name": "Verifiable Delay Functions And Cryptographic Foundations Of Blockchain",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "pavel-hubacek"
+    ]
+  },
+  {
+    "id": "hcpp23-tornado-cash-and-government-desperation",
+    "videoId": "OS0hIJ2K02c",
+    "url": "https://www.youtube.com/watch?v=OS0hIJ2K02c",
+    "img": "hcpp23/hcpp23-tornado-cash-and-government-desperation.jpg",
+    "publishedAt": "2024-07-08T11:05:31Z",
+    "desc": "Almost precisely one year after the U.S. Treasury sanctioned the Tornado Cash project and tool itself, the U.S. Department of Justice (DOJ) took another monumental leap in the war on privacy by charging the founders of Tornado Cash with money transmission, money laundering, and breaking U.S. sanctions law. The rapidly expanding legal aggression against privacy tools for cryptocurrencies like Bitcoin and Ethereum is beginning to show clear signs of desperation by the U.S. government. If they can’t outright prevent the use of these decentralized and autonomous tools, they’ll instead turn to legal and regulatory pressure to leverage fear and uncertainty as chilling agents against the privacy-focused developer community.\n\nThe DOJ has shown themselves in the indictment to either be willingly manipulating the public by putting forward a false view of Tornado Cash, or simply not understand Tornado Cash at a fundamental technical level. To dispel the fog of war being placed by the DOJ in this indictment, let’s walk through what Tornado Cash is and how it works first.\n\n",
+    "duration": 3466,
+    "name": "Tornado Cash And Government Desperation",
+    "project": "hcpp",
+    "event": "hcpp23",
+    "people": [
+      "sethforprivacy"
     ]
   }
 ]

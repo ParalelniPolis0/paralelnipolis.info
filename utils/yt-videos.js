@@ -165,7 +165,7 @@ function parseYouTubeDuration(duration) {
 }
 
 async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}, config = { toTitleCase: true }) {
-    const out = [];
+    let out = [];
     let next = "";
 
     while (next !== false) {
@@ -228,6 +228,9 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
         }
     }
 
+    // sort by publishedAt for better compare
+    out = out.sort((x, y) => x.publishedAt > y.publishedAt ? 1 : -1)
+
     if (suffix) {
         const outputFn = `./src/data/gen/${suffix}.json`
         await Bun.write(outputFn, JSON.stringify(out, null, 2))
@@ -257,5 +260,5 @@ for (const i of Object.keys(missingPersonCounter).sort()) {
     if (missingPersonCounter[i] < 2) {
         //continue
     }
-    //console.log(`  ${i}: ${missingPersonCounter[i]}`)
+    console.log(`  ${i}: ${missingPersonCounter[i]}`)
 }

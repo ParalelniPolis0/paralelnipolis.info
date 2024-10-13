@@ -99,7 +99,10 @@
 {/if}
 
 {#if archiveItems && archiveItems.length > 0}
-    <h3 class="mt-10 main text-2xl">Archive</h3>
+    <div class="flex mt-10">
+        <h3 class="grow main text-2xl">Archive</h3>
+        <div class="opacity-50 text-xl">{archiveItems.length}</div>
+    </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
         {#each archiveItems as item}
             <ArchiveItem {item} />

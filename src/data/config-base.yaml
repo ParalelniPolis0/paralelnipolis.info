@@ -101,3 +101,9 @@ archive:
   - videoId: bOIYk4Hrjhw
     project: ethprague
     event: ethprague23
+
+  # taleb
+  - videoId: OCwOmbYvpK0
+    project: hcpp
+    event: hcpp18
+    publishedAt: 2018-10-07T00:00:00
