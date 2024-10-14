@@ -92,7 +92,7 @@
 
 {#if e.description}
     <div class="mt-4 mb-10">
-        <div class="mt-8 mb-10 prose prose-pp dark:prose-invert max-w-none">
+        <div class="mt-8 mb-10 markdown">
             {@html marked.parse(e.description)}
         </div>
     </div>

@@ -26,10 +26,12 @@ menu:
   - ["/", "→/"]
   - ["/about", "About", "O nás"]
   - ["/events", "Events", "Události"]
+  #- ["/structures", "Structures", "Struktury"]
   #- ["/instances", "Instances", "Instance"]
   #- ["/concepts", "Concepts", "Koncepty"]
   #- ["/people", "People", "Lidé"]
   - ["/archive", "Archive", "Archiv"]
+  #- ["/debug", "Debug", "Debug"]
   #- ["/membership", "Membership", "Členství"],*/
   #- ["https://forum.paralelnipolis.cz", "Forum"]
   #- ["https://shop.paralelnipolis.cz", "Shop"]

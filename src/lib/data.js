@@ -3,6 +3,7 @@ import projectsSrc from '$lib/../data/projects.yaml';
 import configSrc from '$lib/../data/config.yaml';
 import friendsSrc from "$lib/../data/friends.yaml";
 import instancesSrc from '$lib/../data/instances.yaml';
+import guildsSrc from '$lib/../data/guilds.yaml';
 
 import genYtOld from '$lib/../data/gen/yt-old.json';
 import genYtNew from '$lib/../data/gen/yt-new.json';
@@ -19,6 +20,7 @@ export const config = configSrc;
 export const projects = projectsSrc;
 export const friends = friendsSrc;
 export const instances = instancesSrc;
+export const guilds = guildsSrc;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;

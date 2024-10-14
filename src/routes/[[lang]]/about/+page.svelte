@@ -1,8 +1,14 @@
 <script>
     import { getContext, onMount } from "svelte";
-    import { config, instances, people as allPeople } from "$lib/data.js";
+    import {
+        config,
+        instances,
+        people as allPeople,
+        guilds,
+    } from "$lib/data.js";
     import { marked } from "marked";
     import ProjectList from "$lib/components/ProjectList.svelte";
+    import GuildList from "$lib/components/GuildList.svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import AboutPageMd from "$lib/../pages/about.md";
 
@@ -23,7 +29,7 @@
 
 <div class="mt-4 mb-10">
     <h1 class="main text-2xl">About Paralelní Polis</h1>
-    <div class="mt-8 mb-10 text-xl prose prose-pp dark:prose-invert max-w-none">
+    <div class="mt-8 mb-10 markdown !text-xl">
         {@html marked.parse(AboutPageMd)}
     </div>
 </div>
@@ -41,6 +47,14 @@
             target="_blank">know-how and guidelines →</a
         >
     </div>
+</div>
+
+<div class="mb-10 mt-4">
+    <h1 class="main text-2xl mb-4 mt-4">
+        Active <a href="/structures">Guilds</a>
+    </h1>
+
+    <GuildList {guilds} />
 </div>
 
 <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">

@@ -1,0 +1,66 @@
+- id: it
+  name: Realm Maintainers
+  seq: 1
+  code: IT
+  instance: zero
+  focus: IT operation
+  description: |
+    This is a guild description.
+
+- id: treasury
+  name: Cypherfund
+  seq: 2
+  code: TR
+  instance: zero
+  focus: treasury, finances
+
+- id: outreach
+  name: Social Engineers
+  seq: 3
+  code: OU
+  instance: zero
+  focus: outreach, social networks
+
+- id: archivist
+  name: Chronicle Keepers
+  seq: 4
+  code: AR
+  instance: zero
+  focus: archive
+
+- id: research
+  name: Institute of Cryptoanarchy
+  seq: 5
+  code: IC
+  instance: zero
+  focus: research
+
+- id: partnership
+  name: Coalition Architects
+  seq: 6
+  instance: zero
+  focus: partnerships
+
+- id: design
+  name: Visual Alchemists
+  seq: 7
+  instance: zero
+  focus: design
+
+- id: events
+  name: Cryptorave Engineers
+  seq: 8
+  instance: zero
+  focus: event production
+
+- id: content
+  name: Distributed Storytellers
+  seq: 9
+  instance: zero
+  focus: articles, videos
+
+- id: developers
+  name: Code Fighters
+  seq: 10
+  instance: zero
+  focus: developers

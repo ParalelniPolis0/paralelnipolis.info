@@ -85,7 +85,7 @@
 {#if p.description || p.description_cs}
     <div class="mt-8 mb-12">
         <h2 class="text-2xl main">{lang === "cs" ? "Popis" : "Description"}</h2>
-        <div class="prose prose-pp dark:prose-invert mt-6 max-w-none">
+        <div class="markdown mt-6">
             {@html parse(p.description || p.description_cs)}
         </div>
     </div>

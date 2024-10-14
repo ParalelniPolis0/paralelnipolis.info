@@ -12,6 +12,10 @@ body {
     @apply bg-white dark:bg-black;
 }
 
+.markdown {
+    @apply prose prose-pp dark:prose-invert max-w-none;
+}
+
 a,
 .prose-pp a {
     @apply underline decoration-8 dark:decoration-8 hover:decoration-8 decoration-gray-400/40 dark:decoration-gray-500/50 hover:decoration-yellow-500/80 dark:hover:decoration-yellow-500/80;
