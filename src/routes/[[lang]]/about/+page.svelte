@@ -49,13 +49,13 @@
     </div>
 </div>
 
-<div class="mb-10 mt-4">
+<!--div class="mb-10 mt-4">
     <h1 class="main text-2xl mb-4 mt-4">
         Active <a href="/structures">Guilds</a>
     </h1>
 
     <GuildList {guilds} />
-</div>
+</div-->
 
 <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
     <h1 class="main text-2xl grow"><a href="/people">People</a></h1>
