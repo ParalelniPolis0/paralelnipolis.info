@@ -11,6 +11,7 @@ import genYtDtpEthPrague22 from '$lib/../data/gen/yt-dtp-ethprague22.json';
 import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
 import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
+import genArticlesSrc from '$lib/../data/gen/articles.json';
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -21,6 +22,7 @@ export const projects = projectsSrc;
 export const friends = friendsSrc;
 export const instances = instancesSrc;
 export const guilds = guildsSrc;
+export const articles = genArticlesSrc;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;

@@ -6,13 +6,18 @@
   focus: IT operation
   description: |
     This is a guild description.
+  members:
+     - person: tree
+     - person: mario
 
 - id: treasury
   name: Cypherfund
   seq: 2
   code: TR
   instance: zero
-  focus: treasury, finances
+  focus: treasury
+  members:
+    - person: juraj-bednar
 
 - id: outreach
   name: Social Engineers
@@ -20,6 +25,8 @@
   code: OU
   instance: zero
   focus: outreach, social networks
+  members:
+    - person: exiledsurfer
 
 - id: archivist
   name: Chronicle Keepers
@@ -27,6 +34,8 @@
   code: AR
   instance: zero
   focus: archive
+  members:
+    - person: tree
 
 - id: research
   name: Institute of Cryptoanarchy
@@ -34,6 +43,8 @@
   code: IC
   instance: zero
   focus: research
+  members:
+    - person: martin-leskovjan
 
 - id: partnership
   name: Coalition Architects
@@ -47,20 +58,38 @@
   instance: zero
   focus: design
 
-- id: events
-  name: Cryptorave Engineers
+- id: event-gardeners
+  name: Event Gardeners
   seq: 8
   instance: zero
   focus: event production
+  members:
+    - person: tree
 
 - id: content
   name: Distributed Storytellers
   seq: 9
   instance: zero
   focus: articles, videos
+  members:
+    - person: juraj-bednar
+    - person: wilder
 
 - id: developers
   name: Code Fighters
   seq: 10
   instance: zero
   focus: developers
+
+- id: anonymous-cryptoanarchists
+  name: Lunar Guild
+  seq: 11
+  instance: zero
+  focus: anonymous engineering
+  flags: [ anon ]
+
+- id: dispute
+  name: Parallel Tribunal
+  seq: 12
+  instance: zero
+  focus: arbitration, disputes

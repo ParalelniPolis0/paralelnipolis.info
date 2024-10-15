@@ -1128,3 +1128,10 @@
   desc: |
     A digital nomad and accomplished journalist in the field of blockchain and cryptocurrencies. Working on a decentralized journalism platform which aims to to expose political conflicts from within, facilitate dialogue and enable free speech, following the belief that decentralization has the ability to transform societies and empower individuals.
   img: inbar-preiss.jpg
+
+- id: tree
+  name: Tree
+  caption: Lunarpunk Ethereum enthusiast
+  img: tree.jpg
+  refs:
+    web: https://tree.fail

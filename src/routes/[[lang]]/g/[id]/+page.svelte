@@ -1,11 +1,15 @@
 <script>
     import { parse } from "marked";
-    import { instances } from "$lib/data.js";
+    import { instances, config } from "$lib/data.js";
 
     const { data } = $props();
     const g = $derived(data.item);
     const instance = $derived(instances.find((i) => i.id === g.instance));
 </script>
+
+<svelte:head>
+    <title>{g.name} | {config.title}</title>
+</svelte:head>
 
 <div class="mb-2 mt-4 flex gap-4 items-center">
     <div class="text-4xl uppercase font-mono opacity-50">
