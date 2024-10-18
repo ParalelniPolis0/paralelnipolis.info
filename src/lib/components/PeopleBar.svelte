@@ -25,10 +25,11 @@
         if (!obj) {
             return null;
         }
-        return Object.assign(obj, {
+        return {
+            ...obj,
             url: `/${type === "instances" ? "i" : "p"}/${obj.id}`,
-            img: `/gimg/${type}/s/${obj.id}.webp`,
-        });
+            imgUrl: `/gimg/${type}/s/${obj.id}.webp`,
+        };
     }
 </script>
 
@@ -37,7 +38,7 @@
         <div class="flex items-center gap-2">
             <div class="shrink-0">
                 <img
-                    src={p.img}
+                    src={p.imgUrl}
                     alt={p.name}
                     class="aspect-square w-6 h-6 object-cover rounded bg-gray-200 dark:bg-gray-800"
                 />
