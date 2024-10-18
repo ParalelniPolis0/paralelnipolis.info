@@ -17,7 +17,7 @@
                 type = "instances";
                 obj = instances.find((p) => p.id === split[1]);
             } else {
-                obj = allPeople.find((p) => p.id === split[1] || split[0]);
+                obj = allPeople.find((p) => p.id === (split[1] || split[0]));
             }
         } else {
             obj = p;
