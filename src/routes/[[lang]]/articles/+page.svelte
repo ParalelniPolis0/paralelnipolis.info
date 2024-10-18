@@ -25,7 +25,7 @@
                             lang: "en",
                         })}
                     </div>
-                    <PeopleBar people={item.authors} size="text-md" />
+                    <PeopleBar people={["instances:zero"]} size="text-md" />
                 </div>
                 <div class="">
                     {item.excerpt}

@@ -1,27 +1,38 @@
 - id: it
-  name: Realm Maintainers
+  name: Comms Operation
   seq: 1
   code: IT
   instance: zero
-  focus: IT operation
+  focus: communication services
   description: |
     This is a guild description.
   members:
      - person: tree
-     - person: mario
+
+- id: it-bitcoin
+  name: Payment Infra
+  seq: 2
+  instance: zero
+  focus: payments, nodes
+  members:
+    - person: mario
+    - person: wilder
+  refs:
+    web: https://pay.paralelnipolis.cz
 
 - id: treasury
   name: Cypherfund
-  seq: 2
+  seq: 3
   code: TR
   instance: zero
   focus: treasury
   members:
     - person: juraj-bednar
 
+
 - id: outreach
   name: Social Engineers
-  seq: 3
+  seq: 4
   code: OU
   instance: zero
   focus: outreach, social networks
@@ -30,7 +41,7 @@
 
 - id: archivist
   name: Chronicle Keepers
-  seq: 4
+  seq: 5
   code: AR
   instance: zero
   focus: archive
@@ -39,7 +50,7 @@
 
 - id: research
   name: Institute of Cryptoanarchy
-  seq: 5
+  seq: 6
   code: IC
   instance: zero
   focus: research
@@ -48,19 +59,19 @@
 
 - id: partnership
   name: Coalition Architects
-  seq: 6
+  seq: 7
   instance: zero
   focus: partnerships
 
 - id: design
   name: Visual Alchemists
-  seq: 7
+  seq: 8
   instance: zero
   focus: design
 
 - id: event-gardeners
   name: Event Gardeners
-  seq: 8
+  seq: 9
   instance: zero
   focus: event production
   members:
@@ -68,7 +79,7 @@
 
 - id: content
   name: Distributed Storytellers
-  seq: 9
+  seq: 10
   instance: zero
   focus: articles, videos
   members:
@@ -77,19 +88,19 @@
 
 - id: developers
   name: Code Fighters
-  seq: 10
+  seq: 11
   instance: zero
   focus: developers
 
 - id: anonymous-cryptoanarchists
   name: Lunar Guild
-  seq: 11
+  seq: 12
   instance: zero
   focus: anonymous engineering
   flags: [ anon ]
 
 - id: dispute
   name: Parallel Tribunal
-  seq: 12
+  seq: 13
   instance: zero
   focus: arbitration, disputes

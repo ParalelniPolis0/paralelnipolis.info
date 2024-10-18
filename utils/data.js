@@ -6,6 +6,7 @@ import { join } from "node:path";
 const collections = [
     "people",
     "projects",
+    "instances",
 ]
 
 const srcDir = "./src/data"

@@ -1,6 +1,7 @@
 <script>
     import { parse } from "marked";
     import { instances, config } from "$lib/data.js";
+    import RefsBar from "$lib/components/RefsBar.svelte";
 
     const { data } = $props();
     const g = $derived(data.item);
@@ -21,6 +22,10 @@
     <h1 class="text-4xl font-semibold">{g.name}</h1>
     <div>{g.focus}</div>
 </div>
+
+{#if g.refs}
+    <RefsBar refs={g.refs} />
+{/if}
 
 {#if g.description}
     <div class="mt-8 mb-8">

@@ -12,7 +12,8 @@ const sizes = [
 
 const collections = [
     "people",
-    "projects"
+    "projects",
+    "instances"
 ]
 
 async function calculateHash(fileBuffer) {

@@ -2,7 +2,7 @@
   name: "Parallel Polis Zero"
   years: [ 2024 ]
   code: pp0
-  img: pp.webp
+  img: zero.webp
   caption: "[Draft] The digital-first meta instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy (not only) in cyberspace."
   refs:
     web: https://paralelnipolis.info
@@ -31,7 +31,7 @@
   name: Paralelná Polis Košice
   years: [ 2021 ]
   code: ksc
-  img: pp-kosice.webp
+  img: kosice.webp
   refs:
     web: https://paralelnapoliskosice.sk
     twitter: parallelpoliske
@@ -41,7 +41,7 @@
 - id: prague
   name: Paralelní Polis Prague
   years: [ 2014, 2024 ]
-  img: pp-prague.jpg
+  img: prague.jpg
   code: prg
   caption: The original Paralelní Polis, established by the Czech art collective Ztohoven in 2014, was a social cryptoanarchy experiment that operated as physical space for over a decade in Prague's Holešovice district.
   refs:
@@ -69,7 +69,7 @@
   years: [ 2018, 2020 ]
   types: [ local ]
   code: bts
-  img: pp-bratislava.webp
+  img: bratislava.webp
   refs:
     web: https://paralelnapolis.sk
     twitter: paralelnapolis
@@ -80,7 +80,7 @@
   years: [ 2020, 2024 ]
   types: [ global, local ]
   code: vie
-  img: pp-wien.webp
+  img: wien.webp
   refs:
     twitter: ParallelePolis
     web: https://parallele.at

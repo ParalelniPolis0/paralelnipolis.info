@@ -609,7 +609,7 @@
   name: vojdi von
   instances: [ kosice ]
   years: [ 2020 ]
-  img: ../instances/pp-kosice.webp
+  img: ../instances/kosice.webp
   caption: A list of friendly projects and organisations of [Paralelná Polis Košice](/i/kosice).
   refs:
     web: https://vojdivon.sk
