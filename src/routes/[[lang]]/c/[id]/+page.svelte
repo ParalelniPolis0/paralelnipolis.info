@@ -39,6 +39,9 @@
 
 <div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
     <div class="grow">
+        <div class="breadcrumb">
+            <a href="/concepts">Concept</a>
+        </div>
         <div class="flex flex-wrap gap-2 items-center">
             <h1 class="text-4xl font-semibold">{p.name}</h1>
             <div class="font-normal text-xl opacity-50 block mt-1">

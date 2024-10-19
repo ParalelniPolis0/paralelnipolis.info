@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h1.main::before,
-h2.main::before,
-h3.main::before {
+.main::before {
     content: "→/ "
 }
 
@@ -24,4 +22,12 @@ a,
 .prose-pp a {
     @apply underline decoration-8 dark:decoration-8 hover:decoration-8 decoration-gray-400/40 dark:decoration-gray-500/50 hover:decoration-yellow-500/80 dark:hover:decoration-yellow-500/80;
     text-underline-offset: 1px;
+}
+
+.breadcrumb {
+    @apply mb-3;
+}
+
+.breadcrumb a {
+    @apply uppercase no-underline px-2 py-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 rounded;
 }

@@ -5,12 +5,14 @@
         instances,
         people as allPeople,
         guilds,
+        topics,
     } from "$lib/data.js";
     import { marked } from "marked";
     import ProjectList from "$lib/components/ProjectList.svelte";
     import GuildList from "$lib/components/GuildList.svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import AboutPageMd from "$lib/../pages/about.md";
+    import TopicsList from "$lib/components/TopicsList.svelte";
 
     const lang = getContext("lang");
     const activeInstances = instances.filter((p) => p.years && !p.years[1]);
@@ -32,6 +34,13 @@
     <div class="mt-8 mb-10 markdown !text-xl">
         {@html marked.parse(AboutPageMd)}
     </div>
+</div>
+
+<div class="mb-10 mt-4">
+    <h1 class="main text-2xl">
+        <a href="/topics">Topics</a>
+    </h1>
+    <TopicsList {topics} />
 </div>
 
 <div class="mb-10 mt-4">

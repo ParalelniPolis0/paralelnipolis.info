@@ -12,15 +12,19 @@
     <title>{g.name} | {config.title}</title>
 </svelte:head>
 
-<div class="mb-2 mt-4 flex gap-4 items-center">
-    <div class="text-4xl uppercase font-mono opacity-50">
-        <a href="/i/{instance.id}">{instance.code}</a>-{String(g.seq).padStart(
-            2,
-            "0",
-        )}
+<div class="mb-2 mt-4">
+    <div class="breadcrumb">
+        <a href="/structures">Guild</a>
     </div>
-    <h1 class="text-4xl font-semibold">{g.name}</h1>
-    <div>{g.focus}</div>
+    <div class="flex gap-4 items-center">
+        <div class="text-4xl uppercase font-mono opacity-50">
+            <a href="/i/{instance.id}">{instance.code}</a>-{String(
+                g.seq,
+            ).padStart(2, "0")}
+        </div>
+        <h1 class="text-4xl font-semibold">{g.name}</h1>
+        <div>{g.focus}</div>
+    </div>
 </div>
 
 {#if g.refs}

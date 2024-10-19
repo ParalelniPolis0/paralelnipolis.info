@@ -38,6 +38,9 @@
 </svelte:head>
 
 <div class="mb-8 mt-4">
+    <div class="breadcrumb">
+        <a href="/events">Event</a>
+    </div>
     <div class="grow flex items-top gap-4">
         <h1 class="text-4xl font-semibold block grow">
             {e.name}

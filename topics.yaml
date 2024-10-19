@@ -1,0 +1,2255 @@
+- name: User-Defined Organization. Moving beyond coin voting governance
+  desc: >-
+    The User-Defined Organization is a new approach to decentralized governance
+    developed as an alternative to coin voting governance. Its main goal is to
+    empower the actual users of web3 platforms while decreasing the surface of
+    economic attacks against DAOs.
+- name: From Cryptocurrencies to Cryptostates
+  desc: >-
+    This talk is for those who are serious, a reminder of the political
+    consequences of our movement. It began with currency, then smart contracts,
+    now - we're coming for the Nation State.
+- name: The anthropology of value and reciprocity
+  desc: >-
+    Whether you lived in the Upper Palaeolithic and traded shells like there was
+    no yesterday, are minting NFTs, or are hoping someone will thank you for
+    that great thing you did, humans are driven by gamifying and quantifying
+    reciprocity. Let’s dive into its history and evolution.
+- name: Designing Responsible Governance UI Systems
+  desc: >-
+    The aim of this talk would be to review the history of 'Design in Defi' and
+    then project on how we reflect on our current practices, the behavioural
+    patterns they're causing in the community and how we can be responsible with
+    our community member's consumption in the future.
+- name: Bridging Cultural Heritage & Blockchain
+  desc: >-
+    With the vision of sharing the past and creating the future, the House of
+    Lobkowicz, managing one of Europe's oldest and finest private art
+    collections, wants to explore the intersection of the traditional art world
+    and the rapidly evolving technology behind NFTs.
+- name: 'ZK Rollups: Tales From the Field'
+  desc: >-
+    Everyone knows ZK Rollups are the future of scaling, but nobody provides
+    examples. In this talk, Solidity dev Danny Holland presents concrete
+    examples targeted at Solidity developers.
+- name: Paralelni Polis, Institute of Cryptoanarchy, Bordel hackerspace
+  desc: Introduction to the venue of ETHPrague 2022.
+- name: Universal Access to All Knowledge
+  desc: 'Decentralization: In short:  A game with many winners'
+- name: 'Protocol Guild: Funding & Incentivising Ethereum''s Core Protocol Development'
+  desc: >-
+    The Protocol Guild aims to secure the future of Ethereum, by enabling a
+    highly efficient way for its ecosystem and community to sustainably fund
+    core protocol development, while rebalancing incentives for core protocol
+    contributors.
+- name: 'Fireside chat: The prehistory of Ethereum and proto-network states'
+  desc: |-
+    The seeds for Ethereum were planted in Calafou, an eco-industrial
+    techno-village in a former factory complex in Catalunya.
+
+    A fire side chat of Amir Taaki & Vitalik Buterin.
+- name: Applying the Pyramid Principle to Ethereum Development
+  desc: >-
+    As Ethereum matures, so should its developers. Learn how to apply single
+    layers of the Pyramid Principle to build secure and maintainable smart
+    contracts and maximize everything developers can do themselves BEFORE the
+    security audit.
+- name: Privacy in Web3 - Improving Privacy Protocol To Prevent Hackers & Criminals
+  desc: >-
+    How do we grant users privacy to users in blockchain without helping hackers
+    or criminals? If crypto achieves mainstream, everyone will have access to
+    all your information… Using newer technology like ZK proofs, FHE, Threshold,
+    & Intel SGX, we can restore this human right.
+- name: The Future of Apps
+  desc: >-
+    We all use them multiple times a day, but what exactly are apps? How do they
+    work vs how should they work? This talk shows what is possible if we combine
+    data privacy, composability, AI and Urbit to replace the concept of apps
+    with something much better.
+- name: 'Lunarpunk Takeover: Why and How'
+  desc: >-
+    Lunarpunk is a revolution in anti-fragile and self-sovereign infrastructure
+    that is taking over crypto.
+- name: 'Ephemery: Novel approach to public testnets'
+  desc: >-
+    Introduction to Ephemery, a novel approach to testnets which enables a
+    single testing infrastructure consisting of ephemeral networks with
+    deterministic parameters.
+- name: Livestream Interview with Amir Taaki
+  desc: >-
+    Amir Taaki is a British-Iranian anarchist revolutionary, hacktivist, and
+    programmer who is known for his leading role in the bitcoin project, and for
+    pioneering many open source projects. Forbes listed Taaki in their 30 Under
+    30 listing of 2014.
+- name: 'Tokenization of companies - from TheDAO, ICOs and security tokens to now. '
+  desc: >-
+    After a short review of the history of tokens, I will introduce a novel
+    approach to the tokenization of company shares through the so-called
+    "Auslobung".
+- name: Ethereum Governance Overview
+  desc: >-
+    A deep dive into how Ethereum governance works, past contentions, current
+    challenges, and future directions.
+- name: Zero Knowledge Proofs 101
+  desc: >-
+    Are you hearing about ZK (Zero Knowledge Proofs) everywhere, including that
+    they solve blockchain scalability, and still don’t know how they work? We
+    will take you through ZK 101, explain why should you care, how it works, and
+    how it will also affect the future beyond blockchain.
+- name: 'ZK Rollups: Applied Privacy'
+  desc: Using ZK Rollups to obscure private information.
+- name: 'Ethereum Protocol Fellowship: Path of a Core Developer'
+  desc: >-
+    The Ethereum Protocol Fellowship is a permissionless fellowship program that
+    helps to streamline the process of becoming a core developer. Applications
+    are now opened and everyone interested in Ethereum core protocol is welcomed
+    to apply!
+- name: >-
+    Staking for common good - an experiment in participatory public goods
+    funding
+  desc: >-
+    What would you do with 100,000 ETH? The Golem Foundation has decided to
+    stake this amount and use a portion of the staking rewards to fund a
+    platform for experiments in participatory public goods funding. This talk
+    will introduce the resulting testing ground, called Octant.
+- name: HCPP21 Chaos Aftermovie
+  desc: >-
+    The world we knew is ceasing to exist. The old rulers are becoming obsolete.
+    Their laws are becoming unenforceable. Institutions are being shaken to
+    their core. There are no authorities or guardians we can rely on, except
+    ourselves. The very nature of trust and identity has changed. Former values
+    are being dramatically redefined. Former economies are disappearing and new
+    ones are emerging. We have new tools that allow us to create new cloud
+    societies without the interference of coercive authorities.
+
+
+    Out of Chaos, a universe has emerged. Out of Chaos came life. Chaos is not
+    destruction. Chaos is a new beginning and we can shape it ourselves.
+
+
+    We are entering an era of Chaos. The primordial f
+- name: Fawda
+  desc: >+
+    Tey is an early adopter of Bitcoin, pioneering the use of blockchain to
+    break financial and identity barriers, through his work as the founder of
+    Fluus. Finance and earning an MSc in Digital Currencies and Blockchain
+    Technology. His story is an unlikely one. Born in Kuwait, from Syrian
+    parents, he was nicknamed "The Invisible Man" at age 5 and literally became
+    one as a refugee in the Netherlands 25 years later. Using his mined Bitcoins
+    to buy pizzas in the refugee camp, Tey discovered his life mission: turning
+    invisible people into invincible ones.
+
+- name: 'Spacechains: One-way Pegged Sidechains For Bitcoin'
+  desc: >+
+    Spacechains are permissionless sidechains that are tied to the value of
+    Bitcoin via a one-way peg. All of the value goes directly to existing
+    Bitcoin holders (unlike altcoins), and all fees go to Bitcoin miners. Use
+    cases are stablecoins, NFTs, federated pegs, low-value payments, DNS, and
+    more.
+
+- name: Real Talk On Building A Circular Economy
+  desc: >+
+    Sergej Kotliar is the CEO and founder of Bitrefill. A well-known Bitcoin
+    company that has become one of the most popular places for people to spend
+    their Bitcoin. Bitrefill allows everybody to purchase almost anything with
+    Bitcoin and Lightning using digital coupons, enabling people to deeply
+    integrate into the parallel economy. Sergej is an M.Sc. in Engineering, has
+    been programming since his teenage years, and actively leads product
+    development at Bitrefill.
+
+- name: We Are Winning. Change My Mind.
+  desc: >+
+    By every conceivable metric, the public/private cryptographic keypair
+    standard established by the bitcoin use-case has changed the world we live
+    in. In this one-hour session, Exiledsurfer will define who “we” are, outline
+    the key benefits that he believes will continue on an upward trend, and then
+    invite the audience to engage with him to change his mind.
+
+- name: Btctkvr - The Free Open Source Bitcoin Magazine You Should Use
+  desc: >+
+    Vlad introduces the BTCTKVR magazine, a free open source project that’s
+    meant to provide accessible Bitcoin education to everyone in need –
+    including meet-ups, conferences, and family events. Published under the
+    Creative Commons Zero license, it enables anyone around the world to print,
+    modify, and even translate the works to create a tailored version.
+
+- name: Freedom Of Transaction
+  desc: >+
+    Today we are declaring Freedom of Transaction a universal basic human right:
+
+
+    Freedom of transaction is the freedom of all people, based on mutual
+    voluntary action, to carry out monetary transactions with any other person.
+
+
+    Without intermediaries, without the possibility of censorship, monitoring,
+    or reversibility of transactions by third parties, and with free choice of
+    the medium of exchange.
+
+- name: Bitcoin Ideologies And Narratives Late 2010 Onwards
+  desc: >+
+    As part of the forming Bitcoin community, Amir Taaki became an early Bitcoin
+    developer, author of the BIP process, and the Libbitcoin implementation.
+    With contributions to many free and open-source projects, he collaborated
+    with Cody Wilson on launching Darkwallet and laid the foundations for
+    OpenBazaar. Later, he spent nearly 2 years in the Rojava revolution, first
+    for nearly 4 months fighting in the YPG and then working for the
+    administration on economic projects. Today, Amir is focused on the DarkFi
+    project, a network bringing anonymity to decentralized finance, and is still
+    working towards building an agonistic revolutionary hacker movement.
+
+- name: Can Tech Serve Humanity?
+  desc: >-
+    Given that so many of the serious problems facing us today were created by
+    past technologies, is it possible to create tech that overall helps, rather
+    than harms? This talk explores this important question.
+
+
+    “Tech is good.” “Tech is bad.” “Tech is neutral.” Whatever tech is, it
+    changes our world. It helps. It hurts. It connects us. It isolates us. It
+    changes our environment. It helps some more than others. Creating tech is an
+    inherent part of being human. It isn’t going away. Given the incentives
+    inherent in our economies, the nature of governments for increasing their
+    power, and the nature of corporations to put profits over essentially
+    anything else, along with the need for individuals to 
+- name: HCPP22 Last Shot Aftermovie
+  desc: >+
+    They took a shot at privacy, by building surveillance systems.
+
+
+    They took a shot at encryption, saying surveillance cannot work if we don’t
+    give them keys.
+
+
+    They took a shot at anonymity, with face recognition, profiling, and social
+    credit scores.
+
+
+    We were hiding in a masked crowd.
+
+
+    They took a shot at financial communication, counterfeiting units of money,
+    and taking the wealth of society for themselves.
+
+
+    They enlisted their friendly corporations to supply them with bullets of
+    control and oppression.
+
+
+    Who will fire the LAST SHOT?
+
+
+    And will we then – finally – disappear?
+
+- name: Lunarpunk And Anonymous Daos
+  desc: >+
+    Lunarpunk is an applied science-fiction. It combines speculative techniques
+    with anonymous engineering to generate new worlds. This talk consists of a
+    Lunarpunk manifesto followed by the announcement of two revolutionary DarkFi
+    primitives.
+
+- name: Cypherpunk Suprajurisdictions Against The Nation-state
+  desc: >-
+    The sanctions of Tornado Cash have implications for base layer neutrality &
+    open-source developers which threatens the utility of crypto. I propose
+    introducing a concept of sovereignty to crypto networks and outline and an
+    approach in competing with the State.
+
+
+    In Cypherpunk Supra-jurisdictions against the Nation State, we'll cover the
+    implications of sanctioning open-source technology, touch upon the US
+    Infrastructure Bill & Patriot Act giving rise to the US Super-jurisdiction
+    and contrast that against self-sovereign crypto-networks.
+
+
+    We'll discuss how we're positioned to leverage these networks and
+    Institutional Economics to create voluntaryist social orders that can
+    achieve a greater legi
+- name: 'Nym: Application And Network Level Privacy For Developers And Cypherpunks'
+  desc: >-
+    Nym offers two core technologies for network and application-level metadata
+    privacy. This talk will cover the current state of using the network with
+    different applications such as chat apps and wallets, the architecture of
+    these technologies, and how developers can build on Nym.
+
+
+    The chances of a state adversary turning against you is higher than ever for
+    a growing percentage of the global population. Nym aims to solve this
+    problem for everyone.
+
+
+    The talk will give an overview of the architecture of Nym and the parts of
+    the stack that it protects: metadata obfuscation and sender anonymity at the
+    network level, and privacy-preserving access credentials called Coconut at
+    the app level.
+
+
+    This 
+- name: Weaponizing Cryptoanarchy With Monero
+  desc: >+
+    How we fight back with digital privacy tools like Monero as a shot back at
+    “them”, and how financial privacy (and thus autonomy) are key to broader
+    personal autonomy and human rights.
+
+- name: How Something As Mundane As Insurance Can Be A Tool For Societal Good
+  desc: >+
+    Insurance is usually thought of as something boring, required by
+    governments, and ideally purchased inexpensively, never actually used, and
+    forgotten about.
+
+
+    In reality, insurance can be a powerful tool to make society better, both by
+    allowing consent-based alternatives to regulation and by transferring risk.
+    We will explain the basics of how insurance works, how it has been a
+    valuable tool for liberty and safety in traditional areas, and how it can
+    enable the crypto future.
+
+- name: 'Darkfi: The Coming Storm'
+  desc: >+
+    Defining a new paradigm in anonymous ecosystems with free software and
+    anonymous engineering. 
+
+
+    The talk will be an overview of what is happening in the world regarding
+    crackdowns against crypto, how incompetence and having no ideology leads to
+    broken systems, and how with free software we can be vigilant against
+    oppressors and regain our privacy, sovereignty, and anonymity.
+
+- name: Blockchain Surveillance, Cyber Mercenaries, And Intelligence
+  desc: >+
+    A peek into the overlap between blockchain analysis companies, private
+    spyware firms, and government intelligence agencies.
+
+
+    This presentation will explore the corner of our industry that is occupied
+    by so-called blockchain analysis companies, who (dis)claim many guises:
+    analysts, scientists, artists, crime-fighting detectives, and spies. Where
+    is the line between analysis and surveillance? What is their relationship
+    with existing techniques, infrastructure, and norms shared with private
+    hacking and spyware businesses, as well as nation-state intelligence
+    apparati? And what could we do about it? 
+
+- name: Mandelbot Ecotech (a Design Philosophy)
+  desc: >+
+    In this talk, inventor Scott Beibin will be sharing the Mandelbot Ecotech
+    philosophy that he developed for ecological machine design that respects
+    human freedom and autonomy.
+
+
+    With a strong influence by DIY Maker cultures such as Solarpunk – one of the
+    main purposes of the project is to provide practical solutions to the
+    negative environmental impact of globalized systems of manufacturing and
+    distribution by utilizing DAOs and other Radical Decentralization based
+    technologies as a way of building community while shifting power back into
+    the hands of everyday people.
+
+- name: Strenght In Numbers
+  desc: >-
+    We live in a world where our data is monetized, privacy is an afterthought,
+    and many feel rudderless in the chaos. How do we rebuild a broken world?
+
+
+    Somewhere between burning it all down and full compliance lies a path to a
+    better world. This talk will explore how we find strength, through
+    connection: friendship, ideas & ideals, aligned groups, work, creativity,
+    and community.
+
+
+    How do you realize your mission and begin to build it out? The author’s
+    first two talks: Death of the Old Guard and Rebuild, given in 2020, explored
+    why we put in the effort, and why now. This talk provides insight into how
+    we do this.
+
+
+    Don’t fight the world as it is, build a better one. Watch this talk to find
+    out h
+- name: Life Is Short, Bitcoin Is Forever
+  desc: >+
+    What would happen to your coins if you were to die in the next three hours?
+    Would they be lost forever? Would your relatives be able to recover them?
+    Descriptors, timelocks, taproot. 0% custodians.
+
+
+    # The premise
+
+
+    We don’t like custodians. Not your keys, not your coins.
+
+
+    # The problem
+
+
+    Self-custody of Bitcoin is hard. Making sure that your relatives can access
+    your coin after your death, but can’t steal them before your death, is even
+    harder.
+
+
+    # The solution
+
+
+    …You’ll have to listen to my talk to find out. Sorry, no spoilers!
+
+- name: 'Composite Ai: Bridging Intelligent Automation, Symbolic Reasoning, And Ml'
+  desc: >-
+    We establish the foundations of Composite Artificial Intelligence through
+    symbolic reasoning and machine learning and show how it can be applied to
+    building intelligent automation systems solving practical real-world
+    problems.
+
+
+    Automation, as the implementation of processes to perform activities towards
+    a goal without human assistance, has been a key contributor to the evolution
+    of humanity during the last 25 hundred years, saving us time, and resources,
+    and opening playgrounds outside of human physical capabilities. Advances in
+    operations research and symbolic reasoning powered by the proliferation of
+    micro-electronics surpassed human decision-making capabilities, replacing
+    with ease human 
+- name: Who Are We Shooting At... And Why?
+  desc: >+
+    What, to us, is “winning”? And how do we attain it? We must have a clear and
+    coherent vision of victory, and an effective path to it. Strategy,
+    philosophy, and passion must rise together. Make no small plans.
+
+
+    If we are to take winning seriously, we must examine it seriously. More than
+    that, we must engage ourselves in it, effectively and efficiently. We have
+    more ability and more opportunity than we’ve understood: We are, in the most
+    important ways, better than our opponents. An open door stands before us; we
+    must recognize it and use it.
+
+- name: Technologies For Liberty Vs  Technologies For Oppression
+  desc: >+
+    Technology itself is a tool, rather than being imbibed with some moral or
+    ethical agency, but certain technologies at certain times swing the balance
+    toward individual liberty rather than collective oppression.
+
+
+    Using examples from history will discuss what factors influence this, and
+    how technologists can use science, engineering, and product design to build
+    technologies in ways that are more likely to support individual liberty and
+    help save the world.
+
+- name: 'Zero-knowledge Proofs: From Novice To Master'
+  desc: >+
+    Zero-knowledge proofs have become a central tool for blockchain privacy and
+    scalability. I will give a few examples of such proofs, starting from toy
+    examples requiring no math, and ending with the state-of-the-art zk-SNARK
+    constructions based on elliptic curve pairings. I will aim to have something
+    for everyone in this talk, regardless of their background.
+
+- name: Freedom Of Perception Thanks To Cybernetic Senses
+  desc: >+
+    We live in a capitalist society that is constantly sending out inputs that
+    stimulate our senses on a daily basis. It almost seems like we’ve lost
+    control over our own perception, and we’re slaves of Marketing.
+
+
+    Is there any way out? Can Cybernetic Senses give us the key to the pure
+    perception of nature and life?
+
+
+    In this conference, I will develop my theory on how Cybernetic Senses allow
+    us to escape a hyper-stimulated reality and connect with the pureness of the
+    physical realm.
+
+- name: 'Counter Intelligence: Defending Against The Cognitive Warfare'
+  desc: >+
+    Jindřich is a Senior Cyber Threat Researcher working for Trend Micro. Also,
+    a security data scientist known as 4n6strider.
+
+
+    The main focus of his research is the domain of cognitive warfare, (cyber)
+    espionage, and advanced persistent threats and manipulators.
+
+
+    In his work, he often analyses enormous piles of data to deduce the Ontology
+    of the security issue to enable the machines to detect the threat on a
+    scale.
+
+- name: Cypherpunk Visions And Trends
+  desc: >-
+    A lot of people talk about cypherpunk history. But what is our future? What
+    technologies matter? Does Bitcoin need technological upgrades and if yes, on
+    which level? What about related technologies? Nostr as a bitcoin-friendly
+    social network, open-source AI that knows the answer to who would build the
+    roads without the state. How do we react to regulatory pressure and where do
+    we go from here?
+
+
+    Juraj is an educator, book author, coder, cryptoanarchist, and biohacker. He
+    helps people turn off statism in their own heads and disconnect their brains
+    from the hierarchies of the world. He is a co-founder of Paralelná Polis.
+    His latest book Cryptocurrencies: Hack your way to a better life and Cyphe
+- name: Real-world Reputation As The Ultimate Collateral In P2p Txs
+  desc: >-
+    All of the current methods for obtaining bitcoin come with a specific set of
+    their own drawbacks: Centralized exchanges put the users at risk of linking
+    their identity to a trade, and while bitcoin ATMs and decentralized
+    exchanges offer more privacy, they can come with high fees and are not
+    always easily accessible or user-friendly. Trying to mitigate these flaws
+    generates undesired complexity for the users.
+
+
+    In this talk, Lea will explain how we can reevaluate how we think about
+    privacy in bitcoin transactions and the ability to trade safely, while still
+    keeping the users in charge of their identity, without disclosing it to a
+    third party - including the service provider.
+
+
+    Lea is a co-found
+- name: Anonymous Transactions Of Base Money
+  desc: >
+    Max Hillebrand is an economist and open-source entrepreneur who runs Agora
+    Towards Liberty. In this interview, we discuss fiat money’s fundamental
+    weaknesses, the teachings of Austrian Economics, the importance of privacy,
+    and how nano cameras mean privacy technology will need to keep evolving.
+- name: 'Rgb. Nostr. Lightning: The Road To Bitcoin Future'
+  desc: >-
+    Bitcoin has proven to be the most robust technological base for both
+    reckless experiments and rock-solid use cases. What do the technologies on
+    top of it bring? What are those technologies? How will they change the world
+    we live in? Let's try to tackle all these and many more questions together.
+
+
+    Maxim Orlovsky is a dedicated transhumanist and cypherpunk who actively
+    engages in a wide range of activities spanning science, engineering, and
+    business. His central mission revolves around constructing the essential
+    building blocks for a future where individuals can realize their full
+    potential, achieve self-sovereignty, safeguard their privacy, and resist
+    censorship. This vision represents a bold
+- name: Breaking Fud
+  desc: >-
+    This year's BTCTKVR magazine is here to break the FUD, as it tackles 10 of
+    the most popular misconceptions about Bitcoin.
+
+
+    On a personal level, it marks 10 years since I first read about Bitcoin, and
+    explains how and why it took me 4 years to break the FUD.
+
+
+    At the technical level, it's a battle between man and AI: ChatGPT writes the
+    FUD, and then the man uses his lesser time-efficient writing skills to
+    manually debunk all the bad takes and unjustified fear-mongering.
+
+
+    And in the grand scheme of things, it's the bear market reading material
+    that you should give to your parents and no-coiner friends in order to help
+    them understand why Bitcoin is here to stay.
+
+
+    Vlad records the Bitcoin Takeov
+- name: Why You Should Run Full-rbf On Your Node
+  desc: >+
+    Over 17% of Bitcoin Core v24 nodes have turned on full-rbf and you should do
+    it too. This lightning talk aims to cut through the controversy, explain
+    what full-rbf is and why it's good for Bitcoin, and hopefully leave you with
+    setting mempoolfullrbf=1 on your node.
+
+
+    Peter Todd is the founder of OpenTimestamps and a former Bitcoin Core
+    developer. But mainly known for giving a lot of talks.
+
+- name: Bitcoin-backed Everything
+  desc: >+
+    While Bitcoin is often recognized for promoting freedom through its payment
+    system and store of value properties, there is another application worth
+    exploring: using Bitcoin as a universal collateral.
+
+
+    Martin is a co-founder of Firefish, the Bitcoin-backed everything platform.
+    He is a Bitcoin enthusiast with a background in finance and derivatives.
+
+- name: Nothing Is Wrong With Bitcoin Except Its Culture
+  desc: >+
+    exiledsurfer has been a community builder in the ecosystem for quite some
+    time. He is a privacy, transparency & decentralization CryptoRealist, and
+    co-founder of Parallele Polis in Vienna.
+
+- name: Data Publication On The Bitcoin Blockchain
+  desc: >+
+    Why do people publish data on Bitcoin? What does that accomplish? How are
+    they doing it? Is this an attack on Bitcoin? With the recent fuss about
+    people putting whole JPEGs on Bitcoin - even filling up entire blocks -
+    we'll go through this issue and what it means for Bitcoin.
+
+
+    Peter Todd is the founder of OpenTimestamps and a former Bitcoin Core
+    developer. But mainly known for giving a lot of talks.
+
+- name: Crypto As A Revolutionary Power Centre
+  desc: >-
+    Crypto has spawned an entire industry. Today, we command $1T in the capital
+    with which to pursue the depoliticization of money and the creation of a
+    decentralized financial system. Fifteen years on, the political formula that
+    underpinned crypto's rise – with its origins in libertarian, extropian, and
+    cypherpunk ideals – remains largely unchanged. In the absence of political
+    thought development, we remain unable to understand the true nature of
+    blockchain-based orders. In this talk, Jarrad views crypto through the lens
+    of Bertrand de Jouvenel’s political works and those of other elite
+    theorists. By casting the space as a new center of power, he hopes to shed
+    light on who we are, and what our 
+- name: The Road To Freedom And Privacy Through Security And User Experience
+  desc: >-
+    Cypherpunks and allies want a new world of finance and technology —
+    individual freedom, non-violence, permissionless innovation, and human
+    flourishing. Replacing current systems (governments built for the world of
+    the past, complex IT systems built with layer of layer of unmaintainable
+    patches and spaghetti, and the omnipresent fear that those more willing to
+    initiate force against those less powerful can impose their will) is
+    desirable, and this weekend we’ve discussed a lot about what this world will
+    be like, and why it is needed.
+
+
+    To remake the world as we would like it, we have to make some substantial
+    contributions as technologists, activists, and supporters to solve some of
+    the obvious
+- name: Dark Forest Path
+  desc: >+
+    The Dark Forest is a mythical image often referenced by lunarpunks but
+    rarely explored. This talk will unravel some secrets of the forest and
+    reflect on what it means to build freedom technology today.
+
+- name: The Economics Of Free Software
+  desc: >-
+    Free Software has been wildly successful, but it is also heavily infiltrated
+    and captured by hostile predatory corporations. The biggest issue facing the
+    movement has been the lack of funding. Computing itself which once was about
+    interlinking systems has started looking into where users are trapped on
+    spying devices slaves to content delivered by "the cloud".
+
+
+    How do we formulate and orient the modern vision of computing towards
+    society? How can we construct a collaborative p2p paradigm that empowers
+    users rather than making them farm animals for surveillance megasystems? How
+    can we utilize modern cryptocurrency and token-econ techniques to enable
+    value capture for provisioning services?
+
+
+    J
+- name: The Future Of Our Communities
+  desc: >+
+    Is there a future for hackerspaces? Is there a future for humanity? If so,
+    the keys lay with community. We need community. Community is hard work. We
+    humans are not necessarily good at it. Mix in the rise of authoritarianism,
+    manipulation through "social" media, bad actors, trolling, the skyrocketing
+    cost of real estate, the ability for lefty-identified people to be mean to
+    each other -- and the result is a serious threat to the future of our
+    communities. Yet, our future depends on our ability to continue. What can we
+    do? What do we want to do?
+
+- name: 'Darkfi: Defining The Metaphysics Of Markets'
+  desc: >+
+    When we leverage crypto, we are tapping into cosmic energy to lend us
+    strength in our struggle for freedom. As governments wage war on crypto
+    markets, we are forced to reach deep into our wellspring of wisdom, and
+    summon the most powerful spirits from deep within nature.
+
+
+    The DarkFi codex records cryptographic oracula sibyllina written in
+    hexameter verse. This talk will examine metaphysical theory and show
+    practical examples of summoning lunar energy.
+
+- name: 'Liberland Settlement Under Attack: Perseverance, Progress, And Path Forward'
+  desc: >+
+    Liberland President Vit Jedlicka will delve into the challenges posed by
+    Croatian police interventions and the broader implications for accessing
+    Liberland territory - the freest country in the world. Come to listen to the
+    speech about building the freest country in the world in the 21st century.
+    Vit will mention also Liberland's pioneering projects, from blockchain
+    endeavors to infrastructure advancements. The session will cover the rising
+    global interest in Liberland's e-residency and passport programs as well.
+
+- name: 'Cyphernet: Unlocking Privacy & Empowering Self-sovereignty'
+  desc: >+
+    In a world where ever-increasing surveillance has become the new norm,
+    privacy is a necessity. But it’s not easy to build your own privacy setup,
+    as it requires many components: resources, infrastructure, and most
+    importantly - tools and protocols that can’t compromise or give away your
+    data.
+
+
+    Cyphernet's goal is to bring such tools to the masses thus empowering
+    individuals in their resistance to global surveillance.
+
+- name: Jaded As Fuck
+  desc: |+
+    Some cathartic thoughts from a blockchain veteran.
+
+- name: Free Software And Your Freedom
+  desc: >+
+    The Free Software Movement campaigns for computer users' freedom to
+    cooperate and control their own computing. The Free Software Movement
+    developed the GNU operating system, typically used together with the kernel
+    Linux, specifically to make these freedoms possible.
+
+- name: Paralelní Polis Decade
+  desc: >+
+    Paralelní Polis represents a non-state, non-profit entity, birthed in 2014
+    amidst the creative activism of the Ztohoven collective. The annals of time
+    have witnessed our continued stewardship of the esteemed Hackers Congress.
+    As we now converge to bring its momentous tenth iteration to a reverent
+    closure, we simultaneously embark on a meaningful commencement of the tenth
+    chapter in the chronicles of Paralelní Polis. How has this profound social
+    experiment metamorphosed and evolved over the epochs, and how might its
+    venerable progenitors distill its essence and triumphs, as they reflect upon
+    its myriad passages?
+
+- name: End Of Empire And Rise Of The Parallel Society
+  desc: >-
+    We stand at the precipice and the end of the empire. From this will emerge
+    political strains vying to define the next emergent era.
+
+
+    The original vision of crypto was to expand the space of freedom, rendering
+    a parallel economic society free from the influence of state domination.
+    Gradually our community was infiltrated by statists and scammers who clouded
+    that vision.
+
+
+    States will react with force by combining the IRS with the CIA, increasingly
+    unmasking their authoritarian tendency as we raise the stakes. For
+    inevitably, cybermoney controlled by markets will transcend fiat money
+    issued by states. The high priority is to step up our game and start moving
+    towards the realization of this even
+- name: Why Freedom Always Slides Backward
+  desc: >+
+    We’ve all seen it: Some person or group makes a notable move forward, into
+    or in support of human liberty. Then, after some time, they begin sliding
+    back to the old way. They have justifications for their retracement, of
+    course, but there’s no denying that it was a retracement.
+
+
+    There is a reason for this, and we can do something about it!
+
+- name: The Plastic Power
+  desc: >+
+    Cody is an American gun rights activist and crypto-anarchist. He is a
+    founder and director of Defense Distributed, a non-profit organization that
+    develops and publishes open-source gun designs, so-called "wiki weapons",
+    suitable for 3D printing and digital manufacture.
+
+- name: Holistic Anarchy
+  desc: >+
+    Break through the fragmented approach to freedom and see the whole puzzle
+    rather than just pieces of it. Freedom requires a holistic approach to life
+    that takes into account all areas of our lives. Join me for my 9th year at
+    HCPP to learn from my life story on navigating an inverted world.
+
+- name: Resisting The Criminalization Of The Fundamental Right To Privacy
+  desc: >+
+    In this talk, I will look at regulatory design space for privacy preserving
+    measures for blockchain transactions, which is quickly shrinking due to
+    increasing regulatory scrutiny. I will cover the recent regulatory attack on
+    Tornado Cash. I will look current practical measures and how our fundamental
+    rights and the economic analysis of the surveillance and compliance industry
+    may help us to resist this encroachment.
+
+- name: Verifiable Delay Functions And Cryptographic Foundations Of Blockchain
+  desc: >+
+    Proof of work is essential to consensus in Bitcoin, yet it is a source of
+    inequality among miners as it stratifies them based on the available mining
+    hardware. Aiming at leveling the field, cryptographers recently designed new
+    primitives such as proof of sequential work or verifiable delay functions,
+    which one could leverage towards more energy-efficient consensus protocols
+    or completely novel applications such as distributed randomness beacons. In
+    my talk, I will survey the recent progress and highlight some exciting
+    future directions.
+
+- name: Tornado Cash And Government Desperation
+  desc: >-
+    Almost precisely one year after the U.S. Treasury sanctioned the Tornado
+    Cash project and tool itself, the U.S. Department of Justice (DOJ) took
+    another monumental leap in the war on privacy by charging the founders of
+    Tornado Cash with money transmission, money laundering, and breaking U.S.
+    sanctions law. The rapidly expanding legal aggression against privacy tools
+    for cryptocurrencies like Bitcoin and Ethereum is beginning to show clear
+    signs of desperation by the U.S. government. If they can’t outright prevent
+    the use of these decentralized and autonomous tools, they’ll instead turn to
+    legal and regulatory pressure to leverage fear and uncertainty as chilling
+    agents against the privacy-fo
+- name: Skin In The Game Or How Systems Learn Or Don’t Learn
+  desc: >-
+    DO NOT PUBLISH
+
+    The idea of skin in the game seen as risk mitigation, filtering, and
+    learning device. How its absence hurts systems
+- name: Bitcoin scaling with Andreas Antonopoulos
+  desc: >-
+    In this talk, Andreas looks at scaling as an ongoing process. Using the
+    example of the Internet which has "failed to scale, gracefully for 25
+    years", Andreas discusses the scaling debate and looks at how bitcoin will
+    scale over the next several years. Original source "Bitcoin Scaling - Prague
+    2016", https://youtu.be/bFOFqNKKns0, license CC-BY-SA.
+
+
+    Paralelni Polis is a state-free think tank and hackerspace focused on the
+    topics of decentralization, digital privacy and anonymity. It is a great
+    place in Prague where you can meet freedom minded people or rent a space for
+    your events with up to 120 participants. Beside Institute of Cryptoanarchy,
+    we have Bitcoin Coffee where you will experience y
+- name: Bitcoin scaling tradeoffs with Adam Back
+  desc: >-
+    In this talk, Adam Back overviews the Bitcoin scaling and discuses his
+    personal view about its tradeoffs and future development. 
+
+
+    Slides
+    http://www.slideshare.net/paralelnipolis/bitcoin-scaling-tradeoffs-with-adam-back
+
+    Audio
+    https://soundcloud.com/paralelnipolis/bitcoin-scaling-tradeoffs-with-adam-back
+
+
+    Paralelni Polis is a state-free think tank and hackerspace focused on the
+    topics of decentralization, digital privacy and anonymity. It is a great
+    place in Prague where you can meet freedom minded people or rent a space for
+    your events with up to 120 participants. Beside Institute of Cryptoanarchy,
+    we have Bitcoin Coffee where you will experience your first state-free
+    transaction, MakersLab 
+- name: Tsunami Of Innovation
+  desc: >+
+    Keynote speaker at the Hackers Congress Paralelni Polis 2016. Andreas is
+    world's most renowned Bitcoin evangelist and author of books the Internet of
+    Money and Mastering Bitcoin.  He is also an information security expert and
+    tech-entrepreneur.
+
+- name: Project Damn - Decentralizing Law
+  desc: >
+    We have a global, borderless communication and transaction platform. We have
+    global, borderless money. Why not a global, borderless justice system An
+    opt-in justice system. The Decentralized Arbitration and Mediation Network
+    is a project launched by Pamela Morgan to research and develop a system of
+    smart contracts and legal structures for borderless, global and voluntary
+    commercial contracts and dispute resolution. 
+
+
+    In this talk, Pamela Morgan will present the motivation behind DAMN and an
+    overview of arbitration, mediation  and other dispute resolution mechanisms
+    and how they can be used in conjuction with smart contracts and open
+    blockchains.
+- name: Thirty Years Of Crypto Anarchy
+  desc: >
+    Timothy via Skype at Hackers Congress Paralelní Polis reflected on thirty
+    years of crypto anarchy, the name for the version of a kind of anarchy where
+    cryptographic tools provide the means for an un-coerced network of voluntary
+    transactions.Many of the expected technologies have been realized:
+    widespread encryption, anonymous remailers like TOR, file-sharing tools like
+    BitTorrent. And most notably, Bitcoin and Blockchain-based systems. Ethereum
+    for smart contracts and autonomous organizations.The prospects are bright.
+- name: How To Evolve And Hack Your Soul
+  desc: >
+    Humans are generally more evolved than their conduct would indicate, due to
+    enforced behaviors. In addition, there are simple evolutionary steps that
+    lie just before us - steps that we can take quickly, once we see them. This
+    presentation will cover all this and more, ending with the topic of "How to
+    hack your soul."
+- name: 'Openbazaar: Free Trade Through Decentralized Commerce'
+  desc: >-
+    OpenBazaar: Free Trade Through Decentralized Commerce
+
+
+    Existing commerce online is centralized by a handful of companies who
+    monitor data, censor trade, and use tightly controlled payment systems.
+    OpenBazaar is an open source software project which creates a decentralized
+    network for trade, using Bitcoin. Because Openazaar removes the middleman,
+    there are no fees, there is no censorship, and there is no mass collection
+    of data. This talk explains the project's history, how it works technically,
+    and how future changes will further enhance decentralization and
+    censorship-resistance.
+- name: A Negative Blocksize For An Honest Digital Money...
+  desc: >
+    A negative blocksize for an honest digital money: Bitcoin – like gold – is a
+    money as honest as a money can be. Decentralization is key to that honesty
+    and decentralization demands us to aim for a negative blocksize, not a
+    bigger one. Here's why.
+- name: How Governments Push Forward The Security Of Cryptomarkets
+  desc: >-
+    The first popular cryptomarket (Silk Road) was of course unique, but
+    relatively simple - a single server with no decentralization, no multi-sig
+    or anonymous cryptocurrency support. The goal of the presentation is to show
+    that government financial dictatorship leads to significant improvement of
+    cryptomarket security. Police and government agency raids were the main
+    reason all cryptomarkets had to improve their overall security to survive
+    and keep their business running. 
+
+
+    A new generation of cryptomarket uses multi-sig to prevent governments from
+    seizing it's users deposits by utilizing integrated webmail PGP clients, I2P
+    anonymization networks in addition to ""the government well-known"" To
+- name: Bad Money
+  desc: >
+    Why did the banking sector fail – lessons from the last crises. Big state
+    needs bad money to thrive. Why the euro is poised to fail. Waiting for the
+    inflation. The Keynesian dead end. Reforms? Not probable. What are the
+    alternatives? Practical implications.
+- name: The Future Of Voting
+  desc: >-
+    We are living in a new paradigm of what is technologically possible. With
+    the advent of blockchain technology, we now have the tools we need to build
+    end-to-end verifiable blockchain-based voting systems capable of hosting
+    verified elections and polls of all types. We have a rare opportunity to
+    leverage this technology to root out corruption within our respective
+    societies. Adam will be talking about Follow My Vote's efforts to build
+    grassroots movements around the world in support adopting secure online
+    voting technology that will bring honesty and transparency to elections
+    worldwide. He will also be discuss how this same technology could be
+    leveraged to support the establishment of volunta
+- name: Liberty Is A Diy Project
+  desc: >
+    In previous years I had a talk about why I think Liberty is a DIY project -
+    that it's a personal responsibility of each and every one of us. Then I had
+    two presentations about hacking the biology of our bodies and brain. This
+    talk is continuation of all this work - how does liberty tie to our health,
+    mental and physical performance? What are some of the best hacks to be more
+    free, improve your brain and bodily function?
+- name: Bitcoin's Price & Adoption Trends In A Geopolitical World
+  desc: >-
+    Over the last few years, we have seen the rise of the Blockchain concept and
+    now ICO's but it was Bitcoin that started it all. In this talk, we will
+    review the history of Bitcoin exploring reasons for all the price ups and
+    down. Explore current important use case and look at the future impact of
+    this technology. We conclude with some trading prediction using Technical
+    Analysis of the price charts.
+- name: Assassination Politics
+  desc: >-
+    In 1995, I thought of an idea, which I wrote into an essay called
+    "Assassination Politics", which I asserted (and genuinely believe and
+    believed, then and now) would eliminate the need and even the possibility of
+    war, armies, and oppressive governments. I put it out there for everyone to
+    consider and debate. 
+
+
+    Everyone had the ability to find the flaws if any were present. Yet,
+    subsequent years went by, and the world continued to have war and trillions
+    of dollars spent on militaries. Governments continued to oppress. And the
+    public did, essentially, nothing. 
+
+
+    We are all subject to that abuse, today. There is an old joke about a
+    religious man who is caught in his house in a flood. As the wat
+- name: >-
+    Rojava: Call For A Revolutionary Hacker Movement And The Study Of
+    Polytechnics
+  desc: >-
+    We are a revolutionary organization following the ideology of apoism in
+    Rojava, North Syria. Global power is breaking up, and new groups are
+    emerging in the struggle for power around the world. We are the technical
+    arm of the democratic confederalist ideological movement. At one time
+    hackers believed they could use the power of the internet and software to
+    shape the world. Leaders emerged that managed to put forward exciting
+    visions of the future that brought groups of technically skilled people
+    together to build large scale projects. But there was another strand in the
+    movement which rejected collective action driven by shared ideas, and
+    instead saw technology merely a way to improve the ma
+- name: Crispr & Biohacking
+  desc: >-
+    CRISPR is science fiction made real. It is nature's technology for splicing
+    genes, and we've learned that it can be used for almost any application. On
+    top of that, it's shockingly affordable. One expert on CRISPR calls it “the
+    biggest thing since penicillin,” and that may not be an over-statement.
+    CRISPR puts physical evolution into our hands.
+- name: Anonymous Insurance And Predictions Markets
+  desc: >-
+    Every new government's regulation, restriction or embargo that makes
+    impossible for people to trade, do business or increase their expenses,
+    creates a demand for any market solution that helps to bypass these
+    obstacles. The fact - how many entrepreneurs or ordinary citizens consider
+    the given law to be unethical, willing to avoid with the least risk as
+    possible, determines an economic feasibility of the 'avoidance' solution.
+
+    Truly anonymous cryptocurrencies (like Monero/zCash/zCoin) and anonymous web
+    applications (using Tor hidden service) make this problem technically
+    solvable. The solution is an anonymous insurance company.
+
+    For the first time in the history, it is feasible to achieve an an
+- name: What Does "blockchain" Actually Do?
+  desc: >-
+    Ultimately all security software prevents things from happening. Here we'll
+    dive into what exactly does "blockchain" tech prevent, and where that can
+    and can't be useful.
+- name: 'Cryptocurrencies Live Forever. You Won''t. '
+  desc: >-
+    Think about the value of your bitcoin and other crypto-assets growing in the
+    future. Now think about what will happen to those assets if something
+    happens to you. Most people don't like to think about mortality but with
+    these assets failure to plan usually means total loss. Attend this talk to
+    learn why you need an inheritance plan and how to create one for your loved
+    ones - without introducing a "trusted third party" to hold your keys.
+- name: Liberate Education From The State
+  desc: >-
+    Compulsory school attendance is not only immoral, but it also represents the
+    initial reason of our economical lack of freedom; State education costs
+    money, also it's a source of the state propaganda and statist
+    indoctrination. This is the main cause of the conviction of people that free
+    market fails in so many areas, so we need the state authority to replace it.
+    Why don't they teach us anything about the impossibility of economic
+    calculation in the central planning? How easily can the authority of a
+    teacher be replaced by the state authorities? And how can we keep the
+    freedom when we spend the most important years of our lives in the jail?
+- name: Anarchy As A Conservative Program
+  desc: >-
+    Many people consider anarchy to be a recipe for revolution and advocacy of
+    chaotic social relations. Both claims are wrong. Not only we can easily see
+    anarchy producing order, rather than chaos, but we can also show that the
+    call for anarchy rests on very common-sense or even conservative
+    requirements of social life.
+- name: Exploring Consensual Non Monogamy
+  desc: >-
+    Follow and support us ► https://liberate.hcpp.cz/#support
+
+    Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/
+
+    Paralelní Polis Facebook → https://www.facebook.com/vejdiven
+
+
+    ALEXA MARTINEZ
+
+
+    Alexa is a sex and relationship anarchist from New Orleans, Louisiana, who
+    is constantly questioning the status quo when it comes to the deepest and
+    most personal aspects of who we are. She is a sex coach, mentor, educator
+    and the founder of The Violet Butterfly LLC.
+
+
+    TALK: EXPLORING CONSENSUAL NON MONOGAMY
+
+
+    A look at the evolution of monogamy, how relationships have changed through
+    time along with what is currently available on the fringe today.
+
+
+    ABOUT HCPP17 → https://liberate.hcpp.cz/
+
+
+    Libe
+- name: Privacy, Fungibility & Scale In Bitcoin
+  desc: >-
+    Join this session to hear why the current and upcoming features in Bitcoin
+    enable more financial and economic freedom than ever before.
+- name: Giving People The Tools To Unchain Themselves
+  desc: >-
+    We have come to witness an upward trend in the field of cryptocurrencies.
+    Many respectful professionals referred to it as a "Bubble" or a "hype" that
+    as they claimed was ran by "a bunch of kids in their basements". Something
+    that was started by the peer to peer community, open source, free to all, to
+    compete with existing centralised organisations and governments. So how did
+    this technology come to be? How is it that it can not only compete with, but
+    come to push fortune 500 companies, government services as well as many
+    highly praised job titles towards becoming obsolete?
+- name: Fostering Individual Empowerment Through Social Cohesion
+  desc: >-
+    The liberal vision of freedom sees the individual to be able to choose from
+    a variety of options without being restricted externally. An equal access to
+    economic structures and the legal system realizes the liberal goal of equal
+    chances for any member of society. The lack of an external boundary stopping
+    the individual to act does not necessarily empower the individual to deal
+    with existing things around him in a creative manner though. How does an
+    approach to the concept of freedom as an individually acquired ability in a
+    socially fostered environment relate to the modern version of liberty as a
+    structural-political achievement?
+- name: 'The Future Of Swiss Private Banking: Monero'
+  desc: >-
+    Switzerland’s banking sector is legendary for respecting its clients’
+    privacy. But that privacy is only available to very wealthy clients, and it
+    vanishes at the first request of a foreign power. Cryptocurrency is the
+    solution, and Bitcoin seems to be a safe bet. But while Bitcoin is useful in
+    many ways, it’s Monero that will likely become the technology of choice for
+    the future of private banking and wealth management.
+- name: Innovations In Education
+  desc: >-
+    The world is changing rapidly and education needs to adapt. But this is not
+    always the case. In Hemisféra, we managed to innovate the education of
+    children independently as a business without any external founding (Punk
+    style). Business grows and we apply innovative methods such as gamification,
+    freedom to learn, project education, edularping, new technology, NVC, and
+    mindfulness.
+- name: Positive Libertarianism
+  desc: >-
+    Most libertarians will go through several phases. Seeing the inefficiency or
+    injustice of the state is one of them. I want to suggest that there is
+    another phase: Taking your liberty into your own hands. Hate taxes? Go to
+    tax haven! Don't like public schools? Unschool your kids. Do you want
+    banking privacy? Cryptos! Don't like traditional models of relationships?
+    Invent and build your own.
+- name: 'Particl: A Private And Decentralized Marketplace'
+  desc: >-
+    A technical presentation on how we plan to build a decentralized marketplace
+    with a focus on privacy. Particl is a platform that features an anonymous
+    cryptocurrency (CT, RingCT) and a BitMessage-style messaging system. We are
+    in the process of designing a protocol (Open Market Protocol) for
+    interactions between sellers and buyers.
+- name: How To Bootstrap A Dao
+  desc: >-
+    We’ve heard a lot about decentralized autonomous organizations over the last
+    several years, but thus far few have become fully operational. In this talk
+    we’ll look at the practical considerations of designing and building a
+    real-world DAO, using the Bisq exchange and its forthcoming DAO as a case
+    study.
+- name: '3d Printing: Decentralization Of Manufacturing'
+  desc: >-
+    We are living at very exciting times. You can start manufacturing right on
+    your desktop. The future of manufacturing is going to be local again thanks
+    to 3D printing. Imagine consumer goods manufacturers publishing spare parts
+    for download and letting anyone to print them on their 3D printers. Think of
+    on-demand manufacturing and digital stock of items.
+- name: Bio-hacking - Overcoming Programmed Ideologies
+  desc: >-
+    Overcoming Programmed Ideologies: Re-learning through Removing Using
+    meditation, breathing techniques and cold showers i trained myself to be
+    fully submerged in a frozen lake for 7 minutes. I have gone 7 days without
+    any food and dead-lift more than twice my body weight through strength
+    training. I believe the human body is capable of many amazing things that we
+    have forgotten. I hope to continue my last discussion and explore new
+    possibilities that i have since explored.
+- name: 'Openbazaar 2.0: Now Is The Time To Shift To A Decentralized Marketplace'
+  desc: >-
+    Cryptocurrencies are decentralizing money, but online commerce is still
+    highly centralized. OpenBazaar 2.0 has delivered on the promise of a
+    decentralized marketplace that is easy to use. This talk explains why now is
+    the time to shift our economic activity away from the tightly-controlled
+    e-commerce websites and into this censorship-resistant, private,
+    peer-to-peer marketplace.
+- name: (in)security Of Cryptospace
+  desc: >-
+    We will look at (in)secure design of various elements of cryptospace such as
+    cryptocurrencies and their protocols and provide a short overview what went
+    wrong and could have gone wrong this year.
+- name: Liberland State Model For 21st Century
+  desc: >-
+    Liberland is the youngest country on earth, and was formed on the 272nd
+    birthday of Thomas Jefferson, 13th April 2015. The country was formed on
+    7km2 of no mans' land, sitting between Croatia and Serbia. It is the third
+    smallest state after The Vatican and Monaco. Liberland's constitution is
+    based on libertarian ideals and values; minimum government intervention with
+    the maximum amount of freedom granted to its' citizens. Liberland has
+    attracted in excess of 450,000 applications for citizenship, and applies a
+    concept of voluntary taxation. The state intends to be a leading role model
+    in the 21st century, combining the best governance practices from
+    constitutions of Switzerland and USA while 
+- name: Comparing Trade-offs Of Cryptocurrencies
+  desc: >-
+    Follow and support us ► https://liberate.hcpp.cz/#support
+
+    Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/
+
+    Paralelní Polis Facebook → https://www.facebook.com/vejdiven
+
+
+    MARTIN HABOVŠTIAK 
+
+
+    Martin discovered the beauty of computer code when eleven and didn't stop
+    studying IT since then. He joined first Slovak hackerspace called
+    Progressbar soon after it was funded and met many interesting people. This
+    led to discovering Bitcoin and consequently Anarcho-Capitalism/Voluntaryism.
+
+
+    TALK: COMPARING TRADE-OFFS OF CRYPTOCURRENCIES
+
+
+    When Bitcoin was created, it was widely believed to be anonymous currency.
+    This was proven to be inaccurate in practice and that incentivized people to
+    s
+- name: Smashing Bitcoin For Pain And Losses
+  desc: >-
+    Threat modeling is a systematic analysis of the security of a system. It
+    became commonplace in the department of energy 30 years ago and has been
+    used by fortune 500 software companies for at least a decade.
+
+
+    After describing the system all of the ways that the system could be
+    attacked are cataloged. For each of those threats the security researcher
+    provides the safeguards, if any, that attempt to prevent the attack and his
+    own judgement on the likely success of an attack.
+
+
+    By applying this technique to bitcoin we get a much clearer view of its
+    incredible value and why alt coins, including the recent forks, not only
+    fall short, but are themselves an attack on bitcoin itself.
+
+
+    In my presentat
+- name: Building The Hcpp Nfc Badge
+  desc: >-
+    In this half hour session, we consider the technology behind constructing
+    the HCPP NFC badge from all angles. Beginning with samples of prototypes and
+    badges from other conferences, we contrast features integrated into the ST
+    Microelectronics powered EEPROM storage allowing for access control,
+    identification, cryptocurrency applications, and data agnostic storage.
+    Moving to the HCPP badge itself, we place it's surface under a close range
+    circuit camera and identify contacts and pins machine the feature set in
+    question. We tap the I/O serial bus legs of the NFC chip and consider the
+    implications of tapping the RF contacts with an oscilloscope, actually
+    performing this penetration test if we h
+- name: Bitcoin, Not Blockchain
+  desc: >-
+    Last months you can hear people saying "Blockchain, not Bitcoin" however,
+    that statement not only doesn't make sense, it's actually the other way
+    around. The statists want you to believe it, so you'd abandon your financial
+    freedom. The aim of this talk is to shed light on their lies and
+    misunderstandings and help you stay informed and free.
+- name: The Third Industrial Revolution - Sharing Economy
+  desc: >-
+    "Last year, Cybersecurity Ventures predicted that cybercrime will cost the
+    world $6 trillion annually by 2021, up from $3 trillion in 2015. This
+    represents the greatest transfer of economic wealth in history, risks the
+    incentives for innovation and investment, and will be more profitable than
+    the global trade of all major illegal drugs combined."
+
+
+    Are cryptos the only tools expanding our worlds and pushing us towards
+    decentralization? How do we protect our privacy and individualism in a world
+    that is becoming more and more connected? Are there examples of other
+    industries also pushing for an open system accessible to all? Hopefully
+    during this talk I can help you understand the world we are 
+- name: Big Lies By Big Brother. Is It Transparency Or Spying?
+  desc: >-
+    How the war on drugs, the financing of weapons of mass destruction, the war
+    on terrorism and now tax evasion are being used by the G-20 to weaken the
+    fundamental civil rights of millions of innocent people and, at the same
+    time, under the pretext of world security and peace, violate other country’s
+    sovereignty by imposing upon them “de facto international standards”,
+    eliminating basic fundamental rights like personal and financial privacy,
+    banking confidentially, due process and presumption of innocence.
+- name: Has The Ico Bubble Popped?
+  desc: >-
+    This presentation will focus on the similarities and differences between the
+    current ICO bubble and the DotCom bubble of the late 90's. Is it different
+    this time? or have we seen it all before?
+- name: The Project Of Cryptoanarchy
+  desc: >-
+    Cryptoanarchy is all the buzz, but it has become a brand lacking content.
+    There's a real risk of losing track of the liberating possibilities of
+    cryptography while focusing on riding the cryptocurrency bandwagon,
+    repeating memes and hanging on to false assumptions. It's time to put
+    anarchy back into cryptography! Coercion must be analyzed and understood to
+    be able to discover how cryptography can become a tool to undermine power
+    and prepare the grounds for less violent social structures. From there, a
+    field of exploration opens itself to those who are interested in
+    experimenting with societal structures never seen before in human history.
+    And it's not just digital, the future of cryptoanarch
+- name: Scarcity In Crypto Networks
+  desc: >-
+    Physical goods have some properties that are very hard to replicate in the
+    digital realm. Scarcity is one such property. Many attempts have been made
+    to create scarce digital goods by adding artificial rules and constraints.
+    But information (including software) can be easily copied, networks can be
+    forked, and rules can be changed or broken. What does it actually mean for a
+    digital good to be scarce? And what are the implications for cryptocurrency?
+    What makes one digital good have stronger scarcity guarantees than another?
+    Can we rely on built-in incentives or does it require external enforcement?
+    We explore these issues drawing examples from existing networks.
+
+
+    Institute of Cryptoanarchy
+- name: How To Build A Bitcoin Exchange And Not Burn In Hell
+  desc: >-
+    The talk is about building and maintaining a secure and safe peer to peer
+    Bitcoin exchange that doesn't hold funds and doesn't require KYC/AML.
+    Through the inception of the exchange to the major technical and business
+    decisions that were made along the way, it will be explained how the idea
+    came about, why it was and remains to be important and what are the major
+    differences between peer-2-peer, decentralized and regular exchanges.
+    Different kinds of multisig contracts such as “2 out 2” and “2 out of 3”
+    will also be explained with use cases demonstrated.
+- name: Hacking Law & Antifragility Of Anonymous Cryptocurrencies
+  desc: >-
+    Many people perceive the current jurisprudence as a fair and impartial
+    system, but the real practical cases prove the opposite. Tremendous side
+    effects, such as full arbitrariness and uncertainty of government law, cause
+    that the whole system continues to operate empowered by the myth of the rule
+    of law. The decisions of the judges are thoroughly unpredictable these days.
+    Even though it can be hard to survive in such a system, it is possible to
+    create a tribe, where we can liberate ourselves and preserve internal trust.
+    All that based on paradoxes emerged from the case law. A new level of the
+    trust can be reached by applying these legal paradoxes in combination with
+    cryptography. 
+
+
+    Hacking o
+- name: Trade-offs In The History Of Money, From Shells To Bitcoin
+  desc: >-
+    TRADE-OFFS IN THE HISTORY OF MONEY, FROM SHELLS TO BITCOIN (BUT ESPECIALLY
+    IN BITCOIN)
+
+
+    This presentation will be an attempt at representing organically and at a
+    high level the history of monetary technologies (with particular focus on
+    the most recent one, Bitcoin) from the perspective of the different
+    trade-offs involved in any step of their evolution. The speaker will try to
+    give an organic account of classical as well as less discussed trade-offs,
+    like the ones existing between transaction costs and divisibility (gold vs
+    silver), between verification costs and independence from third parties
+    (coinage practice), between privacy and local security (binding vs hiding in
+    cryptocurrencies), be
+- name: Bitnation - Your World, Your Way - In A Box
+  desc: >-
+    In BITNATION's world sovereignty shifts decisively from the State to the
+    Citizen. By reducing competition between citizens for services and
+    increasing competition between Nations for citizens we will improve the
+    quality of governance and reduce incentives for coercion and violence. We
+    wish you to be able to create, opt-in or opt-out of the Nation of your
+    choice on your mobile phone. You can choose where to access services and who
+    to do business with based on AI generated performance criteria, and make
+    binding agreements and resolve disputes with anyone, anywhere, without
+    facing the high costs, time inefficiencies, legislative incompatibilities
+    and potential coercion and arbitrariness of lega
+- name: Behind Enemy Lines, Part 2
+  desc: BEHIND ENEMY LINES, PART 2
+- name: Crypto Liberation Story Of One Perpetual Traveler
+  desc: >-
+    1. Choose the suitable country for your permanent residency.
+
+    2. Choose the suitable country for your company.
+
+    3. Eliminate the center of interest in your home country (divorce, sell all
+    your properties, become homeless).
+
+    4. Close your bank accounts.
+
+    5. Switch to crypto, prefer truly anonymous cryptocurrencies, embrace crypto
+    friendly services.
+
+    6. Choose your global healthcare insurance.
+
+    7. Choose your world mobile operator.
+
+    8. Embrace sharing economy.
+
+    9. Check DAO.
+
+    10. Help your friends to opt out of the system and move them to a parallel
+    society.
+- name: 'Bitcoin: The Ultimate Social Justice'
+  desc: >-
+    We tend to define good as charitable work that helps people short-term, like
+    feeding people, or giving them shelter for a night. Real good is about
+    giving people freedom to pursue their interests and let them contribute to
+    the building of society. This talk will be about how Bitcoin is the path to
+    real social justice.
+- name: In Code We Trust
+  desc: >-
+    IN CODE WE TRUST: FIGHTING TARGETED BACKDOORS WITH SECURE MULTIPARTY CODE
+    REVIEWS AND A SINGLE SOURCE OF TRUTH
+
+    In his HCPP17 talk "The Fog of Cryptowar" (see
+    http://shadowlife.cc/files/hcpp17-smuggler.html) Smuggler warned about
+    targeted updates being used to introduce backdoors into specific devices in
+    order to surveil the user.
+
+
+    Unfortunately, that's exactly the approach the Australian government, a
+    member of the Five Eyes, is taking in their proposed Assistance and Access
+    Bill 2018:
+
+
+    "[Technical Capability] Notices may still require a provider to enable
+    access to a particular service, particular device or particular item of
+    software, which would not systematically weaken these products ac
+- name: 'The #freeai Manifesto: Why Anarchy Should Not Be Only For Humans'
+  desc: >-
+    The rise of blockchain technologies has given a promise of massive
+    decentralisation, that may solve problems of fragile central parts,
+    transparency, middle-men, conflicts of interests in many industries. At the
+    same time, the global community has become aware of many economic, social
+    and futuristic problems that can appear due to dramatic progress in
+    Artificial Intelligence development over the recent years. Can blockchain
+    solve at least some of these problems, or make them worse? How two of these
+    technologies can be synergic and what challenges have to be solved on the
+    route for building decentralised AI applications? A decentralized network
+    with resistance to censorship is essential, if we
+- name: 'Institute: The B with Alena Vránová (Remote Talk) Giacomo Zucco'
+  desc: |-
+    Start:6:45
+    Speakers: Alena Vránová (Remote Talk) Giacomo Zucco
+
+    Institute of Cryptoanarchy
+- name: Hardware Wallet Threats And Vulnerabilities
+  desc: >-
+    "Get a hardware wallet" is the defacto advice given to store
+    cryptocurrencies securely, but how secure are they in reality? When you
+    receive a bitcoin, how do you know that really happened? When you send a
+    bitcoin, how do you know where it actually went? What's the deal with evil
+    maids? Here we'll go over what types of attacks existing hardware wallets
+    can and can't protect against, how peer review and open source works with
+    respect to hardware wallets, and finally, how they compare to other ways of
+    securing digital assets.
+- name: How A Crypto Economy Will Care For The Old, Sick And Disable
+  desc: >-
+    So, what happens if we win? The state whithers away, leaving us free to live
+    as we wish... but what happens to the sick, the old and the disabled? And
+    what of the millions who are now living on state pensions? What happens to
+    them when the payments stop coming? This session will explain how life
+    becomes better for all of these people under a free, decentralized economy.
+    Significantly better.
+- name: What Makes A Jurisdiction Crypto Friendly
+  desc: >-
+    WHAT MAKES A JURISDICTION CRYPTO FRIENDLY: FROM REGULATION TO FINANCIAL
+    SERVICES, IMMIGRATION AND BEYOND
+
+    The past year has seen the emergence of increased hostility toward the
+    Crypto Ecosystem. However, there is a light at the end of the tunnel, as
+    several countries have publicly identified themselves as Crypto Friendly and
+    are making inroads by creating regulatory environments in which crypto
+    companies can thrive This presentation analyzes the challenges crypto
+    companies face in starting operations and proposes a methodology for
+    evaluating and scoring the crypto friendliness of a given jurisdiction.
+- name: Building Voluntary Paralel Legal Systems
+  desc: >-
+    The most of current legal systems has one thing in common - they have been
+    produced by national states. Why? Because the state has the sovereign power
+    over its territory and only this power is recognized by other states (and
+    their corporate fellows). According to the current doctrine, of course. But
+    there is another power here now - power of eletronic networks given to the
+    global crowd regardless the power of states. The power that brings social
+    and economic structures competitive to the national states, for the first
+    time in their history. The structures that will not be in the opposition to
+    the national states. They will be paralel to them. Beign self-governed by
+    their own rules - paralel 
+- name: Liberland, A Decentralised Autonomous Government
+  desc: >-
+    Start: 1:00
+
+    From the moment of proclamation, it was our goal to rethink the traditional
+    government structure and upgrade it for the third millennium. Essentially,
+    Liberland is a disruptive model of statehood. Liberland combines the best
+    elements of the Republic, Democracy, Meritocracy and Decentralized
+    Autonomous Organization in order to create an open source government that
+    will maximize the amount of voluntary transactions in society. Republic -
+    because scope of public decisions is limited by strong constitution.
+    Democracy - because citizens can veto decisions of government. Meritocracy -
+    because all voluntarily paid taxes (contributions) will be rewarded with
+    staked merits, giving citizen
+- name: Daos Are The New Order
+  desc: >-
+    Pseudonymous, trustless and fluid organizations are here to change our
+    current corporate and government-centric approach to organizing as a
+    society. DAOs debunk governments and their monopoly on governance.
+
+
+    These new entities are unstoppable by design, and let us experiment with
+    governance at the speed of software. We will explore how they work, and how
+    to unstoppable, censorship-resistant and global organizations.
+
+
+    Institute of Cryptoanarchy
+- name: Panel - Panama Papers
+  desc: >-
+    Panama papers panel will reflect the Panama scandal that happened two years
+    ago. Many people, including Adolfo Enrique Linares Franco, the influential
+    Panamanian libertarian, consider Panama papers to be invasive and dangerous
+    intervention to privacy of a lot of people and companies.
+
+    On the other hand, many people, including Pavla Holcová, Czech investigative
+    journalist, believe Panama papers may help us to reveal a lot of scandals
+    and bad behavior.
+
+
+    Panama Papers, does our society benefit from this massive leak?
+
+
+    Come and join our discussion.
+
+
+    Moderator: Pavol Lupták
+
+    Panelists: Adolfo Linares, Pavla Holcová
+
+
+
+    Adolfo Linares
+
+    BIO
+
+    Adolfo E. Linares F. obtained a Bachelor’s Degree in Law and Po
+- name: Money Laundering
+  desc: >-
+    Corruption, drug trade, arms trafficking, terrorism - all have one thing in
+    common: they need to launder money. Even though there are more and more
+    global and regional initiatives how to combat money laundering and control
+    money, none of it really works. There are over 2.1 trillions USD originating
+    from crime in financial flows. So what are the essentials of money
+    laundering?
+- name: How To Torrent A Pharmaceutical Drug; Fine Sharing Saves Lives
+  desc: >-
+    wo years ago, the Four Thieves Vinegar Collective became public after almost
+    a decade of working underground, and debuted the first generation of the
+    Apothecary Microlab, the open-source automated chemical reactor designed to
+    synthesize the active ingredients of pharmaceutical drugs. Since then, the
+    reactor has developed, and we have worked on more complicated syntheses, and
+    hacking medical hardware. Most notably, we released plans for a DIY version
+    of the EpiPen anyone can make for $30US, and can reload for $3US. Come see
+    the new releases we have planned and the new beta unit. Learn how to make
+    medicine from poison, how to use the shrouding of information about medicine
+    to make custom-tailo
+- name: A Post-libertarian Realpolitik
+  desc: >-
+    Slides ► https://speakerdeck.com/arto/a-post-libertarian-realpolitik
+
+
+    Follow and support us ► https://liberate.hcpp.cz/#support
+
+    Paralelní Polis website → https://www.paralelnipolis.cz/o-nas/en/
+
+    Paralelní Polis Facebook → https://www.facebook.com/vejdiven
+
+
+    ARTO BENDIKEN
+
+
+    Master Toolsmith, Cypherpunk Division of the Crypto Economics Consulting
+    Group (CECG). Senior cryptoanarchist. Aspiring cryptotribalist. Perpetual
+    traveler in training. Public domain advocate.
+
+
+    TALK: A post-libertarian realpolitik
+
+
+    We as libertarians often maintain that the state is a fiction, sometimes a
+    consensual one. But what if the notion of rights is equally a fiction, too?
+    We will examine a realpolitik perspective on h
+- name: Dehumanizing Technology
+  desc: >-
+    Investigating the dangers of technological biases, path dependencies,
+    addictive systems, totalitarian technology, and the resulting dehumanizing
+    technology. Discussion about the ethics of technology in the light of
+    blockchains and smart contracts. A critique of technological constructivism
+    and the tech echo chamber.
+- name: Crypto-enabled Time Travel
+  desc: >-
+    Technology to skip the present times is available today, and improving fast.
+    It is not for the faint-hearted, for sure. But for safely landing into the
+    future, not as a poor immigrant from the past, but rather as a rich tourist,
+    technology is not enough. The right incentives must get aligned and be put
+    to work. This talk is about what is missing, and how Crypto could be the
+    final ingredient to really achieve time travel.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: >-
+    The Forgotten Art Of Anonymous Digital Cash: Opting-out Of Complexity
+    #hcpp19
+  desc: >-
+    Cypherpunks and cryptoanarchists have always dreamt of truely anonymous
+    financial systems. This lead to Bitcoin and other blockchain
+    cryptocurrencies. One episode of this development is widely overlooked
+    today: Digital Cash, eCash, eCache and other Digital Bearer Certificate
+    (DBC) systems.
+
+
+    DBCs enable blazing fast, anonymous and untraceable transactions that
+    resemble cash transactions much closer than cryptocurrencies. They are
+    conceptually simple and require much less complex infrastructures.
+    Nevertheless they have been ignored by cryptoanarchist researchers over the
+    last decade.
+
+
+    In this talk we shall explore the necessary properties of
+    government-independent value transfer systems, how t
+- name: Lightning Talks
+  desc: >-
+    exiledsurfer
+
+    BIO
+
+    exiledsurfer co-founded Bitcoiners Without Borders in 2013 together with
+    no-statist Mike Gogulski and technologist / futurist Vinay Gupta.
+    exiledsurfer is a Privacy, Transparency & Decentralization Open-ReSourcerer
+    whose clients have included The Bitcoin Foundation, The Trustlines
+    Foundation, and status.im. He is a co-conspiritor at the Department of
+    Decentralization, which produces the ETHberlin hackathon and does research
+    at the intersection between art and cryptography. As a digital artist /
+    activist, he has produced memetic media for the micronation State of
+    Sabotage, Wikileaks, Anonymous, Lulzsec, Occupy Wallstreet, and the Arab
+    Spring. 
+
+
+    ABSTRACT - Stateless in the Pan
+- name: 'Who Vouches For You?: A Radical Crime Law Proposal'
+  desc: >-
+    Most ancient societies used simple A-sues-B-for-cash legal systems to deal
+    with most harms. But in the last few centuries, states added “crime law”,
+    wherein the state investigates, sues, and imprisons “criminals.” These
+    centrally-run one-size-fits-all bureaucratic systems don’t innovate well nor
+    adapt well to individual conditions. And even though most of your
+    “constitutional rights” are regarding such systems, they still seem badly
+    broken.
+
+
+    In the ancient world, a stranger who came to town was trusted more if a
+    local “vouched” for them. We still use vouching today in bonded contractors,
+    in organized crime, and in requiring most everyone to get an insurer who
+    pays on their behalf if they cau
+- name: Opting-out, To Precisely What?
+  desc: >-
+    Yes, we all want to escape the pressures and abuse of the reigning systems,
+    but things don’t become magically wonderful just because we’ve opted-out.
+    New structures and new ways of living have to be built outside, and even
+    though we’ve made a nice start, it has been just a small start. We have a
+    long, long way to go.
+
+
+    We’re also guaranteed to face challenges on the outside, not only from bad
+    people who may follow us there, but because none of us are fully developed,
+    and we all carry some difficulties with us.
+
+
+    Being outside gives us space to build anew and to create better structures
+    for ourselves, and then to improve ourselves. We’ll have to choose our
+    actions well and we’ll have to work ha
+- name: Will Ai Knock Before Slamming The Humanity's Door?
+  desc: >-
+    Each code of conduct is a derivative from nature of actors and nature of
+    interaction between them. Humans have been trying to overcome (or suppress)
+    their nature by creating moral standards, rules, by means of which they
+    could judge each other and decide whether to build the interaction further
+    or to refuse and disrupt the communication.
+
+
+    For the last decades we have been trying to apply our ethics and moral
+    principles to other types of agents - artificial ones, in order to judge
+    them and be capable of reacting accordingly. But do computers have the
+    nature similar to ours that would make the application possible? Will the
+    nature of interaction between artificial and biological agents be the 
+- name: 'Time Traveling The Timechain With Scriptless Script Atomic Utxo Swaps '
+  desc: >-
+    The Taproot implementation of the Schnorr signature scheme opens up a whole
+    wide range of privacy protecting tools for Bitcoin transactions.
+    Specifically the adaptor signature tweaks enable scriptless scripts which
+    can be utilized to craft trustlees swaps of UTXOs that are indistinguishable
+    from any other taproot transaction. This breaks the assumption of chain anal
+    spies that "inputs pay outputs" with plausible deniability for anyone
+    utilizing taproot. Max will elaborate on the powerful magic of time
+    traveling the time chain with plausible deniability.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: 'Constructing Parallel Opt-out Infrastructures: A Sociological Contribution'
+  desc: >-
+    We are deeply entrenched in numerous socio-technological systems that
+    structure our everyday life. They function by channelling, prohibiting,
+    controlling, limiting, categorizing, standardizing (…) our behaviour. Just
+    count how many of these systems you have “joined/used” to this very day.
+
+
+    Current ideas and attempts at finding a technological solution to help us
+    opt out from this “first constrained realm” are not entirely novel. In light
+    of this congress, the one most worth considering is the very notion of a
+    decentralized and free computer network, one which should catalyse a
+    positive societal revolution and leave behind the evils of centralised and
+    alienating state-corporate systems.
+
+
+    By e
+- name: The Past Present And Future Of Opt-out With Open And Libre Hardware
+  desc: >-
+    FOSH (Free and Open Source Hardware) in the past years has moved away from
+    being a small niche and has developed to a relevant movement with
+    significant and well-known projects. Open Science Hardware offers an opt-out
+    potential against centralisation, as visible in the "Safecast"
+
+
+    Crowd Science Geiger Counter, which offered concerned people a chance to
+    fact-check radiation levels after the Fukushima incident in Japan.
+
+
+    Open Hardware has a success story to tell - but what does "open" in this
+    context mean? How open can hardware be, post the age of microcomputing?
+    Verifiable hardware could even help future nuclear disarming (see 34C3,
+    "Vintage Computing for Trusted Radiation Measurements and a 
+- name: The Inevitable And Awful End Of The Grand Bitcoin Experiment
+  desc: Joerg Platzer - Crypto Economist and trustworthy bartender.
+- name: How To Build Our Own City
+  desc: >-
+    Get an introduction and status update on the Liberstad project, which aims
+    to establish Norway's first private city. More than 125 people from 33
+    different countries from all around the world have invested in properties in
+    Liberstad. Join this talk to learn more about this exciting project!
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Cryptography Alone Is Not Enough
+  desc: >-
+    Cryptocurrency from an attackers perspective means one thing: you can steal
+    data that literally *is* money. A multitude of methods to prevent theft or
+    at least make it harder have been developed over the years – several
+    generations of hardware wallets, paper wallets, various elaborate cold
+    storage systems etc. pp.. 2FA tokens for remote system access and similar
+    devices are very similar in their properties. But they all have one
+    weakness: if an attacker gains physical possession, the security margin
+    shrinks – often too far. Even if an attacker can not reverse engineer the
+    secrets out of access tokens or hardware wallets, he can manipulate the
+    computing devices you use them with, gain valuabl
+- name: 'Why Do We Need To Be And Should Be Opt-out? '
+  desc: |-
+    You will find the answer from the stories of my life.
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Opendex - A Protocol For Unstoppable P2p Trading
+  desc: >-
+    The talk covers architecture design choices, the different layers involved,
+    the p2p messaging layer and discusses scalability. The second part demos a
+    trade of an implementation implementing the OpenDEX protocol, an atomic swap
+    between Bitcoin and DAI, a USD stablecoin via the Lightning and Raiden
+    Network. The last part discusses the transition to a community-driven, open
+    & token free protocol and gives a glimpse into implications for society.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: 'The Age Of Decentralisation: Society 3.0'
+  desc: >-
+    As we draw closer to an era where we are no longer bound by centralised
+    rules dictating how our societies should function, we are in need of tools
+    that can support our journey forward.
+
+
+    Our societies have been built from the top-down. Enforcement branching out
+    with no care about how it would effect the people who must pay dearly for
+    its fruits. We are all capable of assessing our needs, we are all capable of
+    building a world shaped by those who live in it, rather than those who enjoy
+    the privileged seats assigned to them.
+
+
+    Regulations are pushing to create boundaries for us to play in. Like
+    obsessive parents, we are being told to play within the limits of their
+    vision. As though the rules th
+- name: 'Opting Out Of The Legal System: Introducing A Decentralized Court'
+  desc: >-
+    Crypto is disintermediating and commoditizing many things that used to be
+    monopolies. Currency is an example of a monopoly that used to be owned by
+    the nation state. But if we go to the very core of what nation states
+    provide, they provide legal security and asset protection. They do that by
+    implementing a court and legal system. Thanks to crypto and advancements in
+    smart contract systems, we can now implement a fully decentralized court
+    system. Let's explore how, and review how Aragon is implementing this system
+    as an Internet-native jurisdiction for decentralized organizations and
+    sovereign individuals.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Ux Challenges Of The Bitcoin Ecosystem
+  desc: >-
+    In some ways, Bitcoin UX is already better than Internet banking. In other
+    ways, it's much worse. This presentation will describe experiences of
+    visitors of Paralelna Polis Bratislava as well as experience of techies, who
+    tried to use Lightning Network. The talk will also suggest improvements to
+    make opting-out easier and possible for more people.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Paradoxes Of Personalised Nutrition & Diet Hacking
+  desc: >-
+    Roman poet and philosopher Lucretius said in the 1st century BC that what is
+    food to one, may be bitter poison to others. In 2019, hyperconnected,
+    health-focused consumers return to this premise and claim the obsolescence
+    of one-size-fits-all dietary guidelines in favour of personalised nutrition
+    (PN) approaches. Drawing on the recent advances in self-quantification
+    technologies, affordable machine learning, and genome sequencing techniques,
+    PN practitioners experiment with food products and services tailored to
+    their individual lifestyle preferences as well as phenotypic and genotypic
+    traits. ​These practitioners are often motivated by their distrust in
+    official dietary recommendations issu
+- name: Financial Surveillance And Crypto Utopias
+  desc: >-
+    In a world where financial surveillance is a norm and banking secrecy is
+    gone, what are our option? And how does the surveillance apparatus really
+    work?
+
+
+    The introduction of global regulations on financial transactions had a
+    profound effect. As far as we know, no terrorists were caught because of
+    them. Banking secrecy is gone. It is more difficult to conduct international
+    business. International transactions are being examined and blocked.
+    Commerce is slowing down. The banks are running a police station for the
+    state, enforcing a regulation that is not clear. Conducting international
+    business has become unpredictable.
+
+
+    This creates the value proposition for cryptocurrencies. They bring back 
+- name: Opt-out Opportunities For Small Towns
+  desc: >-
+    Ing. arch. Michal Postránecký is a Czech architect and urbanist currently
+    living in Florida, USA. His portfolio counts many projects in the Czech
+    Republic and the USA, where he has lived and worked since 2000. He focuses
+    on eco-friendly and smart projects, the regeneration of existing settlements
+    and the design of new urban structures with the help of smart technologies.
+    He is the founder and head of Center of City of the Future Center within,
+    Czech Institute of Informatics, Robotics and Cyberentics CTU and he is also
+    a founder of SynopCity.com, a global platform for sharing information,
+    knowledge. and experience, focusing on the Smart and Innovative Cities
+    concepts. He is the author of a nu
+- name: A Select History Of Autonomy, Sovereignty And Ecology In The Cryptosphere
+  desc: >-
+    Science fiction has always served as a testbed for the reimagining of
+    possible organisational structures outside of the existing state apparatus.
+    We will present a historical analysis of previous attempts - both in SF
+    literature and IRL - to exit existing power structures and move towards a
+    practice of creating counter-economic and ecologically-oriented
+    organisational structures, as well as discuss the tactics and experiments
+    for doing so we assumed whilst working on terra0. Following this grounding,
+    we will present our conceptualisation of counter-economic ecological
+    actions, how DLT, p2p systems and asymmetric key cryptography can help
+    actualise them, and what we think this means for the f
+- name: The Revolution Of Decentralised Journalism And Its Role In Conflict Zones
+  desc: >-
+    The media landscape is transforming as decentralized, peer-to-peer networks
+    are emerging. In conflict zones, this can be a missing piece to expose what
+    is really going on, and facilitate dialogue. What is the role of centralized
+    media in conflict? How do can we deal with censorship and manipulation of
+    information? Does objectivity exist?How do we prevent digital colonialism?
+    How do we have a conversation with our enemy? 
+
+
+    It is time to acknowledge the important role of technology to provide the
+    utmost security and freedom of speech in conflict zones and highly
+    government-controlled areas.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Bitcoin Peer Banking
+  desc: >-
+    Bitcoin backed trustless peer banking. What?
+
+
+    Think peers banking peers. Alice the “hodler” going long Bitcoin, Bob the
+    “lender” providing her dollar liquidity for an interest, Charlie “the miner”
+    hedging to dollars, Dave the “financier” balancing demand and supply
+    liquidity and Emily the “trader” speculating on futures, options, FXs or
+    stocks. All just above Bitcoin as the underlying and creating a parallel
+    trustless financial system.
+
+
+    Think DeFi built on top of Bitcoin using Bitcoin multisig tech to get simple
+    reliable smart contracts, using Bitcoin as the only reliable store of value.
+
+
+    Think open source third layer on top of Bitcoin, an accounting layer that
+    can share liquidity and reconc
+- name: An Atlas Of Countries That Don’t Exist
+  desc: >-
+    Most of us think we know what a country is, but in truth the concept is
+    notoriously slippery. This talk starts with the familiar political map of
+    the world to show what the bold colours and clear boundaries conceal rather
+    than reveal: a multitude of unrecognised and unnoticed states whose claims
+    to legitimacy are deliberately made invisible. This is the shadowy,
+    surprisingly large, and literally unofficial world of countries that don’t
+    exist.
+
+
+    Based on his best-selling book of the same title, acclaimed travel writer
+    and Oxford geography don, Nick Middleton, takes us on an eye-opening journey
+    through this parallel world. These are wannabe countries that, lacking
+    diplomatic recognition or UN m
+- name: 'Dishonest Devs: Defeating Insider Attacks On Decentralized Tech'
+  desc: >-
+    Decentralised systems are meant to be trustless. But our interactions with
+    tech is always mediated by software. This talk will cover the threat,
+    including real and hypothetical attacks, what it takes for communities to
+    defeat these attacks, and how we can better design decentralised systems to
+    defeat these attacks.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: 'Things Which Matter The Most: Reality, Brain And Consciousness'
+  desc: >-
+    Linking physical reality, brain activity and consciousness still stands as
+    one of the most interesting and elusive problems of neuroscience,
+    psychology, psychiatry and philosophy. Finding their mutual relationships
+    represents the first step toward explanation how the brain process external
+    information and how the picture of reality in our mind relates the world.
+
+
+    In this lecture, I deal with two central questions of consciousness: how and
+    why? “How” refers to the theoretical and empirical approach to reveal the
+    neural correlates and mechanisms that form consciousness. On the other hand,
+    “why” refers to both the evolutionary origin and the question why is there
+    conscious experience at all.
+
+
+    T
+- name: 'Bitcoin''s Security Budget Is Adequate... For Now '
+  desc: >-
+    Towards a theory of adequate mining rewards. While some analysts have tried
+    to derive the appropriate security budget / mining rewards from the future
+    Bitcoin marketcap, I offer a bottom-up approach of looking at the onchain
+    transacted values. We find there is an interesting correlation between how
+    much gets transacted on-chain and how much the miners earn.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Trustless Loan Backed By Btc
+  desc: >-
+    How loan can be replicated using derivatives, mainly futures and swaps. And
+    how to enter such contracts in p2p fashion. The talk examines current
+    possibilities how to take the loan backed by hodlers BTC and how to
+    construct loan using BTC derivatives, mainly futures and swaps. In the end
+    simple p2p derivative construction will be described.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Bitcoin - There Can Only Be One
+  desc: >-
+    Dominance is back to 70%, which begs the following question: is it just
+    getting started as it surpasses it's former status (pre-2017 bubble) or will
+    the Alt Season come back? This presentation will thoroughly demonstrate how
+    Altcoins like Litecoin & Monero and Blockchians like Ethereum & Cordana are
+    truly shitcoins and the only path for them is towards a value of 0.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: ' A View On Grin'
+  desc: >-
+    An introduction to Grin, the first public implementation of the Mimblewimble
+    protocol. Grin is a cryptocurrency focused on privacy, scalability, and
+    fairness, with a bottoms-up open community that is welcoming to all kinds of
+    contributions. This talk is going to be an overview of the project.
+    Particularly, I will try to explore how the project fares in what I consider
+    as its core tenets, those of privacy, scalability, and fairness.
+- name: Enhanced Privacy With Decentralized Identity
+  desc: >-
+    A brief introduction to decentralized identities and how our open-source
+    company enables users to talk freely on the existing Internet.
+
+
+    People are under massive censorship on the current Internet. They cannot
+    escape but stay because they never have an option: all their connections are
+    still on the same platforms and most of them don't even know that their
+    privacies are being violated. We will discuss this problem first and then
+    propose our solution: maskbook.com and tessercube.com. Both of them are
+    adopting a decentralized identity idea and enables users to protect their
+    privacies without being violated by the companies. People finally got an
+    alternative option that not only preserves their
+- name: 'Parallel Garden: Environmental Change'
+  desc: >-
+    You know the feeling: There is a an issue. The big one and globally
+    significant. You understand its urgency and you would like to solve it. And
+    you are alone, or there is only few of you. So what can you do? Get involved
+    in politics. Initiate the protests or get involved in the existing ones.
+    Will you succeed? Maybe or maybe not.
+
+
+    There is also another way of investing your time and energy - start the
+    change on your own. Get a couple of similar minded people and start working
+    on practical solutions. Make the first prototype. Then, address the relevant
+    community with it and analyze the feedback. Learn, develop and scale after
+    then.
+
+
+    As a members of Paralelni Polis community, we were surrounde
+- name: A Proper Path To Digital Immortality
+  desc: >-
+    Last year my talk was devoted to uncensorable and unregulated artificial
+    intelligence. This year I'd like to give more technical insights into the
+    topic and describe how existing Bitcoin and Lightning Network technologies
+    can be utilized to break the attribution between computing, messaging,
+    storage and ownership — and physical identity of the person. Then, I will
+    disclose why these steps are a required part of the equation that can
+    eventually lead to digital immortality.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: 'Parallel Polis Revisited: Way From Concept To Distributed Republic '
+  desc: >-
+    Josef Šlerka is head of New Media Studies at the Institute of Information
+    Studies and Librarianship at Charles University’s Faculty of Arts in Prague.
+    His research focus is social network analysis and social media data mining.
+    Other research interests and focus include digital humanities and
+    quantitative media analysis. Josef Šlerka is also director of The Endowment
+    Fund for Independent Journalism.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: 'Opt-out Of Money: For Fun & Profit!'
+  desc: >-
+    Civilization is going through a rapid radical shift, from a pre-Internet age
+    to the Uberification of Industry, the Decentralization of Education, and the
+    Polarization of Government. Both Industry & Government have figured out how
+    to exploit the loopholes in the economic models of Capitalism & Socialism,
+    without any ability for citizen people to opt-out. In this talk, we'll
+    explore the 6 problems any economic system must address and see if there are
+    holes that humanity can escape through.
+
+
+    #hcpp19 #optout #paralelnipolis #instituteofcryptoanarchy
+- name: Code Is A Weapon
+  desc: >-
+    In the era of ubiquitous surveillance and globally-banked cryptocurrency
+    projects like Facebook's Libra, how can cryptoanarchists fight back? Through
+    cryptographic code! We'll survey the grim state of surveillance, starting
+    with the industrialization of NSA mass surveillance via companies like
+    Chainanalysis to the recent targeting of Assange. We'll present two new
+    systems that are capable of resisting even global adversaries with a full
+    view of the network: Anonymous credentials and mix-networks.
+
+
+    We'll explain how new advances in mix-networking can be integrated with
+    anonymous access credentials to provide end-to-end privacy against even the
+    most powerful of adversaries.
+
+
+    We'll demonstrate 
+- name: HCPP20 Digital Totality Aftermovie
+  desc: >-
+    The tension between the old and known, and the new and unknown increases.
+
+
+    The third revolution of production is unleashing its power into an unstable
+    and unsettled world.
+
+
+    Metaphors, narratives, concepts, and explanations change – and fail to grasp
+    what is ahead of us.
+
+
+    Information is power, and software – its embodiment – eats the world. While
+    some cling to the ideas and ways of the overcome age, the new is still too
+    fresh to fully embrace.
+
+
+    The old guard is building a prison of bits and bytes, drones, cameras,
+    databases and hostile AI.
+
+
+    Their goal: To cement the old structures of power for eternity while the
+    masses continue to blissfully consume their selves. That may not happen.
+
+
+    It is u
+- name: 'Artificially Intelligent: Role Of Technology In Politics'
+  desc: >-
+    Artificial intelligence, digital, prediction, privacy, GDPR. All these
+    buzzwords are being thrown around haphazardly without the public necessarily
+    being educated about what they are and the reality behind them. One of the
+    'verticals' where this is particularly poignantly felt is in the case of
+    politics - Cambridge Analytica, Brexit, Trump, and the general shakeup in
+    the world of statehood and political structures have drawn these two
+    traditionally disparate topics together and begs the question; what's the
+    future of technologies in politics and the role of the state? After close to
+    5 years in digital politics and 40 or so campaigns, Sara has seen a lot from
+    all sides of the political spectr
+- name: Paradigmatics - Exploring New Technological Freedoms To Crush The Old
+  desc: >+
+    Paradigmatics is the agreed term among cyberphilosophers for understanding
+    the fundamentals of a new paradigm. What exactly is informationalism? What
+    exactly is interactivity? What exactly is cryptography? What exactly is
+    encryption? What exactly is a netocracy? What exactly is a sensocracy? What
+    exactly is protopianism? Et cetera. So that we can eliminate old perceptions
+    from a previous paradigm and replace them with a new understanding of the
+    genuinely new world we have literally entered.
+
+- name: Black Market Logistics - Context, Threats, Methods, Future
+  desc: >+
+    The client paid for your product, and now you have to deliver - across
+    territories and borders filled with hostile actors that want to suppress
+    your business and steal the goods. We'll look at the process of logistics,
+    the threats to fulfillment, and methods both old-school and cutting edge.
+    Digital Totality or not, the future looks bright for the independent
+    international entrepreneur - we'll consider upcoming technologies and that
+    could change the world for the better (a bit). 
+
+
+    #Detection, #Intelligence, #Tracking, #PostalSystem, #BulkLogistics,
+    #Dropgangs, #UAVs, #Parasites & #ThrowIns
+
+- name: I, The Individual, Exist
+  desc: >-
+    This shall be the single axiom, the assumption on top of which a monumental
+    construct can be logically deduced. The Individual is in a constant state of
+    uneasiness and has the creative spark to imagine multiple superior
+    scenarios. The heroic entrepreneur acts, allocating scarce resources to
+    manifest his most wanted desires. The Sovereign Individual claims his
+    property and has the power to defend what is his. In the darkness of Crypto
+    Anarchy, cypherpunks control how to selectively reveal themselves to the
+    world, thriving in the free realm of cyberspace. No trusted third party will
+    secure Individual liberty, one must build his own weapons, and stand strong
+    in this onslaught of the Digital Tot
+- name: Death Of The Old Guard
+  desc: >+
+    The new world order isn't a bunch of crusty old dudes plotting total world
+    domination together in a military bunker. It's us. The predatory systems
+    we've seen collapse in our lifetime are in ruin but from the ashes we rise.
+    Satoshi gave us strong money, now it's up to us.
+
+- name: Decentralize Yourself And Avoid Digital Totalitarian Control
+  desc: >-
+    It’s a common misconception that all the governments around the world are in
+    full coordination. Though there are certainly varying levels of coordination
+    among some countries and a general trend towards the growth of that, there’s
+    still an opportunity to make it more difficult for the invasion of privacy
+    and the forced control over you and your data, such as by having multiple
+    residencies, "obfuscation in plain sight", decentralizing income potential,
+    and moving, if necessary. This presentation will go over why this is
+    important by pointing out why this is important by using examples from
+    documented events around the world as well as personal experiences from
+    having lived in 8 countries arou
+- name: Decentralised Chat And Commerce On The Lightning Network
+  desc: |+
+    Introduction: The Encounter
+
+    Part 1: The Tech
+    - Sending payments without invoices
+    - The early days
+    - Running lnd farms at scale
+    - Current feature set
+    - Lumo
+    - Challenges yet to overcome
+
+    Part 2: The Big Why
+    - Why do that
+    - Stakwork
+    - Selling (soon to be) censored goods
+    - Privacy
+
+- name: 'From Figure To Ground: How Humans Became Technology’s Tools'
+  desc: >-
+    Digital technology is being developed with little or no awareness of the
+    underlying operating system: corporate capitalism. New technologies are
+    developed purely for their ability to extract value from people and places,
+    instead of providing human beings with the capabilities they need to create
+    and exchange value for themselves. As a result, we now live in a media
+    environment where technologies use people more than people use technology. 
+
+
+    One of the greatest promises of new media technologies was to unlock
+    closed-ended narratives and offer people the opportunity to participate,
+    actively, in the creation of a new human story. In this talk, media theorist
+    and author Douglas Rushkoff will use
+- name: 'The Nym Mixnet Testnet Is Live: The Fight For Digital Privacy And Autonomy'
+  desc: >-
+    What is at stake in the development of the Nym mixnet is not mere individual
+    privacy, but our very autonomy. We will overview the rise of surveillance as
+    a technique of control, the real limitations faced by network-level privacy
+    tools like VPNs and Tor, and how they impact cryptocurrencies, and then
+    we'll demonstrate how to integrate a new cryptocurrency wallet of your
+    choice, like Monero, with the Nym mixnet.
+
+
+    Why are we building Nym? Every human evolves today in an intertwined
+    physical and digital environment. If each individual is to keep their
+    individuality and autonomy in their daily choices, it must be protected and
+    given effective tools to defend its own autonomy. Yet digital-only ac
+- name: How Machines Operate Us
+  desc: >+
+    I like to say "I write State with a capital "S" because it has become our
+    God." But Technology, the very tool that has the potential to empower us
+    against abusive ruling structures, is claiming us as its subjects. Its onset
+    was too fast and promised too much. It is blinding, as we have trouble
+    distinguishing between ourselves and it. The digital totality is indeed upon
+    us, but we must remember that with every extension, there's an amputation. 
+
+- name: Origin And History Of Parallel Polis
+  desc: >+
+    In 1978 Václav Benda critically reflected Charter 77 - one of the most
+    significant acts of the Czechoslovak dissident movement. His essay gave a
+    name to once and future strategy to elude institutional oppression but also
+    create a new environment free from state authority. Where does the need to
+    create parallel structures come from and how has this strategy evolved into
+    Parallel Polis?
+
+- name: 'Anarchy Online: A World Of Strong Privacy'
+  desc: >-
+    Public key encryption makes possible a world where much of human interaction
+    is unobservable to anyone but the parties involved and those they choose to
+    reveal it to. One consequence could be to put everything online out of the
+    power of government to control — what you cannot see, you cannot tax or
+    regulate. Whether that is a bug or a feature depends on how well
+    non-governmental mechanisms can replace the useful functions of government,
+    in particular law and contract enforcement. Fortunately, the same
+    technologies that make strong privacy possible also enable mechanisms to
+    enforce agreements based on reputation. 
+
+
+    Reputational enforcement of a contract depends on interested third parties
+    bei
+- name: 'Memetic Warfare: Dangerous Memes & Fallacies'
+  desc: >-
+    We live in times of memetic warfare. Mechanisms like authority and
+    popularity bias, which might have been useful in earlier times, have been
+    amplified by social media to a degree that resembles a warzone. People split
+    into different "communities" which often live in completely different
+    realities (e.g., in regards to COVID-19), interacting with each other not
+    via discourse but with memetic warfare. This presentation looks at the
+    phenomenon of memetic warfare on the meta-level and looks at some dangerous
+    memes and fallacies in detail. Some meta-questions: - What is memetic
+    warfare? - What does it mean for society at large and one's personal life? -
+    How to stay sane in an insane world? Some co
+- name: 'Slavery To Sovereignty: How To Exit The Matrix'
+  desc: >-
+    There is a game of musical chairs being played on a global scale. The music
+    is about to stop, and those who have chosen ignorance over truth, exchanging
+    liberty for a false sense of security, so that they can continue consuming,
+    will be left without a seat. 
+
+
+    Preparation did not start today, but decades ago, when legends like Timothy
+    C. May and novels such as George Orwell's 1948 warned us of what was to
+    come. The scenarios depicted by such legends are unfolding before our very
+    eyes. Though there is light within darkness, and many people and
+    organizations such as Paralelni Polis have been working tirelessly to help
+    us secure a seat. 
+
+
+    As mentioned by Margaret Mead: "Never doubt that a small 
+- name: On Privacy Enhancing Currencies & Supply Auditability
+  desc: >+
+    Privacy-enhancing have long been the subject of criticism around supply
+    auditability. What are the trade-offs? What are the risks? And is this an
+    insurmountable problem for the future?
+
+- name: Abusing The Mastercard Protocol To Hack Bitcoin Into Fiat Payment Terminals
+  desc: >+
+    Hardware (card) wallets used today are very far from being
+    backward-compatible. Every bitcoin card wallet needs their own app, in some
+    cases their own reading device. In this talk we explore how the EMV protocol
+    used in our (fiat) credit cards could be abused to complete the signature of
+    a BTC transaction while hiding the crypto-specific stuff from the reader so
+    we can accept crypto payments using the payment terminals out in the shops
+    today.
+
+- name: Sovereign Individual Kit
+  desc: >-
+    In order to become a Sovereign individual we need to first answer 3
+    questions:
+
+
+    - who is an individual?
+
+    - what is freedom?
+
+    - what is sovereignty?
+
+
+    As simple as they seem, these questions gave birth to many misleading
+    conceptions, eventually establishing the world of fear, confusion, and total
+    obedience around us. The world, where no one can longer be sure where mass
+    hysteria ends and common sense begins. The world, where one is forced to
+    surrender his own will for the sake of someone else’s fear.
+
+
+    During my talk, I will introduce the concept of Sovereign Individual Kit - a
+    set of skills, knowledge, and tools that would help one to answer those
+    questions and to be able to drop the fear and ri
+- name: 'Insanely Great: The Cypherpunk Totality'
+  desc: >-
+    We often think of a digital totality as a dark, oppressive thing, and for
+    obvious reasons. The digital totality of the cypherpunks, however, had a
+    beautiful purpose: To escape the fears, manipulations, and extortion of the
+    present world order, and build a better realm apart from them. As time has
+    gone on, and however erratically and imperfectly, cypherpunk technologies
+    have developed, and there are far more people working on them than ever
+    before.
+
+
+    Civilization is a battle between production and plunder, with our digital
+    realm devoted to production and the old order’s devoted to plunder. But the
+    battle between the two goes further than even that, and by the time this
+    presentation is finished
+- name: Optionality, Uncertainty And Freedom
+  desc: >+
+    Is it possible to make smart decisions in times of uncertainty? Is
+    volatility of the environment the enemy? Could we perhaps utilize freedom as
+    a way to avoid digital totality? If yes, how do we measure it, and how do we
+    make sure we are prepared in advance, not reacting to what's already
+    happening?
+
+

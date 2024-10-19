@@ -25,6 +25,7 @@ license:
 menu: 
   - ["/", "→/"]
   - ["/about", "About", "O nás"]
+  #- ["/topics", "Topics", "Témata"]
   - ["/articles", "Articles", "Články"]
   - ["/events", "Events", "Události"]
   #- ["/structures", "Structures", "Struktury"]

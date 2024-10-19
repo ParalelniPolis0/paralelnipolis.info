@@ -4,6 +4,8 @@ import configSrc from '$lib/../data/config.yaml';
 import friendsSrc from "$lib/../data/friends.yaml";
 import instancesSrc from '$lib/../data/instances.yaml';
 import guildsSrc from '$lib/../data/guilds.yaml';
+import topicsSrc from '$lib/../data/topics.yaml';
+import glossarySrc from '$lib/../data/glossary.yaml';
 
 import genYtOld from '$lib/../data/gen/yt-old.json';
 import genYtNew from '$lib/../data/gen/yt-new.json';
@@ -22,6 +24,9 @@ export const projects = projectsSrc;
 export const friends = friendsSrc;
 export const instances = instancesSrc;
 export const guilds = guildsSrc;
+export const topics = topicsSrc;
+export const glossary = glossarySrc;
+
 export const articles = genArticlesSrc;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
