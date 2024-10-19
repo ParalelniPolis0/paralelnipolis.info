@@ -12,7 +12,7 @@
 <div class="mt-8 grid grid-cols-1 gap-8">
     {#each sortedGlossary as i}
         <div>
-            <div class="text-3xl"><a href="/t/{i.id}">{i.name}</a></div>
+            <h2 class="text-3xl"><a href="/t/{i.id}">{i.name}</a></h2>
             {#if i.description}
                 <div class="mt-2 markdown">
                     {@html parse(
