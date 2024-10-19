@@ -24,7 +24,7 @@
             <div class="text-3xl font-semibold">{t.category}</div>
             <div class="mt-4 mb-6 flex flex-wrap gap-4">
                 {#each t.subtopics.map(glossaryResolve) as st}
-                    <div class="text-2xl whitespace-nowrap rounded">
+                    <div class="text-2xl">
                         <a
                             href={st.id ? `/t/${st.id}` : null}
                             class="block {st.id ? '' : 'no-underline'}"
