@@ -1,9 +1,14 @@
 <script>
     import { parse } from "marked";
+    import { config } from "$lib/data.js";
 
     const { data } = $props();
     const i = $derived(data.item);
 </script>
+
+<svelte:head>
+    <title>{i.name} | {config.title}</title>
+</svelte:head>
 
 <div class="mt-4 mb-8">
     <div class="breadcrumb">

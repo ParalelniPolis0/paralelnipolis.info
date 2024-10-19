@@ -14,9 +14,11 @@
 
 <div class="mt-8">
     {#each articles as item}
-        <div class="flex gap-2">
+        <div
+            class="flex flex-wrap flex-col-reverse md:flex-row md:flex-nowrap gap-2"
+        >
             <div class="grow">
-                <h2 class="text-3xl font-semibold mb-2">
+                <h2 class="text-3xl font-semibold mb-2 mt-2 md:mt-0">
                     <a href="/a/{item.slugId}">{item.title}</a>
                 </h2>
                 <div class="flex gap-4 mb-4">
