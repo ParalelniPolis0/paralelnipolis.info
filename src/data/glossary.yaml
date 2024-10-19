@@ -4,7 +4,9 @@
   keywords:
     - Cypherpunk Philosophy
   description: |
-    Cypherpunk is a political and social movement that emerged in the late 1980s and early 1990s, advocating for the use of strong [cryptography](https://en.wikipedia.org/wiki/Cryptography) and privacy-enhancing technologies as a means to achieve social and political change. The term "cypherpunk" is a combination of "cipher" (or "cypher") and "[cyberpunk](https://en.wikipedia.org/wiki/Cyberpunk)". Cypherpunks believe that privacy is essential for an open society in the electronic age and see strong cryptography as a tool to preserve civil liberties against government overreach and corporate surveillance.
+    Cypherpunk is a political and social movement that emerged in the late 1980s and early 1990s, advocating for the use of strong [cryptography](https://en.wikipedia.org/wiki/Cryptography) and privacy-enhancing technologies as a means to achieve social and political change.
+    
+    The term "cypherpunk" is a combination of "cipher" (or "cypher") and "[cyberpunk](https://en.wikipedia.org/wiki/Cyberpunk)". Cypherpunks believe that privacy is essential for an open society in the electronic age and see strong cryptography as a tool to preserve civil liberties against government overreach and corporate surveillance.
 
     At its core, [Cypherpunk philosophy](https://en.wikipedia.org/wiki/Cypherpunk) is characterized by a distrust of authority, advocacy for [privacy](https://en.wikipedia.org/wiki/Privacy) as a fundamental right, and the belief that code can be used to create systems that enforce desired social and political norms. This ideology was formalized in the [Cypherpunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html), written by Eric Hughes in 1993. Notable figures associated with the cypherpunk movement include [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange), [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), and [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai).
 
@@ -22,6 +24,12 @@
     At its core, Digital Self-Defense is about empowering individuals to take control of their digital lives. This includes understanding and mitigating risks associated with [online tracking](https://en.wikipedia.org/wiki/Web_tracking), [data collection](https://en.wikipedia.org/wiki/Data_collection), and cyber attacks. Key aspects of Digital Self-Defense include the use of [encryption](https://en.wikipedia.org/wiki/Encryption) for secure communications, [virtual private networks (VPNs)](https://en.wikipedia.org/wiki/Virtual_private_network) for anonymous browsing, [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) for account security, and [digital hygiene](https://en.wikipedia.org/wiki/Cyberhygiene) practices like regular software updates and strong password management.
 
     The concept of Digital Self-Defense has gained prominence with the rise of [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance), [data breaches](https://en.wikipedia.org/wiki/Data_breach), and sophisticated cyber threats. It's closely related to the idea of [information self-determination](https://en.wikipedia.org/wiki/Information_self-determination), which asserts an individual's right to control the collection and use of their personal data. As digital technologies become increasingly integrated into daily life, Digital Self-Defense is becoming an essential skill for maintaining personal freedom, privacy, and security in the digital age.
+  resources:
+    - title: Surveillance Self-Defense (EFF)
+      caption: Tips, Tools and How-tos for Safer Online Communications
+      url: https://ssd.eff.org/
+  related:
+    - privacy
 
 - id: lunarpunk
   name: Lunarpunk
@@ -58,3 +66,31 @@
     At its core, privacy is about personal autonomy and the ability to make choices free from observation or interference. It includes concepts like [information privacy](https://en.wikipedia.org/wiki/Information_privacy) (control over personal data), [communications privacy](https://en.wikipedia.org/wiki/Secrecy_of_correspondence) (freedom from surveillance of communications), and [bodily privacy](https://en.wikipedia.org/wiki/Physical_privacy) (control over one's physical self). In the digital realm, privacy concerns extend to [data collection](https://en.wikipedia.org/wiki/Data_collection), [online tracking](https://en.wikipedia.org/wiki/Web_tracking), and the use of personal information by governments and corporations.
 
     Privacy is protected by various legal frameworks, including the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights) and specific legislation like the [EU's General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). However, it faces significant challenges in the era of [big data](https://en.wikipedia.org/wiki/Big_data), [social media](https://en.wikipedia.org/wiki/Social_media), and [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance). The balance between privacy and other interests, such as national security or technological innovation, remains a subject of ongoing debate. Privacy-enhancing technologies, including [encryption](https://en.wikipedia.org/wiki/Encryption), [anonymity networks](https://en.wikipedia.org/wiki/Anonymity_network), and [privacy-preserving computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation), are increasingly important tools for protecting individual privacy in the digital world.
+
+- id: anarchocapitalism
+  name: Anarchocapitalism
+  type: philosophy
+  keywords:
+    - Anarcho-capitalism
+    - ancap
+  description: |
+    [Anarchocapitalism](https://en.wikipedia.org/wiki/Anarcho-capitalism) is a political philosophy and economic theory that advocates for the elimination of the state in favor of individual sovereignty, private property, and free markets. It combines anarchism's rejection of the state with capitalism's emphasis on private ownership and voluntary exchange.
+
+    At its core, anarchocapitalism proposes a society based on voluntary associations among individuals and private organizations. It argues that all goods and services, including law enforcement, courts, and defense, should be provided by privately funded competitors rather than through taxation and government monopolies. Key principles include the [non-aggression principle](https://en.wikipedia.org/wiki/Non-aggression_principle) (NAP), which opposes the initiation of force against individuals or their property, and strong protection of [property rights](https://en.wikipedia.org/wiki/Property_rights_(economics)).
+
+    Prominent thinkers associated with anarchocapitalism include [Murray Rothbard](https://en.wikipedia.org/wiki/Murray_Rothbard), who developed its foundational theory, and [David Friedman](https://en.wikipedia.org/wiki/David_D._Friedman), who approached it from a consequentialist perspective. The philosophy has influenced various movements, including some strands of [libertarianism](https://en.wikipedia.org/wiki/Libertarianism) and [crypto-anarchism](https://en.wikipedia.org/wiki/Crypto-anarchism). However, it has faced criticism from both traditional anarchists, who view capitalism as inherently hierarchical and oppressive, and from other political philosophies that argue for the necessity of the state in maintaining social order and providing public goods. Critics also question the practicality of private law and defense systems proposed by anarchocapitalists.
+
+  resources:
+    - title: Svobodný přístav (CZ)
+      lang: cs
+      url: https://pristav.urza.cz/
+
+- id: cryptocurrencies
+  name: Cryptocurrencies
+  type: concept
+  description: |
+    [Cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are digital or virtual currencies that use cryptography for security, operating on decentralized networks based on [blockchain technology](https://en.wikipedia.org/wiki/Blockchain). Unlike traditional currencies issued by central banks, cryptocurrencies are typically not subject to governmental monetary policies and often aim to provide alternatives to conventional financial systems.
+
+    At their core, cryptocurrencies rely on distributed ledger technology, most commonly blockchain, to record all transactions across a network of computers. This system ensures transparency, security, and immutability of transaction records without the need for a central authority. Key features include [decentralization](https://en.wikipedia.org/wiki/Decentralization), [pseudonymity](https://en.wikipedia.org/wiki/Pseudonymity), and the use of [consensus mechanisms](https://en.wikipedia.org/wiki/Consensus_(computer_science)) like [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) or [Proof of Stake](https://en.wikipedia.org/wiki/Proof_of_stake) to validate transactions and create new units of the currency.
+
+    [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), created in 2009 by an unknown person or group using the pseudonym Satoshi Nakamoto, was the first and remains the most well-known cryptocurrency. Since then, thousands of alternative cryptocurrencies (often called "altcoins") have been created, with [Ethereum](https://en.wikipedia.org/wiki/Ethereum), [Ripple](https://en.wikipedia.org/wiki/Ripple_(payment_protocol)), and [Litecoin](https://en.wikipedia.org/wiki/Litecoin) among the more prominent ones. Beyond serving as digital money, many cryptocurrencies support additional features like [smart contracts](https://en.wikipedia.org/wiki/Smart_contract) and [decentralized applications (DApps)](https://en.wikipedia.org/wiki/Decentralized_application). While cryptocurrencies have gained significant attention and adoption, they also face challenges including price volatility, regulatory scrutiny, and concerns about their environmental impact, particularly for those using energy-intensive mining processes.

@@ -7,13 +7,15 @@
     );
 </script>
 
-<h1 class="main text-2xl mb-4 mt-4">Glossary</h1>
+<h1 class="main text-2xl mb-4 mt-4">
+    <a href="/c/parallel-glossary">Parallel Glossary</a>
+</h1>
 
-<div class="mt-8 grid grid-cols-1 gap-4">
+<div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
     {#each sortedGlossary as i}
         <div>
             <h2 class="text-3xl">
-                <a href="/t/{i.id}">{i.name}</a>
+                <a href="/t/{i.id}" class="font-semibold">{i.name}</a>
                 <span class="opacity-50">({i.type})</span>
             </h2>
             {#if i.description}

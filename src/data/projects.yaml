@@ -605,10 +605,21 @@
 #  types: [ service, archive ]
 #  img: ../instances/pp.webp
 
+- id: parallel-glossary
+  name: Parallel Glossary
+  instances: [ zero ]
+  years: [ 2024 ]
+  types: [ knowledge-base ]
+  img: ../instances/zero.webp
+  caption: |
+    Collection of key terms and concepts at the intersection of cryptoanarchy, digital freedom, decentralized technologies, and biohacking, designed to empower and inspire the parallel society.
+  refs:
+    web: /glossary
+
 - id: vojdivon
   name: vojdi von
   instances: [ kosice ]
-  years: [ 2020 ]
+  years: [ 2020, 2022 ]
   img: ../instances/kosice.webp
   caption: A list of friendly projects and organisations of [Paralelná Polis Košice](/i/kosice).
   refs:
