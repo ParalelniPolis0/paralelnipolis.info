@@ -1,5 +1,6 @@
 - id: cypherpunk
   name: Cypherpunk
+  type: movement
   keywords:
     - Cypherpunk Philosophy
   description: |
@@ -8,12 +9,52 @@
     At its core, [Cypherpunk philosophy](https://en.wikipedia.org/wiki/Cypherpunk) is characterized by a distrust of authority, advocacy for [privacy](https://en.wikipedia.org/wiki/Privacy) as a fundamental right, and the belief that code can be used to create systems that enforce desired social and political norms. This ideology was formalized in the [Cypherpunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html), written by Eric Hughes in 1993. Notable figures associated with the cypherpunk movement include [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange), [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), and [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai).
 
     The impact of cypherpunk philosophy has been significant, influencing the development of [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) like [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), anonymous communication systems such as [Tor](https://en.wikipedia.org/wiki/Tor_(network)), and advancing encryption technologies. It continues to play a crucial role in ongoing debates about digital privacy, surveillance, and individual sovereignty in the digital age. The philosophy emphasizes the creation of parallel, decentralized structures that prioritize privacy, freedom, and individual autonomy in the face of increasing digital surveillance and control.
+  related:
+    - privacy
+    - encryption
 
 - id: digital-self-defense
   name: Digital Self-Defense
+  type: practice
   description: |
     Digital Self-Defense refers to the practices and techniques individuals use to protect their [digital privacy](https://en.wikipedia.org/wiki/Internet_privacy), security, and personal information in the face of increasing online threats and surveillance. It encompasses a wide range of skills and tools designed to safeguard one's digital presence, communications, and data from unauthorized access, manipulation, or exploitation.
 
     At its core, Digital Self-Defense is about empowering individuals to take control of their digital lives. This includes understanding and mitigating risks associated with [online tracking](https://en.wikipedia.org/wiki/Web_tracking), [data collection](https://en.wikipedia.org/wiki/Data_collection), and cyber attacks. Key aspects of Digital Self-Defense include the use of [encryption](https://en.wikipedia.org/wiki/Encryption) for secure communications, [virtual private networks (VPNs)](https://en.wikipedia.org/wiki/Virtual_private_network) for anonymous browsing, [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) for account security, and [digital hygiene](https://en.wikipedia.org/wiki/Cyberhygiene) practices like regular software updates and strong password management.
 
     The concept of Digital Self-Defense has gained prominence with the rise of [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance), [data breaches](https://en.wikipedia.org/wiki/Data_breach), and sophisticated cyber threats. It's closely related to the idea of [information self-determination](https://en.wikipedia.org/wiki/Information_self-determination), which asserts an individual's right to control the collection and use of their personal data. As digital technologies become increasingly integrated into daily life, Digital Self-Defense is becoming an essential skill for maintaining personal freedom, privacy, and security in the digital age.
+
+- id: lunarpunk
+  name: Lunarpunk
+  type: movement
+  description: |
+    Lunarpunk is an emerging philosophical and aesthetic movement that builds upon the foundations of [cyberpunk](https://en.wikipedia.org/wiki/Cyberpunk) and [solarpunk](https://en.wikipedia.org/wiki/Solarpunk), with a focus on privacy, anonymity, and resilience in a world of ubiquitous surveillance. The term combines "lunar," evoking darkness and mystery, with "punk," signifying a rebellious and alternative approach to societal norms.
+
+    At its core, Lunarpunk envisions a future where privacy-enhancing technologies and decentralized systems enable individuals to operate freely in the shadows of digital and physical realms. It embraces the use of [encryption](https://en.wikipedia.org/wiki/Encryption), [anonymous networks](https://en.wikipedia.org/wiki/Anonymity_network), and [off-grid living](https://en.wikipedia.org/wiki/Off-the-grid) as means to resist centralized control and surveillance. Aesthetically, Lunarpunk often incorporates imagery of night, shadows, and celestial bodies, symbolizing the hidden and the mysterious.
+
+    The Lunarpunk ethos extends beyond technology to encompass sustainable living practices that operate independently of mainstream systems. It promotes resilience through local, [decentralized communities](https://en.wikipedia.org/wiki/Decentralization) and [mutual aid networks](https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)). While solarpunk focuses on visible, sustainable futures, Lunarpunk explores the potential of hidden, resilient systems that thrive in the metaphorical darkness. This philosophy resonates with those seeking alternatives to pervasive digital surveillance and centralized control, offering a vision of a future where privacy and individual autonomy are preserved through technological and social means.
+  related:
+    - cypherpunk
+    - privacy
+    - encryption
+
+- id: encryption
+  name: Encryption
+  type: cryptography
+  description: |
+    [Encryption](https://en.wikipedia.org/wiki/Encryption) is the process of encoding information in such a way that only authorized parties can access it. It converts data into a form that appears random to anyone who doesn't have the decryption key. Encryption is a fundamental component of data security and privacy in the digital age, protecting sensitive information from unauthorized access, interception, and tampering.
+
+    At its core, encryption relies on complex mathematical algorithms called [ciphers](https://en.wikipedia.org/wiki/Cipher). Modern encryption methods typically use a [key](https://en.wikipedia.org/wiki/Key_(cryptography)) to determine how the information is encoded and decoded. There are two main types of encryption: [symmetric-key encryption](https://en.wikipedia.org/wiki/Symmetric-key_algorithm), where the same key is used for both encryption and decryption, and [public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography), where a public key is used to encrypt data and a private key to decrypt it. 
+
+    Encryption plays a crucial role in various aspects of digital life, including secure communication ([HTTPS](https://en.wikipedia.org/wiki/HTTPS), [end-to-end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption)), data storage ([full disk encryption](https://en.wikipedia.org/wiki/Disk_encryption)), and authentication processes. It's also fundamental to technologies like [virtual private networks (VPNs)](https://en.wikipedia.org/wiki/Virtual_private_network) and [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency). As digital threats evolve, so do encryption methods, with ongoing research into [quantum-resistant encryption](https://en.wikipedia.org/wiki/Post-quantum_cryptography) to prepare for future challenges. Despite its importance for privacy and security, encryption remains a topic of debate, with ongoing discussions about [encryption policies](https://en.wikipedia.org/wiki/Crypto_Wars) and law enforcement access.
+  related:
+    - privacy
+
+- id: privacy
+  name: Privacy
+  type: the right
+  description: |
+    [Privacy](https://en.wikipedia.org/wiki/Privacy) is the right of an individual or group to control information about themselves and determine when, how, and to what extent this information is communicated to others. In the digital age, privacy has become increasingly complex and crucial, encompassing not only physical space but also digital data and online activities.
+
+    At its core, privacy is about personal autonomy and the ability to make choices free from observation or interference. It includes concepts like [information privacy](https://en.wikipedia.org/wiki/Information_privacy) (control over personal data), [communications privacy](https://en.wikipedia.org/wiki/Secrecy_of_correspondence) (freedom from surveillance of communications), and [bodily privacy](https://en.wikipedia.org/wiki/Physical_privacy) (control over one's physical self). In the digital realm, privacy concerns extend to [data collection](https://en.wikipedia.org/wiki/Data_collection), [online tracking](https://en.wikipedia.org/wiki/Web_tracking), and the use of personal information by governments and corporations.
+
+    Privacy is protected by various legal frameworks, including the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights) and specific legislation like the [EU's General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). However, it faces significant challenges in the era of [big data](https://en.wikipedia.org/wiki/Big_data), [social media](https://en.wikipedia.org/wiki/Social_media), and [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance). The balance between privacy and other interests, such as national security or technological innovation, remains a subject of ongoing debate. Privacy-enhancing technologies, including [encryption](https://en.wikipedia.org/wiki/Encryption), [anonymity networks](https://en.wikipedia.org/wiki/Anonymity_network), and [privacy-preserving computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation), are increasingly important tools for protecting individual privacy in the digital world.

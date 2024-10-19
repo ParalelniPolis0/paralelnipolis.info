@@ -9,10 +9,13 @@
 
 <h1 class="main text-2xl mb-4 mt-4">Glossary</h1>
 
-<div class="mt-8 grid grid-cols-1 gap-8">
+<div class="mt-8 grid grid-cols-1 gap-4">
     {#each sortedGlossary as i}
         <div>
-            <h2 class="text-3xl"><a href="/t/{i.id}">{i.name}</a></h2>
+            <h2 class="text-3xl">
+                <a href="/t/{i.id}">{i.name}</a>
+                <span class="opacity-50">({i.type})</span>
+            </h2>
             {#if i.description}
                 <div class="mt-2 markdown">
                     {@html parse(
