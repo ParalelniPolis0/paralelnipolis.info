@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <title>{lang === "cs" ? "Instance" : "Instances"} | {config.title}</title>
+    <title>Events | {config.title}</title>
 </svelte:head>
 
 {#if upcomingEvents.length > 0}

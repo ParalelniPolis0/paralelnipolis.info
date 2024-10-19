@@ -26,7 +26,7 @@
 </script>
 
 <svelte:head>
-    <title>{lang === "cs" ? "Instance" : "Instances"} | {config.title}</title>
+    <title>About | {config.title}</title>
 </svelte:head>
 
 <div class="mt-4 mb-10">
