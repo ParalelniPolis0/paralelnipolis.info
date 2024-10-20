@@ -17,6 +17,8 @@ import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 
+import { VideoCamera, User, Tag, Ticket } from "svelte-heros-v2";
+
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
 
@@ -72,3 +74,51 @@ export const people = peopleSrc.map(p => {
         (archive.filter(i => i.people?.includes(p.id)).length * 2)
     return p
 }).sort((x, y) => y.merit > x.merit ? 1 : -1);
+
+export function searchDataset() {
+    const items = []
+    for (const x of glossary) {
+        items.push({
+            id: x.id,
+            name: x.name,
+            baseUrl: `/t/${x.id}`,
+            icon: Tag,
+            description: x.type,
+            keywords: x.keywords,
+            termName: x.name,
+            fullDescription: x.description,
+        })
+    }
+    for (const x of people) {
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'person',
+            baseUrl: `/p/${x.id}`,
+            icon: User,
+            description: x.caption || 'Person',
+        })
+    }
+    for (const x of events) {
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'event',
+            baseUrl: `/e/${x.id}`,
+            icon: Ticket,
+            description: 'Event'
+        })
+    }
+    for (const x of archive) {
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'archive',
+            baseUrl: `/v/${x.id}`,
+            icon: VideoCamera,
+            keywords: x.people || [],
+            description: 'Video' //,x.people?.join(', '),
+        })
+    }
+    return items
+}

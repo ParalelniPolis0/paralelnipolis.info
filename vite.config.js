@@ -18,5 +18,10 @@ export default defineConfig({
 		__BUILD__: {
 			time: new Date().toISOString()
 		},
+	},
+	server: {
+		fs: {
+			allow: ['./locales']
+		}
 	}
 });

@@ -1,5 +1,6 @@
 <script>
     import { parse } from "$lib/wiki.js";
+    import { t } from "svelte-i18n-lingui";
 
     const { term } = $props();
     const i = $derived(term);
@@ -17,7 +18,7 @@
         <div class="mt-2 markdown">
             {@html parse(
                 i.description?.split("\n\n")[0] +
-                    ` <a href="/t/${i.id}" class="whitespace-nowrap">Read more →</a>`,
+                    ` <a href="/t/${i.id}" class="whitespace-nowrap">${$t`Read more`} →</a>`,
             )}
         </div>
     {/if}

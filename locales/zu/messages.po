@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-10-20 09:43+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zu\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/routes/+layout.svelte:216
+msgid "Last update"
+msgstr ""
+
+#: src/routes/+layout.svelte:145
+msgid "opt-out!"
+msgstr ""
+
+#: src/lib/components/TermBox.svelte:21
+msgid "Read more"
+msgstr ""
+
+#: src/routes/+layout.svelte:211
+msgid "Source code"
+msgstr ""

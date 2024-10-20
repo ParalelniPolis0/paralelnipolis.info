@@ -81,8 +81,12 @@ while (nextPage) {
             console.log(e)
         }
         const date = e.dateTime.match(/^(\d{4}-\d{2}-\d{2})/)[1]
+        const id = `${date}-${slugify(e.title, { lower: true, strict: true })}`
+        if (events.find(e => e.id === id)) {
+            continue
+        }
         events.push({
-            id: `${date}-${slugify(e.title, { lower: true, strict: true })}`,
+            id,
             name: e.title,
             instance: 'prague',
             date,

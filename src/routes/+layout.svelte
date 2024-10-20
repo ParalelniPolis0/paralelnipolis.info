@@ -2,12 +2,21 @@
     import "../app.css";
     import { page } from "$app/stores";
     import { Sun, Moon, Bars3 } from "svelte-heros-v2";
+    import { t, locale, msg } from "svelte-i18n-lingui";
+
+    import SearchDialog from "$lib/components/SearchDialog.svelte";
+
     import { onMount, setContext } from "svelte";
     import { pkg, build, config } from "$lib/data.js";
 
     const { data } = $props();
-    const lang = data.lang;
+    const { lang, messages } = data;
     setContext("lang", lang);
+    setLocale(lang, messages);
+
+    async function setLocale(lng, msgs) {
+        locale.set(lng, msgs);
+    }
 
     const menu = $derived(config.menu);
     let currentPath = $derived($page.url?.pathname);
@@ -95,7 +104,7 @@
                 /></a
             >
             <div class="hidden sm:flex gap-1 px-4 top-menu">
-                {#each menu as [path, titleEn, titleCs]}
+                {#each menu as [path, title]}
                     <a
                         href="{lang === 'cs' ? '/cs' : ''}{path}"
                         class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
@@ -104,8 +113,7 @@
                                 : currentPath.match(path)
                         )
                             ? 'bg-gray-100 dark:bg-gray-900'
-                            : ''}"
-                        >{lang === "cs" ? titleCs || titleEn : titleEn}</a
+                            : ''}">{$t(msg(title))}</a
                     >
                 {/each}
             </div>
@@ -117,6 +125,9 @@
             </div>
             <div class="grow"></div>
             <div class="flex items-center gap-2">
+                <div>
+                    <SearchDialog />
+                </div>
                 <div
                     onclick={switchDarkMode}
                     class="cursor-pointer hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
@@ -136,7 +147,7 @@
                     <!--a href="https://vojdivon.sk/" class="text-2xl"
                         >vejdi ven!</a
                     -->
-                    <span class="text-2xl">opt-out!</span>
+                    <span class="text-2xl">{$t`opt-out!`}</span>
                     <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
                         {#if config.refs.signal}
                             <a href={config.refs.signal}>Signal</a>
@@ -202,12 +213,14 @@
                         <div>v{pkg.version}</div>
                         <div>
                             <a href={convertGitUrl(pkg.repository.url)}>
-                                Source code</a
+                                {$t`Source code`}</a
                             >
                         </div>
                     </div>
                     <div class="mt-3 opacity-50 sm:text-right">
-                        Last update: {new Date(build.time).toLocaleString(lang)}
+                        {$t`Last update`}: {new Date(build.time).toLocaleString(
+                            lang,
+                        )}
                     </div>
                 </div>
             </div>

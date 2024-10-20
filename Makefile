@@ -39,3 +39,11 @@ images: ## Generate optimized images
 .PHONY: meetup
 meetup: ## Fetch data from meetup.com
 	bun utils/meetup.js
+
+.PHONY: i18n-extract
+i18n-extract: ## Extract i18n lingui messages from source
+	pnpm exec lingui extract
+
+.PHONY: i18n-compile
+i18n-compile: ## Extract i18n lingui messages from source
+	pnpm exec lingui compile --typescript

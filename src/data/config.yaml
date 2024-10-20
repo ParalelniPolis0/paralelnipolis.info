@@ -22,19 +22,19 @@ license:
 #  logo: /unlicense.svg
 #  caption: The Unlicense
 
-menu: 
+menu:
   - ["/", "→/"]
-  - ["/about", "About", "O nás"]
-  #- ["/topics", "Topics", "Témata"]
-  - ["/articles", "Articles", "Články"]
-  - ["/events", "Events", "Události"]
-  #- ["/structures", "Structures", "Struktury"]
-  #- ["/instances", "Instances", "Instance"]
-  #- ["/concepts", "Concepts", "Koncepty"]
-  #- ["/people", "People", "Lidé"]
-  - ["/archive", "Archive", "Archiv"]
-  #- ["/debug", "Debug", "Debug"]
-  #- ["/membership", "Membership", "Členství"],*/
+  - ["/about", "About"]
+  #- ["/topics", "Topics"]
+  - ["/articles", "Articles"]
+  - ["/events", "Events"]
+  #- ["/structures", "Structures"]
+  #- ["/instances", "Instances"]
+  #- ["/concepts", "Concepts"]
+  #- ["/people", "People"]
+  - ["/archive", "Archive"]
+  #- ["/debug", "Debug"]
+  #- ["/membership", "Membership"],*/
   #- ["https://forum.paralelnipolis.cz", "Forum"]
   #- ["https://shop.paralelnipolis.cz", "Shop"]
-  #- ["https://docs.paralelnipolis.cz", "Docs", "Dokumentace"]
+  #- ["https://docs.paralelnipolis.cz", "Docs"]
