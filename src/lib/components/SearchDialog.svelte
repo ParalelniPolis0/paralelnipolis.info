@@ -42,7 +42,7 @@
     const data = [
         {
             id: "about",
-            type: "about",
+            type: "core",
             name: $t`About`,
             handle: "about",
             baseUrl: "/about",
@@ -50,7 +50,7 @@
         },
         {
             id: "articles",
-            type: "articles",
+            type: "core",
             name: $t`Articles`,
             handle: "articles",
             baseUrl: "/articles",
@@ -58,7 +58,7 @@
         },
         {
             id: "events",
-            type: "general",
+            type: "core",
             name: $t`Events`,
             handle: "events",
             baseUrl: "/events",
@@ -66,7 +66,7 @@
         },
         {
             id: "people",
-            type: "people",
+            type: "core",
             name: $t`People`,
             handle: "people",
             baseUrl: "/people",
@@ -74,7 +74,7 @@
         },
         {
             id: "instances",
-            type: "instances",
+            type: "core",
             name: $t`Instances`,
             handle: "instances",
             baseUrl: "/instances",
@@ -82,7 +82,7 @@
         },
         {
             id: "structures",
-            type: "structures",
+            type: "core",
             name: $t`Structures`,
             handle: "structures",
             baseUrl: "/structures",
@@ -210,12 +210,15 @@
 
     inputValue.subscribe((str) => {
         if (!str) {
-            results = data;
+            results = data.filter((i) => i.type === "core");
         } else if (miniSearch) {
             const suggest = miniSearch.autoSuggest(str, { fuzzy: 0.2 });
             let out = [];
             for (const s of suggest) {
                 for (const ss of miniSearch.search(s.suggestion)) {
+                    if (out.length > 25) {
+                        break;
+                    }
                     if (out.find((s) => s.id === ss.id)) {
                         continue;
                     }
