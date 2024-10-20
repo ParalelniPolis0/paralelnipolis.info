@@ -58,10 +58,12 @@
 
     <div class="grid grid-cols-2 gap-4">
         <div class="p-4 bg-gray-50 dark:bg-gray-950 rounded">
-            <TermBox term={glossary.find((g) => g.id === "privacy")} />
+            <TermBox term={glossary.find((g) => g.id === "cryptoanarchy")} />
         </div>
         <div class="p-4 bg-gray-50 dark:bg-gray-950 rounded">
-            <TermBox term={glossary.find((g) => g.id === "cypherpunk")} />
+            <TermBox
+                term={glossary.find((g) => g.id === "digital-self-defense")}
+            />
         </div>
     </div>
 </div>
