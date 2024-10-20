@@ -239,7 +239,7 @@
     <div id="masterSearchDialog" use:melt={$portalled}>
         <div
             use:melt={$overlay}
-            class="fixed inset-0 z-20 bg-black/30 backdrop-blur-sm"
+            class="fixed inset-0 z-20 bg-black/30 dark:bg-white/10 backdrop-blur-sm"
         ></div>
         <div
             use:melt={$content}
@@ -248,10 +248,10 @@
               shadow z-30"
         >
             <div class="flex items-center gap-2 px-4 py-0.5">
-                <MagnifyingGlass class="opacity-50" />
+                <MagnifyingGlass class="opacity-50 dark:invert" />
                 <input
                     type="input"
-                    class="input input-ghost px-1.5 py-2 w-full focus:outline-none focus:border-none text-lg grow"
+                    class="bg-white dark:bg-black text-black dark:text-white px-1.5 py-2 w-full focus:outline-none focus:border-none text-lg grow"
                     placeholder={$t`Search ${"paralelnipolis.info"}`}
                     on:click|preventDefault={(p) => {
                         setTimeout(() => {
@@ -271,12 +271,12 @@
             {#if results}
                 <ul
                     id="search-menu-content"
-                    class="mt-2 z-30 dropdown-content popup-menu rounded-t-none bg-white dark:bg-black w-[90vw] max-w-[600px] max-h-[73vh] backdrop-blur-0 overflow-scroll border-t border-neutral/50 rounded-t-0"
+                    class="mt-1.5 z-30 dropdown-content popup-menu rounded-t-none bg-white dark:bg-black text-black dark:text-white w-[90vw] max-w-[600px] max-h-[73vh] backdrop-blur-0 overflow-scroll rounded-t-0"
                     use:melt={$menu}
                 >
                     {#each results.map( (r) => data.find((d) => d.id === r.id), ) as item}
                         <li
-                            class="py-2 px-2 cursor-pointer"
+                            class="py-2 px-2 cursor-pointer data-[highlighted]:bg-black/10 dark:data-[highlighted]:bg-white/10"
                             use:melt={$option({
                                 value: item.id,
                                 label: item.name,
@@ -329,14 +329,14 @@
 
 <style>
     .popup-menu {
-        @apply bg-white rounded py-1.5;
+        @apply rounded py-1.5;
     }
     .popup-menu li {
-        @apply rounded mx-1.5 data-[highlighted]:bg-black/10;
+        @apply rounded mx-1.5;
     }
     .popup-menu li a,
     .popup-menu li > button {
-        @apply w-full px-[1rem] py-[0.5rem] cursor-pointer flex items-center;
+        @apply w-full px-[1rem] py-[0.5rem] cursor-pointer flex items-center dark:text-white;
     }
     .popup-menu li .item {
         @apply px-[1rem] py-[0.5rem] cursor-pointer;
