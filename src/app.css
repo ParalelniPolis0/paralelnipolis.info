@@ -18,6 +18,11 @@ body {
     @apply prose-lg;
 }
 
+.invalid-link {
+    @apply underline decoration-8 dark:decoration-8 decoration-red-400/40 dark:decoration-red-500/50;
+    text-underline-offset: 1px;
+}
+
 a,
 .prose-pp a {
     @apply underline decoration-8 dark:decoration-8 hover:decoration-8 decoration-gray-400/40 dark:decoration-gray-500/50 hover:decoration-yellow-500/80 dark:hover:decoration-yellow-500/80;

@@ -22,12 +22,14 @@
     {#each topics as t}
         <div>
             <div class="text-3xl font-semibold">{t.category}</div>
-            <div class="mt-4 mb-6 flex flex-wrap gap-4">
+            <div class="mt-4 mb-6 flex flex-wrap gap-3">
                 {#each t.subtopics.map(glossaryResolve) as st}
                     <div class="text-2xl">
                         <a
                             href={st.id ? `/t/${st.id}` : null}
-                            class="block {st.id ? '' : 'no-underline'}"
+                            class="block {st.id
+                                ? 'hover:bg-gray-200 dark:hover:bg-gray-800'
+                                : 'no-underline'} py-1.5 px-2 bg-gray-100 dark:bg-gray-900 rounded"
                             >{st.name}</a
                         >
                     </div>

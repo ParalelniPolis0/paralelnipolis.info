@@ -7,6 +7,7 @@ const collections = [
     "people",
     "projects",
     "instances",
+    "glossary",
 ]
 
 const srcDir = "./src/data"

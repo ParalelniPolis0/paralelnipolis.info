@@ -1,3 +1,5 @@
+import { escapeRegExp } from './utils.js';
+
 import peopleSrc from '$lib/../data/people.yaml';
 import projectsSrc from '$lib/../data/projects.yaml';
 import configSrc from '$lib/../data/config.yaml';
@@ -25,9 +27,27 @@ export const friends = friendsSrc;
 export const instances = instancesSrc;
 export const guilds = guildsSrc;
 export const topics = topicsSrc;
-export const glossary = glossarySrc;
 
 export const articles = genArticlesSrc;
+
+export const linkRegExp = /\[\[([^\|\]]+)([^\]]*)\]\]/g;
+
+export const glossary = glossarySrc.map(g => {
+    const links = g.description.matchAll(linkRegExp)
+    g.links = [...links].map(l => {
+
+        const key = l[1];
+        const link = l[2] ? l[2].substring(1) : null;
+        const targetObj = glossarySrc.find(g => {
+            const names = [g.id, g.name, ...(g.keywords || [])].map(n => escapeRegExp(n))
+            const re = new RegExp(`^(${names.join('|')})$`, 'i')
+            //console.log(re)
+            return link ? link.match(re) : key.match(re)
+        })
+        return { key, link, target: targetObj?.id || null }
+    })
+    return g
+});
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
