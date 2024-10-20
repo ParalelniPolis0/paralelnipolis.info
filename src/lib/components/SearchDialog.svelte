@@ -286,7 +286,7 @@
                 <input
                     type="input"
                     class="bg-white dark:bg-black text-black dark:text-white px-1.5 py-2 w-full focus:outline-none focus:border-none text-lg grow"
-                    placeholder={$t`Search ${"paralelnipolis.info"}`}
+                    placeholder={$t`Search paralelnipolis.info`}
                     on:click|preventDefault={(p) => {
                         setTimeout(() => {
                             console.log(".", $comboOpen);
@@ -310,7 +310,7 @@
                 >
                     {#each results.map( (r) => data.find((d) => d.id === r.id), ) as item}
                         <li
-                            class="py-1.5 px-1.5 cursor-pointer data-[highlighted]:bg-black/10 dark:data-[highlighted]:bg-white/10"
+                            class="py-2 px-2 cursor-pointer data-[highlighted]:bg-black/10 dark:data-[highlighted]:bg-white/10"
                             use:melt={$option({
                                 value: item.id,
                                 label: item.name,
