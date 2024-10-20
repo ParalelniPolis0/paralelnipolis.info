@@ -32,7 +32,7 @@ export const topics = topicsSrc;
 
 export const articles = genArticlesSrc;
 
-export const linkRegExp = /\[\[([^\|\]]+)([^\]]*)\]\]/g;
+export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 
 export const glossary = glossarySrc.map(g => {
     const links = g.description.matchAll(linkRegExp)

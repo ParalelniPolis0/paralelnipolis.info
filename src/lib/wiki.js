@@ -6,7 +6,6 @@ function findItem(arr, key, link = null) {
     return arr.find(g => {
         const names = [g.id, g.name, ...(g.keywords || [])].map(n => escapeRegExp(n))
         const re = new RegExp(`^(${names.join('|')})$`, 'i')
-        //console.log(re)
         return link ? link.match(re) : key.match(re)
     })
 }

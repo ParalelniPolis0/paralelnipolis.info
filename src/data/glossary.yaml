@@ -4,9 +4,7 @@
   keywords:
     - Cypherpunk Philosophy
   description: |
-    Cypherpunk is a political and social movement that emerged in the late 1980s and early 1990s, advocating for the use of strong [[cryptography]] and privacy-enhancing technologies as a means to achieve social and political change.
-    
-    The term "cypherpunk" is a combination of "cipher" (or "cypher") and "[[cyberpunk]]". Cypherpunks believe that privacy is essential for an open society in the electronic age and see strong cryptography as a tool to preserve civil liberties against government overreach and corporate surveillance.
+    Cypherpunk is a political and social movement that emerged in the late 1980s and early 1990s, advocating for the use of strong [[cryptography]] and privacy-enhancing technologies as a means to achieve social and political change. The term "cypherpunk" is a combination of "cipher" (or "cypher") and "[[cyberpunk]]". Cypherpunks believe that privacy is essential for an open society in the electronic age and see strong cryptography as a tool to preserve civil liberties against government overreach and corporate surveillance.
 
     At its core, Cypherpunk philosophy is characterized by a distrust of authority, advocacy for [[privacy]] as a fundamental right, and the belief that code can be used to create systems that enforce desired social and political norms. This ideology was formalized in the [[Cypherpunk's Manifesto]], written by Eric Hughes in 1993. Notable figures associated with the cypherpunk movement include [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange), [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), and [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai).
 
@@ -24,7 +22,7 @@
   name: Digital Self-Defense
   type: practice
   description: |
-    Digital Self-Defense refers to the practices and techniques individuals use to protect their [[digital privacy]], security, and personal information in the face of increasing online threats and surveillance. It encompasses a wide range of skills and tools designed to safeguard one's digital presence, communications, and data from unauthorized access, manipulation, or exploitation.
+    Digital Self-Defense refers to the practices and techniques individuals use to protect their [[digital privacy]], security, and personal information in the face of increasing online threats and [[surveillance|mass surveillance]]. It encompasses a wide range of skills and tools designed to safeguard one's digital presence, communications, and data from unauthorized access, manipulation, or exploitation.
 
     At its core, Digital Self-Defense is about empowering individuals to take control of their digital lives. This includes understanding and mitigating risks associated with [[online tracking]], [[data collection]], and cyber attacks. Key aspects of Digital Self-Defense include the use of [[encryption]] for secure communications, [[virtual private networks (VPNs)]] for anonymous browsing, [[two-factor authentication]] for account security, and [[digital hygiene]] practices like regular software updates and strong password management.
 
@@ -40,7 +38,7 @@
   name: Lunarpunk
   type: movement
   description: |
-    Lunarpunk is an emerging philosophical and aesthetic movement that builds upon the foundations of [[cyberpunk]] and [[solarpunk]], with a focus on privacy, anonymity, and resilience in a world of ubiquitous surveillance. The term combines "lunar," evoking darkness and mystery, with "punk," signifying a rebellious and alternative approach to societal norms.
+    Lunarpunk is an emerging philosophical and aesthetic movement that builds upon the foundations of [[cyberpunk]] and [[solarpunk]], with a focus on privacy, anonymity, and resilience in a world of ubiquitous surveillance. The term combines "lunar", evoking darkness and mystery, with "punk", signifying a rebellious and alternative approach to societal norms.
 
     At its core, Lunarpunk envisions a future where privacy-enhancing technologies and decentralized systems enable individuals to operate freely in the shadows of digital and physical realms. It embraces the use of [[encryption]], [[anonymous networks]], and [[off-grid living]] as means to resist centralized control and surveillance. Aesthetically, Lunarpunk often incorporates imagery of night, shadows, and celestial bodies, symbolizing the hidden and the mysterious.
 
@@ -231,3 +229,44 @@
   resources:
     - title: Wikipedia article "Free Market"
       url: https://en.wikipedia.org/wiki/Free_market
+
+- id: plausible-deniability
+  name: Plausible deniability
+  type: concept
+  description: |
+    Plausible deniability is a concept in which individuals or organizations can deny knowledge of or responsibility for damnable actions without direct lies or deceit, usually because of a lack of evidence that confirms their participation. Originally developed in the context of national security and intelligence operations, the concept has since found applications in various fields, including politics, law, and technology.
+
+    In politics and diplomacy, plausible deniability often involves structuring the chain of command to shield decision-makers from potential repercussions of controversial or illegal activities. This strategy was notably employed during the Cold War era, particularly in covert operations. In the legal realm, it can be used as a defense strategy, where defendants maintain their innocence by arguing that there is no concrete proof of their involvement in alleged wrongdoings.
+
+    In the digital age, plausible deniability has gained significance in the context of [[information security]] and privacy. [[Encryption]] technologies like [TrueCrypt](https://en.wikipedia.org/wiki/TrueCrypt) and its successors offer features that allow users to deny the existence of encrypted data. Similarly, some [[secure communication]] protocols are designed to provide deniability of message origins or participation in conversations.
+  resources:
+    - title: Wikipedia article "Plausible deniability"
+      url: https://en.wikipedia.org/wiki/Plausible_deniability
+
+- id: onion-routing
+  name: Onion Routing
+  type: technique
+  description: |
+    Onion Routing is a technique for [[anonymous communication]] over computer networks. It encrypts data in multiple layers and transmits it through a series of network nodes, with each node "peeling" away a single layer of encryption to uncover the data's next destination. This process obscures the data's origin, destination, and content from network surveillance and traffic analysis.
+
+    The key principle behind onion routing is to protect the privacy of the sender and recipient of a message, as well as the message's contents. Data is [[encrypted|Encryption]] multiple times and sent through several network nodes. Each node only knows the immediate preceding and following nodes in the communication chain, making it difficult to trace the complete path of the data.
+
+    While [[Tor]] (The Onion Router) is the most widely known implementation, various onion routing networks exist, each with its own architecture and node structure. These networks can be used to access regular websites anonymously or to reach special [[hidden services]] that are only accessible within the onion network. Onion routing has become a crucial tool for privacy-conscious users, [[journalists]], [[activists]], and others seeking to communicate securely and anonymously online.
+  resources:
+    - title: Wikipedia article "Onion routing"
+      url: https://en.wikipedia.org/wiki/Onion_routing
+
+- id: tor
+  name: Tor
+  type: anonymity network
+  description: |
+    Tor, short for "The Onion Router", is a [[free and open-source software]] for enabling [[anonymous communication]]. It directs Internet traffic through a worldwide overlay network consisting of thousands of relays, concealing a user's location and usage from network surveillance and traffic analysis. Tor is an implementation of [[onion routing]], developed in the mid-1990s by United States Naval Research Laboratory employees.
+
+    The Tor network operates on the principle of onion routing, where the user's data is [[encrypted|encryption]] in layers and passed through several relays. Each relay decrypts a layer of encryption to reveal only the next relay in the circuit until the final relay decrypts the innermost layer and sends the original data to its destination without revealing the source IP address. This process makes it extremely difficult for any single point in the network to link the connection's source and destination.
+
+    Tor is used for various purposes, including protecting personal privacy from marketers and identity thieves, [[circumventing censorship]], and allowing journalists, human rights workers, and others to communicate more safely. It also enables access to [[.onion]] sites, which are special-use top level domains accessible only through Tor. These [[hidden services]] provide a platform for whistleblowers, dissident movements, and others requiring heightened anonymity and security.
+  resources:
+    - title: Tor Project Official Website
+      url: https://www.torproject.org/
+    - title: Wikipedia article "Tor (anonymity network)"
+      url: https://en.wikipedia.org/wiki/Tor_(network)

@@ -5,7 +5,7 @@ function escapeRegExp(string) {
 }
 
 const glossary = bundle.glossary
-const linkRegExp = /\[\[([^\|\]]+)([^\]]*)\]\]/g;
+const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 
 const links = {}
 const missingLinks = []
@@ -15,7 +15,7 @@ glossary.map(g => {
     [...links].map(l => {
 
         const key = l[1];
-        const link = l[2] ? l[2].substring(1) : null;
+        const link = l[2] || null;
         const targetObj = glossary.find(g => {
             const names = [g.id, g.name, ...(g.keywords || [])].map(escapeRegExp)
             const re = new RegExp(`^(${names.join('|')})$`, 'i')
