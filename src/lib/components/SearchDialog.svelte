@@ -16,6 +16,8 @@
         InformationCircle,
         Rss,
         Newspaper,
+        Users,
+        BuildingLibrary,
     } from "svelte-heros-v2";
 
     import { fade } from "svelte/transition";
@@ -59,6 +61,22 @@
             handle: "events",
             baseUrl: "/events",
             icon: Ticket,
+        },
+        {
+            id: "people",
+            type: "people",
+            name: $t`People`,
+            handle: "people",
+            baseUrl: "/people",
+            icon: Users,
+        },
+        {
+            id: "instances",
+            type: "instances",
+            name: $t`Instances`,
+            handle: "instances",
+            baseUrl: "/instances",
+            icon: BuildingLibrary,
         },
         /*{
             id: "settings-preferences",
@@ -296,8 +314,13 @@
                                         </div>
                                     </div>
                                 {:else}
-                                    <div class="w-[40px] h-[40px]">
-                                        {#if item.icon}
+                                    <div class="w-[40px] h-[40px] shrink-0">
+                                        {#if item.img}
+                                            <img
+                                                src={item.img}
+                                                class="w-[38px] aspect-square rounded"
+                                            />
+                                        {:else if item.icon}
                                             <svelte:component
                                                 this={item.icon}
                                                 size="38px"

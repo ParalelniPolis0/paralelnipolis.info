@@ -3,6 +3,8 @@
   years: [ 2024 ]
   code: pp0
   img: zero.webp
+  altNames:
+    - pp0
   caption: "[Draft] The digital-first meta instance of Paralelní Polis, which was born after the closure of the Prague location in 2024. This cypherpunk hub interconnect other instances and preserves the PP legacy (not only) in cyberspace."
   refs:
     web: https://pp0.co

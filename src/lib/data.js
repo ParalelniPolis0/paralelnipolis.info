@@ -17,7 +17,7 @@ import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 
-import { VideoCamera, User, Tag, Ticket } from "svelte-heros-v2";
+import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -89,13 +89,49 @@ export function searchDataset() {
             fullDescription: x.description,
         })
     }
+    for (const x of projects) {
+        const keywords = []
+        if (x.altNames) {
+            keywords.push(...x.altNames)
+        }
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'concept',
+            baseUrl: `/c/${x.id}`,
+            img: `/gimg/projects/s/${x.id}.webp`,
+            keywords,
+            description: 'Concept',
+        })
+    }
+    for (const x of instances) {
+        const keywords = [x.id]
+        if (x.altNames) {
+            keywords.push(...x.altNames)
+        }
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'instance',
+            baseUrl: `/i/${x.id}`,
+            img: `/gimg/instances/s/${x.id}.webp`,
+            keywords,
+            description: 'Instance',
+        })
+    }
     for (const x of people) {
+        const keywords = x.refs?.twitter ? [x.refs.twitter] : []
+        if (x.altNames) {
+            keywords.push(...x.altNames)
+        }
         items.push({
             id: x.id,
             name: x.name,
             type: 'person',
             baseUrl: `/p/${x.id}`,
-            icon: User,
+            //icon: User,
+            img: `/gimg/people/s/${x.id}.webp`,
+            keywords,
             description: x.caption || 'Person',
         })
     }
