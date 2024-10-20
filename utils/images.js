@@ -50,7 +50,7 @@ for (const col of collections) {
         const imgMetadata = await img.metadata();
 
         for (const [sizeName, size] of sizes) {
-            const resizedOutputFn = join(outputDir, sizeName, `${parse(inputFn).name}.webp`)
+            const resizedOutputFn = join(outputDir, sizeName, `${p.id}.webp`)
 
             const aspectRatio = imgMetadata.width / imgMetadata.height;
 

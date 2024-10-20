@@ -4,7 +4,7 @@
   instances: [ prague ]
   years: [ 2014, 2024 ]
   types: [ institution ]
-  img: ioc.png
+  img: institute-of-cryptoanarchy.png
   caption: |
     A collective promoting digital freedom and decentralized technologies. It focuses on cryptography and alternative economic models, aiming to empower individuals against censorship and surveillance.
   
@@ -32,8 +32,7 @@
   instances: [ prague ]
   years: [ 2014 ]
   types: [ conference ]
-  altNames:
-    - HCPP
+  shortname: HCPP
   refs:
     web: https://hcpp.cz
   img: hcpp.png
@@ -535,7 +534,7 @@
   instances: [ prague ]
   types: [ hackathon ]
   years: [ 2017, 2021 ]
-  img: hackatoshi-flying-circuit.png
+  img: hackathoshi-flying-circuit.png
   refs:
     web: https://flyingcircuit.com
   caption: |

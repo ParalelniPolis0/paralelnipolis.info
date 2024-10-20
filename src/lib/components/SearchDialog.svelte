@@ -18,6 +18,8 @@
         Newspaper,
         Users,
         BuildingLibrary,
+        UserGroup,
+        BuildingOffice,
     } from "svelte-heros-v2";
 
     import { fade } from "svelte/transition";
@@ -78,6 +80,14 @@
             baseUrl: "/instances",
             icon: BuildingLibrary,
         },
+        {
+            id: "structures",
+            type: "structures",
+            name: $t`Structures`,
+            handle: "structures",
+            baseUrl: "/structures",
+            icon: BuildingOffice,
+        },
         /*{
             id: "settings-preferences",
             type: "general",
@@ -91,10 +101,16 @@
 
     onMount(async () => {
         miniSearch = new MiniSearch({
-            fields: ["name", "keywords", "description", "termName"],
+            fields: [
+                "name",
+                "keywords",
+                "description",
+                "termName",
+                "shortname",
+            ],
             storeFields: ["id"],
             searchOptions: {
-                boost: { name: 2, termName: 2 },
+                boost: { name: 2, termName: 2, shortname: 5 },
                 fuzzy: 0.2,
             },
         });
@@ -214,7 +230,7 @@
                 highlightedItem.set(
                     document.querySelector(".dropdown-content li:first-child"),
                 );
-            }, 10);
+            }, 0);
         }
     });
 
@@ -294,7 +310,7 @@
                 >
                     {#each results.map( (r) => data.find((d) => d.id === r.id), ) as item}
                         <li
-                            class="py-2 px-2 cursor-pointer data-[highlighted]:bg-black/10 dark:data-[highlighted]:bg-white/10"
+                            class="py-1.5 px-1.5 cursor-pointer data-[highlighted]:bg-black/10 dark:data-[highlighted]:bg-white/10"
                             use:melt={$option({
                                 value: item.id,
                                 label: item.name,
@@ -324,7 +340,7 @@
                                             <svelte:component
                                                 this={item.icon}
                                                 size="38px"
-                                                class="p-2 bg-base-300/75 rounded opacity-75"
+                                                class="p-2 bg-gray-100 dark:bg-gray-900 rounded opacity-75"
                                             />
                                         {/if}
                                     </div>

@@ -83,7 +83,7 @@ export function searchDataset() {
             name: x.name,
             baseUrl: `/t/${x.id}`,
             icon: Tag,
-            description: x.type,
+            description: x.type + ' (glossary)',
             keywords: x.keywords,
             termName: x.name,
             fullDescription: x.description,
@@ -97,6 +97,8 @@ export function searchDataset() {
         items.push({
             id: x.id,
             name: x.name,
+            termName: x.name,
+            shortname: x.shortname,
             type: 'concept',
             baseUrl: `/c/${x.id}`,
             img: `/gimg/projects/s/${x.id}.webp`,
@@ -127,6 +129,8 @@ export function searchDataset() {
         items.push({
             id: x.id,
             name: x.name,
+            termName: x.name,
+            handle: x.name,
             type: 'person',
             baseUrl: `/p/${x.id}`,
             //icon: User,
