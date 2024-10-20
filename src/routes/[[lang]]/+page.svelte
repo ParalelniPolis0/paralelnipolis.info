@@ -4,14 +4,15 @@
     import { goto } from "$app/navigation";
     import { marked } from "marked";
 
-    import { archive, projects, friends, config } from "$lib/data.js";
-    import ArchiveItem from "../../lib/components/ArchiveItem.svelte";
+    import { archive, projects, friends, config, glossary } from "$lib/data.js";
+    import ArchiveItem from "$lib/components/ArchiveItem.svelte";
+    import TermBox from "$lib/components/TermBox.svelte";
 
     const lang = getContext("lang");
     let randomVideos = null; //getRandomVideos();
     let prevRandomVideos = null;
 
-    function getRandomVideos(len = 3, used = []) {
+    function getRandomVideos(len = 6, used = []) {
         let usedEvents = [];
         return new Array(len).fill(null).map(() => {
             let res;
@@ -34,7 +35,7 @@
     function refreshArchive(e) {
         e.preventDefault();
         prevRandomVideos = randomVideos.map((v) => v.id);
-        randomVideos = getRandomVideos(3, prevRandomVideos);
+        randomVideos = getRandomVideos(6, prevRandomVideos);
     }
 
     onMount(() => {
@@ -50,7 +51,72 @@
     {@html marked.parse(config.description || config.description_cs)}
 </div>
 
-<div class="mt-8">
+<div class="mt-12">
+    <h2 class="main text-2xl mb-8">
+        From <a href="/glossary">Parallel Glossary</a>
+    </h2>
+
+    <div class="grid grid-cols-2 gap-4">
+        <div class="p-4 bg-gray-50 dark:bg-gray-950 rounded">
+            <TermBox term={glossary.find((g) => g.id === "privacy")} />
+        </div>
+        <div class="p-4 bg-gray-50 dark:bg-gray-950 rounded">
+            <TermBox term={glossary.find((g) => g.id === "cypherpunk")} />
+        </div>
+    </div>
+</div>
+
+{#if randomVideos}
+    <div class="flex mt-8">
+        <div class="grow"></div>
+        <div class="w-full">
+            <div class="flex items-center w-full">
+                <h2 class="main text-2xl grow block">
+                    {#if lang === "cs"}
+                        Z <a href="/cs/archive">archivu</a>
+                    {:else}
+                        From <a href="/archive">archive</a>
+                    {/if}
+                </h2>
+                <a
+                    class="cursor-pointer block hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
+                    href="/archive"
+                    onclick={refreshArchive}
+                >
+                    <ArrowPath />
+                </a>
+            </div>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 mt-4"
+            >
+                {#each randomVideos as item}
+                    <ArchiveItem {item} />
+                {/each}
+            </div>
+        </div>
+    </div>
+{/if}
+
+<!--div class="mt-12">
+    <h2 class="main text-2xl">Our friends</h2>
+    <div class="mt-4 grid grid-cols-5 gap-8">
+        {#each friends as item}
+            <div class="text-2xl">
+                <a
+                    href={item.refs?.web}
+                    class="flex items-center align-middle m-2"
+                    ><img
+                        src="/friends/{item.img}"
+                        class="w-full"
+                        alt={item.name}
+                    /></a
+                >
+            </div>
+        {/each}
+    </div>
+</div-->
+
+<div class="mt-12">
     <h2 class="main text-2xl">Current <a href="/concepts">concepts</a></h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
         {#each projects.filter((p) => !p.years[1]) as p}
@@ -77,53 +143,3 @@
         {/each}
     </div>
 </div>
-
-<div class="flex mt-12">
-    <div class="grow"></div>
-    {#if randomVideos}
-        <div class="w-full">
-            <div class="flex items-center w-full">
-                <h2 class="main text-2xl grow block">
-                    {#if lang === "cs"}
-                        Z <a href="/cs/archive">archivu</a>
-                    {:else}
-                        From <a href="/archive">archive</a>
-                    {/if}
-                </h2>
-                <a
-                    class="cursor-pointer block hover:bg-gray-200 p-2 dark:hover:bg-gray-800"
-                    href="/archive"
-                    onclick={refreshArchive}
-                >
-                    <ArrowPath />
-                </a>
-            </div>
-            <div
-                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 mt-4"
-            >
-                {#each randomVideos as item}
-                    <ArchiveItem {item} />
-                {/each}
-            </div>
-        </div>
-    {/if}
-</div>
-
-<!--div class="mt-12">
-    <h2 class="main text-2xl">Our friends</h2>
-    <div class="mt-4 grid grid-cols-5 gap-8">
-        {#each friends as item}
-            <div class="text-2xl">
-                <a
-                    href={item.refs?.web}
-                    class="flex items-center align-middle m-2"
-                    ><img
-                        src="/friends/{item.img}"
-                        class="w-full"
-                        alt={item.name}
-                    /></a
-                >
-            </div>
-        {/each}
-    </div>
-</div-->

@@ -605,6 +605,17 @@
 #  types: [ service, archive ]
 #  img: ../instances/pp.webp
 
+- id: paralelnipolis-info
+  name: paralelnipolis.info
+  instances: [ zero ]
+  years: [ 2024 ]
+  types: [ presentation, archive ]
+  img: ../instances/zero.webp
+  caption: |
+    Information and aggregation portal interconnecting whole movement. Includes a [Parallel Glossary](/glossary) and list of all Instances, Concepts, Events and archive with all videos (managed by [PP0](/i/zero)).
+  refs:
+    web: https://paralelnipolis.info
+
 - id: parallel-glossary
   name: Parallel Glossary
   instances: [ zero ]
