@@ -31,15 +31,13 @@
     import { t } from "$lib/i18n";
     import { searchDataset } from "$lib/data";
 
+    let { isMac } = $props();
+    let keybTitle = $derived(isMac ? "⌘K" : "CTRL+K");
     let miniSearch;
-    let miniSearchLoading = false;
-    //let data = searchItemsBase($t)
-    const q = writable("");
     const dataset = searchDataset();
-    let suggest = "";
-    let results = [];
+    let results = $state([]);
 
-    const data = [
+    const data = $state([
         {
             id: "about",
             type: "core",
@@ -97,7 +95,7 @@
             description: $t`User preference`,
             keywords: "timezone tz",
         },*/
-    ];
+    ]);
 
     onMount(async () => {
         miniSearch = new MiniSearch({
@@ -251,7 +249,10 @@
     }
 
     function onKeyDown(x, event) {
-        if (x.code === "KeyK" && x.metaKey === true) {
+        if (
+            x.code === "KeyK" &&
+            (isMac ? x.metaKey === true : x.ctrlKey === true)
+        ) {
             x.preventDefault();
             toggleSearchDialog();
         }
@@ -262,7 +263,7 @@
 
 <button
     class="tooltip tooltip-bottom"
-    data-tip="Search ⎯ ⌘K"
+    data-tip="Search ⎯ {keybTitle}"
     on:click={() => toggleSearchDialog()}
 >
     <div
@@ -286,6 +287,15 @@
         >
             <div class="flex items-center gap-2 px-4 py-0.5">
                 <MagnifyingGlass class="opacity-50 dark:invert" />
+                <div
+                    class="absolute right-0 top-0 h-full items-center flex pr-4"
+                >
+                    <div
+                        class="opacity-50 py-0.5 px-1 rounded bg-gray-300 dark:bg-gray-700 dark:text-white"
+                    >
+                        {keybTitle}
+                    </div>
+                </div>
                 <input
                     type="input"
                     class="bg-white dark:bg-black text-black dark:text-white px-1.5 py-2 w-full focus:outline-none focus:border-none text-lg grow"
