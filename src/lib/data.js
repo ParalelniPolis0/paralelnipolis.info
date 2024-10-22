@@ -7,7 +7,7 @@ import friendsSrc from "$lib/../data/friends.yaml";
 import instancesSrc from '$lib/../data/instances.yaml';
 import guildsSrc from '$lib/../data/guilds.yaml';
 import topicsSrc from '$lib/../data/topics.yaml';
-import glossarySrc from '$lib/../data/glossary.yaml';
+//import glossarySrc from '$lib/../data/glossary.yaml';
 
 import genYtOld from '$lib/../data/gen/yt-old.json';
 import genYtNew from '$lib/../data/gen/yt-new.json';
@@ -16,6 +16,7 @@ import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
 import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
+import { loadGlossary } from '@pp0/glossary';
 
 import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
@@ -34,22 +35,7 @@ export const articles = genArticlesSrc;
 
 export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 
-export const glossary = glossarySrc.map(g => {
-    const links = g.description.matchAll(linkRegExp)
-    g.links = [...links].map(l => {
-
-        const key = l[1];
-        const link = l[2] ? l[2].substring(1) : null;
-        const targetObj = glossarySrc.find(g => {
-            const names = [g.id, g.name, ...(g.keywords || [])].map(n => escapeRegExp(n))
-            const re = new RegExp(`^(${names.join('|')})$`, 'i')
-            //console.log(re)
-            return link ? link.match(re) : key.match(re)
-        })
-        return { key, link, target: targetObj?.id || null }
-    })
-    return g
-});
+export const glossary = loadGlossary().en;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
