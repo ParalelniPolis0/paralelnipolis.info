@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^1.1.0
     version: 1.1.0(vite@5.4.8)
   '@pp0/glossary':
-    specifier: github:paralelnipolis0/glossary
-    version: github.com/paralelnipolis0/glossary/6f2b542704182f5f50a3904b01ecc87de716e60d
+    specifier: latest
+    version: 2024.10.22
   '@sveltejs/adapter-static':
     specifier: ^3.0.5
     version: 3.0.5(@sveltejs/kit@2.6.1)
@@ -875,6 +875,12 @@ packages:
 
   /@polka/url@1.0.0-next.28:
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
+    dev: true
+
+  /@pp0/glossary@2024.10.22:
+    resolution: {integrity: sha512-p4qkd2nToxBZqBvuS5iPaypHYCiGwLAaKNSF4Asw7B81FX8v+eI46X4+rdJhOLUyc3NfEfBb6W1iFK0cRbWf9Q==}
+    dependencies:
+      gray-matter: 4.0.3
     dev: true
 
   /@rollup/pluginutils@5.1.0:
@@ -3213,11 +3219,3 @@ packages:
       - supports-color
       - typescript
     dev: false
-
-  github.com/paralelnipolis0/glossary/6f2b542704182f5f50a3904b01ecc87de716e60d:
-    resolution: {tarball: https://codeload.github.com/paralelnipolis0/glossary/tar.gz/6f2b542704182f5f50a3904b01ecc87de716e60d}
-    name: '@pp0/glossary'
-    version: 1.0.0
-    dependencies:
-      gray-matter: 4.0.3
-    dev: true
