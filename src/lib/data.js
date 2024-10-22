@@ -35,7 +35,7 @@ export const articles = genArticlesSrc;
 
 export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 
-export const glossary = loadGlossary().en;
+export const glossary = loadGlossary().glossary.en;
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
