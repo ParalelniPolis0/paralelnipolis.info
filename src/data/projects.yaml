@@ -508,7 +508,7 @@
 - id: bordel
   name: Bordel
   instances: [ prague ]
-  years: [ 2016, 2023 ]
+  years: [ 2020, 2023 ]
   types: [ place ]
   img: bordel.jpeg
   refs:
