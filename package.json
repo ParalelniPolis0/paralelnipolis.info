@@ -11,7 +11,7 @@
 		"@lingui/cli": "^4.13.0",
 		"@melt-ui/pp": "^0.3.2",
 		"@modyfi/vite-plugin-yaml": "^1.1.0",
-		"@pp0/glossary": "2024.10.22-4",
+		"@pp0/glossary": "2024.10.22-5",
 		"@sveltejs/adapter-static": "^3.0.5",
 		"@sveltejs/kit": "^2.6.1",
 		"@sveltejs/vite-plugin-svelte": "next",
