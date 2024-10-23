@@ -13,18 +13,18 @@
 		"@modyfi/vite-plugin-yaml": "^1.1.0",
 		"@pp0/glossary": "2024.10.22-5",
 		"@sveltejs/adapter-static": "^3.0.5",
-		"@sveltejs/kit": "^2.6.1",
+		"@sveltejs/kit": "^2.7.2",
 		"@sveltejs/vite-plugin-svelte": "next",
 		"@tailwindcss/typography": "^0.5.15",
 		"@vavt/vite-plugin-import-markdown": "^1.0.1",
 		"autoprefixer": "^10.4.20",
 		"date-fns": "^4.1.0",
-		"marked": "^14.1.2",
+		"marked": "^14.1.3",
 		"postcss": "^8.4.47",
-		"svelte": "next",
+		"svelte": "^5.0.5",
 		"svelte-heros-v2": "^1.3.0",
-		"tailwindcss": "^3.4.13",
-		"vite": "^5.4.8"
+		"tailwindcss": "^3.4.14",
+		"vite": "^5.4.10"
 	},
 	"repository": {
 		"type": "git",
