@@ -14,7 +14,7 @@
             .filter((p) => p),
     );
     let archiveTitle = $derived(
-        `${item.name} ${peopleArr && peopleArr.length > 0 ? " - " + peopleArr.join(", ") : ""}`,
+        `${item.name} ${peopleArr && peopleArr.length > 0 ? " - " + peopleArr.map((p) => p.name).join(", ") : ""}`,
     );
     let description = $derived(shortText(item.desc.split("\n")[0]));
 </script>
