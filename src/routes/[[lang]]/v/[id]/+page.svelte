@@ -2,15 +2,32 @@
     import Youtube from "$lib/components/Youtube.svelte";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import EventLink from "$lib/components/EventLink.svelte";
-    import { config } from "$lib/data.js";
+    import { config, people } from "$lib/data.js";
+    import { shortText } from "$lib/utils.js";
 
     const { data } = $props();
     let item = $derived(data.item);
     let youtubeId = $derived(item.url.match(/\?v=([^&]+)/)[1]);
+    let archiveTitle = $derived(
+        `${item.name} - ${item.people.map((pid) => people.find((p) => p.id === pid).name).join(", ")}`,
+    );
+    let description = $derived(shortText(item.desc.split("\n")[0]));
 </script>
 
 <svelte:head>
-    <title>{item.name} | {config.title}</title>
+    <title>{archiveTitle} | {config.title}</title>
+    <meta name="title" content={archiveTitle} />
+    <meta name="description" content={description} />
+
+    <meta property="og:title" content={archiveTitle} />
+    <meta property="og:description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://{config.host}/v/{item.id}" />
+    <meta
+        property="og:image"
+        content="https://{config.host}/archive/{item.img}"
+    />
 </svelte:head>
 
 <div class="w-full">

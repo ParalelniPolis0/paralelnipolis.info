@@ -2,15 +2,9 @@
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import ArchiveItem from "./ArchiveItem.svelte";
     import EventLink from "./EventLink.svelte";
+    import { shortText } from "$lib/utils.js";
 
     let { items, type = "list" } = $props();
-
-    function shortText(str, maxSize = 400) {
-        if (str.length > maxSize) {
-            return str.substr(0, maxSize) + "..";
-        }
-        return str;
-    }
 </script>
 
 {#if items.length === 0}
