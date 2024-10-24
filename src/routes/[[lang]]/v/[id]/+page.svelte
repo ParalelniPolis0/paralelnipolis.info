@@ -8,8 +8,13 @@
     const { data } = $props();
     let item = $derived(data.item);
     let youtubeId = $derived(item.url.match(/\?v=([^&]+)/)[1]);
+    let peopleArr = $derived(
+        item.people
+            ?.map((pid) => people.find((p) => p.id === pid))
+            .filter((p) => p),
+    );
     let archiveTitle = $derived(
-        `${item.name} - ${item.people.map((pid) => people.find((p) => p.id === pid).name).join(", ")}`,
+        `${item.name} ${peopleArr && peopleArr.length > 0 ? " - " + peopleArr.join(", ") : ""}`,
     );
     let description = $derived(shortText(item.desc.split("\n")[0]));
 </script>
