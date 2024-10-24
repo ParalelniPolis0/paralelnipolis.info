@@ -8,8 +8,12 @@ help: ## Print info about all commands
 	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[01;32m%-20s\033[0m %s\n", $$1, $$2}'
 	@echo
 
+.PHONY:
+glossary: ## Download latest glossary
+	curl -o ./src/data/gen/glossary.json 'https://glossary.pp0.co'
+
 .PHONY: build
-build: #s Build static website into ./build
+build: ## Build static website into ./build
 	pnpm run build
 
 .PHONY: dev

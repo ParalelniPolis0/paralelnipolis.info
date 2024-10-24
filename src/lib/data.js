@@ -16,7 +16,8 @@ import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
 import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
-import { loadGlossary } from '@pp0/glossary';
+//import { loadGlossary } from '@pp0/glossary';
+import genGlossarySrc from '$lib/../data/gen/glossary.json';
 
 import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
@@ -35,7 +36,10 @@ export const articles = genArticlesSrc;
 
 export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 
-export const glossary = loadGlossary().glossary.en;
+//const glossaryResp = await fetch("https://glossary.pp0.co")
+//export const glossary = (await glossaryResp.json()).glossary.en;
+export const glossary = genGlossarySrc.glossary.en;
+
 
 export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
