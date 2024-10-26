@@ -1,4 +1,5 @@
 import slugify from 'slugify'
+import { dump } from 'js-yaml'
 
 function calcHash(str) {
     const hash = new Bun.CryptoHasher("sha256");
@@ -100,6 +101,6 @@ while (nextPage) {
     }
 }
 
-const outputFn = `./src/data/gen/meetup.json`
-await Bun.write(outputFn, JSON.stringify(events, null, 2))
+const outputFn = `./src/data/meetup.yaml`
+await Bun.write(outputFn, dump(events))
 console.log(`\nWrited: ${outputFn} (${events.length} events)`)

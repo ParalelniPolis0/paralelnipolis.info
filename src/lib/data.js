@@ -18,6 +18,7 @@ import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 //import { loadGlossary } from '@pp0/glossary';
 import genGlossarySrc from '$lib/../data/gen/glossary.json';
+import genEventsSrc from '$lib/../data/gen/events.json';
 
 import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
@@ -39,14 +40,14 @@ export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 //const glossaryResp = await fetch("https://glossary.pp0.co")
 //export const glossary = (await glossaryResp.json()).glossary.en;
 export const glossary = genGlossarySrc.glossary.en;
+export const events = genEventsSrc.events;
 
-
-export const events = projectsSrc.map(p => p.events?.map(e => {
+/*export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
     return e;
 })).filter(e => e).concat(genMeetup).flat().sort((x, y) =>
     y.date > x.date ? 1 : -1,
-);
+);*/
 
 export const archive = [
     genYtDtpEthPrague22,

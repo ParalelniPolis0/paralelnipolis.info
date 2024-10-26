@@ -8,7 +8,9 @@
             <div class="flex gap-2 items-center">
                 <div class="text-2xl">@</div>
                 <a href={refs.web} class="hover:underline"
-                    >{refs.web.replace(/^https?:\/\//, "")}</a
+                    >{refs.web
+                        .replace(/^https?:\/\//, "")
+                        .replace(/\/$/, "")}</a
                 >
             </div>
         {/if}
@@ -50,6 +52,18 @@
                     class="hover:underline"
                     >{refs.github}
                 </a>
+            </div>
+        {/if}
+        {#if refs.meetup}
+            <div class="flex gap-2 items-center">
+                <a href={refs.meetup} class="hover:underline">meetup.com</a>
+            </div>
+        {/if}
+        {#if refs.luma}
+            <div class="flex gap-2 items-center">
+                <a href="https://lu.ma/{refs.luma}" class="hover:underline"
+                    >lu.ma</a
+                >
             </div>
         {/if}
     </div>

@@ -1,28 +1,17 @@
 <script>
-    import { archive, projects, people, config } from "$lib/data.js";
+    import {
+        archive,
+        projects,
+        people,
+        config,
+        events as allEvents,
+    } from "$lib/data.js";
     import RefsBar from "$lib/components/RefsBar.svelte";
     import ArchiveList from "$lib/components/ArchiveList.svelte";
     import EventList from "$lib/components/EventList.svelte";
     import { getContext } from "svelte";
 
     const lang = getContext("lang");
-
-    function listEvents() {
-        return projects
-            .map((pr) =>
-                pr.events?.map((e) => {
-                    e.project = pr.id;
-                    return e;
-                }),
-            )
-            .flat()
-            .filter((p) => p)
-            .sort((x, y) => {
-                return y.date > x.date ? 1 : -1;
-            });
-    }
-
-    const allEvents = listEvents();
 
     const { data } = $props();
     const p = $derived(data.item);

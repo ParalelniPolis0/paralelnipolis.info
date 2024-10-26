@@ -1,5 +1,11 @@
 <script>
-    import { people, archive, instances, config } from "$lib/data.js";
+    import {
+        people,
+        archive,
+        instances,
+        config,
+        events as allEvents,
+    } from "$lib/data.js";
     import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
@@ -11,9 +17,8 @@
 
     const { data } = $props();
     const p = $derived(data.item);
-    const events = $derived(
-        p.events && p.events.sort((x, y) => (x.date < y.date ? 1 : -1)),
-    );
+    const events = $derived(allEvents.filter((e) => e.project === p.id));
+
     const contributors = $derived(
         people.filter((pe) => {
             return pe.roles?.find((r) => r.project === p.id);
@@ -94,7 +99,7 @@
     </div>
 {/if}
 
-{#if p.events}
+{#if events.length > 0}
     <div class="mt-8">
         <div class="flex flex-wrap items-center">
             <h2 class="grow text-2xl main">

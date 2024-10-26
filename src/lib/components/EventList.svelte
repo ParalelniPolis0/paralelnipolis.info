@@ -12,7 +12,14 @@
     {#each events as ev}
         <div>
             <div class="flex flex-wrap">
-                <div class="text-2xl mr-4 opacity-50 font-mono">PRG</div>
+                <div class="text-2xl mr-4 opacity-50">
+                    {#if ev.place?.country}
+                        <span class="uppercase">{ev.place?.country}</span>, {ev
+                            .place?.city || "YY"}
+                    {:else}
+                        Online
+                    {/if}
+                </div>
                 <div class="grow">
                     <h3 class="text-2xl inline">
                         <a href="/e/{ev.id}" alt={ev.name} class="font-semibold"

@@ -64,6 +64,11 @@
                     lang,
                 )}{/if}
         </div>
+        {#if e.place?.country}
+            <div class="text-2xl opacity-50">
+                <span class="uppercase">{e.place.country}</span>, {e.place.city}
+            </div>
+        {/if}
         <div class="text-2xl">
             {#if project}<a href="/c/{project.id}">{project.name}</a>{/if}
             {#if e.seq}<span class="opacity-50 font-normal">#{e.seq}</span>{/if}
