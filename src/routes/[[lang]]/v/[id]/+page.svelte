@@ -42,7 +42,7 @@
     <meta property="og:url" content="https://{config.host}/v/{item.id}" />
     <meta
         property="og:image"
-        content="https://{config.host}/archive/{item.img}"
+        content="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
     />
 </svelte:head>
 
