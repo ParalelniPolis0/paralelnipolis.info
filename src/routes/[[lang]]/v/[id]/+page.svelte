@@ -23,10 +23,10 @@
     let description = $derived(shortText(item.desc.split("\n")[0]));
 
     const renderer = new marked.Renderer();
-    renderer.link = function (href, title, text) {
+    renderer.link = function ({ href, title, text }) {
         // Add target="_blank" and rel="external" to all links
         const titleAttr = title ? ` title="${title}"` : "";
-        return `<a href="${href}"${titleAttr} target="_blank" rel="external">${text}</a>`;
+        return `<a href="${href}"${titleAttr} ${href.slice(0, 1) === "/" ? "" : `target="_blank" rel="external"`}>${text}</a>`;
     };
 </script>
 
@@ -46,7 +46,11 @@
     />
 </svelte:head>
 
-<div class="w-full">
+<div class="w-full" style="">
+    <!--img
+        src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
+        class="w-full aspect-video" alt={item.name}
+    /-->
     <Youtube id={youtubeId} autoplay="true" />
 </div>
 

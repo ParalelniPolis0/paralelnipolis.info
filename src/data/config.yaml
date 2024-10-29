@@ -27,6 +27,7 @@ license:
 menu:
   - ["/", "→/"]
   - ["/about", "About"]
+  - ["/glossary", "Glossary"]
   #- ["/structures", "Structures"]
   #- ["/topics", "Topics"]
   - ["/articles", "Articles"]

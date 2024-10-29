@@ -161,7 +161,7 @@
                             <div
                                 class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10"
                             >
-                                {#each e.archive.slice(0, 3) as item}
+                                {#each e.archive.slice(0, 6) as item}
                                     <ArchiveItem {item} />
                                 {/each}
                             </div>

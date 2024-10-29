@@ -8,11 +8,14 @@ const langs = {
     zu: ['Pseudo'],
 }
 
-export async function load({ params }) {
+export async function load({ params, url }) {
     const lang = params.lang || 'en'
     if (!lang || !langs[lang]) {
         return redirect(307, '/')
     }
+    /*if (url.pathname === '/archive') {
+        return redirect(307, '/videos')
+    }*/
     const { messages } = await import(`$lib/../../locales/${lang}/messages.ts`);
     return {
         lang,
