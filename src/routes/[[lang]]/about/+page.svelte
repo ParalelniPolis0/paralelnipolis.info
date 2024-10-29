@@ -1,9 +1,15 @@
 <script>
     import { getContext, onMount } from "svelte";
-    import { config, people as allPeople, topics } from "$lib/data.js";
+    import {
+        config,
+        people as allPeople,
+        topics,
+        structures,
+    } from "$lib/data.js";
     import { marked } from "marked";
     //import ProjectList from "$lib/components/ProjectList.svelte";
     //import GuildList from "$lib/components/GuildList.svelte";
+    import StructureList from "$lib/components/StructureList.svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import AboutPageMd from "$lib/../pages/about.md";
     import TopicsList from "$lib/components/TopicsList.svelte";
@@ -16,7 +22,16 @@
 
     let searchRef;
     let x = $state("");
-    let people = $derived(allPeople.slice(0, 50));
+    let people = $derived(allPeople.slice(0, 25));
+
+    const activeStructures = $derived(
+        structures.filter((s) => (s.years && !s.years[1]) || !s.years),
+    );
+    const globalStructures = $derived(activeStructures.filter((s) => !s.local));
+    const localStructures = $derived(activeStructures.filter((s) => s.local));
+    const pastStructures = $derived(
+        structures.filter((s) => s.years && s.years[1]),
+    );
 </script>
 
 <svelte:head>
@@ -30,11 +45,34 @@
     </div>
 </div>
 
+<div>
+    <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
+        <h1 class="main text-2xl grow"><a href="/people">People</a></h1>
+    </div>
+
+    <PeopleGrid {people} showAll={allPeople.length} />
+</div>
+
 <div class="mb-10 mt-4">
     <h1 class="main text-2xl">
         <a href="/topics">Topics</a>
     </h1>
     <TopicsList {topics} />
+</div>
+
+<div class="mb-12">
+    <h1 class="main text-2xl mb-6 mt-4">Global Commonwealth</h1>
+    <StructureList arr={globalStructures} />
+</div>
+
+<div class="mb-12">
+    <h1 class="main text-2xl mb-6 mt-4">Local Commonwealth</h1>
+    <StructureList arr={localStructures} />
+</div>
+
+<div class="mb-12">
+    <h1 class="main text-2xl mb-6 mt-4">Inactive Structures</h1>
+    <StructureList arr={pastStructures} />
 </div>
 
 <!--div class="mb-10 mt-4">
@@ -60,10 +98,6 @@
     <GuildList {guilds} />
 </div-->
 
-<div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
-    <h1 class="main text-2xl grow"><a href="/people">People</a></h1>
-</div>
-
 <!--div class="flex flex-wrap gap-4">
     <div>
         <input type="checkbox" id="speakers" />
@@ -78,8 +112,3 @@
         <label for="members">Členové</label>
     </div>
 </div-->
-<PeopleGrid {people} />
-
-<div class="mt-8 text-xl">
-    <a href="/people">Show all People →</a>
-</div>

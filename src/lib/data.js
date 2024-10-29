@@ -1,8 +1,7 @@
-import { escapeRegExp } from './utils.js';
+import { escapeRegExp, imgHashUrl } from './utils.js';
 
 import atlas from '$lib/../data/gen/atlas.json';
 
-import peopleSrc from '$lib/../data/people.yaml';
 import configSrc from '$lib/../data/config.yaml';
 import topicsSrc from '$lib/../data/topics.yaml';
 
@@ -52,12 +51,7 @@ export const projects = structures.map(s => s.projects?.map(p => {
     y.publishedAt > x.publishedAt ? 1 : -1,
 );*/
 
-export const people = peopleSrc.map(p => {
-    p.merit = Number((p.roles?.length || 0) * 3) +
-        (events.filter(e => e.speakers?.includes(p.id)).length * 1) +
-        (archive.filter(i => i.people?.map(p => p.split('|').at(-1)).includes(p.id)).length * 2)
-    return p
-}).sort((x, y) => y.merit > x.merit ? 1 : -1);
+export const people = atlas.people;
 
 export function searchDataset() {
     const items = []
@@ -118,7 +112,7 @@ export function searchDataset() {
             type: 'person',
             baseUrl: `/p/${x.id}`,
             //icon: User,
-            img: `/gimg/people/s/${x.id}.webp`,
+            img: imgHashUrl('people', x.imgHash),
             keywords,
             description: x.caption || 'Person',
         })

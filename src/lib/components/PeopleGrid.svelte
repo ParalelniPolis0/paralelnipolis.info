@@ -1,5 +1,6 @@
 <script>
-    let { people, size } = $props();
+    let { people, size, showAll = false } = $props();
+    import { imgHashUrl } from "$lib/utils.js";
 
     let sizePx = $derived(size === "small" ? 75 : 110);
 </script>
@@ -20,8 +21,9 @@
             >
                 <a href="/p/{p.id}"
                     ><img
-                        src="/gimg/people/s/{p.id}.webp"
-                        class="w-full inline-block aspect-square object-cover {p.rand ===
+                        src={imgHashUrl("people", p.imgHash)}
+                        alt={p.name}
+                        class="p-2 text-gray-300 w-full inline-block aspect-square object-cover {p.rand ===
                         1
                             ? '-rotate-0'
                             : '-rotate-0'} hover:-rotate-6 hover:scale-110 transition-all rounded bg-gray-200 dark:bg-gray-800 mb-2"
@@ -31,5 +33,18 @@
                 <!--div class="font-normal"></div-->
             </div>
         {/each}
+        {#if showAll}
+            <div
+                class="w-full text-center font-semibold {size === 'small'
+                    ? 'text-lg'
+                    : 'text-xl'}"
+            >
+                <div
+                    class="w-full aspect-square bg-gray-100 dark:bg-gray-900 rounded transition-all hover:scale-150 flex items-center justify-center p-2"
+                >
+                    <a href="/people">Show all ({showAll}) →</a>
+                </div>
+            </div>
+        {/if}
     </div>
 {/if}

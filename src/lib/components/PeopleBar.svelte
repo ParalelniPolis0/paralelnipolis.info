@@ -1,5 +1,7 @@
 <script>
     import { people as allPeople, structures } from "$lib/data.js";
+    import { imgHashUrl } from "$lib/utils.js";
+
     let { people, size = "text-lg" } = $props();
 
     /*let fullPeople = $derived(
@@ -32,7 +34,7 @@
         return {
             ...obj,
             url: `/${type === "structure" ? "s" : "p"}/${obj.id}`,
-            imgUrl: `/gimg/${type}/s/${obj.id}.webp`,
+            imgUrl: imgHashUrl(type, obj.imgHash),
         };
     }
 </script>

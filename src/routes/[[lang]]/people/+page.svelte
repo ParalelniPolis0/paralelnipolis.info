@@ -13,7 +13,7 @@
     onMount(() => {
         const isMobile = window.innerWidth <= 768;
         if (!isMobile) {
-            searchRef.focus();
+            //searchRef.focus();
         }
     });
 
@@ -37,7 +37,7 @@
 
 <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
-    <div class="flex items-center gap-2 mt-2 sm:mt-2">
+    <!--div class="flex items-center gap-2 mt-2 sm:mt-2">
         <div class="text-xl opacity-50">
             {people.length}
             {#if people.length !== allPeople.length}/ {allPeople.length}{/if}
@@ -51,7 +51,7 @@
                 bind:this={searchRef}
             />
         </div>
-    </div>
+    </div-->
 </div>
 
 <!--div class="flex flex-wrap gap-4">

@@ -9,3 +9,7 @@ export function shortText(str, maxSize = 400) {
     }
     return str;
 }
+
+export function imgHashUrl(type, hash, size = "s") {
+    return `https://atlas.pp0.co/img/${type}/${size}/${hash}.webp`
+}

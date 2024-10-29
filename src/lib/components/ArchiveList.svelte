@@ -3,7 +3,7 @@
     import StructureLink from "$lib/components/StructureLink.svelte";
     import ArchiveItem from "./ArchiveItem.svelte";
     import EventLink from "./EventLink.svelte";
-    import { shortText } from "$lib/utils.js";
+    import { shortText, imgHashUrl } from "$lib/utils.js";
 
     let { items, type = "list" } = $props();
 </script>
@@ -24,9 +24,9 @@
                     <div class="shrink-0 mb-2 sm:mb-0">
                         <a href="/v/{item.id}"
                             ><img
-                                src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
+                                src={imgHashUrl("archive", item.imgHash, "m")}
                                 alt={item.name}
-                                class="w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5 hover:scale-110 transition-all"
+                                class="p-2 w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5 hover:scale-110 transition-all"
                             /></a
                         >
                     </div>

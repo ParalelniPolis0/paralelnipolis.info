@@ -10,6 +10,7 @@
     import ArchiveList from "$lib/components/ArchiveList.svelte";
     import EventList from "$lib/components/EventList.svelte";
     import { getContext } from "svelte";
+    import { imgHashUrl } from "$lib/utils.js";
 
     const lang = getContext("lang");
 
@@ -43,7 +44,7 @@
 <div class="flex gap-4 sm:gap-8 mt-4 mb-10">
     <div class="shrink-0">
         <img
-            src="/gimg/people/m/{p.id}.webp"
+            src={imgHashUrl("people", p.imgHash, "m")}
             alt={p.name}
             class="aspect-square w-32 sm:w-48 ml-2 object-cover -rotate-6 rounded"
         />
