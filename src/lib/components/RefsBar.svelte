@@ -1,5 +1,17 @@
 <script>
     let { refs } = $props();
+
+    function formatWeb(url) {
+        const title = url
+            .replace(/^https?:\/\//, "")
+            .replace(/\/$/, "")
+            .split("/");
+
+        if (title.length <= 2) {
+            return title.join("/");
+        }
+        return [title[0], "..", title[title.length - 1]].join("/");
+    }
 </script>
 
 {#if refs}
@@ -8,9 +20,7 @@
             <div class="flex gap-2 items-center">
                 <div class="text-2xl">@</div>
                 <a href={refs.web} class="hover:underline"
-                    >{refs.web
-                        .replace(/^https?:\/\//, "")
-                        .replace(/\/$/, "")}</a
+                    >{formatWeb(refs.web)}</a
                 >
             </div>
         {/if}
@@ -64,6 +74,11 @@
                 <a href="https://lu.ma/{refs.luma}" class="hover:underline"
                     >lu.ma</a
                 >
+            </div>
+        {/if}
+        {#if refs.amazon}
+            <div class="flex gap-2 items-center">
+                <a href={refs.amazon} class="hover:underline">amazon</a>
             </div>
         {/if}
     </div>

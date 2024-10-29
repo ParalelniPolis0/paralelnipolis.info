@@ -8,7 +8,7 @@ import topicsSrc from '$lib/../data/topics.yaml';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 import genGlossarySrc from '$lib/../data/gen/glossary.json';
 
-import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
+import { VideoCamera, User, Tag, Ticket, BuildingLibrary, BookOpen } from "svelte-heros-v2";
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -52,6 +52,7 @@ export const projects = structures.map(s => s.projects?.map(p => {
 );*/
 
 export const people = atlas.people;
+export const books = atlas.books;
 
 export function searchDataset() {
     const items = []
@@ -92,11 +93,11 @@ export function searchDataset() {
         items.push({
             id: x.id,
             name: x.name,
-            type: 'instance',
-            baseUrl: `/i/${x.id}`,
-            img: `/gimg/instances/s/${x.id}.webp`,
+            type: 'structure',
+            baseUrl: `/s/${x.id}`,
+            img: imgHashUrl('structure', x.imgHash),
             keywords,
-            description: 'Instance',
+            description: 'Structure',
         })
     }
     for (const x of people) {
@@ -136,6 +137,17 @@ export function searchDataset() {
             icon: VideoCamera,
             keywords: x.people || [],
             description: 'Video' //,x.people?.join(', '),
+        })
+    }
+    for (const x of books) {
+        items.push({
+            id: x.id,
+            name: x.name,
+            type: 'books',
+            baseUrl: `/b/${x.id}`,
+            icon: BookOpen,
+            keywords: x.authors || [],
+            description: 'Book' //,x.people?.join(', '),
         })
     }
     return items

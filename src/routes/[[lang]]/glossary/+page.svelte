@@ -32,9 +32,7 @@
     const missingLinks = $derived(findMissingLinks(glossary));
 </script>
 
-<h1 class="main text-2xl mb-4 mt-4">
-    <a href="/c/parallel-glossary">Parallel Glossary</a>
-</h1>
+<h1 class="main text-2xl mb-4 mt-4">Glossary</h1>
 
 <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
     {#each sortedGlossary as i}

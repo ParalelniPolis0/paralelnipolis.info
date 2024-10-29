@@ -2,7 +2,7 @@
     import { people as allPeople, structures } from "$lib/data.js";
     import { imgHashUrl } from "$lib/utils.js";
 
-    let { people, size = "text-lg" } = $props();
+    let { people, size = "text-lg", className = "" } = $props();
 
     /*let fullPeople = $derived(
         typeof people[0] === "string"
@@ -40,7 +40,7 @@
 </script>
 
 {#if people.length > 0}
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-4 {className}">
         {#each people.map(resolveItem) as p}
             <div class="flex items-center gap-2">
                 {#if p.imgUrl}

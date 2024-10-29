@@ -28,6 +28,8 @@ menu:
   - ["/", "→/"]
   - ["/about", "About"]
   - ["/glossary", "Glossary"]
+  - ["/books", "Books"]
+
   #- ["/structures", "Structures"]
   #- ["/topics", "Topics"]
   #- ["/articles", "Articles"]
