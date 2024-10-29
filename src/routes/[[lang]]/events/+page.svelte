@@ -4,9 +4,13 @@
     import { isFuture } from "date-fns";
     import EventList from "$lib/components/EventList.svelte";
 
+    let onlyMajor = $state(true);
+
     const lang = getContext("lang");
     const pastEvents = $derived(
-        allEvents.filter((e) => !isFuture(new Date(e.date))),
+        allEvents
+            .filter((e) => !isFuture(new Date(e.date)))
+            .filter((e) => (onlyMajor ? e.major : e)),
     );
     const upcomingEvents = $derived(
         allEvents.filter((e) => isFuture(new Date(e.date))),
@@ -26,7 +30,13 @@
 {/if}
 
 <div class="mb-10 mt-4">
-    <h1 class="main text-2xl mb-6">Past events</h1>
+    <div class="flex gap-6 items-center mb-6">
+        <h1 class="main text-2xl grow">Past events</h1>
+        <div class="text-lg">
+            <input id="onlyMajor" type="checkbox" bind:checked={onlyMajor} />
+            <label for="onlyMajor" class="cursor-pointer">Only major</label>
+        </div>
+    </div>
 
     <EventList events={pastEvents} />
 </div>

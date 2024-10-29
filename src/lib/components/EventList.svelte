@@ -57,7 +57,7 @@
                         {/if}
                     {/if}
                 </div>
-                <div class="mt-2 sm:mt-0 mr-4 opacity-50 text-xl">
+                <div class="opacity-50 text-xl">
                     {#if ev.place?.country}
                         <span class="uppercase">{ev.place?.country}</span>/{ev
                             .place?.city || "YY"}
