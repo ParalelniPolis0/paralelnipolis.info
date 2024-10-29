@@ -10,9 +10,8 @@ help: ## Print info about all commands
 
 .PHONY: remote
 remote: ## Download all remote content (glossary, events..)
+	make atlas
 	make glossary
-	make events
-	make archive
 
 .PHONY: glossary
 glossary: ## Download latest glossary
