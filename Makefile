@@ -18,7 +18,7 @@ glossary: ## Download latest glossary
 	curl -o ./src/data/gen/glossary.json 'https://glossary.pp0.co'
 
 .PHONY: atlas
-events: ## Download latest atlas
+atlas: ## Download latest atlas
 	curl -o ./src/data/gen/atlas.json 'https://atlas.pp0.co'
 
 .PHONY: build
