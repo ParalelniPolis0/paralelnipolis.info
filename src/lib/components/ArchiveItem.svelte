@@ -9,7 +9,7 @@
     <div class="mt-0">
         <a href="/v/{item.id}"
             ><img
-                src="https://archive.pp0.co/img/{item.target}/{item.img}"
+                src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
                 alt={item.name}
                 class="w-full rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
             /></a
