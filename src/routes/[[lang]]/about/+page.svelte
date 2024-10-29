@@ -53,7 +53,7 @@
     <PeopleGrid {people} showAll={allPeople.length} />
 </div>
 
-<div class="mb-10 mt-4">
+<div class="mb-10 mt-4" id="topics">
     <h1 class="main text-2xl">
         <a href="/topics">Topics</a>
     </h1>

@@ -28,6 +28,7 @@ menu:
   - ["/", "→/"]
   - ["/about", "About"]
   - ["/glossary", "Glossary"]
+  - ["/archive", "Talks"]
   - ["/books", "Books"]
 
   #- ["/structures", "Structures"]
@@ -37,7 +38,6 @@ menu:
   #- ["/instances", "Instances"]
   #- ["/concepts", "Concepts"]
   #- ["/people", "People"]
-  - ["/archive", "Archive"]
   #- ["/debug", "Debug"]
   #- ["/membership", "Membership"],*/
   #- ["https://forum.paralelnipolis.cz", "Forum"]

@@ -83,9 +83,7 @@
 </div>
 
 <div class="sm:flex mt-4 mb-8 gap-4 items-center">
-    <h1 class="block grow main text-2xl">
-        {lang === "cs" ? "Archiv" : "Archive"}
-    </h1>
+    <h1 class="block grow main text-2xl">Latest Talks & Videos</h1>
     <div class="flex mt-2 sm:mt-0 gap-4 items-center">
         <div class="text-xl opacity-50">
             {archive.length}
