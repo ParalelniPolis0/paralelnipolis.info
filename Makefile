@@ -18,13 +18,9 @@ remote: ## Download all remote content (glossary, events..)
 glossary: ## Download latest glossary
 	curl -o ./src/data/gen/glossary.json 'https://glossary.pp0.co'
 
-.PHONY: events
-events: ## Download latest events
-	curl -o ./src/data/gen/events.json 'https://events.pp0.co'
-
-.PHONY: archive
-events: ## Download latest events
-	curl -o ./src/data/gen/archive.json 'https://archive.pp0.co'
+.PHONY: atlas
+events: ## Download latest atlas
+	curl -o ./src/data/atlas.json 'https://atlas.pp0.co'
 
 .PHONY: build
 build: ## Build static website into ./build

@@ -12,7 +12,7 @@ const sizes = [
 
 const collections = [
     "people",
-    "projects",
+    //"projects",
     "instances"
 ]
 

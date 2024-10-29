@@ -22,7 +22,7 @@ const items = posts.map(p => {
         publishedAt: p.published_at,
         updatedAt: p.updated_at,
         excerpt: p.excerpt,
-        authors: ['instances:zero'], /*p.authors.map(a => {
+        authors: ['structure:zero'], /*p.authors.map(a => {
             if (!bundle.people.find(p => p.id === a.slug)) {
                 return null
             }

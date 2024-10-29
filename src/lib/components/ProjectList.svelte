@@ -6,7 +6,7 @@
     if (type === "instance") {
         arr = arr.map((instance) => {
             instance.activeProjects = projects
-                .filter((i) => i.instances.includes(instance.id))
+                .filter((i) => i.structure === instance.id)
                 .filter((i) => i.years && !i.years[1]);
             return instance;
         });
@@ -22,10 +22,10 @@
         <div class="mb-8 group p-2">
             <div class="flex gap-4 sm:gap-6">
                 <div class="shrink-0 sm:mb-0 mb-4">
-                    <a href="/{type === 'instance' ? 'i' : 'c'}/{p.id}">
+                    <a href="/{type === 'structure' ? 's' : 'c'}/{p.id}">
                         <img
-                            src="/{type === 'instance'
-                                ? 'instances'
+                            src="/{type === 'structure'
+                                ? 'structures'
                                 : 'projects'}/{p.img}"
                             alt={p.name}
                             class="aspect-square w-20 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray

@@ -24,7 +24,7 @@
                     <div class="shrink-0 mb-2 sm:mb-0">
                         <a href="/v/{item.id}"
                             ><img
-                                src="https://archive.pp0.co/img/{item.target}/{item.img}"
+                                src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
                                 alt={item.name}
                                 class="w-full sm:w-48 lg:w-64 rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5 hover:scale-110 transition-all"
                             /></a

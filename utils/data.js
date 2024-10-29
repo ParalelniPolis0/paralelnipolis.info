@@ -5,7 +5,7 @@ import { join } from "node:path";
 
 const collections = [
     "people",
-    "projects",
+    //"projects",
     "instances",
 ]
 
@@ -30,10 +30,10 @@ for (const c of collections) {
 
 export const bundle = {
     ...col,
-    events: col.projects.map(p => p.events?.map(e => {
-        e.project = p.id;
-        return e;
-    })).filter(e => e).flat(),
+    /* events: col.projects.map(p => p.events?.map(e => {
+         e.project = p.id;
+         return e;
+     })).filter(e => e).flat(),*/
     archive: Object.values(archiveGen).flat()
 }
 

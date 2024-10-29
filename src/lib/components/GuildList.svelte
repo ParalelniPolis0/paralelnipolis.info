@@ -1,6 +1,6 @@
 <script>
     import PersonBox from "$lib/components/PersonBox.svelte";
-    import { instances, people } from "$lib/data.js";
+    import { structures, people } from "$lib/data.js";
 
     const { guilds } = $props();
 
@@ -19,7 +19,7 @@
 
 <div class="grid grid-cols-1 gap-2 mt-6">
     {#each guilds.map((g) => {
-        g.instanceObj = instances.find((i) => i.id === g.instance);
+        g.instanceObj = structures.find((i) => i.id === g.structure);
         return g;
     }) as g}
         <div

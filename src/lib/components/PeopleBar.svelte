@@ -1,5 +1,5 @@
 <script>
-    import { people as allPeople, instances } from "$lib/data.js";
+    import { people as allPeople, structures } from "$lib/data.js";
     let { people, size = "text-lg" } = $props();
 
     /*let fullPeople = $derived(
@@ -14,9 +14,9 @@
         if (typeof p === "string") {
             const [title, id] = p.split("|");
             const split = (id || title).split(":");
-            if (split[0] === "instances") {
-                type = "instances";
-                obj = instances.find((p) => p.id === split[1]);
+            if (split[0] === "structure") {
+                type = "structure";
+                obj = structures.find((p) => p.id === split[1]);
             } else {
                 obj = allPeople.find((p) => p.id === (split[1] || split[0]));
             }
@@ -31,7 +31,7 @@
         }
         return {
             ...obj,
-            url: `/${type === "instances" ? "i" : "p"}/${obj.id}`,
+            url: `/${type === "structure" ? "s" : "p"}/${obj.id}`,
             imgUrl: `/gimg/${type}/s/${obj.id}.webp`,
         };
     }

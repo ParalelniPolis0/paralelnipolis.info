@@ -1,27 +1,13 @@
 import { escapeRegExp } from './utils.js';
 
-import peopleSrc from '$lib/../data/people.yaml';
-import projectsSrc from '$lib/../data/projects.yaml';
-import configSrc from '$lib/../data/config.yaml';
-import friendsSrc from "$lib/../data/friends.yaml";
-import instancesSrc from '$lib/../data/instances.yaml';
-import guildsSrc from '$lib/../data/guilds.yaml';
-import topicsSrc from '$lib/../data/topics.yaml';
-//import glossarySrc from '$lib/../data/glossary.yaml';
+import atlas from '$lib/../data/atlas.json';
 
-import genYtOld from '$lib/../data/gen/yt-old.json';
-import genYtNew from '$lib/../data/gen/yt-new.json';
-import genYtDtpEthPrague22 from '$lib/../data/gen/yt-dtp-ethprague22.json';
-import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
-import genYtW3PN from '$lib/../data/gen/yt-w3pn.json';
-import genYtOthers from '$lib/../data/gen/yt-others.json';
-import genMeetup from '$lib/../data/gen/meetup.json';
+import peopleSrc from '$lib/../data/people.yaml';
+import configSrc from '$lib/../data/config.yaml';
+import topicsSrc from '$lib/../data/topics.yaml';
+
 import genArticlesSrc from '$lib/../data/gen/articles.json';
-//import { loadGlossary } from '@pp0/glossary';
 import genGlossarySrc from '$lib/../data/gen/glossary.json';
-import genEventsSrc from '$lib/../data/gen/events.json';
-import genStructuresSrc from '$lib/../data/gen/structures.json';
-import genArchiveSrc from '$lib/../data/gen/archive.json';
 
 import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
@@ -30,12 +16,7 @@ export const build = __BUILD__;
 
 export const config = configSrc;
 
-export const projects = projectsSrc;
-export const friends = friendsSrc;
-export const instances = instancesSrc;
-export const guilds = guildsSrc;
 export const topics = topicsSrc;
-
 export const articles = genArticlesSrc;
 
 export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
@@ -43,8 +24,15 @@ export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 //const glossaryResp = await fetch("https://glossary.pp0.co")
 //export const glossary = (await glossaryResp.json()).glossary.en;
 export const glossary = genGlossarySrc.glossary.en;
-export const events = genEventsSrc.events;
-export const structures = genStructuresSrc.structures;
+
+export const events = atlas.events;
+export const structures = atlas.structures;
+export const archive = atlas.archive;
+
+export const projects = structures.map(s => s.projects?.map(p => {
+    p.structure = s.id;
+    return p
+}) || []).flat();
 
 /*export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
@@ -64,12 +52,10 @@ export const structures = genStructuresSrc.structures;
     y.publishedAt > x.publishedAt ? 1 : -1,
 );*/
 
-export const archive = genArchiveSrc.archive;
-
 export const people = peopleSrc.map(p => {
     p.merit = Number((p.roles?.length || 0) * 3) +
         (events.filter(e => e.speakers?.includes(p.id)).length * 1) +
-        (archive.filter(i => i.people?.includes(p.id)).length * 2)
+        (archive.filter(i => i.people?.map(p => p.split('|').at(-1)).includes(p.id)).length * 2)
     return p
 }).sort((x, y) => y.merit > x.merit ? 1 : -1);
 
@@ -104,7 +90,7 @@ export function searchDataset() {
             description: 'Concept',
         })
     }
-    for (const x of instances) {
+    for (const x of structures) {
         const keywords = [x.id]
         if (x.altNames) {
             keywords.push(...x.altNames)

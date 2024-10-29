@@ -1,24 +1,18 @@
 <script>
     import { getContext, onMount } from "svelte";
-    import {
-        config,
-        instances,
-        people as allPeople,
-        guilds,
-        topics,
-    } from "$lib/data.js";
+    import { config, people as allPeople, topics } from "$lib/data.js";
     import { marked } from "marked";
-    import ProjectList from "$lib/components/ProjectList.svelte";
-    import GuildList from "$lib/components/GuildList.svelte";
+    //import ProjectList from "$lib/components/ProjectList.svelte";
+    //import GuildList from "$lib/components/GuildList.svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import AboutPageMd from "$lib/../pages/about.md";
     import TopicsList from "$lib/components/TopicsList.svelte";
 
     const lang = getContext("lang");
-    const activeInstances = instances.filter((p) => p.years && !p.years[1]);
-    const historicalInstances = instances
+    //const activeInstances = instances.filter((p) => p.years && !p.years[1]);
+    /*const historicalInstances = instances
         .filter((p) => p.years && p.years[1])
-        .sort((x, y) => (x.years[1] > y.years[1] ? -1 : 1));
+        .sort((x, y) => (x.years[1] > y.years[1] ? -1 : 1));*/
 
     let searchRef;
     let x = $state("");
@@ -43,7 +37,7 @@
     <TopicsList {topics} />
 </div>
 
-<div class="mb-10 mt-4">
+<!--div class="mb-10 mt-4">
     <h1 class="main text-2xl">
         Active <a href="/instances">Instances</a>
     </h1>
@@ -56,7 +50,7 @@
             target="_blank">know-how and guidelines →</a
         >
     </div>
-</div>
+</div-->
 
 <!--div class="mb-10 mt-4">
     <h1 class="main text-2xl mb-4 mt-4">

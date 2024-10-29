@@ -2,7 +2,7 @@
     import {
         people,
         archive,
-        instances,
+        structures,
         config,
         events as allEvents,
     } from "$lib/data.js";
@@ -24,8 +24,8 @@
             return pe.roles?.find((r) => r.project === p.id);
         }),
     );
-    const conceptInstances = $derived(
-        p.instances?.map((i) => instances.find((x) => x.id === i)),
+    const conceptStructure = $derived(
+        structures.find((s) => s.id === p.structure),
     );
     let eventView = $state("simple");
 
@@ -59,14 +59,14 @@
         {#if p.caption}
             <div class="mt-6 text-lg">{@html parse(p.caption)}</div>
         {/if}
-        {#if conceptInstances}
+        {#if conceptStructure}
             <div class="mt-4 flex gap-2 text-xl items-center">
-                <div>Instance:</div>
-                {#each conceptInstances as ci}
-                    <div class="mr-2">
-                        <a href="/i/{ci.id}">{ci.name}</a>
-                    </div>
-                {/each}
+                <div>Structure:</div>
+                <div class="mr-2">
+                    <a href="/s/{conceptStructure.id}"
+                        >{conceptStructure.name}</a
+                    >
+                </div>
             </div>
         {/if}
     </div>

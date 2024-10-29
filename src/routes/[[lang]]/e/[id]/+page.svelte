@@ -20,7 +20,6 @@
         ),
     );
     const project = $derived(projects.find((p) => p.id === e.project));
-
     const prev = $derived(
         e.seq > 1
             ? events.find((i) => i.project === e.project && i.seq === e.seq - 1)

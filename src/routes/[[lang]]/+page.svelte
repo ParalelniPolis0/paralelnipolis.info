@@ -4,7 +4,7 @@
     import { goto } from "$app/navigation";
     import { marked } from "marked";
 
-    import { archive, projects, friends, config, glossary } from "$lib/data.js";
+    import { archive, projects, config, glossary } from "$lib/data.js";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import TermBox from "$lib/components/TermBox.svelte";
 
@@ -121,7 +121,7 @@
 <div class="mt-12">
     <h2 class="main text-2xl">Current <a href="/concepts">concepts</a></h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-        {#each projects.filter((p) => !p.years[1]) as p}
+        {#each projects.filter((p) => (p.years && !p.years[1]) || !p.years) as p}
             <div
                 class="flex gap-4 group cursor-pointer items-center"
                 onclick={() => goto("/c/" + p.id)}

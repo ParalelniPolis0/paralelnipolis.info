@@ -1,4 +1,6 @@
 <script>
+    import { marked } from "marked";
+
     import Youtube from "$lib/components/Youtube.svelte";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import EventLink from "$lib/components/EventLink.svelte";
@@ -19,6 +21,13 @@
         `${item.name} ${peopleArr && peopleArr.length > 0 ? " - " + peopleArr.map((p) => p.name).join(", ") : ""}`,
     );
     let description = $derived(shortText(item.desc.split("\n")[0]));
+
+    const renderer = new marked.Renderer();
+    renderer.link = function (href, title, text) {
+        // Add target="_blank" and rel="external" to all links
+        const titleAttr = title ? ` title="${title}"` : "";
+        return `<a href="${href}"${titleAttr} target="_blank" rel="external">${text}</a>`;
+    };
 </script>
 
 <svelte:head>
@@ -56,4 +65,6 @@
         </div>{/if}
 </div>
 
-<div class="mt-4 whitespace-pre-wrap">{item.desc}</div>
+<div class="markdown">{@html marked(item.desc, { renderer })}</div>
+
+<!--div class="mt-4 whitespace-pre-wrap">{item.desc}</div-->
