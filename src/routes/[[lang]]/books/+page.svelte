@@ -38,7 +38,9 @@
                     className="inline-block my-2 justify-center"
                 />
                 <div>
-                    <a href="/b/{b.id}">{b.name.split(":").at(0)}</a>
+                    <a href="/b/{b.id}" class="font-semibold"
+                        >{b.name.split(":").at(0)}</a
+                    >
                     <span class="opacity-50">({b.year})</span>
                 </div>
                 <div class="mt-1.5 text-base opacity-50">

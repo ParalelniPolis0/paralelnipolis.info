@@ -25,7 +25,10 @@
     </div>
     <div>
         <PeopleBar people={p.authors} className="mb-3" size="text-2xl" />
-        <h1 class="text-4xl font-semibold">{p.name.split(":").at(0)}</h1>
+        <h1 class="text-4xl font-semibold">
+            {p.name.split(":").at(0)}
+            <span class="font-normal opacity-50">({p.year})</span>
+        </h1>
         <div class="text-2xl opacity-50 mt-2">{p.name.split(":").at(1)}</div>
         <RefsBar refs={p.refs} />
         <div class="mt-4 markdown">{@html marked(p.description)}</div>
