@@ -1,6 +1,6 @@
 import { escapeRegExp } from './utils.js';
 
-import atlas from '$lib/../data/atlas.json';
+import atlas from '$lib/../data/gen/atlas.json';
 
 import peopleSrc from '$lib/../data/people.yaml';
 import configSrc from '$lib/../data/config.yaml';
