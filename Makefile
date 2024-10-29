@@ -20,7 +20,7 @@ glossary: ## Download latest glossary
 
 .PHONY: atlas
 events: ## Download latest atlas
-	curl -o ./src/data/atlas.json 'https://atlas.pp0.co'
+	curl -o ./src/data/gen/atlas.json 'https://atlas.pp0.co'
 
 .PHONY: build
 build: ## Build static website into ./build
