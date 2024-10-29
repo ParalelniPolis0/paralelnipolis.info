@@ -23,7 +23,7 @@
                     ><img
                         src={imgHashUrl("people", p.imgHash)}
                         alt={p.name}
-                        class="p-2 text-gray-300 w-full inline-block aspect-square object-cover {p.rand ===
+                        class="text-gray-300 w-full inline-block aspect-square object-cover {p.rand ===
                         1
                             ? '-rotate-0'
                             : '-rotate-0'} hover:-rotate-6 hover:scale-110 transition-all rounded bg-gray-200 dark:bg-gray-800 mb-2"

@@ -7,7 +7,7 @@
     import StructureLink from "$lib/components/StructureLink.svelte";
 
     import { config, people } from "$lib/data.js";
-    import { shortText } from "$lib/utils.js";
+    import { shortText, imgHashUrl } from "$lib/utils.js";
 
     const { data } = $props();
     let item = $derived(data.item);
@@ -42,7 +42,7 @@
     <meta property="og:url" content="https://{config.host}/v/{item.id}" />
     <meta
         property="og:image"
-        content="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
+        content={imgHashUrl("archive", item.imgHash, "m")}
     />
 </svelte:head>
 

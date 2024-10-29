@@ -1,6 +1,7 @@
 <script>
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import EventLink from "$lib/components/EventLink.svelte";
+    import { imgHashUrl } from "$lib/utils.js";
 
     let { item } = $props();
 </script>
@@ -9,9 +10,9 @@
     <div class="mt-0">
         <a href="/v/{item.id}"
             ><img
-                src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
+                src={imgHashUrl("archive", item.imgHash, "m")}
                 alt={item.name}
-                class="p-2 w-full rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
+                class="w-full rounded aspect-video object-cover bg-gray-200 dark:bg-gray-800 border dark:border-white/5 border-black/5"
             /></a
         >
     </div>
