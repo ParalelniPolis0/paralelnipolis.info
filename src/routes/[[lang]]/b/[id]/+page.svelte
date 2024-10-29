@@ -20,10 +20,11 @@
         <img
             src={imgHashUrl("books", p.imgHash, "m")}
             class="h-[60vw] sm:h-[40vw] bg-gray-200 dark:bg-gray-800"
+            alt={p.name}
         />
     </div>
     <div>
-        <PeopleBar people={p.authors} className="mb-2" />
+        <PeopleBar people={p.authors} className="mb-3" size="text-2xl" />
         <h1 class="text-4xl font-semibold">{p.name.split(":").at(0)}</h1>
         <div class="text-2xl opacity-50 mt-2">{p.name.split(":").at(1)}</div>
         <RefsBar refs={p.refs} />
