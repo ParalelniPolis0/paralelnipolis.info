@@ -27,10 +27,10 @@ license:
 menu:
   - ["/", "→/"]
   - ["/about", "About"]
+  #- ["/structures", "Structures"]
   #- ["/topics", "Topics"]
   - ["/articles", "Articles"]
   - ["/events", "Events"]
-  #- ["/structures", "Structures"]
   #- ["/instances", "Instances"]
   #- ["/concepts", "Concepts"]
   #- ["/people", "People"]

@@ -13,12 +13,15 @@ import genYtOld from '$lib/../data/gen/yt-old.json';
 import genYtNew from '$lib/../data/gen/yt-new.json';
 import genYtDtpEthPrague22 from '$lib/../data/gen/yt-dtp-ethprague22.json';
 import genYtDtpEthPrague23 from '$lib/../data/gen/yt-dtp-ethprague23.json';
+import genYtW3PN from '$lib/../data/gen/yt-w3pn.json';
 import genYtOthers from '$lib/../data/gen/yt-others.json';
 import genMeetup from '$lib/../data/gen/meetup.json';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 //import { loadGlossary } from '@pp0/glossary';
 import genGlossarySrc from '$lib/../data/gen/glossary.json';
 import genEventsSrc from '$lib/../data/gen/events.json';
+import genStructuresSrc from '$lib/../data/gen/structures.json';
+import genArchiveSrc from '$lib/../data/gen/archive.json';
 
 import { VideoCamera, User, Tag, Ticket, BuildingLibrary } from "svelte-heros-v2";
 
@@ -41,6 +44,7 @@ export const linkRegExp = /\[\[([^\|\]]+)\|?([^\]]*)\]\]/g;
 //export const glossary = (await glossaryResp.json()).glossary.en;
 export const glossary = genGlossarySrc.glossary.en;
 export const events = genEventsSrc.events;
+export const structures = genStructuresSrc.structures;
 
 /*export const events = projectsSrc.map(p => p.events?.map(e => {
     e.project = p.id;
@@ -49,15 +53,18 @@ export const events = genEventsSrc.events;
     y.date > x.date ? 1 : -1,
 );*/
 
-export const archive = [
+/*export const archive = [
     genYtDtpEthPrague22,
     genYtDtpEthPrague23,
     genYtNew,
     genYtOld,
+    genYtW3PN,
     genYtOthers
 ].flat().sort((x, y) =>
     y.publishedAt > x.publishedAt ? 1 : -1,
-);
+);*/
+
+export const archive = genArchiveSrc.archive;
 
 export const people = peopleSrc.map(p => {
     p.merit = Number((p.roles?.length || 0) * 3) +

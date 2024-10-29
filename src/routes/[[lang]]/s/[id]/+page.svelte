@@ -20,7 +20,7 @@
             return pe.roles?.find((r) => r.project === p.id);
         }),
     );
-    const instanceProjects = projects.filter((i) => i.instances.includes(p.id));
+    const instanceProjects = $derived(p.projects || []); //projects.filter((i) => i.instances.includes(p.id));
     const activeProjects = instanceProjects.filter(
         (i) => i.years && !i.years[1],
     );
@@ -46,7 +46,7 @@
 <div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
     <div class="grow">
         <div class="breadcrumb">
-            <a href="/instances">Instance</a>
+            <a href="/structures">Structure</a>
         </div>
         <div class="flex flex-wrap gap-2 items-center">
             <h1 class="text-4xl font-semibold">{p.name}</h1>

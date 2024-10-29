@@ -2,6 +2,8 @@
     import Youtube from "$lib/components/Youtube.svelte";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import EventLink from "$lib/components/EventLink.svelte";
+    import StructureLink from "$lib/components/StructureLink.svelte";
+
     import { config, people } from "$lib/data.js";
     import { shortText } from "$lib/utils.js";
 
@@ -46,6 +48,9 @@
         <PeopleBar people={item.people} />
     {/if}
     <EventLink event={item.event} />
+    <div>
+        by <StructureLink id={item.target} />
+    </div>
     {#if item.duration}<div class="opacity-50 text-sm">
             {Math.round(item.duration / 60)}m
         </div>{/if}

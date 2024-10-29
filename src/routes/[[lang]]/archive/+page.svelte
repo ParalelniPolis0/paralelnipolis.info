@@ -76,8 +76,8 @@
 
 <div class="mt-4 text-xl mb-8">
     Our archive contains <strong>{allArchive.length} videos</strong> from
-    <strong>{totalAuthors} authors</strong>
-    and <strong>{totalEvents} events</strong>
+    <a href="/people"><strong>{totalAuthors} authors</strong></a>
+    and <a href="/events"><strong>{totalEvents} events</strong></a>
     with a total length of
     <strong>{Math.round((totalDuration / 60 / 24) * 100) / 100} hours</strong>.
 </div>

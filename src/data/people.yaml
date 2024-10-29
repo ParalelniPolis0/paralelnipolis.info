@@ -1144,3 +1144,34 @@
   img: dominik-stroukal.jpeg
   refs:
     twitter: stroukal
+
+- id: dr-nick
+  name: DrNick
+  img: dr-nick.png
+  refs:
+    twitter: DrNickA
+
+- id: vaclav-pavlin
+  name: Václav Pavlín
+  altNames: [ vaclav pavlin ]
+  img: vaclav-pavlin.png
+  refs:
+    twitter: vpavlin
+  
+- id: stella-r-magnet
+  name: Stella R. Magnet
+  img: stella-r-magnet.jpg
+  refs:
+    twitter: stellarmagnet
+
+- id: serinko
+  name: Serinko
+  img: serinko.png
+  refs:
+    twitter: serinko13
+
+- id: afri
+  name: Afri Schoedon
+  img: afri.jpg
+  refs:
+    twitter: q9fcc

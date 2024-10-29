@@ -19,8 +19,13 @@ const matrix = [
     ['pizza-day', 'pd22', /^Pizza Day Prague 2022 \| ([^\|]+) (-|\|) ([^\|]+)$/, [3, 1]],
     ['pizza-day', 'pd23', /^Pizza Day Prague 2023 \| (.+) - ([^\|]+)$/, [2, 1]],
     ['pizza-day', 'pd24', /^Pizza Day Prague 2024 \| (.+) - ([^\|]+)$/, [2, 1]],
+    ['w3pn-events', 'w3ps-rome24', /^(.+) - ([^\|]+) \| Web3Privacy Now - Rome Meetup 2024$/, [1, 2]],
+    ['w3pn-events', 'w3pm-berlin23', /^([^\|]+) \| ([^\|]+) \| Web3Privacy Now Berlin Meetup 2024$/, [1, 2]],
+    ['w3pn-events', null, /^([^\|]+) - ([^\|]+) \| Web3Privacy Now$/, [2, 1]],
+
     [null, null, /^([^\/]+) \/ ([^\/]+)$/, [1, 2]],
     [null, null, /^([^\|]+) - ([^\|]+)$/, [2, 1]],
+    [null, null, /^([^\|]+) \| ([^\|]+)$/, [1, 2]],
 ]
 
 function processDescription(obj, str) {
@@ -240,12 +245,13 @@ async function scan(suffix, type, youtubeId, scanAll = false, defaultConfig = {}
     return out
 }
 
-await scan('yt-old', 'channel', 'UCfHJ5Y3akQ7LA0PQmSYlYmQ', true)
-await scan('yt-new', 'channel', 'UC_88YKXiY1KDqbS38DVnCqg', true)
-await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
-await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
+//await scan('yt-old', 'channel', 'UCfHJ5Y3akQ7LA0PQmSYlYmQ', true)
+//await scan('yt-new', 'channel', 'UC_88YKXiY1KDqbS38DVnCqg', true)
+//await scan('yt-dtp-ethprague22', 'playlist', 'PLkCRcxMT8qhZ7BJXscrgRS3bBUtjrfu8x', true, { project: 'ethprague', event: 'ethprague22' }, { toTitleCase: false })
+//await scan('yt-dtp-ethprague23', 'playlist', 'PLkCRcxMT8qhbiwMX7S8FvmS9O1jp4xaVs', true, { project: 'ethprague', event: 'ethprague23' }, { toTitleCase: false })
+await scan('yt-w3pn', 'channel', 'UCaO_vLpj164um5maEsCuEbw', true)
 
-const others = []
+/*const others = []
 for (const v of configBase.archive.filter(i => !processed.includes(i.videoId))) {
     const item = await scan(null, 'video', v.videoId, true)
     others.push(...item)
@@ -261,4 +267,4 @@ for (const i of Object.keys(missingPersonCounter).sort()) {
         //continue
     }
     console.log(`  ${i}: ${missingPersonCounter[i]}`)
-}
+}*/

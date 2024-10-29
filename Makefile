@@ -12,6 +12,7 @@ help: ## Print info about all commands
 remote: ## Download all remote content (glossary, events..)
 	make glossary
 	make events
+	make archive
 
 .PHONY: glossary
 glossary: ## Download latest glossary
@@ -20,6 +21,10 @@ glossary: ## Download latest glossary
 .PHONY: events
 events: ## Download latest events
 	curl -o ./src/data/gen/events.json 'https://events.pp0.co'
+
+.PHONY: archive
+events: ## Download latest events
+	curl -o ./src/data/gen/archive.json 'https://archive.pp0.co'
 
 .PHONY: build
 build: ## Build static website into ./build
@@ -32,14 +37,6 @@ dev: ## Run development server
 .PHONY: install
 install: ## Install dependencies
 	pnpm i
-
-.PHONY: archive
-archive: ## Run all archive scrapers (require Bun)
-	@make archive_yt
-
-.PHONY: archive_yt
-archive_yt: ## Scrape archive videos from YouTube (require Bun)
-	bun utils/yt-videos.js
 
 .PHONY: data
 data: ## Write data bundle to ./dist

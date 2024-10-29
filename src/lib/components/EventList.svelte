@@ -11,19 +11,21 @@
 <div class="grid grid-cols-1 gap-4 mt-4">
     {#each events as ev}
         <div>
-            <div class="flex flex-wrap">
-                <div class="text-2xl mr-4 opacity-50">
+            <div class="flex flex-wrap {ev.major ? 'text-2xl' : 'text-2xl'}">
+                <div class="mr-4 opacity-50">
                     {#if ev.place?.country}
-                        <span class="uppercase">{ev.place?.country}</span>, {ev
+                        <span class="uppercase">{ev.place?.country}</span>/{ev
                             .place?.city || "YY"}
                     {:else}
                         Online
                     {/if}
                 </div>
                 <div class="grow">
-                    <h3 class="text-2xl inline">
-                        <a href="/e/{ev.id}" alt={ev.name} class="font-semibold"
-                            >{ev.name}</a
+                    <h3 class="inline">
+                        <a
+                            href="/e/{ev.id}"
+                            alt={ev.name}
+                            class={ev.major ? "font-semibold" : ""}>{ev.name}</a
                         >
                     </h3>
                     {#if person}
