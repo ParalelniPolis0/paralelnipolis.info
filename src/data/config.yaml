@@ -30,7 +30,7 @@ menu:
   - ["/glossary", "Glossary"]
   #- ["/structures", "Structures"]
   #- ["/topics", "Topics"]
-  - ["/articles", "Articles"]
+  #- ["/articles", "Articles"]
   - ["/events", "Events"]
   #- ["/instances", "Instances"]
   #- ["/concepts", "Concepts"]
