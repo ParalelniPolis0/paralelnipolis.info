@@ -52,6 +52,9 @@
                         </div>
                         <div class="mt-2 text-sm">
                             {shortText(item.desc.split("\n")[0])}
+                            <span class="opacity-50"
+                                >({item.publishedAt.slice(0, 10)})</span
+                            >
                         </div>
                     </div>
                 </div>

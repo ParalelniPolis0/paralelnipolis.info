@@ -12,13 +12,19 @@
     let totalDuration = $derived(
         allArchive.reduce((total, cur) => total + (cur.duration || 0), 0),
     );
-    let totalAuthors = $derived(
-        allArchive.reduce(
-            (all, cur) =>
-                all.concat(cur.people?.filter((p) => !all.includes(p))),
-            [],
-        ).length,
-    );
+    const authors = [];
+    for (const i of allArchive) {
+        if (!i.people) {
+            continue;
+        }
+        for (const ip of i.people) {
+            const id = ip.split("|").at(-1);
+            if (!authors.includes(id)) {
+                authors.push(id);
+            }
+        }
+    }
+    let totalAuthors = $derived(authors.length);
     let totalEvents = $derived(
         allArchive.reduce(
             (all, cur) =>
