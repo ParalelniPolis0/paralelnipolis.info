@@ -22,13 +22,15 @@
     <h1 class="main text-2xl grow">Recommended Books</h1>
 </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+<div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4"
+>
     {#each books as b}
         <div class="text-center shrink-0">
             <a href="/b/{b.id}" class="shrink-0"
                 ><img
                     src={imgHashUrl("books", b.imgHash, "m")}
-                    class="h-[60vw] sm:h-[32vw] lg:h-[23vw] inline-block shrink-0 bg-gray-200 dark:bg-gray-800"
+                    class="max-h-72 inline-block shrink-0 bg-gray-200 dark:bg-gray-800"
                     alt={b.name}
                 /></a
             >
