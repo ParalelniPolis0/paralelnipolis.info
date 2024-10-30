@@ -55,7 +55,7 @@
             </div>
         {/if}
     </div>
-    <div class="flex gap-4 items-center mt-2">
+    <div class="flex flex-wrap gap-4 items-center mt-2">
         <div class="text-2xl opacity-50">
             {new Date(e.date).toLocaleDateString(lang)}
             {#if e.days && e.days > 1}
