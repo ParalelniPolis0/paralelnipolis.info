@@ -28,7 +28,11 @@
         structures.filter((s) => (s.years && !s.years[1]) || !s.years),
     );
     const globalStructures = $derived(activeStructures.filter((s) => !s.local));
-    const localStructures = $derived(activeStructures.filter((s) => s.local));
+    const localStructures = $derived(
+        activeStructures
+            .filter((s) => s.local)
+            .sort((x, y) => (x.local > y.local ? 1 : -1)),
+    );
     const pastStructures = $derived(
         structures.filter((s) => s.years && s.years[1]),
     );
