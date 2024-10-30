@@ -31,7 +31,15 @@
     const localStructures = $derived(
         activeStructures
             .filter((s) => s.local)
-            .sort((x, y) => (x.local > y.local ? 1 : -1)),
+            .sort((x, y) =>
+                x.local === y.local
+                    ? x.name < y.name
+                        ? -1
+                        : 1
+                    : x.local > y.local
+                      ? 1
+                      : -1,
+            ),
     );
     const pastStructures = $derived(
         structures.filter((s) => s.years && s.years[1]),
