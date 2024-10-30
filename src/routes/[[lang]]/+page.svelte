@@ -54,7 +54,7 @@
 
 <div class="mt-12">
     <h2 class="main text-2xl mb-8">
-        From <a href="/glossary">Parallel Glossary</a>
+        From <a href="/glossary">Glossary</a>
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
