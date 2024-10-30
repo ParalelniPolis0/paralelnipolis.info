@@ -13,7 +13,7 @@ const config = {
 		prerender: {
 			entries: [
 				'*',
-				['/v/hcpp23-the-economics-of-free-software']
+				'/v/hcpp23-the-economics-of-free-software'
 			]
 		}
 	},
