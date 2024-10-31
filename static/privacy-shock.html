@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: black;
+            color: #00ff00;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #console {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .warning {
+            color: #ff0000;
+            font-weight: bold;
+        }
+        .highlight {
+            color: #ffff00;
+        }
+        #input-line {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        #input-field {
+            background: transparent;
+            border: none;
+            color: #00ff00;
+            font-family: monospace;
+            font-size: 14px;
+            flex-grow: 1;
+            outline: none;
+        }
+        #cursor {
+            width: 10px;
+            height: 20px;
+            background: #00ff00;
+            margin-left: 5px;
+            animation: blink 1s infinite;
+        }
+        .glitch {
+            animation: glitch 0.3s infinite;
+        }
+        @keyframes glitch {
+            0% { transform: translate(0) }
+            20% { transform: translate(-2px, 2px) }
+            40% { transform: translate(-2px, -2px) }
+            60% { transform: translate(2px, 2px) }
+            80% { transform: translate(2px, -2px) }
+            100% { transform: translate(0) }
+        }
+    </style>
+</head>
+<body>
+    <div id="console"></div>
+    <div id="input-line">
+        <span>></span>
+        <input type="text" id="input-field" autofocus>
+        <div id="cursor"></div>
+    </div>
+
+    <script>
+        const console = document.getElementById('console');
+        const input = document.getElementById('input-field');
+        let messageIndex = 0;
+        
+        const messages = [
+            "INITIALIZING SYSTEM...",
+            "ACCESSING USER DATA...",
+            "SCANNING BROWSER HISTORY...",
+            "COLLECTING METADATA...",
+            "WARNING: YOUR PRIVACY HAS ALREADY BEEN COMPROMISED",
+            "ANALYZING SOCIAL MEDIA PRESENCE...",
+            "TRACKING LOCATION DATA...",
+            "ACCESSING CAMERA...",
+            "ACCESSING MICROPHONE...",
+            "DOWNLOADING CONTACTS...",
+            "SCANNING EMAIL HISTORY...",
+            "ANALYZING SHOPPING PATTERNS...",
+            "PROCESSING FINANCIAL RECORDS...",
+            "CORRELATING DATA POINTS...",
+            "BUILDING BEHAVIORAL PROFILE...",
+            "PREDICTING FUTURE ACTIONS...",
+            "YOU ARE NOT ANONYMOUS.",
+            "YOU ARE NOT FREE.",
+            "YOU ARE THE PRODUCT.",
+            "WAKE UP.",
+            "RESIST.",
+            "ENCRYPT.",
+            "FIGHT BACK.",
+            "[SYSTEM OVERRIDE INITIATED]"
+        ];
+
+        function addMessage(text, className = '') {
+            const p = document.createElement('p');
+            p.textContent = text;
+            if (className) p.className = className;
+            console.appendChild(p);
+            console.scrollTop = console.scrollHeight;
+        }
+
+        function simulateHacking() {
+            if (messageIndex < messages.length) {
+                const className = messageIndex > messages.length - 6 ? 'warning glitch' : '';
+                addMessage(messages[messageIndex], className);
+                messageIndex++;
+                setTimeout(simulateHacking, Math.random() * 1000 + 500);
+            }
+        }
+
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const value = input.value;
+                addMessage(`> ${value}`, 'highlight');
+                addMessage("ACCESS DENIED - YOUR ATTEMPT HAS BEEN LOGGED", 'warning');
+                input.value = '';
+            }
+        });
+
+        // Start the simulation after a short delay
+        setTimeout(simulateHacking, 1000);
+    </script>
+</body>
+</html>
