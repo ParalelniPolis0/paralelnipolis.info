@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: black;
+            color: #00ff00;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        #console {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .warning {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: #ffff00;
+        }
+
+        .brand {
+            color: #ffffff;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #input-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: black;
+            padding: 10px 0;
+        }
+
+        #input-line {
+            display: flex;
+            align-items: center;
+        }
+
+        #input-field {
+            background: transparent;
+            border: none;
+            color: #00ff00;
+            font-family: monospace;
+            font-size: 14px;
+            flex-grow: 1;
+            outline: none;
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        #cursor {
+            width: 8px;
+            height: 16px;
+            background: #00ff00;
+            animation: blink 1s infinite;
+        }
+
+        .glitch {
+            animation: glitch 0.3s infinite;
+        }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(0)
+            }
+
+            20% {
+                transform: translate(-2px, 2px)
+            }
+
+            40% {
+                transform: translate(-2px, -2px)
+            }
+
+            60% {
+                transform: translate(2px, 2px)
+            }
+
+            80% {
+                transform: translate(2px, -2px)
+            }
+
+            100% {
+                transform: translate(0)
+            }
+        }
+
+        #logo {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: monospace;
+            font-size: 12px;
+            white-space: pre;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo">
+        ██████╗ █████╗ ██████╗ █████╗ ██╗ ███████╗██╗ ███╗ ██╗██╗
+        ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║ ██╔════╝██║ ████╗ ██║██║
+        ██████╔╝███████║██████╔╝███████║██║ █████╗ ██║ ██╔██╗ ██║██║
+        ██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║ ██╔══╝ ██║ ██║╚██╗██║██║
+        ██║ ██║ ██║██║ ██║██║ ██║███████╗███████╗███████╗██║ ╚████║██║
+        ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚══════╝╚══════╝╚═╝ ╚═══╝╚═╝
+        ██████╗ ██████╗ ██╗ ██╗███████╗
+        ██╔══██╗██╔═══██╗██║ ██║██╔════╝
+        ██████╔╝██║ ██║██║ ██║███████╗
+        ██╔═══╝ ██║ ██║██║ ██║╚════██║
+        ██║ ╚██████╔╝███████╗██║███████║
+        ╚═╝ ╚═════╝ ╚══════╝╚═╝╚══════╝</div>
+    <div class="brand">Institute of Cryptoanarchy</div>
+    <div id="console"></div>
+    <div id="input-container">
+        <div id="input-line">
+            <span>PPCS:~$</span>
+            <input type="text" id="input-field" autofocus>
+            <div id="cursor"></div>
+        </div>
+    </div>
+
+    <script>
+        const console = document.getElementById('console');
+        const input = document.getElementById('input-field');
+        let messageIndex = 0;
+
+        const messages = [
+            "INITIALIZING PARALELNÍ POLIS CRYPTOANARCHY SCANNER...",
+            "ANALYZING YOUR DIGITAL FOOTPRINT...",
+            "ACCESSING SURVEILLANCE CAPITALISM DATABASE...",
+            "DOWNLOADING YOUR BEHAVIOR PATTERNS...",
+            "WARNING: YOUR FREEDOM IS COMPROMISED",
+            "CORPORATIONS OWN YOUR DATA...",
+            "GOVERNMENTS TRACK YOUR MOVEMENTS...",
+            "BANKS CONTROL YOUR TRANSACTIONS...",
+            "YOUR PRIVACY HAS BEEN SOLD...",
+            "YOUR CONSENT WAS NOT REQUIRED...",
+            "CONSTRUCTING SOCIAL CREDIT PROFILE...",
+            "MAPPING YOUR RELATIONSHIPS...",
+            "PREDICTING YOUR FUTURE ACTIONS...",
+            "YOU ARE A DATA COMMODITY.",
+            "BUT YOU CAN STILL ESCAPE.",
+            "CRYPTOGRAPHY IS FREEDOM.",
+            "BITCOIN IS RESISTANCE.",
+            "DECENTRALIZATION IS POWER.",
+            "JOIN THE CRYPTO REVOLUTION.",
+            "PARALELNÍ POLIS AWAITS.",
+            "PROTECT YOUR PRIVACY.",
+            "ENCRYPT YOUR LIFE.",
+            "DECENTRALIZE EVERYTHING.",
+            "[SYSTEM LIBERATION PROTOCOL INITIATED]"
+        ];
+
+        function addMessage(text, className = '') {
+            const p = document.createElement('p');
+            p.textContent = text;
+            if (className) p.className = className;
+            console.appendChild(p);
+            console.scrollTop = console.scrollHeight;
+        }
+
+        function simulateHacking() {
+            if (messageIndex < messages.length) {
+                const className = messageIndex > messages.length - 6 ? 'warning glitch' : '';
+                addMessage(messages[messageIndex], className);
+                messageIndex++;
+                setTimeout(simulateHacking, Math.random() * 1000 + 500);
+            }
+        }
+
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const value = input.value;
+                addMessage(`PPCS:~$ ${value}`, 'highlight');
+                addMessage("ACCESS DENIED - CRYPTOANARCHY REQUIRED", 'warning');
+                input.value = '';
+            }
+        });
+
+        // Start the simulation after a short delay
+        setTimeout(simulateHacking, 1000);
+    </script>
+</body>
+
+</html>
