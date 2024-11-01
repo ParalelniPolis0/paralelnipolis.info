@@ -26,8 +26,8 @@ New shiny website.
 
 Requirements:
 
-* Node.js v20+
-* Bun 1.1+
+* [Node.js](https://nodejs.org/en) v20+
+* [Bun](https://bun.sh/) 1.1+
 * Make
 
 Clone repository:
