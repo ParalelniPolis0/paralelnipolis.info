@@ -3,6 +3,7 @@
     import ArchiveList from "$lib/components/ArchiveList.svelte";
     import { getContext, onMount } from "svelte";
     import { Squares2x2, ListBullet } from "svelte-heros-v2";
+    import { t, T } from "$lib/i18n.js";
 
     const lang = getContext("lang");
     let type = $state("list");
@@ -77,19 +78,32 @@
 </script>
 
 <svelte:head>
-    <title>{lang === "cs" ? "Archiv" : "Archive"} | {config.title}</title>
+    <title>{$t`Talks`} | {config.title}</title>
 </svelte:head>
 
 <div class="mt-4 text-xl mb-8">
-    Our archive contains <strong>{allArchive.length} videos</strong> from
-    <a href="/people"><strong>{totalAuthors} authors</strong></a>
-    and <a href="/events"><strong>{totalEvents} events</strong></a>
-    with a total length of
-    <strong>{Math.round((totalDuration / 60 / 24) * 100) / 100} hours</strong>.
+    <T msg="Our archive contains # " ctx="archive counter - number of videos">
+        <strong>{allArchive.length} {$t`videos`}</strong>
+    </T>
+    <T msg="from #" ctx="archive counter - number of authors">
+        <a href="/people"><strong>{totalAuthors} {$t`authors`}</strong></a>
+    </T>
+    <T msg="and #" ctx="archive counter - number of events">
+        <a href="/events"><strong>{totalEvents} {$t`events`}</strong></a>
+    </T>
+    <T
+        msg="with a total length of #."
+        ctx="archive counter - total length in hours"
+    >
+        <strong
+            >{Math.round((totalDuration / 60 / 24) * 100) / 100}
+            {$t`hours`}</strong
+        >
+    </T>
 </div>
 
 <div class="sm:flex mt-4 mb-8 gap-4 items-center">
-    <h1 class="block grow main text-2xl">Latest Talks & Videos</h1>
+    <h1 class="block grow main text-2xl">{$t`Latest Talks & Videos`}</h1>
     <div class="flex mt-2 sm:mt-0 gap-4 items-center">
         <div class="text-xl opacity-50">
             {archive.length}
@@ -108,7 +122,7 @@
                 type="text"
                 class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
                 bind:value={x}
-                placeholder="{lang === 'cs' ? 'Hledat' : 'Search'} ..."
+                placeholder="{$t`Search`} ..."
                 bind:this={searchRef}
             />
         </div>

@@ -11,6 +11,7 @@
     import EventList from "$lib/components/EventList.svelte";
     import { getContext } from "svelte";
     import { imgHashUrl } from "$lib/utils.js";
+    import { t } from "$lib/i18n.js";
 
     const lang = getContext("lang");
 
@@ -64,7 +65,7 @@
 {#if contributorProjects.length > 0}
     <div class="mt-4 mb-14">
         <h2 class="main text-xl mb-4">
-            {lang === "cs" ? "Přispěvatel" : "Contributor"}
+            {$t`Contributor`}
         </h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {#each contributorProjects as cp}
@@ -90,7 +91,7 @@
 
 {#if events.length > 0}
     <div class="mt-4 mb-14">
-        <h2 class="main text-xl">{lang === "cs" ? "Události" : "Events"}</h2>
+        <h2 class="main text-xl">{$t`Events`}</h2>
         <EventList {events} person={p.id} />
         <!--pre class="mt-64">{JSON.stringify(events, null, 2)}</pre-->
     </div>
@@ -99,7 +100,7 @@
 {#if archiveItems.length > 0}
     <div class="mt-4">
         <h2 class="main text-xl mb-4">
-            {lang === "cs" ? "Archiv" : "Archive"}
+            {$t`Archive`}
         </h2>
         <ArchiveList items={archiveItems} />
     </div>

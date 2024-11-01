@@ -4,6 +4,9 @@ export default {
     locales: ["en", "cs", "zu"],
     pseudoLocale: "zu",
     format: "po",
+    fallbackLocales: {
+        zu: "en"
+    },
     catalogs: [
         {
             path: "./locales/{locale}/messages",

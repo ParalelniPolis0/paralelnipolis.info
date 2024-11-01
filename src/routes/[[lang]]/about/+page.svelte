@@ -13,6 +13,7 @@
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import AboutPageMd from "$lib/../pages/about.md";
     import TopicsList from "$lib/components/TopicsList.svelte";
+    import { t } from "$lib/i18n.js";
 
     const lang = getContext("lang");
     //const activeInstances = instances.filter((p) => p.years && !p.years[1]);
@@ -47,11 +48,11 @@
 </script>
 
 <svelte:head>
-    <title>About | {config.title}</title>
+    <title>{$t`About`} | {config.title}</title>
 </svelte:head>
 
 <div class="mt-4 mb-10">
-    <h1 class="main text-2xl">About Paralelní Polis</h1>
+    <h1 class="main text-2xl">{$t`About Paralelní Polis`}</h1>
     <div class="mt-8 mb-10 markdown !text-xl">
         {@html marked.parse(AboutPageMd)}
     </div>
@@ -59,7 +60,7 @@
 
 <div>
     <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
-        <h1 class="main text-2xl grow"><a href="/people">People</a></h1>
+        <h1 class="main text-2xl grow"><a href="/people">{$t`People`}</a></h1>
     </div>
 
     <PeopleGrid {people} showAll={allPeople.length} />
@@ -67,23 +68,23 @@
 
 <div class="mb-10 mt-4" id="topics">
     <h1 class="main text-2xl">
-        <a href="/topics">Topics</a>
+        <a href="/topics">{$t`Topics`}</a>
     </h1>
     <TopicsList {topics} />
 </div>
 
 <div class="mb-12">
-    <h1 class="main text-2xl mb-6 mt-4">Global Commonwealth</h1>
+    <h1 class="main text-2xl mb-6 mt-4">{$t`Global Commonwealth`}</h1>
     <StructureList arr={globalStructures} />
 </div>
 
 <div class="mb-12">
-    <h1 class="main text-2xl mb-6 mt-4">Local Commonwealth</h1>
+    <h1 class="main text-2xl mb-6 mt-4">{$t`Local Commonwealth`}</h1>
     <StructureList arr={localStructures} />
 </div>
 
 <div class="mb-12">
-    <h1 class="main text-2xl mb-6 mt-4">Inactive Structures</h1>
+    <h1 class="main text-2xl mb-6 mt-4">{$t`Inactive Structures`}</h1>
     <StructureList arr={pastStructures} />
 </div>
 

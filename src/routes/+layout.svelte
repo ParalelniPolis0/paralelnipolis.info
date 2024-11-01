@@ -10,7 +10,7 @@
     import { pkg, build, config } from "$lib/data.js";
 
     const { data } = $props();
-    const { lang, messages } = data;
+    const { messages, lang } = data;
     setContext("lang", lang);
     setLocale(lang, messages);
 

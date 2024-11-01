@@ -2,9 +2,9 @@
     import { people as allPeople, config } from "$lib/data.js";
     import { getContext, onMount } from "svelte";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
+    import { t } from "$lib/i18n.js";
 
-    const lang = getContext("lang");
-    const pageTitle = lang === "cs" ? "Lidé" : "People";
+    const pageTitle = $t`People`;
 
     let searchRef;
     let x = $state("");
@@ -37,35 +37,6 @@
 
 <div class="sm:flex flex-wrap gap-4 mt-4 mb-8 items-center">
     <h1 class="main text-2xl grow">{pageTitle}</h1>
-    <!--div class="flex items-center gap-2 mt-2 sm:mt-2">
-        <div class="text-xl opacity-50">
-            {people.length}
-            {#if people.length !== allPeople.length}/ {allPeople.length}{/if}
-        </div>
-        <div>
-            <input
-                type="text"
-                class="border px-1.5 py-1 ml-1 rounded dark:bg-gray-800 dark:border-black"
-                bind:value={x}
-                placeholder="{lang === 'cs' ? 'Hledat' : 'Search'} ..."
-                bind:this={searchRef}
-            />
-        </div>
-    </div-->
 </div>
 
-<!--div class="flex flex-wrap gap-4">
-    <div>
-        <input type="checkbox" id="speakers" />
-        <label for="speakers">Přednášející</label>
-    </div>
-    <div>
-        <input type="checkbox" id="authors" />
-        <label for="authors">Autoři</label>
-    </div>
-    <div>
-        <input type="checkbox" id="members" />
-        <label for="members">Členové</label>
-    </div>
-</div-->
 <PeopleGrid {people} />

@@ -8,6 +8,7 @@
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import StructureList from "$lib/components/StructureList.svelte";
     import TermBox from "$lib/components/TermBox.svelte";
+    import { t, T } from "$lib/i18n.js";
 
     const lang = getContext("lang");
     let randomVideos = null; //getRandomVideos();
@@ -54,7 +55,9 @@
 
 <div class="mt-12">
     <h2 class="main text-2xl mb-8">
-        From <a href="/glossary">Glossary</a>
+        <T msg="From #" ctx="main page - from glossary">
+            <a href="/glossary">{$t`Glossary`}</a>
+        </T>
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -75,11 +78,9 @@
         <div class="w-full">
             <div class="flex items-center w-full">
                 <h2 class="main text-2xl grow block">
-                    {#if lang === "cs"}
-                        Z <a href="/cs/archive">archivu</a>
-                    {:else}
-                        From <a href="/archive">archive</a>
-                    {/if}
+                    <T msg="From #" ctx="home page - from archive">
+                        <a href="/archive">{$t`archive`}</a>
+                    </T>
                 </h2>
                 <a
                     class="cursor-pointer block hover:bg-gray-200 p-2 dark:hover:bg-gray-800"

@@ -2,6 +2,7 @@
     import { books, people, config } from "$lib/data.js";
     import { imgHashUrl } from "$lib/utils.js";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
+    import { t } from "$lib/i18n.js";
 
     function resolvePerson(id) {
         const found = people.find((p) => id.split("|").at(-1) === p.id);
@@ -15,11 +16,11 @@
 </script>
 
 <svelte:head>
-    <title>Books | {config.title}</title>
+    <title>{$t`Books`} | {config.title}</title>
 </svelte:head>
 
 <div class="mt-4 mb-8">
-    <h1 class="main text-2xl grow">Recommended Books</h1>
+    <h1 class="main text-2xl grow">{$t`Recommended Books`}</h1>
 </div>
 
 <div

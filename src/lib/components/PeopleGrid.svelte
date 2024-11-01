@@ -1,12 +1,13 @@
 <script>
-    let { people, size, showAll = false } = $props();
     import { imgHashUrl } from "$lib/utils.js";
+    import { t } from "$lib/i18n.js";
 
+    let { people, size, showAll = false } = $props();
     let sizePx = $derived(size === "small" ? 75 : 110);
 </script>
 
 {#if people.length === 0}
-    <div class="text-xl">No results</div>
+    <div class="text-xl">{$t`No results`}</div>
 {:else}
     <div
         class="grid gap-4 {size === 'small'
@@ -42,7 +43,7 @@
                 <div
                     class="w-full aspect-square bg-gray-100 dark:bg-gray-900 rounded transition-all hover:scale-150 flex items-center justify-center p-2"
                 >
-                    <a href="/people">Show all ({showAll}) →</a>
+                    <a href="/people">{$t`Show all`} ({showAll}) →</a>
                 </div>
             </div>
         {/if}
