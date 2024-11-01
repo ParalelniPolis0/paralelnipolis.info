@@ -70,13 +70,15 @@
             </div>
         {/if}
     </div>
-    <div class="shrink-0">
-        <img
-            src="/projects/{p.img}"
-            alt={p.name}
-            class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
-        />
-    </div>
+    {#if p.imgHash}
+        <div class="shrink-0">
+            <img
+                src="/projects/{p.img}"
+                alt={p.name}
+                class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
+            />
+        </div>
+    {/if}
 </div>
 
 {#if contributors.length > 0}

@@ -95,7 +95,7 @@ export function searchDataset() {
             name: x.name,
             type: 'structure',
             baseUrl: `/s/${x.id}`,
-            img: imgHashUrl('structure', x.imgHash),
+            img: imgHashUrl('structures', x.imgHash),
             keywords,
             description: 'Structure',
         })

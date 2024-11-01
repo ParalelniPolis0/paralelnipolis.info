@@ -1,12 +1,15 @@
 <script>
-    import { people, archive, config, projects } from "$lib/data.js";
     import { addDays } from "date-fns";
+    import { getContext } from "svelte";
+    import { parse } from "marked";
+
+    import { people, archive, config, projects } from "$lib/data.js";
+    import { imgHashUrl } from "$lib/utils.js";
+
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
-    import { getContext } from "svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
-    import { parse } from "marked";
-    import ProjectList from "../../../../lib/components/ProjectList.svelte";
+    import ProjectList from "$lib/components/ProjectList.svelte";
 
     const lang = getContext("lang");
 
@@ -62,13 +65,15 @@
             <div class="mt-6 text-lg">{p.caption}</div>
         {/if}
     </div>
-    <div class="shrink-0">
-        <img
-            src="/instances/{p.img}"
-            alt={p.name}
-            class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
-        />
-    </div>
+    {#if p.imgHash}
+        <div class="shrink-0">
+            <img
+                src={imgHashUrl("structures", p.imgHash, "m")}
+                alt={p.name}
+                class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
+            />
+        </div>
+    {/if}
 </div>
 
 {#if contributors.length > 0}
