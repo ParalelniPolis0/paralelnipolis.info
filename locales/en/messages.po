@@ -52,6 +52,10 @@ msgstr "Articles"
 msgid "authors"
 msgstr "authors"
 
+#: src/routes/[[lang]]/t/[id]/+page.svelte:69
+msgid "Backlinks"
+msgstr "Backlinks"
+
 #: src/routes/[[lang]]/books/+page.svelte:19
 msgid "Books"
 msgstr "Books"
@@ -59,6 +63,10 @@ msgstr "Books"
 #: src/routes/[[lang]]/p/[id]/+page.svelte:68
 msgid "Contributor"
 msgstr "Contributor"
+
+#: src/routes/[[lang]]/t/[id]/+page.svelte:51
+msgid "current"
+msgstr "current"
 
 #: src/routes/[[lang]]/archive/+page.svelte:92
 msgid "events"
@@ -105,6 +113,7 @@ msgstr "Global Commonwealth"
 
 #: src/routes/[[lang]]/+page.svelte:59
 #: src/routes/[[lang]]/glossary/+page.svelte:36
+#: src/routes/[[lang]]/t/[id]/+page.svelte:27
 msgid "Glossary"
 msgstr "Glossary"
 
@@ -119,6 +128,10 @@ msgstr "Inactive Structures"
 #: src/lib/components/SearchDialog.svelte:76
 msgid "Instances"
 msgstr "Instances"
+
+#: src/routes/[[lang]]/t/[id]/+page.svelte:49
+msgid "Languages"
+msgstr "Languages"
 
 #: src/routes/+layout.svelte:226
 msgid "Last update"
@@ -172,6 +185,14 @@ msgstr "Read more"
 msgid "Recommended Books"
 msgstr "Recommended Books"
 
+#: src/routes/[[lang]]/t/[id]/+page.svelte:56
+msgid "Related terms"
+msgstr "Related terms"
+
+#: src/routes/[[lang]]/t/[id]/+page.svelte:86
+msgid "Resources"
+msgstr "Resources"
+
 #: src/routes/[[lang]]/archive/+page.svelte:125
 msgid "Search"
 msgstr "Search"
@@ -179,6 +200,10 @@ msgstr "Search"
 #: src/lib/components/SearchDialog.svelte:302
 msgid "Search paralelnipolis.info"
 msgstr "Search paralelnipolis.info"
+
+#: src/routes/[[lang]]/t/[id]/+page.svelte:99
+msgid "See all terms in Glossary"
+msgstr "See all terms in Glossary"
 
 #: src/lib/components/PeopleGrid.svelte:46
 msgid "Show all"

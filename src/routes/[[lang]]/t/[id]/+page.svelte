@@ -1,6 +1,7 @@
 <script>
     import { parse } from "$lib/wiki.js";
     import { config, glossary } from "$lib/data.js";
+    import { t } from "$lib/i18n.js";
 
     const { data } = $props();
     const i = $derived(data.item);
@@ -23,7 +24,7 @@
 
 <div class="mt-4 mb-8">
     <div class="breadcrumb">
-        <a href="/glossary">Glossary</a>
+        <a href="/glossary">{$t`Glossary`}</a>
     </div>
     <div class="flex md:flex-nowrap flex-wrap gap-8 mt-4 w-full">
         <div class="bg-gray-50 dark:bg-gray-950 rounded p-4">
@@ -45,14 +46,14 @@
         <div class="shrink-0 w-1/3">
             <div class="grid grid-cols-1 gap-8">
                 <div>
-                    <h2 class="main mb-4 text-xl">Languages</h2>
+                    <h2 class="main mb-4 text-xl">{$t`Languages`}</h2>
                     <ul class="list-disc ml-8">
-                        <li>English (current)</li>
+                        <li>English ({$t`current`})</li>
                     </ul>
                 </div>
                 {#if related.length > 0}
                     <div>
-                        <h2 class="main mb-4 text-xl">Related terms</h2>
+                        <h2 class="main mb-4 text-xl">{$t`Related terms`}</h2>
                         <ul class="list-disc ml-8">
                             {#each related as si}
                                 <li>
@@ -65,7 +66,7 @@
                 {/if}
                 {#if backLinks.length > 0}
                     <div>
-                        <h2 class="main mb-4 text-xl">Backlinks</h2>
+                        <h2 class="main mb-4 text-xl">{$t`Backlinks`}</h2>
                         <ul class="list-disc ml-8">
                             {#each backLinks as si}
                                 <li>
@@ -82,7 +83,7 @@
 
     {#if i.resources?.length > 0}
         <div class="mb-10 mt-8">
-            <h2 class="main mb-4 text-xl">Resources</h2>
+            <h2 class="main mb-4 text-xl">{$t`Resources`}</h2>
             <ul class="list-disc ml-8">
                 {#each i.resources as r}
                     <li>
@@ -95,6 +96,6 @@
     {/if}
 
     <div class="mt-16">
-        <a href="/glossary">See all terms in Glossary →</a>
+        <a href="/glossary">{$t`See all terms in Glossary`} →</a>
     </div>
 </div>
