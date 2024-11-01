@@ -23,15 +23,19 @@
             <div class="flex gap-4 sm:gap-6">
                 <div class="shrink-0 sm:mb-0 mb-4">
                     <a href="/{type === 'structure' ? 's' : 'c'}/{p.id}">
-                        <img
-                            src="/{type === 'structure'
-                                ? 'structures'
-                                : 'projects'}/{p.img}"
-                            alt={p.name}
-                            class="aspect-square w-20 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray
-                                ? 'grayscale group-hover:grayscale-0'
-                                : ''} "
-                        />
+                        {#if p.imgHash}
+                            <img
+                                src="/{type === 'structure'
+                                    ? 'structures'
+                                    : 'projects'}/{p.img}"
+                                alt={p.name}
+                                class="aspect-square w-20 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray
+                                    ? 'grayscale group-hover:grayscale-0'
+                                    : ''} "
+                            />
+                        {:else}
+                            <div class="aspect-square w-20 sm:w-24 rounded bg-gray-200 dark:bg-gray-200"></div>
+                        {/if}
                     </a>
                 </div>
                 <div>
