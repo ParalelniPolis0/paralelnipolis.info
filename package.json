@@ -9,7 +9,9 @@
 	},
 	"devDependencies": {
 		"@lingui/cli": "^4.13.0",
+		"@lingui/core": "^4.13.0",
 		"@melt-ui/pp": "^0.3.2",
+		"@melt-ui/svelte": "^0.83.0",
 		"@modyfi/vite-plugin-yaml": "^1.1.0",
 		"@sveltejs/adapter-static": "^3.0.5",
 		"@sveltejs/kit": "^2.7.2",
@@ -18,16 +20,15 @@
 		"@vavt/vite-plugin-import-markdown": "^1.0.1",
 		"autoprefixer": "^10.4.20",
 		"date-fns": "^4.1.0",
+		"filesize": "^10.1.6",
 		"marked": "^14.1.3",
+		"minisearch": "^7.1.0",
 		"postcss": "^8.4.47",
 		"svelte": "^5.0.5",
 		"svelte-heros-v2": "^1.3.0",
+		"svelte-i18n-lingui": "github:burningtree/svelte-i18n-lingui",
 		"tailwindcss": "^3.4.14",
-		"vite": "^5.4.10",
-		"@lingui/core": "^4.13.0",
-		"@melt-ui/svelte": "^0.83.0",
-		"minisearch": "^7.1.0",
-		"svelte-i18n-lingui": "github:burningtree/svelte-i18n-lingui"
+		"vite": "^5.4.10"
 	},
 	"repository": {
 		"type": "git",

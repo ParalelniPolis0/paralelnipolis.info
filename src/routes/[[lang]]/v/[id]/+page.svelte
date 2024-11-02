@@ -1,13 +1,20 @@
 <script>
     import { marked } from "marked";
 
+    import Video from "$lib/components/Video.svelte";
     import Youtube from "$lib/components/Youtube.svelte";
     import PeopleBar from "$lib/components/PeopleBar.svelte";
     import EventLink from "$lib/components/EventLink.svelte";
     import StructureLink from "$lib/components/StructureLink.svelte";
-
+    import { CloudArrowDown, PlayCircle } from "svelte-heros-v2";
     import { config, people } from "$lib/data.js";
-    import { shortText, imgHashUrl } from "$lib/utils.js";
+    import {
+        shortText,
+        imgHashUrl,
+        archiveStorageUrl,
+        filesize,
+    } from "$lib/utils.js";
+    import { t } from "$lib/i18n.js";
 
     const { data } = $props();
     let item = $derived(data.item);
@@ -51,7 +58,11 @@
         src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
         class="w-full aspect-video" alt={item.name}
     /-->
-    <Youtube id={youtubeId} autoplay="true" />
+    {#if item.storage}
+        <Video {item} />
+    {:else}
+        <Youtube id={youtubeId} autoplay="true" />
+    {/if}
 </div>
 
 <h1 class="mt-4 grow text-3xl font-semibold">{item.name}</h1>
@@ -69,6 +80,68 @@
         </div>{/if}
 </div>
 
-<div class="markdown">{@html marked(item.desc, { renderer })}</div>
+<div class="lg:flex gap-8">
+    <div class="lg:w-4/6 markdown">{@html marked(item.desc, { renderer })}</div>
+    <div class="lg:w-2/6 mt-10 lg:mt-4">
+        <div class="grid grid-cols-1 gap-2">
+            {#if item.storage && item.storage.source}
+                <div>
+                    <a
+                        href={archiveStorageUrl(item.storage.source.path)}
+                        class="text-lg"
+                        ><CloudArrowDown class="inline-block" />
+                        {$t`Download video`}</a
+                    >
+                    ({filesize(item.storage.source.size)})
+                </div>
+            {/if}
+            <div>
+                <a
+                    href={`https://youtube.com/watch?v=${item.videoId}`}
+                    class="text-lg"
+                    target="_blank"
+                    ><PlayCircle class="inline-block" />
+                    {$t`Play on Youtube`}</a
+                >
+            </div>
+        </div>
+
+        <div class="mt-6 grid grid-cols-1 gap-1">
+            {#if item.storage && item.storage.source}
+                <div>
+                    {$t`ID`}: <a href="/v/{item.id}">{item.id}</a> (<a
+                        href={archiveStorageUrl(item.storage.path)}
+                        >{$t`storage`}</a
+                    >)
+                </div>
+
+                <div>{$t`Size`}: {filesize(item.storage.source.size)}</div>
+                <div>
+                    {$t`Hash`}:
+                    <span title={item.storage.source.hash}
+                        >{item.storage.source.hash.substring(0, 8) +
+                            ".." +
+                            item.storage.source.hash.substring(
+                                item.storage.source.hash.length - 8,
+                            )}</span
+                    >
+                </div>
+                <div>{$t`Resolution`}: {item.storage.source.resolution}</div>
+                <div>
+                    {$t`Video`}: {item.storage.source.videoCodec}
+                    ({filesize(item.storage.source.videoBitrate)}
+                    {$t`bitrate`})
+                </div>
+                <div>
+                    {$t`Audio`}: {item.storage.source.audioCodec}
+                    ({filesize(item.storage.source.audioBitrate)}
+                    {$t`bitrate`})
+                </div>
+            {:else}
+                <div>{$t`ID`}: <a href="/v/{item.id}">{item.id}</a></div>
+            {/if}
+        </div>
+    </div>
+</div>
 
 <!--div class="mt-4 whitespace-pre-wrap">{item.desc}</div-->

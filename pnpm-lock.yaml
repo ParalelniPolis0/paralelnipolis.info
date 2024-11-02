@@ -41,6 +41,9 @@ devDependencies:
   date-fns:
     specifier: ^4.1.0
     version: 4.1.0
+  filesize:
+    specifier: ^10.1.6
+    version: 10.1.6
   marked:
     specifier: ^14.1.3
     version: 14.1.3
@@ -1818,6 +1821,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       escape-string-regexp: 1.0.5
+    dev: true
+
+  /filesize@10.1.6:
+    resolution: {integrity: sha512-sJslQKU2uM33qH5nqewAwVB2QgR6w1aMNsYUp3aN5rMRyXEwJGmZvaWzeJFNTOXWlHQyBFCWrdj3fV/fsTOX8w==}
+    engines: {node: '>= 10.4.0'}
     dev: true
 
   /fill-range@7.1.1:

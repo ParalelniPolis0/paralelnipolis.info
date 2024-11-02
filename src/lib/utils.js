@@ -1,3 +1,4 @@
+export { filesize } from "filesize"
 
 export function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -12,4 +13,8 @@ export function shortText(str, maxSize = 400) {
 
 export function imgHashUrl(type, hash, size = "s") {
     return `https://atlas.pp0.co/img/${type}/${size}/${hash}.webp`
+}
+
+export function archiveStorageUrl(path) {
+    return `https://archive.pp0.co/${path}`
 }
