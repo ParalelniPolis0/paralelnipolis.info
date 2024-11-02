@@ -11,6 +11,7 @@
     <video
         width="100%"
         height="100%"
+        class="aspect-video"
         controls
         poster={imgHashUrl("archive", item.imgHash, "l")}
     >

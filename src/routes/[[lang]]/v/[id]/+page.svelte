@@ -84,6 +84,7 @@
                 <div>
                     <a
                         href={archiveStorageUrl(item.storage.source.path)}
+                        download="{item.slug}.mp4"
                         class="text-lg"
                         ><CloudArrowDown class="inline-block" />
                         {$t`Download video`}</a
