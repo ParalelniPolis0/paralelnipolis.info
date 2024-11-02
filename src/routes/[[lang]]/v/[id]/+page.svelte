@@ -58,11 +58,7 @@
         src="https://atlas.pp0.co/img/archive/{item.target}/{item.img}"
         class="w-full aspect-video" alt={item.name}
     /-->
-    {#if item.storage}
-        <Video {item} />
-    {:else}
-        <Youtube id={youtubeId} autoplay="true" />
-    {/if}
+    <Video {item} />
 </div>
 
 <h1 class="mt-4 grow text-3xl font-semibold">{item.name}</h1>
