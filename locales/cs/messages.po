@@ -22,6 +22,10 @@ msgstr ""
 msgid "About Paralelní Polis"
 msgstr ""
 
+#: src/routes/[[lang]]/concepts/+page.svelte:20
+msgid "Active concepts"
+msgstr ""
+
 #: src/routes/[[lang]]/archive/+page.svelte:
 msgctxt "archive counter - number of events"
 msgid "and #"
@@ -48,6 +52,10 @@ msgstr ""
 msgid "Articles"
 msgstr ""
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:133
+msgid "Audio"
+msgstr ""
+
 #: src/routes/[[lang]]/archive/+page.svelte:89
 msgid "authors"
 msgstr ""
@@ -56,8 +64,17 @@ msgstr ""
 msgid "Backlinks"
 msgstr ""
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:130
+#: src/routes/[[lang]]/v/[id]/+page.svelte:135
+msgid "bitrate"
+msgstr ""
+
 #: src/routes/[[lang]]/books/+page.svelte:19
 msgid "Books"
+msgstr ""
+
+#: src/routes/[[lang]]/concepts/+page.svelte:16
+msgid "Concepts"
 msgstr ""
 
 #: src/routes/[[lang]]/p/[id]/+page.svelte:68
@@ -66,6 +83,10 @@ msgstr ""
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:51
 msgid "current"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:90
+msgid "Download video"
 msgstr ""
 
 #: src/routes/[[lang]]/archive/+page.svelte:92
@@ -117,8 +138,21 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:117
+msgid "Hash"
+msgstr ""
+
+#: src/routes/[[lang]]/concepts/+page.svelte:25
+msgid "Historical concepts"
+msgstr ""
+
 #: src/routes/[[lang]]/archive/+page.svelte:100
 msgid "hours"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:109
+#: src/routes/[[lang]]/v/[id]/+page.svelte:138
+msgid "ID"
 msgstr ""
 
 #: src/routes/[[lang]]/about/+page.svelte:87
@@ -177,6 +211,10 @@ msgstr ""
 msgid "People"
 msgstr ""
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:101
+msgid "Play on Youtube"
+msgstr ""
+
 #: src/lib/components/TermBox.svelte:21
 msgid "Read more"
 msgstr "Číst dále"
@@ -187,6 +225,10 @@ msgstr ""
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:56
 msgid "Related terms"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:126
+msgid "Resolution"
 msgstr ""
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:86
@@ -209,9 +251,17 @@ msgstr ""
 msgid "Show all"
 msgstr ""
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:115
+msgid "Size"
+msgstr ""
+
 #: src/routes/+layout.svelte:221
 msgid "Source code"
 msgstr "Zdrojový kód"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:111
+msgid "storage"
+msgstr ""
 
 #: src/lib/components/SearchDialog.svelte:84
 msgid "Structures"
@@ -227,6 +277,10 @@ msgstr ""
 
 #: src/routes/[[lang]]/events/+page.svelte:27
 msgid "Upcoming events"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:128
+msgid "Video"
 msgstr ""
 
 #: src/routes/[[lang]]/archive/+page.svelte:86

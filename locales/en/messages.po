@@ -22,6 +22,10 @@ msgstr "About"
 msgid "About Paralelní Polis"
 msgstr "About Paralelní Polis"
 
+#: src/routes/[[lang]]/concepts/+page.svelte:20
+msgid "Active concepts"
+msgstr "Active concepts"
+
 #: src/routes/[[lang]]/archive/+page.svelte:
 msgctxt "archive counter - number of events"
 msgid "and #"
@@ -48,6 +52,10 @@ msgstr "Archive"
 msgid "Articles"
 msgstr "Articles"
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:133
+msgid "Audio"
+msgstr "Audio"
+
 #: src/routes/[[lang]]/archive/+page.svelte:89
 msgid "authors"
 msgstr "authors"
@@ -56,9 +64,18 @@ msgstr "authors"
 msgid "Backlinks"
 msgstr "Backlinks"
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:130
+#: src/routes/[[lang]]/v/[id]/+page.svelte:135
+msgid "bitrate"
+msgstr "bitrate"
+
 #: src/routes/[[lang]]/books/+page.svelte:19
 msgid "Books"
 msgstr "Books"
+
+#: src/routes/[[lang]]/concepts/+page.svelte:16
+msgid "Concepts"
+msgstr "Concepts"
 
 #: src/routes/[[lang]]/p/[id]/+page.svelte:68
 msgid "Contributor"
@@ -67,6 +84,10 @@ msgstr "Contributor"
 #: src/routes/[[lang]]/t/[id]/+page.svelte:51
 msgid "current"
 msgstr "current"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:90
+msgid "Download video"
+msgstr "Download video"
 
 #: src/routes/[[lang]]/archive/+page.svelte:92
 msgid "events"
@@ -117,9 +138,22 @@ msgstr "Global Commonwealth"
 msgid "Glossary"
 msgstr "Glossary"
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:117
+msgid "Hash"
+msgstr "Hash"
+
+#: src/routes/[[lang]]/concepts/+page.svelte:25
+msgid "Historical concepts"
+msgstr "Historical concepts"
+
 #: src/routes/[[lang]]/archive/+page.svelte:100
 msgid "hours"
 msgstr "hours"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:109
+#: src/routes/[[lang]]/v/[id]/+page.svelte:138
+msgid "ID"
+msgstr "ID"
 
 #: src/routes/[[lang]]/about/+page.svelte:87
 msgid "Inactive Structures"
@@ -177,6 +211,10 @@ msgstr "Past events"
 msgid "People"
 msgstr "People"
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:101
+msgid "Play on Youtube"
+msgstr "Play on Youtube"
+
 #: src/lib/components/TermBox.svelte:21
 msgid "Read more"
 msgstr "Read more"
@@ -188,6 +226,10 @@ msgstr "Recommended Books"
 #: src/routes/[[lang]]/t/[id]/+page.svelte:56
 msgid "Related terms"
 msgstr "Related terms"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:126
+msgid "Resolution"
+msgstr "Resolution"
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:86
 msgid "Resources"
@@ -209,9 +251,17 @@ msgstr "See all terms in Glossary"
 msgid "Show all"
 msgstr "Show all"
 
+#: src/routes/[[lang]]/v/[id]/+page.svelte:115
+msgid "Size"
+msgstr "Size"
+
 #: src/routes/+layout.svelte:221
 msgid "Source code"
 msgstr "Source code"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:111
+msgid "storage"
+msgstr "storage"
 
 #: src/lib/components/SearchDialog.svelte:84
 msgid "Structures"
@@ -228,6 +278,10 @@ msgstr "Topics"
 #: src/routes/[[lang]]/events/+page.svelte:27
 msgid "Upcoming events"
 msgstr "Upcoming events"
+
+#: src/routes/[[lang]]/v/[id]/+page.svelte:128
+msgid "Video"
+msgstr "Video"
 
 #: src/routes/[[lang]]/archive/+page.svelte:86
 msgid "videos"
