@@ -72,7 +72,7 @@
                 <div class="flex gap-4 items-center">
                     <a href="/c/{cp.id}" class="block shrink-0">
                         <img
-                            src="/projects/{cp.img}"
+                            src={imgHashUrl("structures", cp.imgHash, "s")}
                             alt={cp.name}
                             class="w-12 aspect-square object-cover rounded bg-gray-200 dark:bg-gray-800"
                         />
