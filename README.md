@@ -1,6 +1,6 @@
 # paralelnipolis.info
 
-New shiny website.
+New shiny website. Using [atlas](https://github.com/ParalelniPolis0/atlas) as data source.
 
 ## Features
 
