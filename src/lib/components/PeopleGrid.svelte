@@ -45,7 +45,7 @@
                                 : '-rotate-0'} hover:-rotate-6 hover:scale-110 transition-all rounded bg-gray-200 dark:bg-gray-800 mb-2"
                         /></a
                     >{:else}<div
-                        class="w-full aspect-square rounded bg-gray-200 dark:bg-gray-200 flex items-center justify-center"
+                        class="w-full aspect-square rounded bg-gray-200 dark:bg-gray-200 flex items-center justify-center mb-2"
                     >
                         <User class="opacity-25" size="50%" />
                     </div>{/if}
