@@ -1,12 +1,11 @@
 <script>
-    import { getContext } from "svelte";
+    import { getContext, onMount } from "svelte";
     import { config, events as allEvents } from "$lib/data.js";
     import { isFuture } from "date-fns";
     import EventList from "$lib/components/EventList.svelte";
     import { t } from "$lib/i18n.js";
 
-    let { data } = $props();
-    let onlyMajor = $state(data.onlyMajor);
+    let onlyMajor = $state(false);
 
     const lang = getContext("lang");
     const pastEvents = $derived(
@@ -17,6 +16,10 @@
     const upcomingEvents = $derived(
         allEvents.filter((e) => isFuture(new Date(e.date))),
     );
+
+    onMount(() => {
+        onlyMajor = true;
+    });
 </script>
 
 <svelte:head>
@@ -34,11 +37,7 @@
 <div class="mb-10 mt-4">
     <div class="flex gap-6 items-center mb-6">
         <h1 class="main text-2xl grow">
-            {$t`Past events`}{#if onlyMajor}
-                &nbsp;(<a
-                    href="/events?all=1"
-                    onclick={() => (onlyMajor = false)}>show all</a
-                >){/if}
+            {$t`Past events`}
         </h1>
         <div class="text-lg">
             <input id="onlyMajor" type="checkbox" bind:checked={onlyMajor} />
