@@ -71,11 +71,17 @@
             {#each contributorProjects as cp}
                 <div class="flex gap-4 items-center">
                     <a href="/c/{cp.id}" class="block shrink-0">
-                        <img
-                            src={imgHashUrl("structures", cp.imgHash, "s")}
-                            alt={cp.name}
-                            class="w-12 aspect-square object-cover rounded bg-gray-200 dark:bg-gray-800"
-                        />
+                        {#if cp.imgHash}
+                            <img
+                                src={imgHashUrl("structures", cp.imgHash, "s")}
+                                alt={cp.name}
+                                class="w-12 aspect-square object-cover rounded bg-gray-200 dark:bg-gray-800"
+                            />
+                        {:else}
+                            <div
+                                class="w-12 aspect-square rounded bg-gray-200 dark:bg-gray-800"
+                            ></div>
+                        {/if}
                     </a>
                     <div>
                         <a href="/c/{cp.id}" class="text-2xl font-semibold"
