@@ -11,7 +11,10 @@
     import { t, T } from "$lib/i18n.js";
 
     const lang = getContext("lang");
-    let randomVideos = null; //getRandomVideos();
+    const randomArchiveBase = $derived(
+        archive.filter((i) => (i.lang && i.lang !== "cs") || !i.langs),
+    );
+    let randomVideos = $state(null); //getRandomVideos();
     let prevRandomVideos = null;
 
     function getRandomVideos(len = 6, used = []) {
@@ -20,7 +23,9 @@
             let res;
             while (!res) {
                 const rand =
-                    archive[Math.floor(Math.random() * archive.length)];
+                    randomArchiveBase[
+                        Math.floor(Math.random() * randomArchiveBase.length)
+                    ];
                 if (
                     !used.includes(rand.id) &&
                     !usedEvents.includes(rand.event)

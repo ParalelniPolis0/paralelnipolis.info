@@ -2,6 +2,8 @@
     import { DeviceTablet } from "svelte-heros-v2";
     import { addDays } from "date-fns";
     import { getContext } from "svelte";
+    import { langToFlag } from "$lib/utils.js";
+    import { t } from "$lib/i18n.js";
 
     const lang = getContext("lang");
 
@@ -34,6 +36,11 @@
                             alt={ev.name}
                             class={ev.major ? "font-semibold" : ""}>{ev.name}</a
                         >
+                        {#if ev.langs && ev.langs.length > 0}
+                            <span class="opacity-50 ml-1"
+                                >{ev.langs.map(langToFlag)}</span
+                            >
+                        {/if}
                         {#if ev.days && ev.days > 1}
                             <span class="opacity-50">({ev.days}d)</span>
                         {/if}
@@ -42,17 +49,13 @@
                         {#if ev.organizers?.includes(person)}
                             <span
                                 class="py-0.5 px-1.5 bg-red-100 dark:bg-red-900 font-mono text-black dark:text-white text-xs rounded ml-1"
-                                >{lang === "cs"
-                                    ? "organizátor"
-                                    : "organizer"}</span
+                                >{$t`organizer`}</span
                             >
                         {/if}
                         {#if ev.speakers?.includes(person)}
                             <span
                                 class="py-0.5 px-1.5 bg-blue-100 dark:bg-blue-900 font-mono text-black dark:text-white text-xs rounded ml-1"
-                                >{lang === "cs"
-                                    ? "přednášející"
-                                    : "speaker"}</span
+                                >{$t`speaker`}</span
                             >
                         {/if}
                     {/if}
