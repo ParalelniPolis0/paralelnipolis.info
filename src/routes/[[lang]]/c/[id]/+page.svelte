@@ -154,12 +154,7 @@
                     {#if eventView === "full"}
                         <div class="mt-8">
                             {#if e.speakers}
-                                <PeopleGrid
-                                    size="small"
-                                    people={e.speakers.map((s) =>
-                                        people.find((p) => p.id === s),
-                                    )}
-                                />
+                                <PeopleGrid size="small" people={e.speakers} />
                             {/if}
                         </div>
                         {#if e.archive && e.archive.length > 0}
