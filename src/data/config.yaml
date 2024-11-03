@@ -12,6 +12,8 @@ refs:
   github: ParalelniPolis0
   onion: http://pp2ai5sztzgad3ipkui7w4sddkjjcp4qr6gud6obo6btxi2op5ib36qd.onion
   bsky: paralelnipolis.info
+  statusPage: https://status.pp0.co
+  openData: https://github.com/ParalelniPolis0/atlas
 
 license:
   name: WTFPL

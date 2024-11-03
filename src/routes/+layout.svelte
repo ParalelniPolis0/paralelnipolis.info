@@ -216,9 +216,13 @@
                                 >
                             </div>
                             <div>v{pkg.version}</div>
-                            <div>
+                            <div class="flex gap-2">
                                 <a href={convertGitUrl(pkg.repository.url)}>
-                                    {$t`Source code`}</a
+                                    {$t`Source`}</a
+                                >
+                                <a href={config.refs.openData}> {$t`Data`}</a>
+                                <a href={config.refs.statusPage}>
+                                    {$t`Status`}</a
                                 >
                             </div>
                         </div>
