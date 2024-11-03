@@ -79,7 +79,7 @@
 </div>
 
 <div class="mb-12">
-    <h1 class="main text-2xl mb-6 mt-4">{$t`Local Commonwealth`}</h1>
+    <h1 class="main text-2xl mb-6 mt-4">{$t`Regional Commonwealth`}</h1>
     <StructureList arr={localStructures} />
 </div>
 

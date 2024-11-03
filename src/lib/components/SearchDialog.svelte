@@ -86,6 +86,14 @@
             baseUrl: "/structures",
             icon: BuildingOffice,
         },
+        {
+            id: "concepts",
+            type: "core",
+            name: $t`Concepts`,
+            handle: "concepts",
+            baseUrl: "/concepts",
+            icon: BuildingOffice,
+        },
         /*{
             id: "settings-preferences",
             type: "general",

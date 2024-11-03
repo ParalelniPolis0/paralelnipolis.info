@@ -8,7 +8,7 @@ import topicsSrc from '$lib/../data/topics.yaml';
 import genArticlesSrc from '$lib/../data/gen/articles.json';
 import genGlossarySrc from '$lib/../data/gen/glossary.json';
 
-import { VideoCamera, User, Tag, Ticket, BuildingLibrary, BookOpen } from "svelte-heros-v2";
+import { VideoCamera, User, Tag, Ticket, BuildingLibrary, BookOpen, BuildingOffice } from "svelte-heros-v2";
 
 export const pkg = __PACKAGE__;
 export const build = __BUILD__;
@@ -80,7 +80,7 @@ export function searchDataset() {
             shortname: x.shortname,
             type: 'concept',
             baseUrl: `/c/${x.id}`,
-            img: `/gimg/projects/s/${x.id}.webp`,
+            img: x.imgHash ? imgHashUrl('structures', x.imgHash) : false,
             keywords,
             description: 'Concept',
         })
@@ -95,7 +95,7 @@ export function searchDataset() {
             name: x.name,
             type: 'structure',
             baseUrl: `/s/${x.id}`,
-            img: imgHashUrl('structures', x.imgHash),
+            img: x.imgHash ? imgHashUrl('structures', x.imgHash) : false,
             keywords,
             description: 'Structure',
         })

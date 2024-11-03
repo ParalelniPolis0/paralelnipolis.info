@@ -24,6 +24,22 @@
                 >
             </div>
         {/if}
+        {#if refs.bsky}
+            <div class="flex gap-2 items-center">
+                <div class="text-2xl">
+                    <img
+                        src="/bsky.svg"
+                        class="w-5 dark:invert"
+                        alt="bluesky"
+                    />
+                </div>
+                <a
+                    href="https://bsky.app/profile/{refs.bsky}"
+                    class="hover:underline"
+                    >{refs.bsky}
+                </a>
+            </div>
+        {/if}
         {#if refs.twitter}
             <div class="flex gap-2 items-center">
                 <div class="text-2xl">𝕏</div>

@@ -1,7 +1,9 @@
 <script>
-    import { projects } from "$lib/data.js";
-    let { arr, gray, type } = $props();
     import { marked } from "marked";
+    import { projects } from "$lib/data.js";
+    import { imgHashUrl } from "$lib/utils.js";
+
+    let { arr, gray, type } = $props();
 
     if (type === "instance") {
         arr = arr.map((instance) => {
@@ -25,9 +27,7 @@
                     <a href="/{type === 'structure' ? 's' : 'c'}/{p.id}">
                         {#if p.imgHash}
                             <img
-                                src="/{type === 'structure'
-                                    ? 'structures'
-                                    : 'projects'}/{p.img}"
+                                src={imgHashUrl("structures", p.imgHash, "s")}
                                 alt={p.name}
                                 class="aspect-square w-20 sm:w-24 object-cover bg-gray-200 dark:bg-gray-800 transition-all rounded {gray
                                     ? 'grayscale group-hover:grayscale-0'

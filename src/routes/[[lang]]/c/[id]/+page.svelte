@@ -1,4 +1,9 @@
 <script>
+    import { getContext } from "svelte";
+    import { parse } from "marked";
+    import { addDays } from "date-fns";
+    import { imgHashUrl } from "$lib/utils.js";
+    import { t, T } from "$lib/i18n.js";
     import {
         people,
         archive,
@@ -6,18 +11,16 @@
         config,
         events as allEvents,
     } from "$lib/data.js";
-    import { addDays } from "date-fns";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import RefsBar from "$lib/components/RefsBar.svelte";
-    import { getContext } from "svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
-    import { parse } from "marked";
 
     const lang = getContext("lang");
 
     const { data } = $props();
     const p = $derived(data.item);
     const events = $derived(allEvents.filter((e) => e.project === p.id));
+    const archiveItems = $derived(archive.filter((i) => i.project === p.id));
 
     const contributors = $derived(
         people.filter((pe) => {
@@ -45,7 +48,7 @@
 <div class="flex gap-8 mt-4 flex-col-reverse sm:flex-row">
     <div class="grow">
         <div class="breadcrumb">
-            <a href="/concepts">Concept</a>
+            <a href="/concepts">{$t`Concept`}</a>
         </div>
         <div class="flex flex-wrap gap-2 items-center">
             <h1 class="text-4xl font-semibold">{p.name}</h1>
@@ -61,7 +64,7 @@
         {/if}
         {#if conceptStructure}
             <div class="mt-4 flex gap-2 text-xl items-center">
-                <div>Structure:</div>
+                <div>{$t`Structure`}:</div>
                 <div class="mr-2">
                     <a href="/s/{conceptStructure.id}"
                         >{conceptStructure.name}</a
@@ -73,7 +76,7 @@
     {#if p.imgHash}
         <div class="shrink-0">
             <img
-                src="/projects/{p.img}"
+                src={imgHashUrl("structures", p.imgHash, "m")}
                 alt={p.name}
                 class="w-2/3 sm:w-32 md:w-48 lg:w-64 aspect-square object-cover rounded"
             />
@@ -84,17 +87,17 @@
 {#if contributors.length > 0}
     <div class="mt-8 mb-12">
         <h2 class="text-2xl main">
-            {lang === "cs" ? "Přispěvatelé" : "Contributors"}
+            {$t`Contributors`}
         </h2>
         <div class="mt-4">
-            <PeopleGrid people={contributors} />
+            <PeopleGrid people={contributors} size="small" />
         </div>
     </div>
 {/if}
 
 {#if p.description || p.description_cs}
     <div class="mt-8 mb-12">
-        <h2 class="text-2xl main">{lang === "cs" ? "Popis" : "Description"}</h2>
+        <h2 class="text-2xl main">{$t`Description`}</h2>
         <div class="markdown mt-6">
             {@html parse(p.description || p.description_cs)}
         </div>
@@ -105,14 +108,14 @@
     <div class="mt-8">
         <div class="flex flex-wrap items-center">
             <h2 class="grow text-2xl main">
-                {lang === "cs" ? "Události" : "Events"}
+                {$t`Events`}
             </h2>
             <div>
                 <button
                     class="button pointer-cursor p-1.5 hover:bg-gray-200 hover:dark:bg-gray-800"
                     onclick={switchEventView}
-                    >{#if eventView === "full"}Show simple overview{:else}Show
-                        with details{/if}</button
+                    >{#if eventView === "full"}{$t`Show simple overview`}{:else}{$t`Show
+                        with details`}{/if}</button
                 >
             </div>
         </div>
@@ -170,7 +173,7 @@
                             {#if e.archive.length > 3}
                                 <div class="text-right">
                                     <a href="/e/{e.id}"
-                                        >More from "{e.name}" →</a
+                                        ><T msg="More from #">{e.name}</T> →</a
                                     >
                                 </div>
                             {/if}
@@ -179,5 +182,17 @@
                 </div>
             {/each}
         </div>
+    </div>
+{/if}
+
+{#if archiveItems && archiveItems.length > 0}
+    <div class="flex mt-10">
+        <h3 class="grow main text-2xl">{$t`Archive`}</h3>
+        <div class="opacity-50 text-xl">{archiveItems.length}</div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+        {#each archiveItems as item}
+            <ArchiveItem {item} />
+        {/each}
     </div>
 {/if}
