@@ -15,6 +15,10 @@ export function imgHashUrl(type, hash, size = "s") {
     return `https://atlas.pp0.co/img/${type}/${size}/${hash}.webp`
 }
 
+export function imgSourceUrl(type, path) {
+    return `https://atlas.pp0.co/img/${type}/${path}`
+}
+
 export function archiveStorageUrl(path) {
     return `https://archive.pp0.co/${path}`
 }
