@@ -129,4 +129,4 @@
     </div>
 </div>
 
-<ArchiveList items={archive} {type} />
+<ArchiveList items={archive} pagination="true" {type} />

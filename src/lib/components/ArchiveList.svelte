@@ -4,8 +4,33 @@
     import ArchiveItem from "./ArchiveItem.svelte";
     import EventLink from "./EventLink.svelte";
     import { shortText, imgHashUrl } from "$lib/utils.js";
+    import { onMount } from "svelte";
 
-    let { items, type = "list" } = $props();
+    let { items: allItems, type = "list", pagination = false } = $props();
+
+    const perPage = 25;
+
+    let cursor = $state([0, perPage]);
+    let items = $derived(pagination ? allItems.slice(...cursor) : allItems);
+
+    let scrollListener;
+    onMount(
+        () => {
+            let scrollListener = window.addEventListener("scroll", () => {
+                const bottom = document
+                    .getElementById("archive-list")
+                    .getBoundingClientRect().bottom;
+                if (bottom < window.innerHeight * 2) {
+                    const newCursor = [0, cursor[1] + perPage];
+                    console.log(`chaning cursor: ${newCursor.join(", ")}`);
+                    cursor = newCursor;
+                }
+            });
+        },
+        () => {
+            window.removeEventListener("scroll", scrollListener);
+        },
+    );
 </script>
 
 {#if items.length === 0}
@@ -17,7 +42,7 @@
         {/each}
     </div>
 {:else}
-    <div class="grid grid-cols-1 gap-12">
+    <div class="grid grid-cols-1 gap-12" id="archive-list">
         {#each items as item}
             <div>
                 <div class="sm:flex gap-6">
