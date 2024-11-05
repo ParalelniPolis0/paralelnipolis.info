@@ -5,32 +5,58 @@
     import EventLink from "./EventLink.svelte";
     import { shortText, imgHashUrl } from "$lib/utils.js";
     import { onMount } from "svelte";
+    import { pushState } from "$app/navigation";
 
-    let { items: allItems, type = "list", pagination = false } = $props();
+    let {
+        items: allItems,
+        type = "list",
+        pagination = false,
+        cursor: pageCursor,
+    } = $props();
 
     const perPage = 25;
 
-    let cursor = $state([0, perPage]);
+    let cursor = $state(
+        pageCursor ? pageCursor.split(",").map(Number) : [0, perPage],
+    );
+    $inspect(cursor);
     let items = $derived(pagination ? allItems.slice(...cursor) : allItems);
 
-    let scrollListener;
-    onMount(
-        () => {
-            let scrollListener = window.addEventListener("scroll", () => {
-                const bottom = document
-                    .getElementById("archive-list")
-                    .getBoundingClientRect().bottom;
-                if (bottom < window.innerHeight * 2) {
-                    const newCursor = [0, cursor[1] + perPage];
-                    console.log(`chaning cursor: ${newCursor.join(", ")}`);
-                    cursor = newCursor;
-                }
-            });
-        },
-        () => {
+    onMount(() => {
+        let changing = false;
+        const scrollListener = () => {
+            if (changing) {
+                return;
+            }
+            const rect = document
+                .getElementById("archive-list")
+                .getBoundingClientRect();
+            //console.log(rect.bottom, rect.top, rect.height);
+            if (rect.bottom < window.innerHeight * 2) {
+                changing = true;
+                const newCursor = [
+                    cursor[0],
+                    cursor[1] + perPage > allItems.length
+                        ? allItems.length
+                        : cursor[1] + perPage,
+                ];
+                console.log(
+                    `chaning cursor: ${newCursor.join(", ")}`,
+                    items.length,
+                    cursor,
+                );
+                cursor = newCursor;
+                //setTimeout(() => {
+                changing = false;
+                //pushState(`/archive/${newCursor.join(",")}`);
+                //});
+            }
+        };
+        window.addEventListener("scroll", scrollListener);
+        return () => {
             window.removeEventListener("scroll", scrollListener);
-        },
-    );
+        };
+    });
 </script>
 
 {#if items.length === 0}

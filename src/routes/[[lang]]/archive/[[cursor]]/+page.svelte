@@ -9,6 +9,9 @@
     let type = $state("list");
     let x = $state("");
 
+    const { data } = $props();
+    const cursor = $derived(data.cursor);
+
     let archive = $derived(filterArchive(x));
     let totalDuration = $derived(
         allArchive.reduce((total, cur) => total + (cur.duration || 0), 0),
@@ -129,4 +132,4 @@
     </div>
 </div>
 
-<ArchiveList items={archive} pagination="true" {type} />
+<ArchiveList items={archive} pagination="true" {cursor} {type} />
