@@ -42,9 +42,9 @@ menu:
   #- ["/people", "People"]
   #- ["/debug", "Debug"]
   #- ["/membership", "Membership"],*/
-  #- ["https://forum.paralelnipolis.cz", "Forum"]
-  #- ["https://shop.paralelnipolis.cz", "Shop"]
-  #- ["https://docs.paralelnipolis.cz", "Docs"]
+  - ["https://forum.paralelnipolis.info", "Forum"]
+  #- ["https://shop.paralelnipolis.info", "Shop"]
+  #- ["https://docs.paralelnipolis.info", "Docs"]
 
 redirects:
   /v/hcpp23-the-economics-of-free-software: /v/MDeyOnwnzS8/hcpp23-the-economics-of-free-software

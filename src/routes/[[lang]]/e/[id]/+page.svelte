@@ -112,7 +112,7 @@
 </div>
 
 {#if e.speakers && e.speakers.length > 0}
-    <div class="">
+    <div class="clear-both">
         <h3 class="main text-2xl mb-4">Speakers</h3>
         <PeopleGrid size="small" people={e.speakers} />
     </div>
