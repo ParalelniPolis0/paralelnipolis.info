@@ -1,7 +1,10 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import { preprocessMeltUI, sequence } from '@melt-ui/pp'
+import { preprocessMeltUI, sequence } from '@melt-ui/pp';
+import { load } from 'js-yaml';
+import { readFileSync } from 'node:fs';
 
+const ppConfig = load(readFileSync('./src/data/config.yaml'));
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,7 +16,7 @@ const config = {
 		prerender: {
 			entries: [
 				'*',
-				'/v/hcpp23-the-economics-of-free-software'
+				...Object.keys(ppConfig.redirects)
 			]
 		}
 	},

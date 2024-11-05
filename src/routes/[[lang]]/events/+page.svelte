@@ -5,7 +5,7 @@
     import EventList from "$lib/components/EventList.svelte";
     import { t } from "$lib/i18n.js";
 
-    let onlyMajor = $state(false);
+    let onlyMajor = $state(true);
 
     const lang = getContext("lang");
     const pastEvents = $derived(
@@ -16,10 +16,6 @@
     const upcomingEvents = $derived(
         allEvents.filter((e) => isFuture(new Date(e.date))),
     );
-
-    onMount(() => {
-        onlyMajor = true;
-    });
 </script>
 
 <svelte:head>
