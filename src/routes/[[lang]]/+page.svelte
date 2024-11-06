@@ -12,7 +12,7 @@
 
     const lang = getContext("lang");
     const randomArchiveBase = $derived(
-        archive.filter((i) => (i.lang && i.lang !== "cs") || !i.langs),
+        archive.filter((i) => (i.lang && i.lang !== "cs") || !i.lang),
     );
     let randomVideos = $state(null); //getRandomVideos();
     let prevRandomVideos = null;
