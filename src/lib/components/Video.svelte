@@ -23,30 +23,32 @@
             Your browser does not support the video tag.
         </video-->
     <media-controller
-        width="100%"
-        height="100%"
-        class="aspect-video"
         role="region"
         aria-label="video player"
+        defaultduration={item.duration}
     >
         <video
             slot="media"
             src={archiveStorageUrl(storage.source.path)}
             poster={imgHashUrl("archive", item.imgHash, "l")}
+            preload="none"
+            playsinline
         >
         </video>
         <media-control-bar>
+            <media-loading-indicator slot="centered-chrome"
+            ></media-loading-indicator>
             <media-play-button></media-play-button>
-            <media-seek-forward-button></media-seek-forward-button>
-            <media-seek-backward-button></media-seek-backward-button>
-            <media-mute-button></media-mute-button>
             <media-time-range></media-time-range>
-            <media-time-display></media-time-display>
+            <media-time-display showduration></media-time-display>
+            <media-mute-button></media-mute-button>
+            <media-volume-range></media-volume-range>
             <!--media-captions-button></media-captions-button-->
             <media-fullscreen-button></media-fullscreen-button>
             <media-playback-rate-button></media-playback-rate-button>
             <media-pip-button></media-pip-button>
             <media-fullscreen-button></media-fullscreen-button>
+            <!--media-cast-button></media-cast-button-->
         </media-control-bar>
     </media-controller>
 {:else}
