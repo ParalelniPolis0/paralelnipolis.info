@@ -26,6 +26,9 @@
         role="region"
         aria-label="video player"
         defaultduration={item.duration}
+        width="100%"
+        height="100%"
+        class="aspect-video w-full h-full"
     >
         <video
             slot="media"
@@ -33,6 +36,9 @@
             poster={imgHashUrl("archive", item.imgHash, "l")}
             preload="none"
             playsinline
+            width="100%"
+            height="100%"
+            class="aspect-video w-full h-full"
         >
         </video>
         <media-control-bar>
