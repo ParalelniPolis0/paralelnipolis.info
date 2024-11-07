@@ -31,7 +31,7 @@
             <a href="/b/{b.id}" class="shrink-0"
                 ><img
                     src={imgHashUrl("books", b.imgHash, "m")}
-                    class="max-h-72 inline-block shrink-0 bg-gray-200 dark:bg-gray-800"
+                    class="h-72 inline-block shrink-0 bg-gray-200 dark:bg-gray-800"
                     alt={b.name}
                 /></a
             >

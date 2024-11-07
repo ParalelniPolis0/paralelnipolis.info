@@ -29,6 +29,7 @@
         width="100%"
         height="100%"
         class="aspect-video w-full h-full"
+        defaultsubtitles
     >
         <video
             slot="media"
@@ -41,19 +42,19 @@
             class="aspect-video w-full h-full"
         >
         </video>
+        <media-loading-indicator slot="centered-chrome"
+        ></media-loading-indicator>
         <media-control-bar>
-            <media-loading-indicator slot="centered-chrome"
-            ></media-loading-indicator>
             <media-play-button></media-play-button>
             <media-time-range></media-time-range>
             <media-time-display showduration></media-time-display>
             <media-mute-button></media-mute-button>
             <media-volume-range></media-volume-range>
-            <!--media-captions-button></media-captions-button-->
+            <media-captions-menu hidden anchor="auto"></media-captions-menu>
+            <media-captions-menu-button></media-captions-menu-button>
             <media-fullscreen-button></media-fullscreen-button>
             <media-playback-rate-button></media-playback-rate-button>
             <media-pip-button></media-pip-button>
-            <media-fullscreen-button></media-fullscreen-button>
             <!--media-cast-button></media-cast-button-->
         </media-control-bar>
     </media-controller>

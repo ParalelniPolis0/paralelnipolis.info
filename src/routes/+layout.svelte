@@ -67,9 +67,9 @@
     >
         <a href="/" class="pr-2 shrink-0" onclick={() => (menuOpen = false)}
             ><img
-                src="/logo.png"
+                src="/logo.svg"
                 alt={config.title}
-                class="invert dark:invert-0"
+                class="invert dark:invert-0 h-10 aspect-[1004/176]"
             /></a
         >
 
@@ -97,11 +97,11 @@
             <div
                 class="max-w-6xl mx-auto px-3 py-3 flex items-center sticky top-0 bg-white dark:bg-black z-10"
             >
-                <a href="/" class="pr-2 shrink-0"
-                    ><img
-                        src="/logo.png"
+                <a href="/" class="pr-2 shrink-0">
+                    <img
+                        src="/logo.svg"
                         alt={config.title}
-                        class="invert dark:invert-0 inline-block"
+                        class="dark:invert inline-block h-8 aspect-[1004/176]"
                     /></a
                 >
                 <div class="hidden sm:flex gap-1 px-4 top-menu">
