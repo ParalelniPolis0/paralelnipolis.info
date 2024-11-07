@@ -78,6 +78,7 @@
                 <a
                     href="{lang === 'cs' ? '/cs' : ''}{path}"
                     onclick={() => (menuOpen = false)}
+                    target={path.match(/^http/) ? "_blank" : "_self"}
                     class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                         path === '/'
                             ? currentPath === path
@@ -108,6 +109,7 @@
                     {#each menu as [path, title]}
                         <a
                             href="{lang === 'cs' ? '/cs' : ''}{path}"
+                            target={path.match(/^http/) ? "_blank" : ""}
                             class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                                 path === '/'
                                     ? currentPath === path

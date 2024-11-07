@@ -1,6 +1,7 @@
 <script>
     import { archive as allArchive, config } from "$lib/data.js";
     import ArchiveList from "$lib/components/ArchiveList.svelte";
+    import MetaTags from "$lib/components/MetaTags.svelte";
     import { getContext, onMount } from "svelte";
     import { Squares2x2, ListBullet } from "svelte-heros-v2";
     import { t, T } from "$lib/i18n.js";
@@ -81,7 +82,11 @@
 </script>
 
 <svelte:head>
-    <title>{$t`Talks`} | {config.title}</title>
+    <MetaTags
+        title={$t`Talks`}
+        description={$t`Our archive contains ${allArchive.length} videos from ${totalAuthors} authors and ${totalEvents} events with a total length of ${Math.round((totalDuration / 60 / 24) * 100) / 100} hours.`}
+        url="https://{config.host}/archive"
+    />
 </svelte:head>
 
 <div class="mt-4 text-xl mb-8">

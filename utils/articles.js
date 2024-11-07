@@ -10,7 +10,7 @@ export const ghostClient = new GhostContentAPI({
 const posts = await ghostClient.posts.browse({ limit: "all", include: 'tags,authors' })
 
 const items = posts.map(p => {
-    console.log(p)
+    //console.log(p)
     return {
         id: p.id,
         slugId: p.id.slice(0, 6) + '-' + p.slug,
