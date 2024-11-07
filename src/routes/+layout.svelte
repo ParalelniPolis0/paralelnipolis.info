@@ -69,7 +69,7 @@
             ><img
                 src="/logo.svg"
                 alt={config.title}
-                class="invert dark:invert-0 h-10 aspect-[1004/176]"
+                class="dark:invert h-10 aspect-[1004/176]"
             /></a
         >
 
