@@ -26,7 +26,7 @@ msgstr ""
 msgid "Active concepts"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:
 msgctxt "archive counter - number of events"
 msgid "and #"
 msgstr ""
@@ -40,11 +40,13 @@ msgstr ""
 #~ msgid "and #"
 #~ msgstr ""
 
-#: src/routes/[[lang]]/+page.svelte:82
+#: src/routes/[[lang]]/+page.svelte:87
 msgid "archive"
 msgstr ""
 
-#: src/routes/[[lang]]/p/[id]/+page.svelte:103
+#: src/routes/[[lang]]/c/[id]/+page.svelte:185
+#: src/routes/[[lang]]/e/[id]/+page.svelte:134
+#: src/routes/[[lang]]/p/[id]/+page.svelte:109
 msgid "Archive"
 msgstr ""
 
@@ -52,11 +54,11 @@ msgstr ""
 msgid "Articles"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:133
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:123
 msgid "Audio"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:89
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:97
 msgid "authors"
 msgstr ""
 
@@ -64,8 +66,8 @@ msgstr ""
 msgid "Backlinks"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:130
-#: src/routes/[[lang]]/v/[id]/+page.svelte:135
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:120
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:125
 msgid "bitrate"
 msgstr ""
 
@@ -73,6 +75,11 @@ msgstr ""
 msgid "Books"
 msgstr ""
 
+#: src/routes/[[lang]]/c/[id]/+page.svelte:51
+msgid "Concept"
+msgstr ""
+
+#: src/lib/components/SearchDialog.svelte:92
 #: src/routes/[[lang]]/concepts/+page.svelte:16
 msgid "Concepts"
 msgstr ""
@@ -81,25 +88,38 @@ msgstr ""
 msgid "Contributor"
 msgstr ""
 
+#: src/routes/[[lang]]/c/[id]/+page.svelte:90
+msgid "Contributors"
+msgstr ""
+
 #: src/routes/[[lang]]/t/[id]/+page.svelte:51
 msgid "current"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:90
+#: src/routes/+layout.svelte:225
+msgid "Data"
+msgstr ""
+
+#: src/routes/[[lang]]/c/[id]/+page.svelte:100
+msgid "Description"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:80
 msgid "Download video"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:92
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:100
 msgid "events"
 msgstr ""
 
 #: src/lib/components/SearchDialog.svelte:60
+#: src/routes/[[lang]]/c/[id]/+page.svelte:111
 #: src/routes/[[lang]]/events/+page.svelte:22
-#: src/routes/[[lang]]/p/[id]/+page.svelte:94
+#: src/routes/[[lang]]/p/[id]/+page.svelte:100
 msgid "Events"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:
 msgctxt "archive counter - number of authors"
 msgid "from #"
 msgstr ""
@@ -132,13 +152,13 @@ msgstr ""
 msgid "Global Commonwealth"
 msgstr ""
 
-#: src/routes/[[lang]]/+page.svelte:59
+#: src/routes/[[lang]]/+page.svelte:64
 #: src/routes/[[lang]]/glossary/+page.svelte:36
 #: src/routes/[[lang]]/t/[id]/+page.svelte:27
 msgid "Glossary"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:117
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:107
 msgid "Hash"
 msgstr ""
 
@@ -146,13 +166,17 @@ msgstr ""
 msgid "Historical concepts"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:100
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:108
 msgid "hours"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:109
-#: src/routes/[[lang]]/v/[id]/+page.svelte:138
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:99
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:128
 msgid "ID"
+msgstr ""
+
+#: src/routes/[[lang]]/e/[id]/+page.svelte:146
+msgid "Images"
 msgstr ""
 
 #: src/routes/[[lang]]/about/+page.svelte:87
@@ -167,32 +191,44 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
-#: src/routes/+layout.svelte:226
+#: src/routes/+layout.svelte:232
 msgid "Last update"
 msgstr "Poslední aktualizace"
 
-#: src/routes/[[lang]]/archive/+page.svelte:106
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:114
 msgid "Latest Talks & Videos"
 msgstr ""
 
 #: src/routes/[[lang]]/about/+page.svelte:82
-msgid "Local Commonwealth"
+#~ msgid "Local Commonwealth"
+#~ msgstr ""
+
+#: src/routes/[[lang]]/c/[id]/+page.svelte:
+msgid "More from #"
 msgstr ""
 
-#: src/lib/components/PeopleGrid.svelte:10
+#: src/lib/components/PeopleGrid.svelte:25
 msgid "No results"
 msgstr ""
 
-#: src/routes/[[lang]]/events/+page.svelte:39
+#: src/routes/[[lang]]/events/+page.svelte:41
 msgctxt "event list"
 msgid "Only major"
 msgstr ""
 
-#: src/routes/+layout.svelte:151
+#: src/routes/+layout.svelte:153
 msgid "opt-out!"
 msgstr "vejdi ven!"
 
-#: src/routes/[[lang]]/archive/+page.svelte:
+#: src/lib/components/EventList.svelte:52
+msgid "organizer"
+msgstr ""
+
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:87
+msgid "Our archive contains {0} videos from {1} authors and {2} events with a total length of {3} hours."
+msgstr ""
+
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:
 msgctxt "archive counter - number of videos"
 msgid "Our archive contains # "
 msgstr ""
@@ -201,7 +237,7 @@ msgstr ""
 #~ msgid "Our archive contains # "
 #~ msgstr ""
 
-#: src/routes/[[lang]]/events/+page.svelte:35
+#: src/routes/[[lang]]/events/+page.svelte:36
 msgid "Past events"
 msgstr ""
 
@@ -211,7 +247,7 @@ msgstr ""
 msgid "People"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:101
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:91
 msgid "Play on Youtube"
 msgstr ""
 
@@ -223,11 +259,15 @@ msgstr "Číst dále"
 msgid "Recommended Books"
 msgstr ""
 
+#: src/routes/[[lang]]/about/+page.svelte:82
+msgid "Regional Commonwealth"
+msgstr ""
+
 #: src/routes/[[lang]]/t/[id]/+page.svelte:56
 msgid "Related terms"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:126
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:116
 msgid "Resolution"
 msgstr ""
 
@@ -235,11 +275,11 @@ msgstr ""
 msgid "Resources"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:125
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:133
 msgid "Search"
 msgstr ""
 
-#: src/lib/components/SearchDialog.svelte:302
+#: src/lib/components/SearchDialog.svelte:310
 msgid "Search paralelnipolis.info"
 msgstr ""
 
@@ -247,27 +287,53 @@ msgstr ""
 msgid "See all terms in Glossary"
 msgstr ""
 
-#: src/lib/components/PeopleGrid.svelte:46
+#: src/routes/[[lang]]/c/[id]/+page.svelte:117
+msgid ""
+"Show\n"
+"                        with details"
+msgstr ""
+
+#: src/lib/components/PeopleGrid.svelte:69
 msgid "Show all"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:115
+#: src/routes/[[lang]]/c/[id]/+page.svelte:117
+msgid "Show simple overview"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:105
 msgid "Size"
 msgstr ""
 
-#: src/routes/+layout.svelte:221
-msgid "Source code"
-msgstr "Zdrojový kód"
+#: src/routes/+layout.svelte:223
+msgid "Source"
+msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:111
+#: src/routes/+layout.svelte:221
+#~ msgid "Source code"
+#~ msgstr "Zdrojový kód"
+
+#: src/lib/components/EventList.svelte:58
+msgid "speaker"
+msgstr ""
+
+#: src/routes/+layout.svelte:227
+msgid "Status"
+msgstr ""
+
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:101
 msgid "storage"
+msgstr ""
+
+#: src/routes/[[lang]]/c/[id]/+page.svelte:67
+msgid "Structure"
 msgstr ""
 
 #: src/lib/components/SearchDialog.svelte:84
 msgid "Structures"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:81
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:86
 msgid "Talks"
 msgstr ""
 
@@ -279,15 +345,15 @@ msgstr ""
 msgid "Upcoming events"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/+page.svelte:128
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:118
 msgid "Video"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:86
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:94
 msgid "videos"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/+page.svelte:
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:
 msgctxt "archive counter - total length in hours"
 msgid "with a total length of #."
 msgstr ""
