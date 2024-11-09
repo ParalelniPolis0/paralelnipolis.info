@@ -37,6 +37,10 @@ remote: ## Download all remote content (atlas, glossary..)
 	make remote-atlas
 	make remote-glossary
 
+.PHONY: sitemap
+sitemap:
+	pnpm exec svelte-sitemap --domain https://paralelnipolis.info
+
 .PHONY: atlas
 remote-atlas: ## Download latest atlas
 	curl -o ./src/data/gen/atlas.json 'https://atlas.pp0.co'
