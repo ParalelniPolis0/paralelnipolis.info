@@ -72,13 +72,12 @@
                 class="dark:invert h-10 aspect-[1004/176]"
             /></a
         >
-
+        <!--target={path.match(/^http/) ? "_blank" : "_self"}-->
         <div class="grid grid-cols-1 text-3xl text-black dark:text-white">
             {#each menu as [path, titleEn, titleCs]}
                 <a
                     href="{lang === 'cs' ? '/cs' : ''}{path}"
                     onclick={() => (menuOpen = false)}
-                    target={path.match(/^http/) ? "_blank" : "_self"}
                     class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                         path === '/'
                             ? currentPath === path
