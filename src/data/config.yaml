@@ -43,7 +43,7 @@ menu:
   #- ["/people", "People"]
   #- ["/debug", "Debug"]
   #- ["/membership", "Membership"],*/
-  - ["https://forum.paralelnipolis.info", "Forum"]
+  - ["https://forum.paralelnipolis.info", "Forum", "_self"]
   #- ["https://shop.paralelnipolis.info", "Shop"]
   #- ["https://docs.paralelnipolis.info", "Docs"]
 

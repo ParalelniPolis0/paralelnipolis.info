@@ -72,11 +72,11 @@
                 class="dark:invert h-10 aspect-[1004/176]"
             /></a
         >
-        <!--target={path.match(/^http/) ? "_blank" : "_self"}-->
         <div class="grid grid-cols-1 text-3xl text-black dark:text-white">
-            {#each menu as [path, titleEn, titleCs]}
+            {#each menu as [path, title, target]}
                 <a
                     href="{lang === 'cs' ? '/cs' : ''}{path}"
+                    target={target || (path.match(/^http/) ? "_blank" : "")}
                     onclick={() => (menuOpen = false)}
                     class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                         path === '/'
@@ -84,7 +84,7 @@
                             : currentPath.match(path)
                     )
                         ? 'bg-gray-100 dark:bg-gray-900'
-                        : ''}">{lang === "cs" ? titleCs || titleEn : titleEn}</a
+                        : ''}">{title}</a
                 >
             {/each}
         </div>
@@ -105,10 +105,11 @@
                     /></a
                 >
                 <div class="hidden sm:flex gap-1 px-4 top-menu">
-                    {#each menu as [path, title]}
+                    {#each menu as [path, title, target]}
                         <a
                             href="{lang === 'cs' ? '/cs' : ''}{path}"
-                            target={path.match(/^http/) ? "_blank" : ""}
+                            target={target ||
+                                (path.match(/^http/) ? "_blank" : "")}
                             class="font-semibold hover:underline px-2.5 py-1.5 hover:bg-gray-200 hover:dark:bg-gray-800 {(
                                 path === '/'
                                     ? currentPath === path
