@@ -20,7 +20,9 @@ New shiny website. Using [atlas](https://github.com/ParalelniPolis0/atlas) as da
 * [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography) typographic defaults
 * [Lingui](https://lingui.dev/) internationalization framework (i18n)
 * [Marked](https://marked.js.org/) markdown parser
-* [date-fns](https://date-fns.org/) library
+* [date-fns](https://date-fns.org/) date library
+* [MiniSearch](https://github.com/lucaong/minisearch) fulltext search engine
+* [Media Chrome](https://www.media-chrome.org/) media player
 
 ## Development
 
