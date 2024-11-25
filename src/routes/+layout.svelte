@@ -173,6 +173,12 @@
                                         .github}">GitHub</a
                                 >
                             {/if}
+                            {#if config.refs.radicle}
+                                <a
+                                    href="https://app.radicle.xyz/nodes/{config
+                                        .refs.radicle}">Radicle</a
+                                >
+                            {/if}
                             {#if config.refs.onion}
                                 <a href={config.refs.onion}
                                     ><img
