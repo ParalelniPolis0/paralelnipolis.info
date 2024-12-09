@@ -8,7 +8,6 @@ description: |
 #**Paralelní Polis** (Parallel Polis) is a movement founded in 2014 in Prague's Holešovice by the art activist group Ztohoven. The mission of Paralelní Polis is to provide the technology and education that people need to engage in an independent society and to protect individual freedom. The vision of Paralelní Polis is a world where people have the opportunity to separate from the state and live in a free society. [Learn more →](/c/institute-of-cryptoanarchy)
 
 refs:
-  signal: https://signal.group/#CjQKIDrhJXOAzEbAxF0fA4ADCp5GNLTocI6uII-1bm97rzlHEhDmeb7CvqNnlzr3JLGQt-b_
   github: ParalelniPolis0
   onion: http://pp2ai5sztzgad3ipkui7w4sddkjjcp4qr6gud6obo6btxi2op5ib36qd.onion
   bsky: paralelnipolis.info
@@ -16,6 +15,7 @@ refs:
   radicle: seed.pp0.co
   statusPage: https://status.pp0.co
   openData: https://github.com/ParalelniPolis0/atlas
+  matrix: "#general:pp0.co"
 
 license:
   name: WTFPL

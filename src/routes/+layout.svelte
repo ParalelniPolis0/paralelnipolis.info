@@ -152,6 +152,14 @@
                         -->
                         <span class="text-2xl">{$t`opt-out!`}</span>
                         <div class="mt-2 flex flex-wrap gap-2 text-sm mb-4">
+                            {#if config.refs.onion}
+                                <a
+                                    href="https://matrix.to/#/{config.refs
+                                        .matrix}"
+                                >
+                                    Matrix
+                                </a>
+                            {/if}
                             {#if config.refs.signal}
                                 <a href={config.refs.signal}>Signal</a>
                             {/if}
