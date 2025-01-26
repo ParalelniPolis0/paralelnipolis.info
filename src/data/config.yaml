@@ -33,7 +33,7 @@ menu:
   - ["/about", "About"]
   - ["/glossary", "Glossary"]
   - ["/archive", "Talks"]
-  - ["/books", "Books"]
+  #- ["/books", "Books"]
 
   #- ["/structures", "Structures"]
   #- ["/topics", "Topics"]
