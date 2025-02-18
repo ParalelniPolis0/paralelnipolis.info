@@ -40,7 +40,7 @@
                     ? 'text-sm'
                     : ''}"
             >
-                {#if p.imgHash}<a href="/p/{p.id}"
+                {#if p.imgHash}<a href="/p/{p.id}" class="peer"
                         ><img
                             src={imgHashUrl("people", p.imgHash)}
                             alt={p.name}
@@ -55,7 +55,7 @@
                         <User class="opacity-25" size="50%" />
                     </div>{/if}
                 {#if p.id}
-                    <a href="/p/{p.id}">{p.name}</a>
+                    <a href="/p/{p.id}" class="peer">{p.name}</a>
                 {:else}
                     <a class:invalid-link={!p.id}>{p.name}</a>
                 {/if}
