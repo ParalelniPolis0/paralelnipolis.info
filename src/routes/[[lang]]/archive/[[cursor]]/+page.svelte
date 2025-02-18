@@ -81,13 +81,11 @@
     });
 </script>
 
-<svelte:head>
-    <MetaTags
-        title={$t`Talks`}
-        description={$t`Our archive contains ${allArchive.length} videos from ${totalAuthors} authors and ${totalEvents} events with a total length of ${Math.round((totalDuration / 60 / 24) * 100) / 100} hours.`}
-        url="https://{config.host}/archive"
-    />
-</svelte:head>
+<MetaTags
+    title={$t`Talks`}
+    description={$t`Our archive contains ${allArchive.length} videos from ${totalAuthors} authors and ${totalEvents} events with a total length of ${Math.round((totalDuration / 60 / 24) * 100) / 100} hours.`}
+    url="https://{config.host}/archive"
+/>
 
 <div class="mt-4 text-xl mb-8">
     <T msg="Our archive contains # " ctx="archive counter - number of videos">

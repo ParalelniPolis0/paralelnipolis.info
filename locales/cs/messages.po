@@ -19,7 +19,11 @@ msgid "About"
 msgstr ""
 
 #: src/routes/[[lang]]/about/+page.svelte:55
-msgid "About Paralelní Polis"
+#~ msgid "About Paralelní Polis"
+#~ msgstr ""
+
+#: src/routes/[[lang]]/about/+page.svelte:55
+msgid "About Parallel Polis"
 msgstr ""
 
 #: src/routes/[[lang]]/concepts/+page.svelte:20
@@ -54,11 +58,11 @@ msgstr ""
 msgid "Articles"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:123
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:122
 msgid "Audio"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:97
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:95
 msgid "authors"
 msgstr ""
 
@@ -66,8 +70,8 @@ msgstr ""
 msgid "Backlinks"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:120
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:125
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:119
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:124
 msgid "bitrate"
 msgstr ""
 
@@ -104,11 +108,11 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:80
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:79
 msgid "Download video"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:100
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:98
 msgid "events"
 msgstr ""
 
@@ -158,7 +162,7 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:107
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:106
 msgid "Hash"
 msgstr ""
 
@@ -166,12 +170,12 @@ msgstr ""
 msgid "Historical concepts"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:108
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:106
 msgid "hours"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:99
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:128
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:98
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:127
 msgid "ID"
 msgstr ""
 
@@ -195,7 +199,7 @@ msgstr ""
 msgid "Last update"
 msgstr "Poslední aktualizace"
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:114
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:112
 msgid "Latest Talks & Videos"
 msgstr ""
 
@@ -224,7 +228,7 @@ msgstr "vejdi ven!"
 msgid "organizer"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:87
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:86
 msgid "Our archive contains {0} videos from {1} authors and {2} events with a total length of {3} hours."
 msgstr ""
 
@@ -247,7 +251,7 @@ msgstr ""
 msgid "People"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:91
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:90
 msgid "Play on Youtube"
 msgstr ""
 
@@ -267,7 +271,7 @@ msgstr ""
 msgid "Related terms"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:116
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:115
 msgid "Resolution"
 msgstr ""
 
@@ -275,7 +279,7 @@ msgstr ""
 msgid "Resources"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:133
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:131
 msgid "Search"
 msgstr ""
 
@@ -301,7 +305,7 @@ msgstr ""
 msgid "Show simple overview"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:105
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:104
 msgid "Size"
 msgstr ""
 
@@ -321,7 +325,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:101
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:100
 msgid "storage"
 msgstr ""
 
@@ -333,7 +337,7 @@ msgstr ""
 msgid "Structures"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:86
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:85
 msgid "Talks"
 msgstr ""
 
@@ -345,11 +349,11 @@ msgstr ""
 msgid "Upcoming events"
 msgstr ""
 
-#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:118
+#: src/routes/[[lang]]/v/[id]/[[slug]]/+page.svelte:117
 msgid "Video"
 msgstr ""
 
-#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:94
+#: src/routes/[[lang]]/archive/[[cursor]]/+page.svelte:92
 msgid "videos"
 msgstr ""
 

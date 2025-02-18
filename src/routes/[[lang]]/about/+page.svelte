@@ -52,7 +52,7 @@
 </svelte:head>
 
 <div class="mt-4 mb-10">
-    <h1 class="main text-2xl">{$t`About Paralelní Polis`}</h1>
+    <h1 class="main text-2xl">{$t`About Parallel Polis`}</h1>
     <div class="mt-8 mb-10 markdown !text-xl">
         {@html marked.parse(AboutPageMd)}
     </div>

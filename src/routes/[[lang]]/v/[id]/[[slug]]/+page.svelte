@@ -38,15 +38,14 @@
     };
 </script>
 
-<svelte:head>
-    <MetaTags
-        title={archiveTitle}
-        {description}
-        url="https://{config.host}/v/{item.id}"
-        img={imgHashUrl("archive", item.imgHash, "m")}
-    />
-</svelte:head>
 
+<MetaTags
+    title={archiveTitle}
+    {description}
+    url="https://{config.host}/v/{item.id}"
+    img={imgHashUrl("archive", item.imgHash, "m")}
+/>
+    
 <div class="w-full" style="">
     <Video {item} />
 </div>
