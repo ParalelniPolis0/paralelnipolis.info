@@ -1,5 +1,5 @@
 {
-	"name": "paralelnipolis.info",
+	"name": "parallelpolis.info",
 	"version": "0.2.2-alpha",
 	"private": true,
 	"scripts": {
@@ -35,7 +35,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ParalelniPolis0/paralelnipolis.info.git"
+		"url": "git+https://github.com/ParalelniPolis0/parallelpolis.info.git"
 	},
 	"type": "module",
 	"license": "WTFPL"

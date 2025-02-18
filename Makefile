@@ -39,7 +39,7 @@ remote: ## Download all remote content (atlas, glossary..)
 
 .PHONY: sitemap
 sitemap:
-	pnpm exec svelte-sitemap --domain https://paralelnipolis.info
+	pnpm exec svelte-sitemap --domain https://parallelpolis.info
 
 .PHONY: atlas
 remote-atlas: ## Download latest atlas

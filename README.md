@@ -34,7 +34,7 @@ Requirements:
 
 Clone repository:
 ```bash
-git clone git@github.com:ParalelniPolis0/paralelnipolis.info.git
+git clone git@github.com:ParalelniPolis0/parallelpolis.info.git
 ```
 
 Install dependencies:

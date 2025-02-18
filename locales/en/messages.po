@@ -96,7 +96,7 @@ msgstr "Contributors"
 msgid "current"
 msgstr "current"
 
-#: src/routes/+layout.svelte:225
+#: src/routes/+layout.svelte:245
 msgid "Data"
 msgstr "Data"
 
@@ -191,7 +191,7 @@ msgstr "Instances"
 msgid "Languages"
 msgstr "Languages"
 
-#: src/routes/+layout.svelte:232
+#: src/routes/+layout.svelte:252
 msgid "Last update"
 msgstr "Last update"
 
@@ -207,7 +207,7 @@ msgstr "Latest Talks & Videos"
 msgid "More from #"
 msgstr "More from #"
 
-#: src/lib/components/PeopleGrid.svelte:25
+#: src/lib/components/PeopleGrid.svelte:30
 msgid "No results"
 msgstr "No results"
 
@@ -280,8 +280,8 @@ msgid "Search"
 msgstr "Search"
 
 #: src/lib/components/SearchDialog.svelte:310
-msgid "Search paralelnipolis.info"
-msgstr "Search paralelnipolis.info"
+msgid "Search parallelpolis.info"
+msgstr "Search parallelpolis.info"
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:99
 msgid "See all terms in Glossary"
@@ -295,7 +295,7 @@ msgstr ""
 "Show\n"
 "                        with details"
 
-#: src/lib/components/PeopleGrid.svelte:69
+#: src/lib/components/PeopleGrid.svelte:74
 msgid "Show all"
 msgstr "Show all"
 
@@ -307,7 +307,7 @@ msgstr "Show simple overview"
 msgid "Size"
 msgstr "Size"
 
-#: src/routes/+layout.svelte:223
+#: src/routes/+layout.svelte:243
 msgid "Source"
 msgstr "Source"
 
@@ -319,7 +319,7 @@ msgstr "Source"
 msgid "speaker"
 msgstr "speaker"
 
-#: src/routes/+layout.svelte:227
+#: src/routes/+layout.svelte:247
 msgid "Status"
 msgstr "Status"
 

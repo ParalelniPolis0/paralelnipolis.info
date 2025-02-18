@@ -96,7 +96,7 @@ msgstr ""
 msgid "current"
 msgstr ""
 
-#: src/routes/+layout.svelte:225
+#: src/routes/+layout.svelte:245
 msgid "Data"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
-#: src/routes/+layout.svelte:232
+#: src/routes/+layout.svelte:252
 msgid "Last update"
 msgstr "Poslední aktualizace"
 
@@ -207,7 +207,7 @@ msgstr ""
 msgid "More from #"
 msgstr ""
 
-#: src/lib/components/PeopleGrid.svelte:25
+#: src/lib/components/PeopleGrid.svelte:30
 msgid "No results"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgid "Search"
 msgstr ""
 
 #: src/lib/components/SearchDialog.svelte:310
-msgid "Search paralelnipolis.info"
+msgid "Search parallelpolis.info"
 msgstr ""
 
 #: src/routes/[[lang]]/t/[id]/+page.svelte:99
@@ -293,7 +293,7 @@ msgid ""
 "                        with details"
 msgstr ""
 
-#: src/lib/components/PeopleGrid.svelte:69
+#: src/lib/components/PeopleGrid.svelte:74
 msgid "Show all"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/routes/+layout.svelte:223
+#: src/routes/+layout.svelte:243
 msgid "Source"
 msgstr ""
 
@@ -317,7 +317,7 @@ msgstr ""
 msgid "speaker"
 msgstr ""
 
-#: src/routes/+layout.svelte:227
+#: src/routes/+layout.svelte:247
 msgid "Status"
 msgstr ""
 

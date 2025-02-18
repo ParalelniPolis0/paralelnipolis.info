@@ -307,7 +307,7 @@
                 <input
                     type="input"
                     class="bg-white dark:bg-black text-black dark:text-white px-1.5 py-2 w-full focus:outline-none focus:border-none text-lg grow"
-                    placeholder={$t`Search paralelnipolis.info`}
+                    placeholder={$t`Search parallelpolis.info`}
                     on:click|preventDefault={(p) => {
                         setTimeout(() => {
                             console.log(".", $comboOpen);
