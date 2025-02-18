@@ -3,10 +3,10 @@
     import EventLink from "$lib/components/EventLink.svelte";
     import { imgHashUrl } from "$lib/utils.js";
 
-    let { item } = $props();
+    let { item, viewType } = $props();
 </script>
 
-<div class="w-full">
+<div class="w-full mb-2">
     <div class="mt-0">
         <a href="/v/{item.id}"
             ><img
@@ -23,6 +23,8 @@
         {#if item.people && item.people.length > 0}
             <PeopleBar people={item.people} size="text-md" />
         {/if}
-        <EventLink event={item.event} />
+        {#if viewType !== "event"}
+            <EventLink event={item.event} />
+        {/if}
     </div>
 </div>

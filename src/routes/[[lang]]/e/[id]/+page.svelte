@@ -136,7 +136,7 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
         {#each archiveItems as item}
-            <ArchiveItem {item} />
+            <ArchiveItem {item} viewType="event" />
         {/each}
     </div>
 {/if}

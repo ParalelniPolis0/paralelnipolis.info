@@ -19,6 +19,11 @@
             name: pid,
         };
     }
+
+    const resolvedPeople = people.map(resolvePerson)
+    const peopleWithProfile = resolvedPeople.filter(x => x.id)
+    const peopleWithoutProfile = resolvedPeople.filter(x => !x.id)
+
 </script>
 
 {#if people.length === 0}
@@ -29,7 +34,7 @@
             ? 'grid-cols-4 sm:grid-cols-8 lg:grid-cols-10'
             : 'grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7'}"
     >
-        {#each people.map(resolvePerson) as p}
+        {#each peopleWithProfile as p}
             <div
                 class="w-full text-center font-semibold {size === 'small'
                     ? 'text-sm'
@@ -71,4 +76,11 @@
             </div>
         {/if}
     </div>
+    {#if peopleWithoutProfile.length > 0}
+        <div class="flex flex-wrap gap-3.5 mt-6">
+        {#each peopleWithoutProfile as p}
+            <div class="text-md">{p.name}</div>
+        {/each}
+        </div>
+    {/if}
 {/if}

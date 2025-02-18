@@ -40,7 +40,7 @@
 </script>
 
 {#if people.length > 0}
-    <div class="flex flex-wrap gap-4 {className}">
+    <div class="flex flex-wrap gap-y-2 gap-x-4 {className}">
         {#each people.map(resolveItem) as p}
             <div class="flex items-center gap-2">
                 {#if p.imgUrl}
@@ -48,17 +48,21 @@
                         <img
                             src={p.imgUrl}
                             alt={p.name}
-                            class="aspect-square w-6 h-6 object-cover rounded bg-gray-200 dark:bg-gray-800"
+                            class="aspect-square w-5 h-5 object-cover rounded bg-gray-200 dark:bg-gray-800"
                         />
                     </div>
                 {/if}
-                <div class={size}>
-                    <a
-                        href={p.url}
-                        class="hover:underline {!p.url ? 'invalid-link' : ''}"
-                        >{p.name}</a
-                    >
-                </div>
+                {#if p.url}
+                    <div class={size}>
+                        <a
+                            href={p.url}
+                            class="hover:underline {!p.url ? 'invalid-link' : ''}"
+                            >{p.name}</a
+                        >
+                    </div>
+                {:else}
+                    <span class="text-lg">{p.name}</span>
+                {/if}
             </div>
         {/each}
     </div>
