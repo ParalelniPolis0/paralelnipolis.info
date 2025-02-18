@@ -70,10 +70,10 @@
 {:else}
     <div class="grid grid-cols-1 gap-12" id="archive-list">
         {#each items as item}
-            <div>
+            <div class="archive-item">
                 <div class="sm:flex gap-6">
                     <div class="shrink-0 mb-2 sm:mb-0">
-                        <a href="/v/{item.id}"
+                        <a href="/v/{item.id}" class="image-link"
                             ><img
                                 src={imgHashUrl("archive", item.imgHash, "m")}
                                 alt={item.name}
@@ -81,9 +81,9 @@
                             /></a
                         >
                     </div>
-                    <div>
+                    <div class="content-area">
                         <h2 class="text-2xl font-semibold mb-2">
-                            <a href="/v/{item.id}" class="hover:underline"
+                            <a href="/v/{item.id}" class="hover:underline title-link"
                                 >{item.name}</a
                             >
                         </h2>
@@ -113,3 +113,14 @@
         {/each}
     </div>
 {/if}
+
+<style>
+    .archive-item:has(.image-link:hover) .title-link {
+        @apply decoration-yellow-500/80 dark:decoration-yellow-500/80;
+    }
+
+    .archive-item:hover .image-link > img {
+        @apply scale-110 transition-all;
+    }
+
+</style>
