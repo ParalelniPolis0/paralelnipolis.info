@@ -1,6 +1,6 @@
 {
 	"name": "parallelpolis.info",
-	"version": "0.2.2-alpha",
+	"version": "1.0.0-alpha1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
