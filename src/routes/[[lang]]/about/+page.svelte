@@ -23,7 +23,7 @@
 
     let searchRef;
     let x = $state("");
-    let people = $derived(allPeople.slice(0, 25));
+    let people = $derived(allPeople.slice(0, 41));
 
     const activeStructures = $derived(
         structures.filter((s) => (s.years && !s.years[1]) || !s.years),
