@@ -12,6 +12,11 @@
         }
         return [title[0], "..", title[title.length - 1]].join("/");
     }
+
+    if (refs.bsky && typeof(refs.bsky) === "string") {
+        const [ did, handle ] = refs.bsky.includes("|") ? refs.bsky.split('|') : [ refs.bsky, refs.bsky ];
+        refs.bsky = { did, handle }
+    }
 </script>
 
 {#if refs}
@@ -34,9 +39,9 @@
                     />
                 </div>
                 <a
-                    href="https://bsky.app/profile/{refs.bsky}"
+                    href="https://bsky.app/profile/{refs.bsky.did}"
                     class="hover:underline"
-                    >{refs.bsky}
+                    >{refs.bsky.handle}
                 </a>
             </div>
         {/if}
