@@ -101,7 +101,7 @@
                     <img
                         src="/logo.svg"
                         alt={config.title}
-                        class="dark:invert inline-block h-8 aspect-[1004/176]"
+                        class="dark:invert inline-block h-8 aspect-[1004/176] logo-hover"
                     /></a
                 >
                 <div class="hidden sm:flex gap-1 px-4 top-menu">
@@ -264,6 +264,12 @@
     @layer {
         body {
             @apply bg-gray-100 dark:bg-gray-900;
+        }
+
+        .logo-hover:hover {
+            content: url("/logo-jp.svg");
+            margin-left: 2px;
+            margin-right: -2px;
         }
     }
 </style>
