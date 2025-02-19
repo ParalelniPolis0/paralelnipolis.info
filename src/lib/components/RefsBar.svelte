@@ -13,9 +13,11 @@
         return [title[0], "..", title[title.length - 1]].join("/");
     }
 
-    if (refs.bsky && typeof(refs.bsky) === "string") {
-        const [ did, handle ] = refs.bsky.includes("|") ? refs.bsky.split('|') : [ refs.bsky, refs.bsky ];
-        refs.bsky = { did, handle }
+    if (refs) {
+            if (refs.bsky && typeof(refs.bsky) === "string") {
+            const [ did, handle ] = refs.bsky.includes("|") ? refs.bsky.split('|') : [ refs.bsky, refs.bsky ];
+            refs.bsky = { did, handle }
+        }
     }
 </script>
 
