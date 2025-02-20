@@ -1,11 +1,12 @@
 import { jstsExtractor, svelteExtractor } from "svelte-i18n-lingui/extractor";
 
 export default {
-    locales: ["en", "cs", "zu"],
+    locales: ["en", "zu"],
     pseudoLocale: "zu",
     format: "po",
     fallbackLocales: {
-        zu: "en"
+        zu: "en",
+        cs: "en"
     },
     catalogs: [
         {
