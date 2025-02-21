@@ -20,9 +20,9 @@
         };
     }
 
-    const resolvedPeople = people.map(resolvePerson)
-    const peopleWithProfile = resolvedPeople.filter(x => x.id)
-    const peopleWithoutProfile = resolvedPeople.filter(x => !x.id)
+    const resolvedPeople = $derived(people.map(resolvePerson))
+    const peopleWithProfile = $derived(resolvedPeople.filter(x => x.id))
+    const peopleWithoutProfile = $derived(resolvedPeople.filter(x => !x.id))
 
 </script>
 
