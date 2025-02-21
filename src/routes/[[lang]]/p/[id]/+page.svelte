@@ -96,17 +96,17 @@
 {/if}
 
 {#if events.length > 0}
-    <div class="mt-4 mb-14">
-        <h2 class="main text-xl">{$t`Events`}</h2>
+    <div class="mt-4 mb-14" id="events">
+        <h2 class="main text-xl">{$t`Events`} ({events.length})</h2>
         <EventList {events} person={p.id} />
         <!--pre class="mt-64">{JSON.stringify(events, null, 2)}</pre-->
     </div>
 {/if}
 
 {#if archiveItems.length > 0}
-    <div class="mt-4">
+    <div class="mt-4" id="archive">
         <h2 class="main text-xl mb-4">
-            {$t`Archive`}
+            {$t`Archive`} ({archiveItems.length})
         </h2>
         <ArchiveList items={archiveItems} />
     </div>
