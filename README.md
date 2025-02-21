@@ -1,6 +1,6 @@
 # parallelpolis.info
 
-New shiny website. Using [atlas](https://github.com/ParalelniPolis0/atlas) as data source.
+New shiny website. Using [atlas](https://github.com/parallelpolis/atlas) as data source.
 
 ## Features
 
@@ -34,7 +34,7 @@ Requirements:
 
 Clone repository:
 ```bash
-git clone git@github.com:ParalelniPolis0/parallelpolis.info.git
+git clone git@github.com:parallelpolis/parallelpolis.info.git
 ```
 
 Install dependencies:

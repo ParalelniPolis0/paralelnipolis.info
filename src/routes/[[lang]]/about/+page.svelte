@@ -97,7 +97,7 @@
     <div class="mt-4 text-xl italic">
         Want to start your own Parallel Polis? Check-out our
         <a
-            href="https://github.com/ParalelniPolis0/ParalelniPolis-decentralized/blob/master/README.md"
+            href="https://github.com/parallelpolis/ParalelniPolis-decentralized/blob/master/README.md"
             target="_blank">know-how and guidelines →</a
         >
     </div>
