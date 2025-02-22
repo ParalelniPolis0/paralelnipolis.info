@@ -169,11 +169,17 @@
                                         .bsky}">Bluesky</a
                                 >
                             {/if}
-                            {#if config.refs.bsky}
+                            {#if config.refs.nostr}
                                 <a
                                     href="https://primal.net/p/{config.refs
                                         .nostr}">Nostr</a
                                 >
+                            {/if}
+                            {#if config.refs.twitter}
+                            <a
+                                href="https://x.com/{config.refs
+                                    .twitter}">X/Twitter</a
+                            >
                             {/if}
                             {#if config.refs.github}
                                 <a
