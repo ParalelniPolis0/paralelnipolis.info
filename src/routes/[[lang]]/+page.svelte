@@ -3,10 +3,12 @@
     import { getContext, onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { marked } from "marked";
+    import { isFuture, addDays } from "date-fns";
 
-    import { archive, config, glossary, structures } from "$lib/data.js";
+    import { archive, config, glossary, structures, events } from "$lib/data.js";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
     import StructureList from "$lib/components/StructureList.svelte";
+    import EventBanner from "$lib/components/EventBanner.svelte";
     import TermBox from "$lib/components/TermBox.svelte";
     import { t, T } from "$lib/i18n.js";
 
@@ -16,7 +18,8 @@
     );
     let randomVideos = $state(null); //getRandomVideos();
     let prevRandomVideos = null;
-
+    const upcomingEvents = $derived(events.filter((e) => e.major && isFuture(addDays(new Date(e.date), (e.days || 1) + 1))).reverse().slice(0, 3));
+    
     function getRandomVideos(len = 6, used = []) {
         let usedEvents = [];
         return new Array(len).fill(null).map(() => {
@@ -56,6 +59,15 @@
 
 <div class="mt-8 mb-10 text-xl">
     {@html marked.parse(config.description || config.description_cs)}
+</div>
+
+<div class="mt-12">
+    <h2 class="main text-2xl mb-8">Upcoming <a href="/events">Events</a></h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        {#each upcomingEvents as event}
+            <EventBanner {event} />
+        {/each}
+    </div>
 </div>
 
 <div class="mt-12">

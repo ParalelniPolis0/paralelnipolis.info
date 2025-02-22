@@ -3,7 +3,8 @@
     import { addDays } from "date-fns";
     import { marked } from "marked";
     import { archive, people, projects, events, config } from "$lib/data.js";
-    import { imgHashUrl, imgSourceUrl } from "$lib/utils.js";
+    import { imgHashUrl, imgSourceUrl, eventToIntervalString } from "$lib/utils.js";
+
     import { t } from "$lib/i18n.js";
     import PeopleGrid from "$lib/components/PeopleGrid.svelte";
     import ArchiveItem from "$lib/components/ArchiveItem.svelte";
@@ -76,12 +77,7 @@
             </div>
             <div class="flex flex-wrap gap-4 items-center mt-2">
                 <div class="text-2xl opacity-50">
-                    {new Date(e.date).toLocaleDateString(lang)}
-                    {#if e.days && e.days > 1}
-                        - {addDays(
-                            new Date(e.date),
-                            e.days - 1,
-                        ).toLocaleDateString(lang)}{/if}
+                    {eventToIntervalString(e)}
                 </div>
                 {#if e.place?.country}
                     <div class="text-2xl opacity-50">

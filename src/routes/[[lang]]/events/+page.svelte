@@ -1,20 +1,24 @@
 <script>
     import { getContext, onMount } from "svelte";
     import { config, events as allEvents } from "$lib/data.js";
-    import { isFuture } from "date-fns";
+    import { isFuture, addDays } from "date-fns";
     import EventList from "$lib/components/EventList.svelte";
     import { t } from "$lib/i18n.js";
 
     let onlyMajor = $state(true);
 
+    function showEndDate (e) {
+        return addDays(new Date(e.date), (e.days || 1) + 1);
+    }
+
     const lang = getContext("lang");
     const pastEvents = $derived(
         allEvents
-            .filter((e) => !isFuture(new Date(e.date)))
+            .filter((e) => !isFuture(showEndDate(e)))
             .filter((e) => (onlyMajor ? e.major : e)),
     );
     const upcomingEvents = $derived(
-        allEvents.filter((e) => isFuture(new Date(e.date))),
+        allEvents.filter((e) => isFuture(showEndDate(e))),
     );
 </script>
 
