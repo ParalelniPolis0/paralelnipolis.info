@@ -5,7 +5,8 @@
 
     const { item } = $props();
     let storage = $derived(item.storage);
-    let youtubeId = $derived(item.url.match(/\?v=([^&]+)/)[1]);
+    let youtubeId = $derived(item.url.match(/\?v=([^&]+)/) ? item.url.match(/\?v=([^&]+)/)[1] : false);
+    let odyseeId = $derived(item.odyseeId);
 </script>
 
 {#if storage}
@@ -58,6 +59,9 @@
             <!--media-cast-button></media-cast-button-->
         </media-control-bar>
     </media-controller>
-{:else}
+{:else if youtubeId}
     <Youtube id={youtubeId} autoplay="true" />
-{/if}
+
+{:else if odyseeId}
+    <div style="padding-bottom: 56.25%; position: relative;"><iframe width="100%" height="100%" src="https://odysee.com/$/embed/{odyseeId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
+ {/if}

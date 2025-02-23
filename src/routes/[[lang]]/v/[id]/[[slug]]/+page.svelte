@@ -19,7 +19,7 @@
 
     const { data } = $props();
     let item = $derived(data.item);
-    let youtubeId = $derived(item.url.match(/\?v=([^&]+)/)[1]);
+    let youtubeId = $derived(item.url.match(/\?v=([^&]+)/) ? item.url.match(/\?v=([^&]+)/)[1] : false);
     let peopleArr = $derived(
         item.people
             ?.map((pid) => people.find((p) => p.id === pid))
@@ -81,15 +81,28 @@
                     ({filesize(item.storage.source.size)})
                 </div>
             {/if}
-            <div>
-                <a
-                    href={`https://youtube.com/watch?v=${item.videoId}`}
-                    class="text-lg"
-                    target="_blank"
-                    ><PlayCircle class="inline-block" />
-                    {$t`Play on Youtube`}</a
-                >
-            </div>
+            {#if item.videoId}
+                <div>
+                    <a
+                        href={`https://youtube.com/watch?v=${item.videoId}`}
+                        class="text-lg"
+                        target="_blank"
+                        ><PlayCircle class="inline-block" />
+                        {$t`Play on Youtube`}</a
+                    >
+                </div>
+            {/if}
+            {#if item.odyseeId}
+                <div>
+                    <a
+                        href={`https://odysee.com/${item.odyseeId}`}
+                        class="text-lg"
+                        target="_blank"
+                        ><PlayCircle class="inline-block" />
+                        {$t`Play on Odysee`}</a
+                    >
+                </div>
+            {/if}
         </div>
 
         <div class="mt-6 grid grid-cols-1 gap-1">
@@ -124,7 +137,7 @@
                     {$t`bitrate`})
                 </div>
             {:else}
-                <div>{$t`ID`}: <a href="/v/{item.id}">{item.id}</a></div>
+                <div>{$t`ID`}: <a href="/v/{item.id}" class="break-words">{item.id}</a></div>
             {/if}
         </div>
     </div>
